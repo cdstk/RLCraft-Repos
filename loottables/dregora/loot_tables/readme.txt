@@ -144,6 +144,8 @@ Loottable Test Strings:
 
 Todo: RLC potions maybe use splash some?
 
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:iceandfire/cyclops_cave"}
+
 /setblock ~ ~-1 ~ variedcommodities:pedestal:2 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}
 
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}

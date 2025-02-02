@@ -13,7 +13,10 @@
     },
     {
       "name": "Cyclops Side Loot",
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
       "entries": [
         {
           "type": "item",
@@ -130,7 +133,7 @@
         {
           "type": "item",
           "name": "mod_lavacow:bonesword",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}}
           ]
@@ -140,7 +143,8 @@
           "name": "mod_lavacow:sharptooth",
           "weight": 8,
           "functions": [
-            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}}
+            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}},
+            {"function": "set_count", "count": {"min": 1, "max": 5}}
           ]
         },
         {
@@ -148,7 +152,8 @@
           "name": "mod_lavacow:chitin",
           "weight": 8,
           "functions": [
-            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}}
+            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}},
+            {"function": "set_count", "count": {"min": 1, "max": 10}}
           ]
         },
         {
@@ -156,7 +161,8 @@
           "name": "mod_lavacow:pigboarhide",
           "weight": 8,
           "functions": [
-            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}}
+            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}},
+            {"function": "set_count", "count": {"min": 1, "max": 8}}
           ]
         },
         {
@@ -164,7 +170,8 @@
           "name": "mod_lavacow:hatred_shard",
           "weight": 1,
           "functions": [
-            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}}
+            {"function": "set_damage", "damage": {"min": 0.9, "max": 0.99}},
+            {"function": "set_count", "count": {"min": 1, "max": 2}}
           ]
         },
         {

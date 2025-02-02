@@ -22,13 +22,13 @@ betternether-0.1.8.6
 BetterQuesting-3.5.329
 BetterTabs-1.0.4
 better_survival-1.5.4
-BHMenu-Forge-1.12.2-2.4.4
+BHMenu-Forge-1.12.2-2.4.3
 BiomesOPlenty-1.12.2-7.0.1.2445-universal
 BlockOverlayFix-1.12.2-1.0.0
 Bloodmoon-MC1.12.2-1.5.3
 BNBGamingLib-1.12.2-2.17.6
 Born In A Barn 1.8-1.12-1.2
-Bounceable-1.0.0
+Bounceable-1.0.1
 Bountiful Baubles-1.12.2-0.1.8
 Bountiful-1.12.2-2.2.3
 BQTweaker-1.3.5
@@ -54,11 +54,10 @@ CraftTweaker2-1.12-4.1.20.700
 crafttweakerutils-0.7
 CreativeCore_v1.10.71_mc1.12.2
 ctintegration-1.8.0
-darkness-forge-1.12.x-0.5.0
 defiledlands-1.12.2-1.4.3
 disenchanter[1.12]1.8
 DoomlikeDungeons-1.14.12-MC1.12.2
-DregoraRL-2.2
+DregoraRL-2.6
 DynamicSurroundings-1.12.2-3.6.2.1
 DynamicSurroundingsHuds-1.12.2-3.6.0.0
 DynamicTrees-1.12.2-0.9.29
@@ -66,7 +65,7 @@ DynamicTreesBOP-1.12.2-1.5.2
 dynamictreesdefiledlands-1.12.2-1.0.0
 DynamicTreesQuark-1.12.2-1.0.6
 DynamicTreesTraverse-1.12.2-2.1
-EagleMixins-1.0.1
+EagleMixins-indev(1)
 EditableEdibles-1.3.1
 ElenaiDodge-1.12.2-2.1
 EnchantmentDescriptions-1.12.2-1.1.20
@@ -93,7 +92,7 @@ GlobalGameRules-1.12.2-2.2.7
 GooglyEyes-1.12.2-7.1.1
 grapplemod-1.12.2-v12.3
 HelpFixer-1.12.1-1.5.18
-Ice and Fire-2.0.7
+Ice and Fire-2.0.8
 iChunUtil-1.12.2-7.2.2
 incontrol-1.12-3.9.18
 InfernalMobs-1.12.2
@@ -111,6 +110,7 @@ Level Up! 2-1.1.23-1.12
 librarianlib-1.12.2-4.22
 llibrary-1.7.20-1.12.2
 LoadingScreens-1.12.2-0.3.1
+Localizator-1.12.2-1.0.10
 Locks-1.12.2-3.0.0
 LootTweaker-0.3.1+MC1.12.2
 lostcities-1.12-2.0.22
@@ -125,6 +125,7 @@ MouseTweaks-2.10.1-mc1.12.2
 MTLib-3.0.7
 MultiMine-1.12.2
 Neat 1.4-17
+NoiseThreader-1.0.0
 notreepunching-2.0.21
 OpenTerrainGenerator-1.12.2-v9.5-R2
 OptiFine_1.12.2_HD_U_G5
@@ -151,8 +152,8 @@ ResourceLoader-MC1.12.1-1.5.3
 RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLFoliage-MC1.12-2.4.2
-RLMixins-1.3.15
-RLTweaker-1.12.2-0.6.7
+RLMixins-1.3.16
+RLTweaker-1.12.2-0.6.8
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
 rustic-1.1.7
@@ -168,13 +169,13 @@ SoManyEnchantments-0.5.5
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.2-forge
 spartandefiled-1.12.2-1.2
-spartanfire_rlcraft-1.3.2
+spartanfire_rlcraft-1.3.3
 SpartanHUDBaubles-1.12.2-1.0.0
 SpartanShields-1.12.2-1.5.5
 SpartanWeaponry-1.12.2-1.6.0
 SpawnerControl-1.6.3b
 SRParasites-1.12.2v1.9.21
-SRPMultiplier-2.0.9
+SRPMixins-2.2.5
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
@@ -192,6 +193,7 @@ VerticallyStackedDimensions-1.12.2-0.1.9
 Waystones_1.12.2-4.1.0
 WearableBackpacks-RLCraft-1.12.2-3.2.6
 WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed
+worldedit-forge-mc1.12.2-6.1.10-dist
 XPFromHarvest-1.12.2-1.2.0
 xptome-1.12.2-v1.1.6
 YungsLaw-1.12.2-1.0.4
