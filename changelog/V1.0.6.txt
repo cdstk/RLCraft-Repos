@@ -35,6 +35,7 @@ Fixed:
 
 RLCraft to do now:
 P1:
+- Parasitic Pits (Fromimage sections with big parasitic dips and industrial complexes)
 - move brutal tower item drops to chests and remove from entities
 - remove biome spread in abyssal rift biome areas
 - add version extension to DregoraRL & Underneath x.x.x instead of x.x
