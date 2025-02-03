@@ -32,10 +32,10 @@ Fixed:
 - Added Elder Blacksmiths to Gemtrader outposts (These trade rare goodies for ancient coins)
 - Added rare natural SRP spawns to Abyssal Rift & overworld Parasite Biomes.
 - Buffed srp entities within Abyssal Rift that do not have health/dmg specifically defined to pre 1.0.4 values meaning they will be as strong as in LC again.
+- Fixed Biome Spread for SRP (SRPMixins) and severely limited spread rate causing significant performance gains in Abyssal Rift (Brutal Towers) (Thanks Nischi!)
 
 Fix now:
-- Parasite check, losing health and despawning
-- behavior in underneath
+- Localizator needs updating (fixing the srp biome issues)
 
 
 
