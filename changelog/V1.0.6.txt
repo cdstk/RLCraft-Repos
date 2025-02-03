@@ -33,6 +33,12 @@ Fixed:
 - Added rare natural SRP spawns to Abyssal Rift & overworld Parasite Biomes.
 - Buffed srp entities within Abyssal Rift that do not have health/dmg specifically defined to pre 1.0.4 values meaning they will be as strong as in LC again.
 
+Fix now:
+- Parasite check, losing health and despawning
+- behavior in underneath
+
+
+
 RLCraft to do now:
 P1:
 - Parasitic Pits (Fromimage sections with big parasitic dips and industrial complexes)
