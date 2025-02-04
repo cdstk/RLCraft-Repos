@@ -41,6 +41,7 @@ Fix now:
 
 RLCraft to do now:
 P1:
+- Little towers in between bigger towers of hadron collider
 - Parasitic Pits (Fromimage sections with big parasitic dips and industrial complexes)
 - move brutal tower item drops to chests and remove from entities
 - remove biome spread in abyssal rift biome areas

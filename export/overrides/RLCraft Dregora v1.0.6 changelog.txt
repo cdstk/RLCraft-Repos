@@ -1,4 +1,4 @@
-RLCraft Dregora v1.0.6 PATCH (Thou bugs shall -mostly- not pass! - edition):
+RLCraft Dregora v1.0.6 PATCH (Thou shall not bug! - edition):
 
 - Fixed remaining instances of faulty stat calculations for armor & weapons through EagleMixins (Thanks Nischelm!)
 - Added weapon the Eternal Dooter and changed weapon Keraunos to be a Javelin instead of a spear
