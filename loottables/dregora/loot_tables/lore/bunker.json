@@ -38,7 +38,7 @@
                 locTitle:\"rldregora.bunker.wastelanders_guide.title\",
                 author:\"Wastelanders Council\",
                 locAuthor:\"rldregora.bunker.wastelanders_guide.author\",
-                display:{Lore:[\"This book describes the task of the Wastelander within this settlement.\",LocLore:[\"rldregora.bunker.wastelanders_guide.lore\"]]}
+                display:{Lore:[\"This book describes the task of the Wastelander within this settlement.\"],LocLore:[\"rldregora.bunker.wastelanders_guide.lore\"]}
               }"
             },
             {
