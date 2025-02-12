@@ -16,8 +16,9 @@
               "tag": "
               {
                 display:{Name:\"Bottled Apple Juice\",Lore:[\" \"],LocName:\"rldregora.city_potion_1.apple_juice.name\"},
-                Potion:\"minecraft:water\"
-              }"
+                Potion:\"minecraft:water\",
+                CustomPotionColor:15543871
+                }"
             },
             {
               "function": "minecraft:set_nbt",
@@ -26,7 +27,7 @@
               {
                 display:{Name:\"Bottled Apple Juice\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_1.apple_juice.name\"},
                 CustomPotionEffects:[{Id:2,Duration:500,Amplifier:3},{Id:8,Duration:500,Amplifier:1},{Id:15,Duration:500,Amplifier:2}],
-                CustomPotionColor:2053119,
+                
                 HideFlags:32
               }"
             },

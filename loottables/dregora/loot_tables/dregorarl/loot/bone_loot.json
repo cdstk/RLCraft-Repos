@@ -35,6 +35,10 @@
             {
               "function": "minecraft:set_data",
               "data": 40
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{FishId:\"Bonefish\",display:{LocName:\"item.fmb.advanced-fishing:fish:40.name\",Lore:[\"\u00A7rWeight: 3\",\"\u00A79\u00A7lDead\"],LocLoreArg:[\"3\",\"\"],LocLore:[\"tooltip.fishingmadebetter.fish.weight\",\"tooltip.fishingmadebetter.fish.dead\"]},FishWeight:3,FishCaughtTime:0}"
             }
           ]
         },

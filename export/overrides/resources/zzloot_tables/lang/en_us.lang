@@ -181,7 +181,7 @@ rldregora.cursed_armor.chainmail_helmet4.name=Cursed Chain Helmet of Binding
 rldregora.cursed_armor.chainmail_helmet5.name=Atrocious Chain Helmet
 rldregora.cursed_armor.chainmail_helmet6.name=Despicable Chain Helmet of Attachment
 
-rldregora.cursed_armor.chainmail_chestplate1.name=Despicable Chain Helmet of Attachment
+rldregora.cursed_armor.chainmail_chestplate1.name=Haunted Chain Suit
 rldregora.cursed_armor.chainmail_chestplate2.name=Wretched Chain Torso of Binding
 rldregora.cursed_armor.chainmail_chestplate3.name=Abominable Chain Gear
 rldregora.cursed_armor.chainmail_chestplate4.name=Cursed Chain Garb of Binding
@@ -424,7 +424,7 @@ rldregora.cursed_potion_15.potion_luck.name=Potion of Luck
 ##################################################################
 # loot/loot_bundles/cursed_potion_16.json
 ##################################################################
-rldregora.cursed_potion_16.potion_immortality.lore.0=§r§9Immortality (~)     §0⌚
+rldregora.cursed_potion_16.potion_immortality.lore.0=§r§9Immortality (ˣˣ:ˣˣ)     §0⌚
 rldregora.cursed_potion_16.potion_immortality.lore.1=§5When Applied:
 rldregora.cursed_potion_16.potion_immortality.lore.2=§9Immortality
 rldregora.cursed_potion_16.potion_immortality_ling.name=Lingering Potion of Immortality
@@ -740,85 +740,85 @@ rldregora.special_potion_15.dregorian_ale.lore.4=Few words inscribed on the bott
 rldregora.special_potion_15.dregorian_ale.lore.5=-For those who wander the worlds-
 
 ##################################################################
-# loot/loot_bundles/city_potion_1.json
+# loot/loot_city_potion/city_potion_1.json
 ##################################################################
 rldregora.city_potion_1.apple_juice.name=Bottled Apple Juice
 
 ##################################################################
-# loot/loot_bundles/city_potion_2.json
+# loot/loot_city_potion/city_potion_2.json
 ##################################################################
 rldregora.city_potion_2.fantol.name=Bottled Fantol
 
 ##################################################################
-# loot/loot_bundles/city_potion_3.json
+# loot/loot_city_potion/city_potion_3.json
 ##################################################################
 rldregora.city_potion_3.spritu.name=Bottled Spritu
 
 ##################################################################
-# loot/loot_bundles/city_potion_4.json
+# loot/loot_city_potion/city_potion_4.json
 ##################################################################
 rldregora.city_potion_4.hertog_jan.name=Bottled Hertog Jan
 
 ##################################################################
-# loot/loot_bundles/city_potion_5.json
+# loot/loot_city_potion/city_potion_5.json
 ##################################################################
 rldregora.city_potion_5.shivvy.name=Bottled Shivvy
 
 ##################################################################
-# loot/loot_bundles/city_potion_6.json
+# loot/loot_city_potion/city_potion_6.json
 ##################################################################
 rldregora.city_potion_6.pear_juice.name=Bottled Pear Juice
 
 ##################################################################
-# loot/loot_bundles/city_potion_7.json
+# loot/loot_city_potion/city_potion_7.json
 ##################################################################
 rldregora.city_potion_7.ice_tea.name=Bottled Ice Tea
 
 ##################################################################
-# loot/loot_bundles/city_potion_8.json
+# loot/loot_city_potion/city_potion_8.json
 ##################################################################
 rldregora.city_potion_8.chocomel.name=Bottled Chocomel
 
 ##################################################################
-# loot/loot_bundles/city_potion_9.json
+# loot/loot_city_potion/city_potion_9.json
 ##################################################################
 rldregora.city_potion_9.dr_booster.name=Bottled Dr Booster
 
 ##################################################################
-# loot/loot_bundles/city_potion_10.json
+# loot/loot_city_potion/city_potion_10.json
 ##################################################################
 rldregora.city_potion_10.bubble_tea.name=Bottled Bubble Tea
 
 ##################################################################
-# loot/loot_gilded/gilded_sword1.json
+# loot/loot_gilded/gilded_sword-.1.json
 ##################################################################
 rldregora.gilded_sword1.ancient_sword.name=Ancient Sword
 rldregora.gilded_sword1.ancient_sword.lore=A sword imbued with magic making it feel lighter and sharper.
 rldregora.gilded_sword1.natsus_grave.name=Natsu's Grave
 
 ##################################################################
-# loot/loot_gilded/gilded_sword2.json
+# loot/loot_gilded/gilded_sword_2.json
 ##################################################################
 rldregora.gilded_sword2.granite_sword.name=Granite Sword
 rldregora.gilded_sword2.granite_sword.lore=Holding this sword you feel heavy and slow but strong as well.
 rldregora.gilded_sword2.raikus_grave.name=Raiku's Grave
 
 ##################################################################
-# loot/loot_gilded/gilded_sword3.json
+# loot/loot_gilded/gilded_sword_3.json
 ##################################################################
 rldregora.gilded_sword3.sneezing_sword.name=Sneezing Sword
 rldregora.gilded_sword3.sneezing_sword.lore=Unpredictable but Versatile.
 rldregora.gilded_sword3.sasukes_grave.name=Sasuke's Grave
 
 ##################################################################
-# loot/loot_gilded/gilded_sword4.json
+# loot/loot_gilded/gilded_sword_4.json
 ##################################################################
 rldregora.gilded_sword4.gilded_sword.name=Gilded Sword
 rldregora.gilded_sword4.gilded_sword.lore=The sword feels warm to the touch
 rldregora.gilded_sword4.yugis_grave.name=Yugi's Grave
 
 ##################################################################
-# loot/loot_gilded/gilded_sword5.json
+# loot/loot_gilded/gilded_sword_5.json
 ##################################################################
 rldregora.gilded_sword5.black_sword.name=Black Sword
 rldregora.gilded_sword5.black_sword.lore=This sword is just and swift.
@@ -921,6 +921,16 @@ rldregora.ocean_potion_9.subhuman_eczema.lore.3=§lBatch Number:§r Y-2078 A-F
 rldregora.ocean_potion_9.subhuman_eczema.lore.4=§lSerial Number:§r -unreadable-
 
 ##################################################################
+# loot/loot_ocean_potion/ocean_potion_10.json
+##################################################################
+rldregora.ocean_potion_10.pneumatic_lung.name=Potion of Pneumatic Lung
+rldregora.ocean_potion_10.pneumatic_lung.lore.0=Pneumothorax with a healthy dose of Panic & Adrenaline!
+rldregora.ocean_potion_10.pneumatic_lung.lore.1=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_10.pneumatic_lung.lore.2=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_10.pneumatic_lung.lore.3=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_10.pneumatic_lung.lore.4=§lSerial Number:§r -unreadable-
+
+##################################################################
 # loot/unique_loot_epic/loot_bundle/demonic_staff.json
 ##################################################################
 rldregora.demonic_staff.rizzler.name=The Rizzler
@@ -939,6 +949,93 @@ rldregora.sting_mithril.sting.name=Sting
 rldregora.sting_mithril.sting.lore=This dagger seems to always give off a bright glow...
 rldregora.sting_mithril.mithril_shirt.name=Mithril Shirt
 rldregora.sting_mithril.mithril_shirt.lore=As light as a feather, and as hard as dragon scales.
+
+##################################################################
+# loot/unique_loot_epic/unique_weapons_epic.json
+##################################################################
+rldregora.unique_weapons_weapons.staff_fire_dragonbone.name=Megumin's Staff
+rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.0=EXPLOSION!!!!!!!!!
+rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.1=A rather explosive relic...
+
+rldregora.unique_weapons_weapons.trumpet.name=Eternal Dooter
+rldregora.unique_weapons_weapons.trumpet.lore.0=DOOOOOTTTTTTTT!!!!!!!!
+rldregora.unique_weapons_weapons.trumpet.lore.1=The trumpet, the relic, the one that sends them flying
+
+rldregora.unique_weapons_weapons.dagger_desert_venom.name=Dagger of Vitality
+rldregora.unique_weapons_weapons.dagger_desert_venom.lore.0=For neither friend nor foe will this dagger deal a decisive blow.
+rldregora.unique_weapons_weapons.dagger_desert_venom.lore.1=Relic of Vitality
+
+rldregora.unique_weapons_weapons.scythe_fire_dragonbone.name=Scythe of Bountiful Risk
+rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.0=For the brave and bold of this unfair world.
+rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.1=- Epic Collectable -
+
+rldregora.unique_weapons_weapons.katana_dragonbone.name=Heaven's Blade
+rldregora.unique_weapons_weapons.katana_dragonbone.lore.0=May Heaven Strike Your Enemies Blind!
+rldregora.unique_weapons_weapons.katana_dragonbone.lore.1=Dark blade of relics, the one that casts night upon those stricken
+
+rldregora.unique_weapons_weapons.troll_weapon.hammer.name=Lesser Ban Hammer
+rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.0=Dragonsteel you say? Banned!
+rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.1=The lesser of the two hammers yet a powerful relic on it's own
+
+rldregora.unique_weapons_weapons.troll_weapon.column.name=Obelisk
+rldregora.unique_weapons_weapons.troll_weapon.column.lore.0=Obelisk's Obelisk
+rldregora.unique_weapons_weapons.troll_weapon.column.lore.1=From before the before times, a relic from Germania
+
+rldregora.unique_weapons_weapons.dread_sword.name=Nullpointer
+rldregora.unique_weapons_weapons.dread_sword.lore.0=Divide them by zero!
+rldregora.unique_weapons_weapons.dread_sword.lore.1=Sword of glitch, bugger, this relic rips apart the fabric of time
+
+rldregora.unique_weapons_weapons.bo_staff.name=Stick of Bonk
+rldregora.unique_weapons_weapons.bo_staff.lore.0=Does Bonk!
+rldregora.unique_weapons_weapons.bo_staff.lore.1=Staff of staffs, a relic both strong as sturdy
+
+rldregora.unique_weapons_weapons.chicken_sword.name=The Big Skibidi
+rldregora.unique_weapons_weapons.chicken_sword.lore.0=Toilet Humor...
+rldregora.unique_weapons_weapons.chicken_sword.lore.1=Ancient relic and meme, sturdy for it withstood time
+
+rldregora.unique_weapons_weapons.spear_dragonbone.name=Gungnir
+rldregora.unique_weapons_weapons.spear_dragonbone.lore.0=Odin's Spear
+rldregora.unique_weapons_weapons.spear_dragonbone.lore.1=Beautifully crafted ancient relic
+
+rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.name=Keraunos
+rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.0=For Olympus!!
+rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.1=Keraunos, the relic loyal to it's wielder
+
+rldregora.unique_weapons_weapons.itemlumiumhammer.name=Mjolnir
+rldregora.unique_weapons_weapons.itemlumiumhammer.lore.0=Thor's Hammer
+rldregora.unique_weapons_weapons.itemlumiumhammer.lore.1=From before the blight and even the origins, this is a relic of old
+
+rldregora.unique_weapons_weapons.bronze_dagger.name=Melt'exun
+rldregora.unique_weapons_weapons.bronze_dagger.lore.0=Slices through everything like butter
+rldregora.unique_weapons_weapons.bronze_dagger.lore.1=This relic is said to harness the heat of the Blight itself
+
+rldregora.unique_weapons_weapons.katana.name=Honjo Masamune
+rldregora.unique_weapons_weapons.katana.lore.0=The legendary vanishing katana of old origins.
+rldregora.unique_weapons_weapons.katana.lore.1=May this relic serve you for longer days
+
+rldregora.unique_weapons_weapons.broken_bottle.name=Kotlin
+rldregora.unique_weapons_weapons.broken_bottle.lore.0=Fonny's bane
+rldregora.unique_weapons_weapons.broken_bottle.lore.1=May the code imbued in this relic touch thou enemies and confuse them
+
+rldregora.unique_weapons_weapons.cleaver.name=The Cleaver
+rldregora.unique_weapons_weapons.cleaver.lore.0=For your every day butchering!
+rldregora.unique_weapons_weapons.cleaver.lore.1=No scale too hard, no bone too thick for this relic wil rip
+
+rldregora.unique_weapons_weapons.frost_dagger.name=Sting Ray
+rldregora.unique_weapons_weapons.frost_dagger.lore.0=Useful in case of abductions!
+rldregora.unique_weapons_weapons.frost_dagger.lore.1=May this relic piece straight and decisive
+
+rldregora.unique_weapons_weapons.excalibur.name=Excalibur
+rldregora.unique_weapons_weapons.excalibur.lore.0=For Camelot!
+rldregora.unique_weapons_weapons.excalibur.lore.1=May this relic grant you vitality in your battles
+
+rldregora.unique_weapons_weapons.emerald_dagger.name=The Shiv
+rldregora.unique_weapons_weapons.emerald_dagger.lore.0=Get Shivved!
+rldregora.unique_weapons_weapons.emerald_dagger.lore.1=May this relic, the Shiv Serve you Supremely
+
+rldregora.unique_weapons_weapons.sai.name=Eagle's Claw
+rldregora.unique_weapons_weapons.sai.lore.0=Get Eagle'd!
+rldregora.unique_weapons_weapons.sai.lore.1=This relic strikes your foes with Eagle's Math
 
 ##################################################################
 # loot/unique_loot_rare/unique_weapons_rare.json
@@ -3774,93 +3871,6 @@ rldregora.unique_weapons_rare.ordained.staff_diamond.name=Ordained Staff
 rldregora.unique_weapons_rare.exalted.staff_diamond.name=Exalted Staff
 
 ##################################################################
-# loot/unique_loot_rare/unique_weapons_weapons.json
-##################################################################
-rldregora.unique_weapons_weapons.staff_fire_dragonbone.name=Megumin's Staff
-rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.0=EXPLOSION!!!!!!!!!
-rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.1=A rather explosive relic...
-
-rldregora.unique_weapons_weapons.trumpet.name=Eternal Dooter
-rldregora.unique_weapons_weapons.trumpet.lore.0=DOOOOOTTTTTTTT!!!!!!!!
-rldregora.unique_weapons_weapons.trumpet.lore.1=The trumpet, the relic, the one that sends them flying
-
-rldregora.unique_weapons_weapons.dagger_desert_venom.name=Dagger of Vitality
-rldregora.unique_weapons_weapons.dagger_desert_venom.lore.0=For neither friend nor foe will this dagger deal a decisive blow.
-rldregora.unique_weapons_weapons.dagger_desert_venom.lore.1=Relic of Vitality
-
-rldregora.unique_weapons_weapons.scythe_fire_dragonbone.name=Scythe of Bountiful Risk
-rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.0=For the brave and bold of this unfair world.
-rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.1=- Epic Collectable -
-
-rldregora.unique_weapons_weapons.katana_dragonbone.name=Heaven's Blade
-rldregora.unique_weapons_weapons.katana_dragonbone.lore.0=May Heaven Strike Your Enemies Blind!
-rldregora.unique_weapons_weapons.katana_dragonbone.lore.1=Dark blade of relics, the one that casts night upon those stricken
-
-rldregora.unique_weapons_weapons.troll_weapon.hammer.name=Lesser Ban Hammer
-rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.0=Dragonsteel you say? Banned!
-rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.1=The lesser of the two hammers yet a powerful relic on it's own
-
-rldregora.unique_weapons_weapons.troll_weapon.column.name=Obelisk
-rldregora.unique_weapons_weapons.troll_weapon.column.lore.0=Obelisk's Obelisk
-rldregora.unique_weapons_weapons.troll_weapon.column.lore.1=From before the before times, a relic from Germania
-
-rldregora.unique_weapons_weapons.dread_sword.name=Nullpointer
-rldregora.unique_weapons_weapons.dread_sword.lore.0=Divide them by zero!
-rldregora.unique_weapons_weapons.dread_sword.lore.1=Sword of glitch, bugger, this relic rips apart the fabric of time
-
-rldregora.unique_weapons_weapons.bo_staff.name=Stick of Bonk
-rldregora.unique_weapons_weapons.bo_staff.lore.0=Does Bonk!
-rldregora.unique_weapons_weapons.bo_staff.lore.1=Staff of staffs, a relic both strong as sturdy
-
-rldregora.unique_weapons_weapons.chicken_sword.name=The Big Skibidi
-rldregora.unique_weapons_weapons.chicken_sword.lore.0=Toilet Humor...
-rldregora.unique_weapons_weapons.chicken_sword.lore.1=Ancient relic and meme, sturdy for it withstood time
-
-rldregora.unique_weapons_weapons.spear_dragonbone.name=Gungnir
-rldregora.unique_weapons_weapons.spear_dragonbone.lore.0=Odin's Spear
-rldregora.unique_weapons_weapons.spear_dragonbone.lore.1=Beautifully crafted ancient relic
-
-rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.name=Keraunos
-rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.0=For Olympus!!
-rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.1=Keraunos, the relic loyal to it's wielder
-
-rldregora.unique_weapons_weapons.itemlumiumhammer.name=Mjolnir
-rldregora.unique_weapons_weapons.itemlumiumhammer.lore.0=Thor's Hammer
-rldregora.unique_weapons_weapons.itemlumiumhammer.lore.1=From before the blight and even the origins, this is a relic of old
-
-rldregora.unique_weapons_weapons.bronze_dagger.name=Melt'exun
-rldregora.unique_weapons_weapons.bronze_dagger.lore.0=Slices through everything like butter
-rldregora.unique_weapons_weapons.bronze_dagger.lore.1=This relic is said to harness the heat of the Blight itself
-
-rldregora.unique_weapons_weapons.katana.name=Honjo Masamune
-rldregora.unique_weapons_weapons.katana.lore.0=The legendary vanishing katana of old origins.
-rldregora.unique_weapons_weapons.katana.lore.1=May this relic serve you for longer days
-
-rldregora.unique_weapons_weapons.broken_bottle.name=Kotlin
-rldregora.unique_weapons_weapons.broken_bottle.lore.0=Fonny's bane
-rldregora.unique_weapons_weapons.broken_bottle.lore.1=May the code imbued in this relic touch thou enemies and confuse them
-
-rldregora.unique_weapons_weapons.cleaver.name=The Cleaver
-rldregora.unique_weapons_weapons.cleaver.lore.0=For your every day butchering!
-rldregora.unique_weapons_weapons.cleaver.lore.1=No scale too hard, no bone too thick for this relic wil rip
-
-rldregora.unique_weapons_weapons.frost_dagger.name=Sting Ray
-rldregora.unique_weapons_weapons.frost_dagger.lore.0=Useful in case of abductions!
-rldregora.unique_weapons_weapons.frost_dagger.lore.1=May this relic piece straight and decisive
-
-rldregora.unique_weapons_weapons.excalibur.name=Excalibur
-rldregora.unique_weapons_weapons.excalibur.lore.0=For Camelot!
-rldregora.unique_weapons_weapons.excalibur.lore.1=May this relic grant you vitality in your battles
-
-rldregora.unique_weapons_weapons.emerald_dagger.name=The Shiv
-rldregora.unique_weapons_weapons.emerald_dagger.lore.0=Get Shivved!
-rldregora.unique_weapons_weapons.emerald_dagger.lore.1=May this relic, the Shiv Serve you Supremely
-
-rldregora.unique_weapons_weapons.sai.name=Eagle's Claw
-rldregora.unique_weapons_weapons.sai.lore.0=Get Eagle'd!
-rldregora.unique_weapons_weapons.sai.lore.1=This relic strikes your foes with Eagle's Math
-
-##################################################################
 # loot/bone_loot.json
 ##################################################################
 rldregora.bone_loot.skull.name=Skull of Luck
@@ -3944,19 +3954,19 @@ rldregora.moderncity_common_loot.cursed1nferno.bountiful_living.name=Bountifull 
 rldregora.moderncity_common_loot.enderlanky.tailoring.name=Tailoring by %s
 rldregora.moderncity_common_loot.emerald.fishing_well.name=Fishing done well by %s
 rldregora.moderncity_common_loot.blockvader.foraging.name=Foraging by %s
-rldregora.moderncity_common_loot.titan.efficient.carpenter.name=Efficient Carpenter by %s
-rldregora.moderncity_common_loot.titan.whitedraco.basic_archery.name=Basic Archery by %s
-rldregora.moderncity_common_loot.titan.xcube.starviewing.name=Starviewing by %s
-rldregora.moderncity_common_loot.titan.charles445.cabinet_5min.name=Cabinet in 5 minutes by %s
-rldregora.moderncity_common_loot.titan.ejektaflex.1day_house.name=Your one day house by %s
-rldregora.moderncity_common_loot.titan.harleyoc1.woodworking.name=WoodWorking with %s
-rldregora.moderncity_common_loot.titan.fnar.archeology.name=Archeology with %s
-rldregora.moderncity_common_loot.titan.shelterrin.lore_magic.name=Lore & Magic with %s
-rldregora.moderncity_common_loot.titan.twilightstar.farming.name=Farming with %s
-rldregora.moderncity_common_loot.titan.macaw.bridging.name=Bridging with %s
-rldregora.moderncity_common_loot.titan.noppes.commodities.name=Carpeting Commodities with %s
-rldregora.moderncity_common_loot.titan.yung.spelunking.name=Spelunking with %s
-rldregora.moderncity_common_loot.titan.icebelly.exploring.name=Exploring with %s
+rldregora.moderncity_common_loot.titan.efficient_carpenter.name=Efficient Carpenter by %s
+rldregora.moderncity_common_loot.whitedraco.basic_archery.name=Basic Archery by %s
+rldregora.moderncity_common_loot.xcube.starviewing.name=Starviewing by %s
+rldregora.moderncity_common_loot.charles445.cabinet_5min.name=Cabinet in 5 minutes by %s
+rldregora.moderncity_common_loot.ejektaflex.1day_house.name=Your one day house by %s
+rldregora.moderncity_common_loot.harleyoc1.woodworking.name=WoodWorking with %s
+rldregora.moderncity_common_loot.fnar.archeology.name=Archeology with %s
+rldregora.moderncity_common_loot.shelterrin.lore_magic.name=Lore & Magic with %s
+rldregora.moderncity_common_loot.twilightstar.farming.name=Farming with %s
+rldregora.moderncity_common_loot.macaw.bridging.name=Bridging with %s
+rldregora.moderncity_common_loot.noppes.commodities.name=Carpeting Commodities with %s
+rldregora.moderncity_common_loot.yung.spelunking.name=Spelunking with %s
+rldregora.moderncity_common_loot.icebelly.exploring.name=Exploring with %s
 
 ##################################################################
 # loot/moderncity_epic_loot.json
@@ -6255,348 +6265,348 @@ rldregora.cursed_weapons.spear_umbrium6.lore.5=§0+100%% Regret
 rldregora.cursed_weapons.saber_umbrium1.name=Posessed Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium1.lore.0=The§kre is§r a presence insi§kde th§re Saber...
 rldregora.cursed_weapons.saber_umbrium1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.saber_umbrium1.lore.2=§9+5% Attack Speed
-rldregora.cursed_weapons.saber_umbrium1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.saber_umbrium1.lore.4=§9+10% Fake Health
-rldregora.cursed_weapons.saber_umbrium1.lore.5=§0+100% Lies
+rldregora.cursed_weapons.saber_umbrium1.lore.2=§9+5%% Attack Speed
+rldregora.cursed_weapons.saber_umbrium1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.saber_umbrium1.lore.4=§9+10%% Fake Health
+rldregora.cursed_weapons.saber_umbrium1.lore.5=§0+100%% Lies
 
 rldregora.cursed_weapons.saber_umbrium2.name=Accursed Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium2.lore.0=§kThi§rs Sab§ker§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.saber_umbrium2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium2.lore.2=§9+3 Max Health
-rldregora.cursed_weapons.saber_umbrium2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.saber_umbrium2.lore.4=§9+10% Agility
-rldregora.cursed_weapons.saber_umbrium2.lore.5=§0+100% Don't Equip!
+rldregora.cursed_weapons.saber_umbrium2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.saber_umbrium2.lore.4=§9+10%% Agility
+rldregora.cursed_weapons.saber_umbrium2.lore.5=§0+100%% Don't Equip!
 
 rldregora.cursed_weapons.saber_umbrium3.name=Damned Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium3.lore.0=Upon thi§ks Sa§rber lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.saber_umbrium3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.saber_umbrium3.lore.2=§9+100% Attack Damage
-rldregora.cursed_weapons.saber_umbrium3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.saber_umbrium3.lore.4=§9+100% Attack Speed
-rldregora.cursed_weapons.saber_umbrium3.lore.5=§0+100% Nope!
+rldregora.cursed_weapons.saber_umbrium3.lore.2=§9+100%% Attack Damage
+rldregora.cursed_weapons.saber_umbrium3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.saber_umbrium3.lore.4=§9+100%% Attack Speed
+rldregora.cursed_weapons.saber_umbrium3.lore.5=§0+100%% Nope!
 
 rldregora.cursed_weapons.saber_umbrium4.name=Deplored Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium4.lore.0=A sinister aura envelops this Saber!
 rldregora.cursed_weapons.saber_umbrium4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.saber_umbrium4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.saber_umbrium4.lore.4=§9100% Fear §0Eagle
+rldregora.cursed_weapons.saber_umbrium4.lore.4=§9100%% Fear §0Eagle
 
 rldregora.cursed_weapons.saber_umbrium5.name=Reviled Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium5.lore.0=A beautiful Saber, engraved with malicious intent.
 rldregora.cursed_weapons.saber_umbrium5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium5.lore.2=§9+1 Attack Damage
-rldregora.cursed_weapons.saber_umbrium5.lore.3=§9+5% Knockback Resistance
-rldregora.cursed_weapons.saber_umbrium5.lore.4=§9+10% Looting
-rldregora.cursed_weapons.saber_umbrium5.lore.5=§0+100% Blame Eagle
+rldregora.cursed_weapons.saber_umbrium5.lore.3=§9+5%% Knockback Resistance
+rldregora.cursed_weapons.saber_umbrium5.lore.4=§9+10%% Looting
+rldregora.cursed_weapons.saber_umbrium5.lore.5=§0+100%% Blame Eagle
 
 rldregora.cursed_weapons.saber_umbrium6.name=Rebuked Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium6.lore.0=This Saber comes with a twist
 rldregora.cursed_weapons.saber_umbrium6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.saber_umbrium6.lore.3=§9+5% Movement Speed
-rldregora.cursed_weapons.saber_umbrium6.lore.4=§9+10% Regeneration
-rldregora.cursed_weapons.saber_umbrium6.lore.5=§0+69% Check When In Main Hand Is Red!
+rldregora.cursed_weapons.saber_umbrium6.lore.3=§9+5%% Movement Speed
+rldregora.cursed_weapons.saber_umbrium6.lore.4=§9+10%% Regeneration
+rldregora.cursed_weapons.saber_umbrium6.lore.5=§0+69%% Check When In Main Hand Is Red!
 # Diamond Halberd ================================================================
 rldregora.cursed_weapons.halberd_diamond1.name=Posessed Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond1.lore.0=The§kre is§r a presence insi§kde th§re Halberd...
 rldregora.cursed_weapons.halberd_diamond1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.halberd_diamond1.lore.2=§9+5% Attack Speed
-rldregora.cursed_weapons.halberd_diamond1.lore.3=§9+5% Attack Damage §0Fails
-rldregora.cursed_weapons.halberd_diamond1.lore.4=§9+10% Max Health
+rldregora.cursed_weapons.halberd_diamond1.lore.2=§9+5%% Attack Speed
+rldregora.cursed_weapons.halberd_diamond1.lore.3=§9+5%% Attack Damage §0Fails
+rldregora.cursed_weapons.halberd_diamond1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.halberd_diamond2.name=Accursed Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond2.lore.0=§kThi§rs Halb§kerd§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.halberd_diamond2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond2.lore.2=§9+3 Max Health
-rldregora.cursed_weapons.halberd_diamond2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.halberd_diamond2.lore.4=§9+10% Agility §0Fails
+rldregora.cursed_weapons.halberd_diamond2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.halberd_diamond2.lore.4=§9+10%% Agility §0Fails
 
 rldregora.cursed_weapons.halberd_diamond3.name=Damned Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond3.lore.0=Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.halberd_diamond3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.halberd_diamond3.lore.2=§9+100% Attack Damage §0Denial
-rldregora.cursed_weapons.halberd_diamond3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.halberd_diamond3.lore.4=§9+100% Attack Speed
+rldregora.cursed_weapons.halberd_diamond3.lore.2=§9+100%% Attack Damage §0Denial
+rldregora.cursed_weapons.halberd_diamond3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.halberd_diamond3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.halberd_diamond4.name=Deplored Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond4.lore.0=A sinister aura envelops this Halberd!
 rldregora.cursed_weapons.halberd_diamond4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.halberd_diamond4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.halberd_diamond4.lore.4=§9-10% Fear
-rldregora.cursed_weapons.halberd_diamond4.lore.5=§0+69% Check When In Main Hand Is Red!
+rldregora.cursed_weapons.halberd_diamond4.lore.4=§9-10%% Fear
+rldregora.cursed_weapons.halberd_diamond4.lore.5=§0+69%% Check When In Main Hand Is Red!
 
 rldregora.cursed_weapons.halberd_diamond5.name=Reviled Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond5.lore.0=A beautiful Halberd, engraved with malicious intent.
 rldregora.cursed_weapons.halberd_diamond5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond5.lore.2=§9+1 Attack Damage
-rldregora.cursed_weapons.halberd_diamond5.lore.3=§9+5% Knockback §0On Your Head!
-rldregora.cursed_weapons.halberd_diamond5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.halberd_diamond5.lore.3=§9+5%% Knockback §0On Your Head!
+rldregora.cursed_weapons.halberd_diamond5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.halberd_diamond6.name=Rebuked Diamond Halberd
 rldregora.cursed_weapons.halberd_diamond6.lore.0=This Halberd comes with a twist
 rldregora.cursed_weapons.halberd_diamond6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.halberd_diamond6.lore.3=§9+5% Movement Speed
-rldregora.cursed_weapons.halberd_diamond6.lore.4=§9+10% Regeneration §0Troll
-rldregora.cursed_weapons.halberd_diamond6.lore.5=§0+100% Eagle Thinks This Is Fun!
+rldregora.cursed_weapons.halberd_diamond6.lore.3=§9+5%% Movement Speed
+rldregora.cursed_weapons.halberd_diamond6.lore.4=§9+10%% Regeneration §0Troll
+rldregora.cursed_weapons.halberd_diamond6.lore.5=§0+100%% Eagle Thinks This Is Fun!
 # Diamond Glaive ================================================================
 rldregora.cursed_weapons.glaive_diamond1.name=Posessed Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond1.lore.0=The§kre is§r a presence insi§kde th§re Glaive...
 rldregora.cursed_weapons.glaive_diamond1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.glaive_diamond1.lore.2=§9+5% Attack Speed
-rldregora.cursed_weapons.glaive_diamond1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.glaive_diamond1.lore.4=§9+10% Max Health §0Troll
+rldregora.cursed_weapons.glaive_diamond1.lore.2=§9+5%% Attack Speed
+rldregora.cursed_weapons.glaive_diamond1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.glaive_diamond1.lore.4=§9+10%% Max Health §0Troll
 
 rldregora.cursed_weapons.glaive_diamond2.name=Accursed Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond2.lore.0=§kThi§rs Glai§kve§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.glaive_diamond2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond2.lore.2=§9+3 Fake Health
-rldregora.cursed_weapons.glaive_diamond2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.glaive_diamond2.lore.4=§9+10% Agility
+rldregora.cursed_weapons.glaive_diamond2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.glaive_diamond2.lore.4=§9+10%% Agility
 rldregora.cursed_weapons.glaive_diamond2.lore.5=§0No way to Un-Curse this!
 
 rldregora.cursed_weapons.glaive_diamond3.name=Damned Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond3.lore.0=Upon thi§ks Glai§rve lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.glaive_diamond3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.glaive_diamond3.lore.2=§9+100% Attack Damage
-rldregora.cursed_weapons.glaive_diamond3.lore.3=§9+100% Lucky §0Lies
-rldregora.cursed_weapons.glaive_diamond3.lore.4=§9+100% Attack Speed
+rldregora.cursed_weapons.glaive_diamond3.lore.2=§9+100%% Attack Damage
+rldregora.cursed_weapons.glaive_diamond3.lore.3=§9+100%% Lucky §0Lies
+rldregora.cursed_weapons.glaive_diamond3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.glaive_diamond4.name=Deplored Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond4.lore.0=A sinister aura envelops this Glaive!
 rldregora.cursed_weapons.glaive_diamond4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.glaive_diamond4.lore.3=§9+5 Magic §0Lies!
-rldregora.cursed_weapons.glaive_diamond4.lore.4=§9-10% Fear
+rldregora.cursed_weapons.glaive_diamond4.lore.4=§9-10%% Fear
 
 rldregora.cursed_weapons.glaive_diamond5.name=Reviled Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond5.lore.0=A beautiful Glaive, engraved with malicious intent.
 rldregora.cursed_weapons.glaive_diamond5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond5.lore.2=§9+1 Attack Damage
-rldregora.cursed_weapons.glaive_diamond5.lore.3=§9+5% Knockballs Resistance §0I Would Not Test This...
-rldregora.cursed_weapons.glaive_diamond5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.glaive_diamond5.lore.3=§9+5%% Knockballs Resistance §0I Would Not Test This...
+rldregora.cursed_weapons.glaive_diamond5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.glaive_diamond6.name=Rebuked Diamond Glaive
 rldregora.cursed_weapons.glaive_diamond6.lore.0=This Glaive comes with a twist
 rldregora.cursed_weapons.glaive_diamond6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.glaive_diamond6.lore.3=§9+5% Movement Speed
-rldregora.cursed_weapons.glaive_diamond6.lore.4=§9+10% Regeneration §0To Full Health After You Die!
+rldregora.cursed_weapons.glaive_diamond6.lore.3=§9+5%% Movement Speed
+rldregora.cursed_weapons.glaive_diamond6.lore.4=§9+10%% Regeneration §0To Full Health After You Die!
 # Desert Stinger Rapier ================================================================
 rldregora.cursed_weapons.rapier_desert_venom1.name=Posessed Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom1.lore.0=The§kre is§r a presence insi§kde th§re Rapier...
 rldregora.cursed_weapons.rapier_desert_venom1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_desert_venom1.lore.2=§9+5% Attack Yourself!
-rldregora.cursed_weapons.rapier_desert_venom1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.rapier_desert_venom1.lore.4=§9+10% Max Health
+rldregora.cursed_weapons.rapier_desert_venom1.lore.2=§9+5%% Attack Yourself!
+rldregora.cursed_weapons.rapier_desert_venom1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.rapier_desert_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.rapier_desert_venom2.name=Accursed Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom2.lore.0=§kThi§rs Rapie§kr§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.rapier_desert_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom2.lore.2=§9+3 Max Health
-rldregora.cursed_weapons.rapier_desert_venom2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.rapier_desert_venom2.lore.4=§9+10% Agility §0Fails
+rldregora.cursed_weapons.rapier_desert_venom2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.rapier_desert_venom2.lore.4=§9+10%% Agility §0Fails
 
 rldregora.cursed_weapons.rapier_desert_venom3.name=Damned Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom3.lore.0=Upon thi§ks Rap§rier lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.rapier_desert_venom3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_desert_venom3.lore.2=§9+100% Attack Damage §0Fails
-rldregora.cursed_weapons.rapier_desert_venom3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.rapier_desert_venom3.lore.4=§9+100% Attack Speed
+rldregora.cursed_weapons.rapier_desert_venom3.lore.2=§9+100%% Attack Damage §0Fails
+rldregora.cursed_weapons.rapier_desert_venom3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.rapier_desert_venom3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.rapier_desert_venom4.name=Deplored Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom4.lore.0=A sinister aura envelops this Rapier!
 rldregora.cursed_weapons.rapier_desert_venom4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.rapier_desert_venom4.lore.3=§9+5 Magic §0Rickroll
-rldregora.cursed_weapons.rapier_desert_venom4.lore.4=§9-10% Fear §0This Weapon!
+rldregora.cursed_weapons.rapier_desert_venom4.lore.4=§9-10%% Fear §0This Weapon!
 
 rldregora.cursed_weapons.rapier_desert_venom5.name=Reviled Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom5.lore.0=A beautiful Rapier, engraved with malicious intent.
 rldregora.cursed_weapons.rapier_desert_venom5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom5.lore.2=§9+1 Attack Damage
-rldregora.cursed_weapons.rapier_desert_venom5.lore.3=§9+5% Knockballs 3000!
-rldregora.cursed_weapons.rapier_desert_venom5.lore.4=§9+10% Looting §0Lies
+rldregora.cursed_weapons.rapier_desert_venom5.lore.3=§9+5%% Knockballs 3000!
+rldregora.cursed_weapons.rapier_desert_venom5.lore.4=§9+10%% Looting §0Lies
 
 rldregora.cursed_weapons.rapier_desert_venom6.name=Rebuked Desert Stinger Rapier
 rldregora.cursed_weapons.rapier_desert_venom6.lore.0=This Rapier comes with a twist
 rldregora.cursed_weapons.rapier_desert_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.rapier_desert_venom6.lore.3=§9+5% Movement Speed §0Towards Death!
-rldregora.cursed_weapons.rapier_desert_venom6.lore.4=§9+10% Regeneration
+rldregora.cursed_weapons.rapier_desert_venom6.lore.3=§9+5%% Movement Speed §0Towards Death!
+rldregora.cursed_weapons.rapier_desert_venom6.lore.4=§9+10%% Regeneration
 # Desert Stinger Rapier ================================================================
 rldregora.cursed_weapons.greatsword_jungle_venom1.name=Posessed Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom1.lore.0=The§kre is§r a presence insi§kde th§re Greatsword...
 rldregora.cursed_weapons.greatsword_jungle_venom1.lore.1=§4When in fake hand:
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.2=§9+5% Anti Speed
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.4=§9+10% Less Health
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.2=§9+5%% Anti Speed
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.4=§9+10%% Less Health
 
 rldregora.cursed_weapons.greatsword_jungle_venom2.name=Accursed Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.0=§kThi§rs Greatsw§kord§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.2=§9+3 Max Health
-rldregora.cursed_weapons.greatsword_jungle_venom2.lore.3=§9+5% Fly Speed §0You Fools!
-rldregora.cursed_weapons.greatsword_jungle_venom2.lore.4=§9+10% Agility
+rldregora.cursed_weapons.greatsword_jungle_venom2.lore.3=§9+5%% Fly Speed §0You Fools!
+rldregora.cursed_weapons.greatsword_jungle_venom2.lore.4=§9+10%% Agility
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.5=§0It's Fake!
 
 rldregora.cursed_weapons.greatsword_jungle_venom3.name=Damned Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom3.lore.0=Upon thi§ks Great§rsword lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.greatsword_jungle_venom3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.greatsword_jungle_venom3.lore.2=§9+100% Attack Damage
-rldregora.cursed_weapons.greatsword_jungle_venom3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.greatsword_jungle_venom3.lore.4=§0+100% Emotional Damage
+rldregora.cursed_weapons.greatsword_jungle_venom3.lore.2=§9+100%% Attack Damage
+rldregora.cursed_weapons.greatsword_jungle_venom3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.greatsword_jungle_venom3.lore.4=§0+100%% Emotional Damage
 
 rldregora.cursed_weapons.greatsword_jungle_venom4.name=Deplored Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom4.lore.0=A sinister aura envelops this Greatsword!
 rldregora.cursed_weapons.greatsword_jungle_venom4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.greatsword_jungle_venom4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.greatsword_jungle_venom4.lore.4=§9-10% Fear §0The Eagle And His Stunts!
+rldregora.cursed_weapons.greatsword_jungle_venom4.lore.4=§9-10%% Fear §0The Eagle And His Stunts!
 
 rldregora.cursed_weapons.greatsword_jungle_venom5.name=Reviled Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom5.lore.0=A beautiful Greatsword, engraved with malicious intent.
 rldregora.cursed_weapons.greatsword_jungle_venom5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom5.lore.2=§9+1 Attack Damage
-rldregora.cursed_weapons.greatsword_jungle_venom5.lore.3=§9+5% Knockballs Buff
-rldregora.cursed_weapons.greatsword_jungle_venom5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.greatsword_jungle_venom5.lore.3=§9+5%% Knockballs Buff
+rldregora.cursed_weapons.greatsword_jungle_venom5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.greatsword_jungle_venom6.name=Rebuked Desert Stinger Greatsword
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.0=This Greatsword comes with a twist
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.greatsword_jungle_venom6.lore.3=§9+5% Movement Debuff
-rldregora.cursed_weapons.greatsword_jungle_venom6.lore.4=§9+10% Regeneration
+rldregora.cursed_weapons.greatsword_jungle_venom6.lore.3=§9+5%% Movement Debuff
+rldregora.cursed_weapons.greatsword_jungle_venom6.lore.4=§9+10%% Regeneration
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.5=§0Eagle Troll!
 # Desert Stinger Sword ================================================================
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.name=Posessed Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.0=The§kre is§r a presence insi§kde th§re Sword...
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.2=§9+5% Attack Speed
-rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.3=§9+5% No Attack Damage
-rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.4=§9+10% Max Health
+rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.2=§9+5%% Attack Speed
+rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.3=§9+5%% No Attack Damage
+rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.name=Accursed Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.0=§kThi§rs Swo§krd§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.2=§9+3 Max Death
-rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.4=§9+10% Agility
+rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.4=§9+10%% Agility
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.name=Damned Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.0=Upon thi§ks S§rword lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.2=§9+100% Negative Yes.
-rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.4=§0+100% Attack Speed
+rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.2=§9+100%% Negative Yes.
+rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.4=§0+100%% Attack Speed
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.name=Deplored Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.0=A sinister aura envelops this Sword!
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.4=§91000% Sus
+rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.4=§91000%% Sus
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom5.name=Reviled Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.0=A beautiful Sword, engraved with malicious intent.
 rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.2=§9+1 Sussyberian Heritage
-rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.3=§9+5% Knockback Resistance
-rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.3=§9+5%% Knockback Resistance
+rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.name=Rebuked Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.0=This Sword comes with a twist
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.3=§9+5% Mentalberian Herritage
-rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.4=§9+10% Regeneration
+rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.3=§9+5%% Mentalberian Herritage
+rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.4=§9+10%% Regeneration
 # Desert Stinger Quarterstaff ================================================================
 rldregora.cursed_weapons.staff_desert_venom1.name=Posessed Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom1.lore.0=The§kre is§r a presence insi§kde th§re Quarterstaff...
 rldregora.cursed_weapons.staff_desert_venom1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.staff_desert_venom1.lore.2=§9+5% Return To Mentalberian When Lost
-rldregora.cursed_weapons.staff_desert_venom1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.staff_desert_venom1.lore.4=§9+10% Max Health
+rldregora.cursed_weapons.staff_desert_venom1.lore.2=§9+5%% Return To Mentalberian When Lost
+rldregora.cursed_weapons.staff_desert_venom1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.staff_desert_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.staff_desert_venom2.name=Accursed Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom2.lore.0=§kThi§rs Quartersta§kff§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.staff_desert_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom2.lore.2=§9+3 Min Health
-rldregora.cursed_weapons.staff_desert_venom2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.staff_desert_venom2.lore.4=§9+10% Jump Scare
+rldregora.cursed_weapons.staff_desert_venom2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.staff_desert_venom2.lore.4=§9+10%% Jump Scare
 
 rldregora.cursed_weapons.staff_desert_venom3.name=Damned Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom3.lore.0=Upon thi§ks Quarters§rtaff lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.staff_desert_venom3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.staff_desert_venom3.lore.2=§9+100% Shivaxi'd
-rldregora.cursed_weapons.staff_desert_venom3.lore.3=§9+100% Heaven'd
-rldregora.cursed_weapons.staff_desert_venom3.lore.4=§0+100% Eagle'd
+rldregora.cursed_weapons.staff_desert_venom3.lore.2=§9+100%% Shivaxi'd
+rldregora.cursed_weapons.staff_desert_venom3.lore.3=§9+100%% Heaven'd
+rldregora.cursed_weapons.staff_desert_venom3.lore.4=§0+100%% Eagle'd
 
 rldregora.cursed_weapons.staff_desert_venom4.name=Deplored Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom4.lore.0=A sinister aura envelops this Quarterstaff!
 rldregora.cursed_weapons.staff_desert_venom4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom4.lore.2=§9+1 Agility §0Fails
 rldregora.cursed_weapons.staff_desert_venom4.lore.3=§9+5 Magic §0Gone!
-rldregora.cursed_weapons.staff_desert_venom4.lore.4=§9-10% Fear
+rldregora.cursed_weapons.staff_desert_venom4.lore.4=§9-10%% Fear
 
 rldregora.cursed_weapons.staff_desert_venom5.name=Reviled Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom5.lore.0=A beautiful Quarterstaff, engraved with malicious intent.
 rldregora.cursed_weapons.staff_desert_venom5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom5.lore.2=§9+1 Attack §0Fails
-rldregora.cursed_weapons.staff_desert_venom5.lore.3=§9+5% Knockback Resistance
-rldregora.cursed_weapons.staff_desert_venom5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.staff_desert_venom5.lore.3=§9+5%% Knockback Resistance
+rldregora.cursed_weapons.staff_desert_venom5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.staff_desert_venom6.name=Rebuked Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom6.lore.0=This Quarterstaff comes with a twist
 rldregora.cursed_weapons.staff_desert_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.staff_desert_venom6.lore.3=§9+5% Movement Slowed
-rldregora.cursed_weapons.staff_desert_venom6.lore.4=§9+10% Degeneration
+rldregora.cursed_weapons.staff_desert_venom6.lore.3=§9+5%% Movement Slowed
+rldregora.cursed_weapons.staff_desert_venom6.lore.4=§9+10%% Degeneration
 # Iron Rapier ================================================================
 rldregora.cursed_weapons.rapier_iron1.name=Posessed Rapier
 rldregora.cursed_weapons.rapier_iron1.lore.0=The§kre is§r a presence insi§kde th§re Rapier...
 rldregora.cursed_weapons.rapier_iron1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_iron1.lore.2=§9+5% Kotlin Language
-rldregora.cursed_weapons.rapier_iron1.lore.3=§9+5% Attack Damage
-rldregora.cursed_weapons.rapier_iron1.lore.4=§9+10% Eagle Scripted
+rldregora.cursed_weapons.rapier_iron1.lore.2=§9+5%% Kotlin Language
+rldregora.cursed_weapons.rapier_iron1.lore.3=§9+5%% Attack Damage
+rldregora.cursed_weapons.rapier_iron1.lore.4=§9+10%% Eagle Scripted
 
 rldregora.cursed_weapons.rapier_iron2.name=Accursed Rapier
 rldregora.cursed_weapons.rapier_iron2.lore.0=§kThi§rs Rapi§ker§r will §kbe y§rou§kr en§rd!
 rldregora.cursed_weapons.rapier_iron2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron2.lore.2=§9+3 Untested Script
-rldregora.cursed_weapons.rapier_iron2.lore.3=§9+5% Fly Speed
-rldregora.cursed_weapons.rapier_iron2.lore.4=§9+10% Corrupted
+rldregora.cursed_weapons.rapier_iron2.lore.3=§9+5%% Fly Speed
+rldregora.cursed_weapons.rapier_iron2.lore.4=§9+10%% Corrupted
 
 rldregora.cursed_weapons.rapier_iron3.name=Damned Rapier
 rldregora.cursed_weapons.rapier_iron3.lore.0=Upon thi§ks R§rapier lies a §khe§ravy curs§ke...
 rldregora.cursed_weapons.rapier_iron3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_iron3.lore.2=§9+100% Failed Damage
-rldregora.cursed_weapons.rapier_iron3.lore.3=§9+100% Luck
-rldregora.cursed_weapons.rapier_iron3.lore.4=§0+100% Attack Speed
+rldregora.cursed_weapons.rapier_iron3.lore.2=§9+100%% Failed Damage
+rldregora.cursed_weapons.rapier_iron3.lore.3=§9+100%% Luck
+rldregora.cursed_weapons.rapier_iron3.lore.4=§0+100%% Attack Speed
 
 rldregora.cursed_weapons.rapier_iron4.name=Deplored Rapier
 rldregora.cursed_weapons.rapier_iron4.lore.0=A sinister aura envelops this Rapier!
 rldregora.cursed_weapons.rapier_iron4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron4.lore.2=§9+1 Failed Agility
 rldregora.cursed_weapons.rapier_iron4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.rapier_iron4.lore.4=§9-10% Anti Fear
+rldregora.cursed_weapons.rapier_iron4.lore.4=§9-10%% Anti Fear
 
 rldregora.cursed_weapons.rapier_iron5.name=Reviled Rapier
 rldregora.cursed_weapons.rapier_iron5.lore.0=A beautiful Rapier, engraved with malicious intent.
 rldregora.cursed_weapons.rapier_iron5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron5.lore.2=§9+1 Cursed
-rldregora.cursed_weapons.rapier_iron5.lore.3=§9+5% Knockback Resistance
-rldregora.cursed_weapons.rapier_iron5.lore.4=§9+10% Looting
+rldregora.cursed_weapons.rapier_iron5.lore.3=§9+5%% Knockback Resistance
+rldregora.cursed_weapons.rapier_iron5.lore.4=§9+10%% Looting
 
 rldregora.cursed_weapons.rapier_iron6.name=Rebuked Rapier
 rldregora.cursed_weapons.rapier_iron6.lore.0=This Rapier comes with a twist
 rldregora.cursed_weapons.rapier_iron6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.rapier_iron6.lore.3=§9+5% Movement Speed
-rldregora.cursed_weapons.rapier_iron6.lore.4=§9+10% Degeneration
+rldregora.cursed_weapons.rapier_iron6.lore.3=§9+5%% Movement Speed
+rldregora.cursed_weapons.rapier_iron6.lore.4=§9+10%% Degeneration
 
 ##################################################################
 # rlcraft/loot_bundles/gilded_tools.json
@@ -6838,7 +6848,7 @@ rldregora.milk.spotted_milk.name=Spotted Milk
 rldregora.milk.spotted_milk.lore.0=Black.. Brown and Green spots in the milk?
 rldregora.milk.spotted_milk.lore.1=Not Drinking That!
 rldregora.milk.white_stuff.name=Bucket of White stuff
-rldregora.milk.white_stuff.lore=This can\u0027t be milk.. Can it?
+rldregora.milk.white_stuff.lore=This can't be milk.. Can it?
 
 ##################################################################
 # switch/rlcraft/toilet.json
@@ -7275,3 +7285,46 @@ rldregora.travelers_tribal.banner.name=Tribe of Khadr Kryk
 ##################################################################
 rldregora.fish_undead.skeletonking_mace.lore.0=An ancient heavy relic passed down the Royal Fonny Family
 rldregora.fish_undead.skeletonking_mace.lore.1=Thought to be forever lost to the wicked cities of the corrupted.
+
+##################################################################
+# Potion Potency
+##################################################################
+potion.potency.10=X
+potion.potency.11=XI
+potion.potency.12=XII
+potion.potency.13=XIII
+potion.potency.14=XIV
+potion.potency.15=XV
+potion.potency.16=XVI
+potion.potency.17=XVII
+potion.potency.18=XVIII
+potion.potency.19=XIX
+potion.potency.20=XX
+potion.potency.21=XXI
+potion.potency.22=XXII
+potion.potency.23=XXIII
+potion.potency.24=XXIV
+potion.potency.25=XXV
+potion.potency.26=XXVI
+potion.potency.27=XXVII
+potion.potency.28=XXVIII
+potion.potency.29=XXIV
+potion.potency.30=XXX
+potion.potency.40=XL
+potion.potency.50=L
+potion.potency.60=LX
+potion.potency.70=LXX
+potion.potency.80=LXXX
+potion.potency.90=XC
+potion.potency.99=XCIX
+potion.potency.100=C
+potion.potency.110=CX
+potion.potency.120=CXX
+potion.potency.130=CXXX
+potion.potency.140=CIL
+potion.potency.150=CL
+potion.potency.160=CLX
+potion.potency.170=CLXX
+potion.potency.180=CLXXX
+potion.potency.190=CXC
+potion.potency.200=CC

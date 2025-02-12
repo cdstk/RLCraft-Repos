@@ -118,7 +118,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damaged Fireworks\",Lore:[\"Yeah... setting these of may be risky.\"],LocName:\"rldregora.moderncity_rare_loot.damaged_fireworks.name\",LocLore:[\"rldregora.moderncity_epic_loot.damaged_fireworks.lore\"]}}"
+              "tag": "{display:{Name:\"Damaged Fireworks\",Lore:[\"Yeah... setting these of may be risky.\"],LocName:\"rldregora.moderncity_rare_loot.damaged_fireworks.name\",LocLore:[\"rldregora.moderncity_rare_loot.damaged_fireworks.lore\"]}}"
             }
           ],
           "weight": 20
@@ -129,7 +129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Brick\",Lore:[\"It is a Brick, what did you expect?\"],LocName:\"rldregora.moderncity_rare_loot.brick.name\",LocLore:[\"rldregora.moderncity_epic_loot.brick.lore\"]}}"
+              "tag": "{display:{Name:\"Brick\",Lore:[\"It is a Brick, what did you expect?\"],LocName:\"rldregora.moderncity_rare_loot.brick.name\",LocLore:[\"rldregora.moderncity_rare_loot.brick.lore\"]}}"
             }
           ],
           "weight": 20
@@ -140,7 +140,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Cracked Vial\",Lore:[\"There may be one use left for this vial.\"],LocName:\"rldregora.moderncity_rare_loot.cracked_vial.name\",LocLore:[\"rldregora.moderncity_epic_loot.cracked_vial.lore\"]}}"
+              "tag": "{display:{Name:\"Cracked Vial\",Lore:[\"There may be one use left for this vial.\"],LocName:\"rldregora.moderncity_rare_loot.cracked_vial.name\",LocLore:[\"rldregora.moderncity_rare_loot.cracked_vial.lore\"]}}"
             }
           ],
           "weight": 10
@@ -204,11 +204,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Moldy Bucket\",Lore:[\"Looking into the bucket you are taken over with disgust.\"],LocName:\"rldregora.moderncity_rare_loot.moldy_bucket.name\",LocLore:[\"rldregora.moderncity_epic_loot.moldy_bucket.lore\"]}}"
+              "tag": "{display:{Name:\"Moldy Bucket\",Lore:[\"Looking into the bucket you are taken over with disgust.\"],LocName:\"rldregora.moderncity_rare_loot.moldy_bucket.name\",LocLore:[\"rldregora.moderncity_rare_loot.moldy_bucket.lore\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Infested Bucket\",Lore:[\"There\u0027s Spiders crawling inside...\"],LocName:\"rldregora.moderncity_rare_loot.infested_bucket.name\",LocLore:[\"rldregora.moderncity_epic_loot.infested_bucket.lore\"]}}",
+              "tag": "{display:{Name:\"Infested Bucket\",Lore:[\"There\u0027s Spiders crawling inside...\"],LocName:\"rldregora.moderncity_rare_loot.infested_bucket.name\",LocLore:[\"rldregora.moderncity_rare_loot.infested_bucket.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -218,7 +218,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Smelly Bucket\",Lore:[\"This bucket smells terrible...\"],LocName:\"rldregora.moderncity_rare_loot.smelly_bucket.name\",LocLore:[\"rldregora.moderncity_epic_loot.smelly_bucket.lore\"]}}",
+              "tag": "{display:{Name:\"Smelly Bucket\",Lore:[\"This bucket smells terrible...\"],LocName:\"rldregora.moderncity_rare_loot.smelly_bucket.name\",LocLore:[\"rldregora.moderncity_rare_loot.smelly_bucket.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -228,7 +228,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Dirty Bucket\",Lore:[\"You rather not know the previous contents...\"],LocName:\"rldregora.moderncity_rare_loot.dirty_bucket.name\",LocLore:[\"rldregora.moderncity_epic_loot.dirty_bucket.lore\"]}}",
+              "tag": "{display:{Name:\"Dirty Bucket\",Lore:[\"You rather not know the previous contents...\"],LocName:\"rldregora.moderncity_rare_loot.dirty_bucket.name\",LocLore:[\"rldregora.moderncity_rare_loot.dirty_bucket.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -397,7 +397,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Dusty Bookshelf\",Lore:[\"This bookshelf is extremely old.\"],LocName:\"rldregora.moderncity_rare_loot.dusty_bookshelf.name\",LocLore:[\"rldregora.moderncity_epic_loot.dusty_bookshelf.lore\"]}}"
+              "tag": "{display:{Name:\"Dusty Bookshelf\",Lore:[\"This bookshelf is extremely old.\"],LocName:\"rldregora.moderncity_rare_loot.dusty_bookshelf.name\",LocLore:[\"rldregora.moderncity_rare_loot.dusty_bookshelf.lore\"]}}"
             }
           ],
           "weight": 1
@@ -408,7 +408,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Dusty Emerald\",Lore:[\"Evident by the damage this gem must be old.\"],LocName:\"rldregora.moderncity_rare_loot.dusty_emerald.name\",LocLore:[\"rldregora.moderncity_epic_loot.dusty_emerald.lore\"]}}"
+              "tag": "{display:{Name:\"Dusty Emerald\",Lore:[\"Evident by the damage this gem must be old.\"],LocName:\"rldregora.moderncity_rare_loot.dusty_emerald.name\",LocLore:[\"rldregora.moderncity_rare_loot.dusty_emerald.lore\"]}}"
             }
           ],
           "weight": 5
@@ -477,7 +477,7 @@
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Tailoring by -EnderLanky-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.enderlanky.tailoring.name\",LocNameArgs:[\"-EnderLanky-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Fishing done well by -Emerald-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.emerald.fishing_well.name\",LocNameArgs:[\"-Emerald-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Foraging by -BlockVader-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.blockvader.foraging.name\",LocNameArgs:[\"-BlockVader-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
-            {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Efficient Carpenter by -Titan-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.efficient.carpenter.name\",LocNameArgs:[\"-Titan-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
+            {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Efficient Carpenter by -Titan-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.titan.efficient_carpenter.name\",LocNameArgs:[\"-Titan-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Basic Archery by -WhiteDraco-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.whitedraco.basic_archery.name\",LocNameArgs:[\"-WhiteDraco-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Starviewing by -Xcube-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.xcube.starviewing.name\",LocNameArgs:[\"-Xcube-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Cabinet in 5 minutes by -Charles445-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"],LocName:\"rldregora.moderncity_common_loot.charles445.cabinet_5min.name\",LocNameArgs:[\"-Charles445-\"],LocLore:[\"rldregora.moderncity_common_loot.ancient_book.lore.0\",\"rldregora.moderncity_common_loot.ancient_book.lore.1\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
