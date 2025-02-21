@@ -8,9 +8,9 @@ Fixed/Changed:
 - Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
 - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
 - Added new block Reinforced Concrete that can't be infected by Scape and Run parasites just like Reinforced Iron plate blocks
-- Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
 - Removed Health Nerf and Potion sickness from the Ban Hammer.
 - Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
+- Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
 
 RLCraft to do now:
 P1:
@@ -61,8 +61,8 @@ P1:
   Make Labs a set location except for the port city?
   Teleport outer circle by clicking unique block?
 
-
-- Update SRPMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+- Check Ban Hammer JEI/Lore tooltip in comparison to /setblock ~ ~-1 ~ chest 0 false {LootTable:"dregora:underneath/fish_undead"} loottable
+- Update EagleMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
 - Update EagleMixins for - Long Drowning Arrows
 - Add rock crusher and simmilar machinery in the Underneath
 - Add Machine tooltips, found in abandoned fallout shelters in either the underneath or irradiated biomes.
