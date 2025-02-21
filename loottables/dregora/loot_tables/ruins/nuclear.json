@@ -396,7 +396,7 @@
           "name": "minecraft:heavy_weighted_pressure_plate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"#,LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -1455,7 +1455,6 @@
           "weight": 5,
           "functions": [
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1729,7 +1728,6 @@
           "functions": [
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1784,7 +1782,7 @@
           "name": "variedcommodities:wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {"function": "minecraft:set_attributes",
@@ -1814,7 +1812,7 @@
           "name": "variedcommodities:crowbar",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {"function": "minecraft:set_attributes",
@@ -1844,7 +1842,7 @@
           "name": "variedcommodities:pipe_wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {"function": "minecraft:set_attributes",
@@ -2305,7 +2303,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_coins.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"
+              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_coins.name\"},HideFlags:2}"
             },
             {"function": "set_count","count": {"min": 1,"max": 3}},
             {

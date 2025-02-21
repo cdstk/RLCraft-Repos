@@ -107,7 +107,7 @@
                 locTitle:\"rldregora.simpledungeon.project_icarus.title\",
                 author:\"Unknown\",
                 locAuthor:\"rldregora.simpledungeon.project_icarus.author\",
-                display:{Lore:[\"This book contains information regarding project Icarus,\".\" the predecessor of the Dregorian Voyager. \",\"The summary gives a some explanation on it\u0027s origin\"],LocLore:[\"This book contains information regarding project Icarus,\",\"rldregora.simpledungeon.project_icarus.lore.1\",\"rldregora.simpledungeon.project_icarus.lore.2\"]}
+                display:{Lore:[\"This book contains information regarding project Icarus,\",\" the predecessor of the Dregorian Voyager. \",\"The summary gives a some explanation on it\u0027s origin\"],LocLore:[\"This book contains information regarding project Icarus,\",\"rldregora.simpledungeon.project_icarus.lore.1\",\"rldregora.simpledungeon.project_icarus.lore.2\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },

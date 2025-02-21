@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:fire\",
-                display:{Name:\"Potion of Fiery Strength\",Lore:[\"§9Fiery Strength (2:00)\",\"\",\"§5When Applied:\",\"§9+4 Attack Damage\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_5.fiery_strength.name\",LocLore:[\"rldregora.cursed_potion_5.fiery_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.skull\"],LocLoreArg:[\"\",\"\",\"\",\"4\",\"\"]},
+                display:{Name:\"Potion of Fiery Strength\",Lore:[\"§9Fiery Strength (2:00)\",\"\",\"§5When Applied:\",\"§9+4 Attack Damage\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_6.fiery_strength.name\",LocLore:[\"rldregora.cursed_potion_6.fiery_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.skull\"],LocLoreArg:[\"\",\"\",\"\",\"4\",\"\"]},
                 CustomPotionEffects:[{Id:5,Duration:2400},{Id:7,Duration:40},{Id:27,Duration:2400}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:fire\",
-                display:{Name:\"Potion of Fiery Strength\",Lore:[\"§9Fiery Strength (2:00)\",\"\",\"§5When Applied:\",\"§9+4 Attack Damage\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_5.fiery_strength.name\",LocLore:[\"rldregora.cursed_potion_5.fiery_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.sadface\"],LocLoreArg:[\"\",\"\",\"\",\"4\",\"\"]},
+                display:{Name:\"Potion of Fiery Strength\",Lore:[\"§9Fiery Strength (2:00)\",\"\",\"§5When Applied:\",\"§9+4 Attack Damage\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_6.fiery_strength.name\",LocLore:[\"rldregora.cursed_potion_6.fiery_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.sadface\"],LocLoreArg:[\"\",\"\",\"\",\"4\",\"\"]},
                 CustomPotionEffects:[{Id:5,Duration:2400},{Id:7,Duration:40},{Id:27,Duration:2400}],
                 HideFlags:32
               }"

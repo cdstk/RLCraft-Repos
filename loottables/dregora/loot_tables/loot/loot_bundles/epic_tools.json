@@ -307,28 +307,28 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["head"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["head"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["head"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["head"]}
               ]
             }
           ],
@@ -371,28 +371,28 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["chest"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["chest"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["chest"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["chest"]}
               ]
             }
           ],
@@ -435,28 +435,28 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["legs"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["legs"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["legs"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["legs"]}
               ]
             }
           ],
@@ -499,28 +499,28 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -1, "max": -2}, "operation": "addition","slot": ["feet"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.luck","name": "luck","amount": {"min": 0.1, "max": 0.5}, "operation": "addition","slot": ["feet"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.knockbackResistance","name": "knockbackResistance","amount": {"min": 1.0, "max": 2.0}, "operation": "addition","slot": ["feet"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": 0.0, "max": 2.0}, "operation": "addition","slot": ["feet"]}
               ]
             }
           ],

@@ -4044,7 +4044,7 @@ rldregora.piratejunk_loot.blunt_sword.lore=A Pirate sword, all battered up.
 ##################################################################
 rldregora.ancient.the_encounter.title=The Encounter
 rldregora.ancient.the_encounter.author=Navigational Officer
-rldregora.ancient.the_encounter.lore=A old book, signed by the Dregorian Voyager navigational officer
+rldregora.ancient.the_encounter.lore=An old book, signed by the Dregorian Voyager navigational officer
 rldregora.ancient.the_encounter.page.1=After spending over a thousand years in space we returned to Earth knowing that since the time of departure approximately 1100 years had passed. Expecting to be welcomed by a thousand voices, we were met with silence.\n\n 
 rldregora.ancient.the_encounter.page.2=For a long time we came up with all manner of theories but none had prepared us for what we saw once in range of Earth: A desolate Mars-like planet with wide deserts and no communications whatsoever. What happened to the Earth?
 
@@ -4197,7 +4197,7 @@ rldregora.eaglelore.undead_curse.title=My Undead Curse
 # "Heaven" is a name. DON'T TRANSLATE IT!
 rldregora.eaglelore.undead_curse.author=- Heaven, The Wise -
 rldregora.eaglelore.undead_curse.lore=Book of Heaven
-rldregora.eaglelore.undead_curse.page.1=Not only have i seen true horrors of day past, not only have I seen humankind fall long before I sailed these waters where few venture to join the armies of what would make me. A dreaded soul with many an era's burned within my dark eyes. Here I patrol these waters
+rldregora.eaglelore.undead_curse.page.1=Not only have I seen true horrors of day past, not only have I seen humankind fall long before I sailed these waters where few venture to join the armies of what would make me. A dreaded soul with many an era's burned within my dark eyes. Here I patrol these waters
 rldregora.eaglelore.undead_curse.page.2=stopping them from joining the armies until the one arrives. \n\nMay you find my book, may you end my nightmare you shall surely be powerful enough to venture further, until the horizon where dead man roam the eternal wasteland.
 rldregora.eaglelore.undead_curse.page.3=Walk and you shall find what happened to this Earth, you shall find the truth of these lands of Dregora in which true horrors were born.\n\nVenture forth, venture deep and beyond for thou shall find the truth.
 
@@ -4224,7 +4224,7 @@ rldregora.eaglelore.world_days_past.page.16=and had forsaken the vows we made as
 
 rldregora.eaglelore.ends_bring_salvation.title=As ends bring salvation
 # "Sam" is a name. DON'T TRANSLATE IT!
-rldregora.eaglelore.ends_bring_salvation.author=- Sam, - The Knowledgeable -
+rldregora.eaglelore.ends_bring_salvation.author=- Sam, The Knowledgeable -
 rldregora.eaglelore.ends_bring_salvation.lore=Book of Sam
 rldregora.eaglelore.ends_bring_salvation.page.1=As others wrote their book for those who came after, some telling the story of now, others telling the story of past days I will look to the horizon and witness the future in which neither old or current day will return.
 rldregora.eaglelore.ends_bring_salvation.page.2=Neither will hatred, corruption or love as all that has a begin will have it's end.
@@ -4276,7 +4276,7 @@ rldregora.farmland.the_traveler.page.10=markings, she couldn't see the story. An
 rldregora.farmland.the_book.title=The Book
 rldregora.farmland.the_book.author=The Traveler
 rldregora.farmland.the_book.lore=A weird, empty book... except...
-rldregora.farmland.the_book.page.1=\n\n\n                  §4§lSEEK THE END§r§r\n                 §o- A TRAVELER -
+rldregora.farmland.the_book.page.1=\n\n\n                  §4§lSEEK THE END§r§r\n\n\n    §o- A TRAVELER -
 
 ##################################################################
 # lore/frozen.json
@@ -4355,7 +4355,7 @@ rldregora.generic.the_blight1.page.11=shattered by a simple malfunction within t
 rldregora.generic.dregorian_demise.title=Dregorian's Demise - Chapter 2
 rldregora.generic.dregorian_demise.author=Dregorian
 rldregora.generic.dregorian_demise.lore=A Distant Hope...
-rldregora.generic.dregorian_demise.page.1=§l§4     Chapter 2  §r\\\\n\nAs the staff crew launched into orbit on board a much smaller vessel towards the Dregorian Voyager, all of humanity applauded them. A decade would pass until they would return with what everyone hoped to be good news about one
+rldregora.generic.dregorian_demise.page.1=§l§4     Chapter 2  §r\n\nAs the staff crew launched into orbit on board a much smaller vessel towards the Dregorian Voyager, all of humanity applauded them. A decade would pass until they would return with what everyone hoped to be good news about one
 rldregora.generic.dregorian_demise.page.2=or more distant planets suitable to host human life. A place where they could prosper without the atmosphere being polluted beyond saving. However, among all these good hopes and wishes there was a tiny little object they did not anticipate. Far
 rldregora.generic.dregorian_demise.page.3=away, light years in fact, an asteroid was traveling for many million years headed on a collision course with a much larger asteroid. With a chaotic collision they merged, but not completely, as tiny rocks flew off in all
 rldregora.generic.dregorian_demise.page.4=directions. One of them headed towards a little moon orbiting a far, far away planet in an unknown system which was currently being visited by the Dregorian Voyager.\n  
@@ -4368,7 +4368,7 @@ rldregora.generic.dregorian_demise.page.10=shutdown sequence was interrupted by 
 rldregora.generic.dregorian_demise.page.11=and got hit by a surge caused by skipping the shutdown sequence. The navigational chip replacement was nothing to worry about, the same goes for the Crontonium Crystal if it wasn't a one of a kind crystal. Of course there were
 rldregora.generic.dregorian_demise.page.12=replacements, but not as good as the initial one.\n\n\nA couple days passed, systems were running again and they knew exactly where they were. In sublime condition their\n\n 
 rldregora.generic.dregorian_demise.page.13=destination would have been 5 years ahead. A simple dream away in stasis. Yet the ship could only travel at a mere fraction of its former speed. If the Dregorian Voyager set course for its original destination it would take 987 years to reach while earth was close to a
-rldregora.generic.dregorian_demise.page.14=1000 years away. With both destinations nearly equally as bad they voted to return home.\n\n- To be continued in -\n 'lThe Arrival's Demise'r\n    ( Chapter 3 )
+rldregora.generic.dregorian_demise.page.14=1000 years away. With both destinations nearly equally as bad they voted to return home.\n\n- To be continued in -\n '§lThe Arrival's Demise'§r\n    ( Chapter 3 )
 
 rldregora.generic.the_arrival.title=The Arrival - Chapter 3
 rldregora.generic.the_arrival.author=Dregorian
@@ -4444,7 +4444,10 @@ rldregora.harbor.sword_deep.page.4=Am I growing old? I couldn't lift the thing a
 rldregora.harbor.sword_deep.page.5=I wonder what it will be worth, as it's so heavy I don't think it would be very useful in combat, but we'll see.\n\n 
 
 rldregora.harbor.sword_of_deep.name=Sword of the Deep
-rldregora.harbor.sword_of_deep.lore=A heavy, magical sword that packs a punch
+rldregora.harbor.sword_of_deep.lore=A heavy, magical sword that packs a punch.
+
+rldregora.harbor.anchor.name=Anchor
+rldregora.harbor.anchor.lore=This sword seems to be too heavy to have been made from just iron.
 
 ##################################################################
 # lore/hiddenmine.json
@@ -4670,17 +4673,17 @@ rldregora.junglelore.travelers_mission.page.6=Apparently some may have survived 
 ##################################################################
 # lore/lorespooky.json
 ##################################################################
-rldregora.lorespooky.moonlit_trap.title=The Moonlit Trap.
+rldregora.lorespooky.moonlit_trap.title=The Moonlit Trap
 rldregora.lorespooky.moonlit_trap.author=Krandir the Hunter
 rldregora.lorespooky.moonlit_trap.lore=A Hunter's encounter with the Legend of the Trap.
 rldregora.lorespooky.moonlit_trap.page.1=\n§l  A Hunter's Story§r\n\n'Hello', I suppose I should write. A long time passed since I sharpened my charcoal and opened up a blank page, but today seems fitting facing yet another trial. 
 rldregora.lorespooky.moonlit_trap.page.2=It all started a long time ago after I did terrible things and rightfully so lost my standing in my community. As a result I got exiled and traveled the lands towards the East. 
 rldregora.lorespooky.moonlit_trap.page.3=The first season was unforgiving but with the skills of a Hunter I knew where to go and how to build myself a shelter. Countless seasons and many, many moons passed as I lived from what the forest had to offer.\n\n 
 rldregora.lorespooky.moonlit_trap.page.4=I guess i could've counted myself lucky.. Given the terrible things I did.\n\nI had a roof, a fire and a good meal on my plate by sun set.\n 
-rldregora.lorespooky.moonlit_trap.page.5=To top it off I even had the music of the forest to wake me up and soothe me into sleep every single night.\n\nAt least until it suddently stopped.
-rldregora.lorespooky.moonlit_trap.page.6=It started with unfamilair noises which slowly grew louder and closer with every passing night until finally the scratching started. I feared of what was outside but was not about to give up on my home. Or so I thought...
+rldregora.lorespooky.moonlit_trap.page.5=To top it off I even had the music of the forest to wake me up and soothe me into sleep every single night.\n\nAt least until it suddenly stopped.
+rldregora.lorespooky.moonlit_trap.page.6=It started with unfamiliar noises which slowly grew louder and closer with every passing night until finally the scratching started. I feared of what was outside but was not about to give up on my home. Or so I thought...
 rldregora.lorespooky.moonlit_trap.page.7=Another season passed and by spring only silence remained. Not the monsters, not the wildlife... Nothing remained. This eventually force me to pack up my gear in an attempt to head North. Nothing however would have prepared me for the encounter I had.. have?
-rldregora.lorespooky.moonlit_trap.page.8=It was a dark night void of stars that marked my third in these lifeless woods. A blanket of thick grey fog rolled in over the moonlit forest. In the distance flickering lights acompanied by foul shadows moving in between the tall trees.
+rldregora.lorespooky.moonlit_trap.page.8=It was a dark night void of stars that marked my third in these lifeless woods. A blanket of thick grey fog rolled in over the moonlit forest. In the distance flickering lights accompanied by foul shadows moving in between the tall trees.
 rldregora.lorespooky.moonlit_trap.page.9=Silently with my back against the trunk of a tree I sat in my ditch hoping it would not become my grave. Leaves and branches covered the top in a attempt to hide myself from whatever roamed these woods.
 rldregora.lorespooky.moonlit_trap.page.10=It was late in the night when I heard a noise that even I with all my experience couldn't place yet it sounded familiar. Moments passed until i saw a glimpse of it through the web of branches and leaves.
 rldregora.lorespooky.moonlit_trap.page.11=Its big hollowed out eyesockets stared right back at me as it stomped it's feet on the ground and made a neighing sound. It was clear to me it knew I was there and as foul as it looked without skin or flesh it did not make a move.
@@ -4707,7 +4710,7 @@ rldregora.lorespooky.greywood_crimson_bellows.page.1=§4Trapped under§lneath it
 
 rldregora.lorespooky.whispers_treasure.title=Whispers of treasure and blood
 rldregora.lorespooky.whispers_treasure.author=Captain Kjetill
-rldregora.lorespooky.whispers_treasure.lore=A blood stained journal. One entry remains readable..
+rldregora.lorespooky.whispers_treasure.lore=A blood stained journal. One entry remains readable...
 rldregora.lorespooky.whispers_treasure.page.1=Day 23, Th§4e end d§l§4raws ne§r§4ar.§r\n\nTrapped d§ceep w§l§cithin the §r§cbelly §l§cof the mon§r§cster§r we fear the worst. Some of the §cmen that§r tried a taste of§4 wh§l§4at §r§4mak§res up the innard§cs of§r this monster started §l§4wan§r§4de§rring off.
 rldregora.lorespooky.whispers_treasure.page.2=Never had§c I §rexpected to end up§r§4 in§r§l§4 such a dreadful place w§r§4he§rn we ventured into the Greywoods searching fo§r§4r tre§r§l§4asu§r§4re.§r 23 days have passed since we entered th§r§ce§r§l§c woo§r§cds§r and the hunger is starting to §r§4set in. §r§l§4I wish I kept hold o§r§4f at §rleast one bag of provisions
 rldregora.lorespooky.whispers_treasure.page.3=whilst running for the horro§r§l§crs tha§rt chased us down deeper. This place d§r§4oes §rsome weird things. A couple o§r§l§4f days my §rmost trusted officer B§r§castf§rer went missing but I swear I could see him standing ac§r§l§4ross the  blood-red lake just this afternoon§r.
@@ -4771,7 +4774,7 @@ rldregora.mayanlore.red_sun.page.4=тнιѕ ιѕ тнє єи∂ σf συя єя�
 rldregora.mayanlore.symbols2.title=χɶραψɷτωɸɸ
 rldregora.mayanlore.symbols2.author=ɹχζφ
 rldregora.mayanlore.symbols2.lore=An extremely old book you can't make sense of...
-rldregora.mayanlore.symbols2.page.1=§7 τζɯɤμɮξψφɤγκμδɭηπεɠενɥιɳε\nɶɻɦɨζɶι§0  █§4██§0█   §7ɲηɸɹν\nɳιɶκɨιικ§r  §4█§0██§4█§r   §7ωρρɸ\n βμοɻλɨɱονɦɠλɹιωɻɽɮχηɯδɻλ\nɭɸψɠɭɨσηγσɹβψɯξɶɮɭɹεɤɶγ\n ɮψɹɲɫμυɹψφνγɹɨαψζ ɤɭɨβɨ\n ɣγɭɱɩζɤξλοɮɤβδξɠɭ δɫɦɣκ\n ηɸιɹφɷɩτɹψɭɩɽɲητɮλɶμɱτɨ\n ζ ɭɶɳɦβɤ ɭɽɱɱσɩɠηɮɠɥζɻɮ\n ɤιθχɳζɲɠιɱɣɹφακ ωπɫεαɶɹ\n  τυξονɦɩɸνɫρξννεɠωɩθɠλɽπ\n ξλβνψɫδɶοτσθψρατιɠηπγδα\n 
+rldregora.mayanlore.symbols2.page.1=§7τζɯɤμɮξψφɤγκμδɭηπεɠενɥιɳε\n§7ɶɻɦɨζɶι§0  █§4██§0█   §7ɲηɸɹν\n§7ɳιɶκɨιικ§r  §4█§0██§4█§r   §7ωρρɸ\n βμοɻλɨɱονɦɠλɹιωɻɽɮχηɯδɻλ\nɭɸψɠɭɨσηγσɹβψɯξɶɮɭɹεɤɶγ\n ɮψɹɲɫμυɹψφνγɹɨαψζ ɤɭɨβɨ\n ɣγɭɱɩζɤξλοɮɤβδξɠɭ δɫɦɣκ\n ηɸιɹφɷɩτɹψɭɩɽɲητɮλɶμɱτɨ\n ζ ɭɶɳɦβɤ ɭɽɱɱσɩɠηɮɠɥζɻɮ\n ɤιθχɳζɲɠιɱɣɹφακ ωπɫεαɶɹ\n  τυξονɦɩɸνɫρξννεɠωɩθɠλɽπ\n ξλβνψɫδɶοτσθψρατιɠηπγδα\n 
 rldregora.mayanlore.symbols2.page.2=§7φɯɭκαδζψɤιωψψɲɸɹτεθμγκτβο\nɭɨɶɷφπɭɯτɠɻɮɸɣ οɭɽοωɫη γζ\nɦɶητɹɹτɥφ λɷɦζωεοɱθɠ υɽɱω\nφɫε ɠαɠβρɸββ ɤɣɷηɣξɭ ωɣɮθ\nɽɲψɥε κɷɦɯωɤɷɥɹψɸɱωσθνερβ\nɭɷωɥφɭθθρβɱπεφμɹɨκβηξɻψɱɨ\nιρɫɫɠθɭɯɽɣɠɲηɱατɽσɯɷδμγɣɱ\nμερψɣορψηɶɦɽκοχωɫβαɩɨɳζɳσ\nξɽβζψκγλχκ χɠσπβɮɮɨɸοθɤισ\nɥɦɤθοɣ ξɨχβυψɭμοɻɸπτμχστα\nɯκɤɮɻεωɶɦφɣνμνκχɱɹυɫɠεξɶδ\nɸɱɸɯɷɱιηζɽεοɷɹβɹεωɦρɮɹηζα\n 
 rldregora.mayanlore.symbols2.page.3=§7θɫνγσɲɻɹμɩπɷυɸλπρτφɦχρρɳξ\nωλεαɹɻβɤσυɻρɸλνɩɤɳνξɤαγωɲ\nɦγσιɯɶοξɹχζφφɫɲεμɶɠɭξξɻɽο\nɲθɫɱδψɻɣβσɫɮυμɭψενɳεθɸɦλλ\nβγɹɸɤνɣɨωυɱɲɹɳɽɯηοɦβδπɸɣη\nπɷμψιοɠκɻυλɸ βɦɷɤɱτεχεσνɫ\nφɳɷɣδɩɠξɹιταɱɻɠɷɳθɩɸ εθυɱ\nεɣɳɫοɱɶɮλɣαχɶραψɷτωɸɸ σδ\nγɯɶισɣɻɣνɷξπιθɫκɹθνχευɫɠɷ\nɳɣɯɠɻζɱαɻιαɽιυɻαɲɲɨτɲψɤσθ\nυθγɽρδɶχδɸɶε ɸυυορɣɦυɦκηβ\nɻɻξɯχγαɦχχυθαɯχωψνσμɯɭγμɶ\n\n 
 
@@ -4780,19 +4783,19 @@ rldregora.mayanlore.book_knowledge.author=ΣΖΛΤ
 rldregora.mayanlore.book_knowledge.lore.0=The title written in an understandable
 rldregora.mayanlore.book_knowledge.lore.1=language reveals the potential knowledge
 rldregora.mayanlore.book_knowledge.lore.2=hidden within this book...
-rldregora.mayanlore.book_knowledge.page.1=╔════════════╗\n ⬛                 ⬛\n§4 §l§4 Book of Knowledge§r\n ⬛                 ⬛\n╠════════════╣\n     ⬛  ⬛ ⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n\n╚════════════╝
+rldregora.mayanlore.book_knowledge.page.1=╔══════════╗\n  ⬛                 ⬛\n§4 §l§4Book of Knowledge§r\n  ⬛                 ⬛\n╠══════════╣\n     ⬛  ⬛ ⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n\n╚══════════╝
 rldregora.mayanlore.book_knowledge.page.2=ΞΕΑΕΥΛΓΠΤΥΣΡΜΣΩΖΘΞΞΞ\nΤΨΓΨΖΙΜΥΝΔΒΨΩΥΒΜΦΕΝΨ\nΜΕΟΒΚΚΨΚΩΒΚΧΚΜΞΖΩΓΖΡ\nΧΦΘΝΨΚΗΥΑΜΗΥΗΨΟΝΝΛΛΔ\nΛΕΔΔΟΗΥΝΡΩΨΧΚΞΙΟΨΗΜΠ\nΚΣΒΧΦΝΞΥΛΓΑΧΧΡΦΨΞΗΔΗ\nΩΥΧΗΤΟΚΕΜΘΤΛΥΧΝΖΣΖΤΝ\nΟΣΕΟΦΟΡΕΝΔΣΝΥΑΩΙΣΩΥΘ\nΞΑΝΗΚΕΛΡΤΙΨΠΚΤΨΕΩΛΧΗ\nΦΔΜΙΠΡΨΠΟΖΤΒΘΦΡΞΞΜΓΝ\nΙΣΑΠΚΜΩΑΔΚΛΠΘΨΦΔΩΒΕΕ
 rldregora.mayanlore.book_knowledge.page.3=ΙΓΓΗΜΨΚΑΧΩΙΗΟΨΙΕΧΝΤΞ\nΨΑΒΩΔΖΤΘΖΗΟΨΥΣΜΟΚΓΡΙ\nΠΦΧΗΨΔΧΒΩΚΗΡΒΘΞΧΞΟΘΡ\nΛΛΛΛΗΙΔΞΘΞΙΘΔΛΒΕΒΙΩΡ\nΤΥΒΤΕΣΡΑΩΩΒΖΨΨΘΞΩΒΗΨ\nΜΜΨΟΒΨΤΡΖΨΥΧΙΕΙΤΑΝΓΡ\nΩΣΧΦΨΩΤΕΘΘΠΞΝΜΑΟΨΒΓΩ\nΡΖΧΗΣΨΓΕΣΡΗΦΑΜΒΞΚΟΞΧ\nΚΝΨΥΣΝΨΩΒΕΤΚΜΚΗΤΧΥΝΙ\nΟΝΓΟΝΥΒΔΔΘΙΝΚΟΩΟΟΑΝΔ\nΨΡΩΒΚΞΟΜΠΘΖΡΧΛΙΓΤΧΙΧ
 rldregora.mayanlore.book_knowledge.page.4=ΨΥΙΚΖΒΕΘΔΒΞΛΠΑΘΓΣΗΨΥ\nΛΕΨΓΑΡΘΛΑΖΠΨΜΛΩΦΖΜΓΞ\nΤΛΚΖΟΥΣΚΠΜΥΗΦΞΒΞΑΠΘΠ\nΠΒΒΠΞΡΔΓΦΓΝΒΔΚΘΤΚΧΙΛ\nΔΨΨΧΧΠΣΟΞΜΝΝΗΑΔΓΔΤΞΨ\nΚΗΣΥΕΞΩΡΔΞΙΘΦΨΘΔΘΩΛΖ\nΠΞΨΦΓΖΤΟΜΘΒΙΧΒΚΣΧΝΥΨ\nΦΖΨΡΔΦΤΑΨΘΣΛΕΩΣΟΝΕΑΠ\nΟΗΚΒΟΦΤΡΨΤΧΘΣΚΜΠΖΠΣΚ\nΚΔΓΞΓΛΚΖΚΣΦΡΥΣΦΔΗΤΤΚ\nΤΥΕΦΑΠΣΥΣΟΠΡΞΛΟΝΨΓΟΚ
 
 rldregora.mayanlore.gold_arrow.name=Gold Tipped Arrow
 rldregora.mayanlore.gold_arrow.lore.0=These arrows seem to be extremely old yet sturdy
-rldregora.mayanlore.gold_arrow.lore.1= and flexible where required.
+rldregora.mayanlore.gold_arrow.lore.1=and flexible where required.
 
 ##################################################################
 # lore/medievalcity.json
 ##################################################################
-rldregora.medievalcity.lurking_trees.title=Lurking below the trees.
+rldregora.medievalcity.lurking_trees.title=Lurking below the trees
 rldregora.medievalcity.lurking_trees.author=The Whisperer
 rldregora.medievalcity.lurking_trees.lore=A book meant to scare children from venturing too far.
 rldregora.medievalcity.lurking_trees.page.1=Once upon a time there was a fisherman and the fisherman had a son. Every early morning the boy would wake up, sometimes even before his dad. Why you may ask? Well, the boy looked up to his dad the fisherman who even procured a claw of the beasts from beyond.
@@ -4822,10 +4825,10 @@ rldregora.medievalcity.forbidden_laws.page.2=for these times. However despite be
 rldregora.medievalcity.ancient_church.title=Ancient Book of the Church
 rldregora.medievalcity.ancient_church.author=The Dregoran
 rldregora.medievalcity.ancient_church.lore=This Ancient book is mostly unreadable, however some can just nearly be read...
-rldregora.medievalcity.ancient_church.page.1=Entry 1-9:\nIn the beginning Dregorians came upon our lands. The land was scorched and lifeless and darkness was over the face of the deep. And a Dregorian said, let there be light, and light there was. And a Dregorian said let there be good and the corrupted left.
-rldregora.medievalcity.ancient_church.page.2=Entry 1-17\nAs for the one who is weak in faith, welcome him, but not to quarrel over opinions.\n 
-rldregora.medievalcity.ancient_church.page.3=Entry 3-19\nBut of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.
-rldregora.medievalcity.ancient_church.page.4=Entry 11-4\nAnd God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.
+rldregora.medievalcity.ancient_church.page.1=§lEntry 1-9:\n§rIn the beginning Dregorians came upon our lands. The land was scorched and lifeless and darkness was over the face of the deep. And a Dregorian said, let there be light, and light there was. And a Dregorian said let there be good and the corrupted left.
+rldregora.medievalcity.ancient_church.page.2=§lEntry 1-17:\n§rAs for the one who is weak in faith, welcome him, but not to quarrel over opinions.\n 
+rldregora.medievalcity.ancient_church.page.3=§lEntry 3-19:\n§rBut of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.
+rldregora.medievalcity.ancient_church.page.4=§lEntry 11-4:\n§rAnd God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.
 
 rldregora.medievalcity.founders_note.title=Founder's Note
 rldregora.medievalcity.founders_note.author=Sapphiran Origin, The Sailor
@@ -4884,7 +4887,7 @@ rldregora.miningtown.last_resident.page.4=I am the only one remaining at the cam
 rldregora.miningtown.red_emeralds.title=Red Tainted Emeralds
 rldregora.miningtown.red_emeralds.author=Unknown
 rldregora.miningtown.red_emeralds.lore=A very expensive looking book.
-rldregora.miningtown.red_emeralds.page.1=§6§l-------------------§r\n§4Red Tainted Emeralds§r\n§l§6----------------§r\n\n§lA§rs told by leaves carried by the wind, a desolate town of emeralds and gold once seemingly brimming of life and opportunities but corrupted at its core.
+rldregora.miningtown.red_emeralds.page.1=§6§l----------------§r\n§4Red Tainted Emeralds§r\n§6§l----------------§r\n\n§lA§rs told by leaves carried by the wind, a desolate town of emeralds and gold once seemingly brimming of life and opportunities but corrupted at its core.
 rldregora.miningtown.red_emeralds.page.2=This is a small story written by those who came first but never left.\n\nMany a decade ago when the mountains were still pure and untainted by human hands there was a traveler who found a glistening stone of nature.
 rldregora.miningtown.red_emeralds.page.3=One event that would lead to the other and soon there stood a house of coin accompanied by tunnels leading to deep within the mountains. Filled with the stench of sweat and greed, overflowing and seeping through the rocks.
 rldregora.miningtown.red_emeralds.page.4=Deeper and deeper until it found and filled a chasm of wrath. The door of corruption was unlocked and in came the horrors from worlds beyond.\n\nOne night passed and empty was the house of coin. Empty were the barracks.
@@ -4897,12 +4900,12 @@ rldregora.miningtown.perfect_rocks.page.1=\nBeing but a lonely miner in search o
 rldregora.miningtown.perfect_rocks.page.2=I continued mining through this rock curious to its contents but found something I would have never anticipated. The hollow sound of rocks falling down on the other side of this strange rock echoed through the tunnels as the dust settled.
 rldregora.miningtown.perfect_rocks.page.3=A sound of metal touching metal in the distance accompanied by a high-pitched sound of some kind. The rumbling of rocks made it hard to know what was going on but as soon as the dust settled I found myself staring at the smoothest wall I had ever seen.
 rldregora.miningtown.perfect_rocks.page.4=It wasn't just a wall though but part of a hallway  I apparently broke into.
-rldregora.miningtown.perfect_rocks.page.5=As i peaked around the corner my thoughts filled themselves with riches and fame like within the stories told by travelers about treasure filled temples and magical swords.
+rldregora.miningtown.perfect_rocks.page.5=As I peaked around the corner my thoughts filled themselves with riches and fame like within the stories told by travelers about treasure filled temples and magical swords.
 rldregora.miningtown.perfect_rocks.page.6=I also thought about the monsters they had to conquer to get these items and so my curiosity made me move forward into the tunnel but ever so quiet. I walked what felt like a fair distance when I arrived at a set of stairs when I heard a sound from my right.
 rldregora.miningtown.perfect_rocks.page.7=A cold shivering moved through my back into my neck but I was able to shake off the trembling that would have followed soon after. As I retraced my steps slowly while I stared at the direction the sound came from.
 rldregora.miningtown.perfect_rocks.page.8=A loud clang followed and my hearth sunk to my feet. Loud screeching followed and I started running like a madman. Through the tunnels and through the mines. With every step the sound grew more silent but this did not stop me from running.
 rldregora.miningtown.perfect_rocks.page.9=Many moons later after I gathered the courage of a lifetime I packed my gear and a box of explosives. After what seemed hours of sitting in the dark and listening to the noises from up ahead, usually far away and sometimes closer, I was ready.
-rldregora.miningtown.perfect_rocks.page.10=As i took out my flint and steel I heard that same noise again... Did it notice me? My hands trembled and I failed the first 2 strikes. The 3rd one successfully lit up the fuse followed by yet again, that same noise but now much, much closer.
+rldregora.miningtown.perfect_rocks.page.10=As I took out my flint and steel I heard that same noise again... Did it notice me? My hands trembled and I failed the first 2 strikes. The 3rd one successfully lit up the fuse followed by yet again, that same noise but now much, much closer.
 rldregora.miningtown.perfect_rocks.page.11=I jumped up and ran. I did not stopped to pick up my gear. I did not stopped to check the treeline for possible dangers. I did not stop to hide my trail as everything that kept me sane went overboard with that screech.
 rldregora.miningtown.perfect_rocks.page.12=Till this day I dared not to return to that place and I feel like I can count myself the luckiest man still alive.
 
@@ -4934,7 +4937,7 @@ rldregora.moderncity.pillars_heaven.title=Pillars of Heaven
 rldregora.moderncity.pillars_heaven.author=Scavenger
 rldregora.moderncity.pillars_heaven.lore=The journey of a scavenger and some of their findings.
 rldregora.moderncity.pillars_heaven.page.1=It has been several days up top since I left the safe confines of the underground colony and despite the horrors that roam around I couldn't resist the urge to climb these massive towers which once seemed to be mighty
-rldregora.moderncity.pillars_heaven.page.2=settlements as these structures contain remanants of beds, cabinets... living spaces I think.. Some even contain chests with valuables inside such as old grimoires containing spells and the likes.
+rldregora.moderncity.pillars_heaven.page.2=settlements as these structures contain remnants of beds, cabinets... living spaces I think.. Some even contain chests with valuables inside such as old grimoires containing spells and the likes.
 
 rldregora.moderncity.wasted_earth_bones_death.title=Wasted Earth, Bones and Death
 rldregora.moderncity.wasted_earth_bones_death.author=Explorer
@@ -4979,7 +4982,7 @@ rldregora.pirate.pirates_treasure.title=The Pirate's Treasure
 rldregora.pirate.pirates_treasure.author=Librarian
 rldregora.pirate.pirates_treasure.lore=One of the three books needed to find the Hidden Library\n\nX is like Z as the vikings tell.
 rldregora.pirate.pirates_treasure.page.1=For these lands lie in the abyss of maps unfound and unexplored by many and hidden for even the keenest of eyes beyond this book no traces remain and all attempts finding these lands end in vain for there shall only be a few who will venture beyond the real.
-rldregora.pirate.pirates_treasure.page.2=Thou shall find the books; §4Valhalla§r in viking realm and The §4Hidden Map§r in north-western lands.
+rldregora.pirate.pirates_treasure.page.2=Thou shall find the books: §4Valhalla§r in viking realm and The §4Hidden Map§r in north-western lands.
 rldregora.pirate.pirates_treasure.page.3=For these treasures you would need to look in the unexplored lands for Viking tales and underneath the tallest mountains of north-western highlands in the hidden village mines.
 
 rldregora.pirate.easter_trials.title=Guide of Easter Trials
@@ -5002,7 +5005,7 @@ rldregora.pirate.ratbeards.page.5=Not even a dead body. All I could find were so
 rldregora.pirate.ratbeards.page.6=And so I started searching for a sign of life up ahead the shoreline only to be met by not only sheer cliffs at front but at back and land inwards too. I would need my arm to heal properly before I\ncould go any further.
 rldregora.pirate.ratbeards.page.7=Days passed until my little Natsu made his first appearance as he tried to steal some of my fish. I attempted to catch him as he would make a nice change for dinner but I failed. In the following weeks he\nstarted returning on regular basis,
 rldregora.pirate.ratbeards.page.8=noticeably losing weight with every return.\n\nFor his endurance I applauded him and tossed him a piece of fish. The next day I grabbed my coconut filled with water, my bag full of smoked fish and embarked on my journey.
-rldregora.pirate.ratbeards.page.9=Hours passed as i climbed the steep cliffs until i reached the top where I was faced with a most dreadful sight. Appears I stranded on a island. Knowing however we sailed close to the shore I know mainland shouldn't be far.
+rldregora.pirate.ratbeards.page.9=Hours passed as I climbed the steep cliffs until i reached the top where I was faced with a most dreadful sight. Appears I stranded on a island. Knowing however we sailed close to the shore I know mainland shouldn't be far.
 rldregora.pirate.ratbeards.page.10=In fact after close inspection of the horizon I saw mountains in the distance and thus regained hope.\nOn my way down I realized it was going to take a long, long time as I would need to make a raft and for a raft I would need to make rope and so on.
 rldregora.pirate.ratbeards.page.11=Back at where I left I was met with a curious sight. The little Rat, little as he lost a lot of weight was standing right there on two legs with one of his paws directed towards me and the other hanging next to his lean body.
 rldregora.pirate.ratbeards.page.12=This was the moment I decided I could use some company for the journey ahead and threw him a piece of my smoked fish.\n\n 
@@ -5012,7 +5015,7 @@ rldregora.pirate.ratbeards.page.15=Being as clean as that is just one thing when
 rldregora.pirate.ratbeards.page.16=Since the day I had stranded a lot of moons have passed the nightly sky but at last we were ready to embark on our journey which ironically enough lasted us only 2 days before we stranded at the other side\nwere we magically met with our fellow pirates building our new ship.
 rldregora.pirate.ratbeards.page.17=It is Natsu who helped me through the rough times on that beach and still is of immeasurable worth to me as Natsu the rat is more of a friend then any treasure could ever be.
 
-rldregora.pirate.oasis_gold_magical.title=Oasis of Gold and Magical Books.
+rldregora.pirate.oasis_gold_magical.title=Oasis of Gold and Magical Books
 rldregora.pirate.oasis_gold_magical.author=Southern Pirate
 rldregora.pirate.oasis_gold_magical.lore=A book that contains notes on a treasure.
 rldregora.pirate.oasis_gold_magical.page.1=Down south from the center and beyond the reef lies an oasis of parrots and dense leaves. Corrupted roam these lands and dungeons are a common sight.\n\nDungeons and their inhabitants guarding books of wisdom and fiery swords.
@@ -5137,15 +5140,15 @@ rldregora.shipsunk.jinxed.page.5=which is all too common in this area. I'd rathe
 rldregora.shipsunk.jinxed.page.6=drifting on the seventh wave to Valhalla.\n\nHowever this time is the first time I have something that worries me even more then those nasty pirates...\n\n\n\n 
 rldregora.shipsunk.jinxed.page.7=What resides in that box which they carried on board at night before our hasty departure? What is that noise...
 
-rldregora.shipsunk.restless_waves.title=Restless waves and glistering ocean floors.
+rldregora.shipsunk.restless_waves.title=Restless waves and ocean floors
 rldregora.shipsunk.restless_waves.author=Unknown
 rldregora.shipsunk.restless_waves.lore=Greed will be their downfall.
-rldregora.shipsunk.restless_waves.page.1=Cold rain and strong gusts torment the sailors as they attempt to raise the sails in preperation for the coming storm. It's evening and the sun dissapeared in what probably would become a long slumber as the night would not be kind to us. 
-rldregora.shipsunk.restless_waves.page.2=Or so we tought because as we jelously watched the sun tuck in we storm also faded away as quickly as it had came. A fog rolled in and the sea became a mirror. Something unn atural is happening is what nobody said but everyone tought. We, all of us
-rldregora.shipsunk.restless_waves.page.3=were silent as our breath was taken away from us. Something was here and then it appeared, dim at first slowely growing until it was a monsterous beuty of illumination. As if a thousand silver swords were scattered along the sea bed
+rldregora.shipsunk.restless_waves.page.1=Cold rain and strong gusts torment the sailors as they attempt to raise the sails in preparation for the coming storm. It's evening and the sun dissapeared in what probably would become a long slumber as the night would not be kind to us. 
+rldregora.shipsunk.restless_waves.page.2=Or so we tought because as we jealously watched the sun tuck in we storm also faded away as quickly as it had came. A fog rolled in and the sea became a mirror. Something unn atural is happening is what nobody said but everyone tought. We, all of us
+rldregora.shipsunk.restless_waves.page.3=were silent as our breath was taken away from us. Something was here and then it appeared, dim at first slowly growing until it was a monsterous beauty of illumination. As if a thousand silver swords were scattered along the sea bed
 rldregora.shipsunk.restless_waves.page.4=Silver and gold from a thousand shipwrecks lay down below us. Nature be doomed if we let this slip and so we carried the swords on board, many light as a feather, earrings, necklaces of gold, emerald and lapis like never seen before
-rldregora.shipsunk.restless_waves.page.5=And as we dove down again no teasure was seen, just wood, rot and dispear as the sea became angry again. The storm was back but we were unfazed as we gained a fortune or so we tought as this entry will be my last for the treasures
-rldregora.shipsunk.restless_waves.page.6=were cursed, for the treasures were no treasures at all but the embodyment of rot and slumbering greed. A greed that will surely take us down before we arrive home again.
+rldregora.shipsunk.restless_waves.page.5=And as we dove down again no treasure was seen, just wood, rot and dispear as the sea became angry again. The storm was back but we were unfazed as we gained a fortune or so we tought as this entry will be my last for the treasures
+rldregora.shipsunk.restless_waves.page.6=were cursed, for the treasures were no treasures at all but the embodiment of rot and slumbering greed. A greed that will surely take us down before we arrive home again.
 
 rldregora.shipsunk.dregorians_voyager_vii.title=Dregorian's Voyager VII Manifest
 rldregora.shipsunk.dregorians_voyager_vii.author=Captain Hawk
@@ -5206,7 +5209,7 @@ rldregora.simpledungeon.basics_electricity.page.20=§ocloud, it can create\nchar
 rldregora.simpledungeon.project_icarus.title=Project Icarus
 rldregora.simpledungeon.project_icarus.author=Unknown
 rldregora.simpledungeon.project_icarus.lore.0=This book contains information regarding project Icarus,
-rldregora.simpledungeon.project_icarus.lore.1= the predecessor of the Dregorian Voyager. 
+rldregora.simpledungeon.project_icarus.lore.1=the predecessor of the Dregorian Voyager. 
 rldregora.simpledungeon.project_icarus.lore.2=The summary gives a some explanation on it's origin
 rldregora.simpledungeon.project_icarus.page.1=Project Icarus is a theoretical engineering design study aimed at designing a credible, mainly nuclear fusion-based, unmanned interstellar space probe. Project Icarus was an initiative of members of the British Interplanetary Society and the Tau
 rldregora.simpledungeon.project_icarus.page.2=Zero Foundation (TZF) started in 2010. It was later managed by the members as a separate division of the umbrella organization of the nonprofit organization Icarus Interstellar. It was motivated by the British Interplanetary Society's Project
@@ -5214,7 +5217,7 @@ rldregora.simpledungeon.project_icarus.page.3=Daedalus, a similar study that was
 
 rldregora.simpledungeon.maintenance.title=Maintenance Book
 rldregora.simpledungeon.maintenance.author=Unknown
-rldregora.simpledungeon.maintenance.lore=A Ancient Mechanic's Guide
+rldregora.simpledungeon.maintenance.lore=An Ancient Mechanic's Guide
 rldregora.simpledungeon.maintenance.page.1=This book contains information regarding maintenance of the Dregorian Voyager. It speaks of mechanical systems and the proper tools for each piece of equipment. The Dregorian Voyager was equipped with some state of the art
 rldregora.simpledungeon.maintenance.page.2=technology including advanced use of crystals to store and transfer a lot of data at lightning fast speeds. There are several chapters named Crystallization, Tool Maintenance, Basic Engineering, Safety Regulations and Basic Electronics. You figure
 rldregora.simpledungeon.maintenance.page.3=this may be of use later on.
@@ -5226,7 +5229,7 @@ rldregora.spawnbook.realms_dregora.title=The Realms of Dregora
 rldregora.spawnbook.realms_dregora.author=The Founder
 rldregora.spawnbook.realms_dregora.lore=Dregora, The Blight and you in your adventure through a bountiful world
 rldregora.spawnbook.realms_dregora.page.1=\n  §l§4B§l§n§4⬡⬡§l§4k §l§n§4⬡§l§4f§l§4 Dreg§l§n§4⬡§l§4ra§r\n\n§l    Welcome to a\n decade old world\n made with passion\n      and love§r\n\n ████§4████§r████\n ████§4████§r████\n ████§4████§r████\n§4 ████§r████§4████\n §4████§r████§4████§r\n§4 ████§r████§4████
-rldregora.spawnbook.realms_dregora.page.2=     §6☀§8           \n               §r\n§n§2▁§n§8▲§n§2▁§n§8◢◣§n§2▁▁§l§8╱╲§n§2▁§n§r▊§n§2▁§n§0▅§n§2▁§n§r \n\n\nPage 3-5 Prolugue\nPage 6-9 Secrets\nPage 10 Realms\nPage 14 Thank you
+rldregora.spawnbook.realms_dregora.page.2=     §6☀§8           \n               §r\n§n§2▁§n§8▲§n§2▁§n§8◢◣§n§2▁▁§l§8╱╲§n§2▁§n§r▊§n§2▁§n§0▅§n§2▁§n§r \n\n\nPage 3-5 Prologue\nPage 6-9 Secrets\nPage 10 Realms\nPage 14 Thank you
 rldregora.spawnbook.realms_dregora.page.3=§oOur Earth, struck by a catastrophic event known as the Blight happened a few thousand years ago.\n\n§oRuined cities have been long overtaken by the sands of the wastelands, with the green of corruption feasting on the remains of the unfortunate. ➡
 rldregora.spawnbook.realms_dregora.page.4=\n§oFew places are suitable for those seeking shelter from the corruption, but dreams have shown you far away lands beyond canyons of molten rock where this world, now known as Dregora, seems to be healing. ➡
 rldregora.spawnbook.realms_dregora.page.5=\n§oHowever, despite serene visions and the warmth of the rising sun, a darkness yet lurked; one which you failed to notice§r\n\n###################\n#   Information ➡    #\n###################
@@ -5249,7 +5252,7 @@ rldregora.spawnbook.legendary_loot.hover=The path to Legendary loot lay before y
 rldregora.spawnbook.skull_secrets.name=Skull of Secrets
 rldregora.spawnbook.skull_secrets.lore=The answer to the secret of closed doors.
 rldregora.spawnbook.ancient_clock.name=Ancient Clock
-rldregora.spawnbook.ancient_clock.lore=a mystical clock.
+rldregora.spawnbook.ancient_clock.lore=A mystical clock.
 rldregora.spawnbook.ancient_compass.name=Ancient Compass
 rldregora.spawnbook.ancient_compass.lore=The North star at pocket size!
 
@@ -5455,12 +5458,12 @@ rldregora.cursed_armor.description7.lore=Makes you wonder, what would there be i
 rldregora.cursed_armor.description8.lore=Can you imagine?
 rldregora.cursed_armor.leggings3.lore=Gives kicking ass a whole new meaning!
 
-rldregora.cursed_armor.pandora1.lore=§0aordnaP evah dluoC
-rldregora.cursed_armor.pandora2.lore=§0nihtiw tser yam aordnaP
-rldregora.cursed_armor.pandora3.lore=§0uoy steerg aordnaP
-rldregora.cursed_armor.pandora4.lore=§0aordnaP %%81
+rldregora.cursed_armor.pandora1.lore=§0arodnaP evah dluoC
+rldregora.cursed_armor.pandora2.lore=§0nihtiw tser yam arodnaP
+rldregora.cursed_armor.pandora3.lore=§0uoy steerg arodnaP
+rldregora.cursed_armor.pandora4.lore=§0arodnaP %%81
 rldregora.cursed_armor.pandora5.lore=§0arodnaP tser yam tnempiuqe eeht nopU
-rldregora.cursed_armor.pandora6.lore=§0nihtiw ediser yam aordnaP rof areweB
+rldregora.cursed_armor.pandora6.lore=§0nihtiw ediser yam arodnaP rof eraweB
 rldregora.cursed_armor.pandora7.lore=§0Upon this item may rest the curse that grants curses...
 rldregora.cursed_armor.pandora8.lore=§0Within may reside the curse that grants curses
 rldregora.cursed_armor.pandora9.lore=§0Beware for by touching this thy may open Pandora's box
@@ -5822,10 +5825,10 @@ rldregora.cursed_potion_5.get_good.lore.0=§9Get Good (8:00)
 rldregora.cursed_potion_5.get_good.lore.1=§9Getting Better +100%%
 
 ##################################################################
-# rlcraft/loot_bundles/cursed/cursed_potion_5.json
+# rlcraft/loot_bundles/cursed/cursed_potion_6.json
 ##################################################################
-rldregora.cursed_potion_5.fiery_strength.name=Potion of Fiery Strength
-rldregora.cursed_potion_5.fiery_strength.lore=§9Fiery Strength (2:00)
+rldregora.cursed_potion_6.fiery_strength.name=Potion of Fiery Strength
+rldregora.cursed_potion_6.fiery_strength.lore=§9Fiery Strength (2:00)
 
 ##################################################################
 # rlcraft/loot_bundles/cursed/cursed_potion_7.json
@@ -5837,15 +5840,15 @@ rldregora.cursed_potion_7.water_breathing.lore=§9Water Breathing (3:00)
 # rlcraft/loot_bundles/cursed/cursed_potion_8.json
 ##################################################################
 rldregora.cursed_potion_8.recall_potion.name=Recall Potion
-rldregora.cursed_potion_8.recall_potion.lore.0=§9Bountiful Baubles
-rldregora.cursed_potion_8.recall_potion.lore.1=§9Teleports you to your spawn point.
+rldregora.cursed_potion_8.recall_potion.lore.0=§9Teleports you to your spawn point.
+rldregora.cursed_potion_8.recall_potion.lore.1=§9§oBountiful Baubles
 
 ##################################################################
 # rlcraft/loot_bundles/cursed/cursed_potion_9.json
 ##################################################################
 rldregora.cursed_potion_9.recall_potion.name=Recall Potion
-rldregora.cursed_potion_9.recall_potion.lore.0=§9Bountiful Baubles
-rldregora.cursed_potion_9.recall_potion.lore.1=§9Teleports you to your swap point.
+rldregora.cursed_potion_9.recall_potion.lore.0=§9Teleports you to your swap point.
+rldregora.cursed_potion_9.recall_potion.lore.1=§9§oBountiful Baubles
 rldregora.cursed_potion_9.recall_potion.lore.skull=§0☠ Trolololol
 rldregora.cursed_potion_9.recall_potion.lore.sadface=§0☹ Trolololol
 
@@ -5881,7 +5884,7 @@ rldregora.cursed_potion_13.bending_speed.lore.1=§9Dig Speed: +100%%
 ##################################################################
 rldregora.cursed_potion_14.blessed_sun.name=Potion of Blessed Sun
 rldregora.cursed_potion_14.blessed_sun.lore.0=§9+1 life if used outside
-rldregora.cursed_potion_14.blessed_sun.lore.1=§c-1 life if used inside.
+rldregora.cursed_potion_14.blessed_sun.lore.1=§c-1 life if used inside
 
 ##################################################################
 # rlcraft/loot_bundles/cursed/cursed_potion_15.json
@@ -5912,7 +5915,7 @@ rldregora.cursed_shields.shield_pain.lore=Upon this shield rest a heavy curse...
 # rlcraft/loot_bundles/cursed/cursed_tools.json
 ##################################################################
 rldregora.rlcraft.cursed_tools.pickaxe1.name=Lustfull BloodPick
-rldregora.rlcraft.cursed_tools.pickaxe1.lore.0=It feeds on more then stone.
+rldregora.rlcraft.cursed_tools.pickaxe1.lore.0=It feeds on more than stone.
 rldregora.rlcraft.cursed_tools.pickaxe1.lore.1=§9+1 Luck
 rldregora.rlcraft.cursed_tools.pickaxe1.lore.2=§9+5%% Speed
 rldregora.rlcraft.cursed_tools.pickaxe1.lore.3=§9+10%% Dig Die
@@ -5932,8 +5935,8 @@ rldregora.rlcraft.cursed_tools.pickaxe3.lore.2=§9+1 Something
 rldregora.rlcraft.cursed_tools.pickaxe3.lore.3=§9+1 Something hehe..
 
 rldregora.rlcraft.cursed_tools.pickaxe4.name=Malicious Clever
-rldregora.rlcraft.cursed_tools.pickaxe4.lore.0=You can precieve its malicious intent...
-rldregora.rlcraft.cursed_tools.pickaxe4.lore.1=§9+12%% strength
+rldregora.rlcraft.cursed_tools.pickaxe4.lore.0=You can perceive its malicious intent...
+rldregora.rlcraft.cursed_tools.pickaxe4.lore.1=§9+12%% Strength
 rldregora.rlcraft.cursed_tools.pickaxe4.lore.2=§9+8%% Dig Your Grave
 
 rldregora.rlcraft.cursed_tools.pickaxe5.name=Hollow Cracker
@@ -5942,11 +5945,11 @@ rldregora.rlcraft.cursed_tools.pickaxe5.lore.1=§9+16%% Dig Speed
 rldregora.rlcraft.cursed_tools.pickaxe5.lore.2=§0It's a lie...
 
 rldregora.rlcraft.cursed_tools.pickaxe6.name=Remorseful Pickaxe
-rldregora.rlcraft.cursed_tools.pickaxe6.lore.0=It wont just go after stone...
+rldregora.rlcraft.cursed_tools.pickaxe6.lore.0=It won't just go after stone...
 rldregora.rlcraft.cursed_tools.pickaxe6.lore.1=§9+12%% Highway to Hell!!
 
 rldregora.rlcraft.cursed_tools.pickaxe7.name=Greedy Hank
-rldregora.rlcraft.cursed_tools.pickaxe7.lore.0=Makes you wonder, where is hank?
+rldregora.rlcraft.cursed_tools.pickaxe7.lore.0=Makes you wonder, where is Hank?
 rldregora.rlcraft.cursed_tools.pickaxe7.lore.1=§9+5%% Dig Speed
 rldregora.rlcraft.cursed_tools.pickaxe7.lore.2=§9+10%% Speed
 rldregora.rlcraft.cursed_tools.pickaxe7.lore.3=§0+10%% Lie!
@@ -5957,7 +5960,7 @@ rldregora.rlcraft.cursed_tools.pickaxe8.lore.1=§9+2 Max Health
 rldregora.rlcraft.cursed_tools.pickaxe8.lore.2=§9+10%% Speed
 rldregora.rlcraft.cursed_tools.pickaxe8.lore.3=§9+10%% Dig Slow
 # Flint ================================================================
-rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.1=§9+1 Anti Luck
+rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.1=§9+1 §0Anti §9Luck
 rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.2=§9+5%% Speed
 rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.3=§9+10%% Dig Speed
 rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.4=§0+10%% Death
@@ -6015,19 +6018,19 @@ rldregora.rlcraft.cursed_tools.myrmex_pickaxe8.lore.2=§9+10%% Speed
 rldregora.rlcraft.cursed_tools.myrmex_pickaxe8.lore.3=§9+10%% Diggerdy Down Death Upon Thou
 # Axes ====================================================================
 rldregora.rlcraft.cursed_tools.axe1.name=Lustfull BloodAxe
-rldregora.rlcraft.cursed_tools.axe1.lore=It feeds on more then wood.
+rldregora.rlcraft.cursed_tools.axe1.lore=It feeds on more than wood.
 rldregora.rlcraft.cursed_tools.axe2.name=Tormented Splitter
 rldregora.rlcraft.cursed_tools.axe2.lore=Splitting, Cracking, Dividing...
 rldregora.rlcraft.cursed_tools.axe3.name=Battleworn Hatchet
 rldregora.rlcraft.cursed_tools.axe3.lore=It has seen one too many deaths.
 rldregora.rlcraft.cursed_tools.axe4.name=Malicious Clever
-rldregora.rlcraft.cursed_tools.axe4.lore=You can precieve its malicious intent...
+rldregora.rlcraft.cursed_tools.axe4.lore=You can perceive its malicious intent...
 rldregora.rlcraft.cursed_tools.axe5.name=Hollow Cracker
 rldregora.rlcraft.cursed_tools.axe5.lore=Cracking is what it does.
 rldregora.rlcraft.cursed_tools.axe6.name=Remorseful Axe
-rldregora.rlcraft.cursed_tools.axe6.lore=It wont just go after wood...
+rldregora.rlcraft.cursed_tools.axe6.lore=It won't just go after wood...
 rldregora.rlcraft.cursed_tools.axe7.name=Greedy Hank
-rldregora.rlcraft.cursed_tools.axe7.lore=Makes you wonder, where is hank?
+rldregora.rlcraft.cursed_tools.axe7.lore=Makes you wonder, where is Hank?
 rldregora.rlcraft.cursed_tools.axe8.name=The Eternal Chopper
 rldregora.rlcraft.cursed_tools.axe8.lore=With wood it feeds.
 # Troll Axe ================================================================
@@ -6063,7 +6066,7 @@ rldregora.rlcraft.cursed_tools.cincin_dia_axe1.lore.2=§9+5%% Speed
 rldregora.rlcraft.cursed_tools.cincin_dia_axe1.lore.3=§9+10%% Dig Down Death
 
 rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.1=§0-9§9+1 Luck
-rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.2=§9+12% Dig Speed
+rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.2=§9+12%% Dig Speed
 rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.3=§91%% Max Health!
 
 rldregora.rlcraft.cursed_tools.cincin_dia_axe3.lore.1=§9+20%% No Speed
@@ -6078,7 +6081,7 @@ rldregora.rlcraft.cursed_tools.cincin_dia_axe5.lore.1=§9+16%% You'll Die!
 rldregora.rlcraft.cursed_tools.cincin_dia_axe6.lore.1=§9+12%% Speed
 rldregora.rlcraft.cursed_tools.cincin_dia_axe6.lore.2=§0+100%% Anti Trust!
 
-rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.1=§9+5% Dig Speed
+rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.1=§9+5%% Dig Speed
 rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.2=§9+10%% Speed
 rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.3=§0Definitely Do Not Wear!
 
@@ -6118,23 +6121,23 @@ rldregora.rlcraft.cursed_tools.myrmex_battleaxe8.lore.3=§9+10%% Dig Your End!
 # rlcraft/loot_bundles/cursed/cursed_weapons.json
 ##################################################################
 rldregora.cursed_weapons.katana_dragonbone1.name=The Muramasa
-rldregora.cursed_weapons.katana_dragonbone1.lore.0=The§kre is§r a presence insi§kde th§re Katana...
+rldregora.cursed_weapons.katana_dragonbone1.lore.0=§5§oThe§kre is§r§5§o a presence insi§kde th§r§5§oe Katana...
 rldregora.cursed_weapons.katana_dragonbone1.lore.1=§4When in fake hand:
-rldregora.cursed_weapons.katana_dragonbone1.lore.2=§9+5%% Attack Self
+rldregora.cursed_weapons.katana_dragonbone1.lore.2=§9+5%% Attack §0Self
 rldregora.cursed_weapons.katana_dragonbone1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.katana_dragonbone1.lore.4=§9+10%% Max Death
 
 rldregora.cursed_weapons.katana_dragonbone2.name=The Ominous Blade
-rldregora.cursed_weapons.katana_dragonbone2.lore.0=§kThi§rs Kat§kana§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.katana_dragonbone2.lore.0=§5§kThi§r§5§os Kat§kana§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.katana_dragonbone2.lore.1=§4When in some hand:
 rldregora.cursed_weapons.katana_dragonbone2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.katana_dragonbone2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.katana_dragonbone2.lore.4=§9+10%% Agility
 
 rldregora.cursed_weapons.katana_dragonbone3.name=The Cursed Blade
-rldregora.cursed_weapons.katana_dragonbone3.lore.0=Upon thi§ks Ka§tana lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.katana_dragonbone3.lore.0=§5§oUpon thi§ks Ka§r§5§otana lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.katana_dragonbone3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.katana_dragonbone3.lore.2=§9+100%% Self Damage
+rldregora.cursed_weapons.katana_dragonbone3.lore.2=§9+100%% §0Self §9Damage
 rldregora.cursed_weapons.katana_dragonbone3.lore.3=§9+100%% Luck
 rldregora.cursed_weapons.katana_dragonbone3.lore.4=§9+100%% Attack Speed
 # Demonic Broadsword ================================================================
@@ -6149,7 +6152,7 @@ rldregora.cursed_weapons.demonic_broadsword2.name=§0Ancient Broadsword
 rldregora.cursed_weapons.demonic_broadsword2.lore.0=Damned be its wielder.
 rldregora.cursed_weapons.demonic_broadsword2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.demonic_broadsword2.lore.2=§9+3 Max Health
-rldregora.cursed_weapons.demonic_broadsword2.lore.3=§9+5%% Deathly Crash Speed
+rldregora.cursed_weapons.demonic_broadsword2.lore.3=§9+5%% §0Deathly Crash §9Speed
 rldregora.cursed_weapons.demonic_broadsword2.lore.4=§9+10%% Agility
 
 rldregora.cursed_weapons.demonic_broadsword3.name=§0Ancient Broadsword
@@ -6157,7 +6160,7 @@ rldregora.cursed_weapons.demonic_broadsword3.lore.0=Death awaits its wielder.
 rldregora.cursed_weapons.demonic_broadsword3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.demonic_broadsword3.lore.2=§9+100%% Attack Damage
 rldregora.cursed_weapons.demonic_broadsword3.lore.3=§9+100%% Luck
-rldregora.cursed_weapons.demonic_broadsword3.lore.4=§9+10 Fake Health
+rldregora.cursed_weapons.demonic_broadsword3.lore.4=§9+10 §0Fake §9Health
 rldregora.cursed_weapons.demonic_broadsword3.lore.5=§0+100%% Fraud
 # Frost Broadsword ================================================================
 rldregora.cursed_weapons.frost_broadsword1.name=§0Broadsword of Withering Cold
@@ -6176,21 +6179,21 @@ rldregora.cursed_weapons.frost_broadsword2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.frost_broadsword2.lore.4=§9+10%% Tripping Death
 # Umbrium Halberd ================================================================
 rldregora.cursed_weapons.halberd_umbrium1.name=Posessed Rebuked Halberd
-rldregora.cursed_weapons.halberd_umbrium1.lore.0=The§kre is§r a presence insi§kde th§re Halberd...
+rldregora.cursed_weapons.halberd_umbrium1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Halberd...
 rldregora.cursed_weapons.halberd_umbrium1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_umbrium1.lore.2=§9+5%% Attack Speed
-rldregora.cursed_weapons.halberd_umbrium1.lore.3=§9+5%% Attack Self
+rldregora.cursed_weapons.halberd_umbrium1.lore.3=§9+5%% Attack §0Self
 rldregora.cursed_weapons.halberd_umbrium1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.halberd_umbrium2.name=Accursed Rebuked Halberd
-rldregora.cursed_weapons.halberd_umbrium2.lore.0=§kThi§rs Halb§kerd§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.halberd_umbrium2.lore.0=§kThi§r§5§os Halb§kerd§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.halberd_umbrium2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_umbrium2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.halberd_umbrium2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.halberd_umbrium2.lore.4=§9+10%% Agility
 
 rldregora.cursed_weapons.halberd_umbrium3.name=Damned Rebuked Halberd
-rldregora.cursed_weapons.halberd_umbrium3.lore.0=Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.halberd_umbrium3.lore.0=Upon thi§ks Hal§r§5§oberd lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.halberd_umbrium3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_umbrium3.lore.2=§9+100%% Eagle'd
 rldregora.cursed_weapons.halberd_umbrium3.lore.3=§9-100%% Luck
@@ -6209,34 +6212,34 @@ rldregora.cursed_weapons.halberd_umbrium5.lore.0=A beautiful Halberd, engraved w
 rldregora.cursed_weapons.halberd_umbrium5.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_umbrium5.lore.2=§9+1 Attack Damage
 rldregora.cursed_weapons.halberd_umbrium5.lore.3=§9+5%% Good Game Resistance
-rldregora.cursed_weapons.halberd_umbrium5.lore.4=§9+10%% Fake Looting
+rldregora.cursed_weapons.halberd_umbrium5.lore.4=§9+10%% §0Fake §9Looting
 
 rldregora.cursed_weapons.halberd_umbrium6.name=Rebuked Umbrium Halberd
 rldregora.cursed_weapons.halberd_umbrium6.lore.0=This Halberd comes with a twist
 rldregora.cursed_weapons.halberd_umbrium6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_umbrium6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.halberd_umbrium6.lore.3=§9+5%% Bye Movement Speed
+rldregora.cursed_weapons.halberd_umbrium6.lore.3=§9+5%% §0Bye §9Movement Speed
 rldregora.cursed_weapons.halberd_umbrium6.lore.4=§9+10%% Fake Enemy Regeneration
 # Umbrium Spear ================================================================
 rldregora.cursed_weapons.spear_umbrium1.name=Posessed Umbrium Spear
-rldregora.cursed_weapons.spear_umbrium1.lore.0=The§kre is§r a presence insi§kde th§re Spear...
+rldregora.cursed_weapons.spear_umbrium1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Spear...
 rldregora.cursed_weapons.spear_umbrium1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.spear_umbrium1.lore.2=§9+5%% Bye Attack Speed
+rldregora.cursed_weapons.spear_umbrium1.lore.2=§9+5%% §0Bye §9Attack Speed
 rldregora.cursed_weapons.spear_umbrium1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.spear_umbrium1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.spear_umbrium2.name=Accursed Umbrium Spear
-rldregora.cursed_weapons.spear_umbrium2.lore.0=§kThi§rs Spe§kar§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.spear_umbrium2.lore.0=§kThi§r§5§os Spe§kar§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.spear_umbrium2.lore.1=§4When in main hand:
-rldregora.cursed_weapons.spear_umbrium2.lore.2=§9+3 Less Health
+rldregora.cursed_weapons.spear_umbrium2.lore.2=§9+3 §0Less §9Health
 rldregora.cursed_weapons.spear_umbrium2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.spear_umbrium2.lore.4=§9+10%% Agility Counter
 
 rldregora.cursed_weapons.spear_umbrium3.name=Damned Umbrium Spear
-rldregora.cursed_weapons.spear_umbrium3.lore.0=Upon thi§ks Sp§rear lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.spear_umbrium3.lore.0=Upon thi§ks Sp§r§5§oear lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.spear_umbrium3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.spear_umbrium3.lore.2=§9+100%% Attack Damage
-rldregora.cursed_weapons.spear_umbrium3.lore.3=§9+100%% Anti Luck
+rldregora.cursed_weapons.spear_umbrium3.lore.3=§9+100%% §0Anti §9Luck
 rldregora.cursed_weapons.spear_umbrium3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.spear_umbrium4.name=Deplored Umbrium Spear
@@ -6263,15 +6266,15 @@ rldregora.cursed_weapons.spear_umbrium6.lore.4=§9+10%% Regeneration
 rldregora.cursed_weapons.spear_umbrium6.lore.5=§0+100%% Regret
 # Umbrium Saber ================================================================
 rldregora.cursed_weapons.saber_umbrium1.name=Posessed Umbrium Saber
-rldregora.cursed_weapons.saber_umbrium1.lore.0=The§kre is§r a presence insi§kde th§re Saber...
+rldregora.cursed_weapons.saber_umbrium1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Saber...
 rldregora.cursed_weapons.saber_umbrium1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium1.lore.2=§9+5%% Attack Speed
 rldregora.cursed_weapons.saber_umbrium1.lore.3=§9+5%% Attack Damage
-rldregora.cursed_weapons.saber_umbrium1.lore.4=§9+10%% Fake Health
+rldregora.cursed_weapons.saber_umbrium1.lore.4=§9+10%% §0Fake §9Health
 rldregora.cursed_weapons.saber_umbrium1.lore.5=§0+100%% Lies
 
 rldregora.cursed_weapons.saber_umbrium2.name=Accursed Umbrium Saber
-rldregora.cursed_weapons.saber_umbrium2.lore.0=§kThi§rs Sab§ker§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.saber_umbrium2.lore.0=§kThi§r§5§os Sab§ker§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.saber_umbrium2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.saber_umbrium2.lore.3=§9+5%% Fly Speed
@@ -6279,7 +6282,7 @@ rldregora.cursed_weapons.saber_umbrium2.lore.4=§9+10%% Agility
 rldregora.cursed_weapons.saber_umbrium2.lore.5=§0+100%% Don't Equip!
 
 rldregora.cursed_weapons.saber_umbrium3.name=Damned Umbrium Saber
-rldregora.cursed_weapons.saber_umbrium3.lore.0=Upon thi§ks Sa§rber lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.saber_umbrium3.lore.0=Upon thi§ks Sa§r§5§ober lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.saber_umbrium3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium3.lore.2=§9+100%% Attack Damage
 rldregora.cursed_weapons.saber_umbrium3.lore.3=§9+100%% Luck
@@ -6291,7 +6294,7 @@ rldregora.cursed_weapons.saber_umbrium4.lore.0=A sinister aura envelops this Sab
 rldregora.cursed_weapons.saber_umbrium4.lore.1=§4When in main hand:
 rldregora.cursed_weapons.saber_umbrium4.lore.2=§9+1 Agility
 rldregora.cursed_weapons.saber_umbrium4.lore.3=§9+5 Magic
-rldregora.cursed_weapons.saber_umbrium4.lore.4=§9100%% Fear §0Eagle
+rldregora.cursed_weapons.saber_umbrium4.lore.4=§0+100%% Fear Eagle
 
 rldregora.cursed_weapons.saber_umbrium5.name=Reviled Umbrium Saber
 rldregora.cursed_weapons.saber_umbrium5.lore.0=A beautiful Saber, engraved with malicious intent.
@@ -6310,21 +6313,21 @@ rldregora.cursed_weapons.saber_umbrium6.lore.4=§9+10%% Regeneration
 rldregora.cursed_weapons.saber_umbrium6.lore.5=§0+69%% Check When In Main Hand Is Red!
 # Diamond Halberd ================================================================
 rldregora.cursed_weapons.halberd_diamond1.name=Posessed Diamond Halberd
-rldregora.cursed_weapons.halberd_diamond1.lore.0=The§kre is§r a presence insi§kde th§re Halberd...
+rldregora.cursed_weapons.halberd_diamond1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Halberd...
 rldregora.cursed_weapons.halberd_diamond1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond1.lore.2=§9+5%% Attack Speed
 rldregora.cursed_weapons.halberd_diamond1.lore.3=§9+5%% Attack Damage §0Fails
 rldregora.cursed_weapons.halberd_diamond1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.halberd_diamond2.name=Accursed Diamond Halberd
-rldregora.cursed_weapons.halberd_diamond2.lore.0=§kThi§rs Halb§kerd§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.halberd_diamond2.lore.0=§kThi§r§5§os Halb§kerd§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.halberd_diamond2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.halberd_diamond2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.halberd_diamond2.lore.4=§9+10%% Agility §0Fails
 
 rldregora.cursed_weapons.halberd_diamond3.name=Damned Diamond Halberd
-rldregora.cursed_weapons.halberd_diamond3.lore.0=Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.halberd_diamond3.lore.0=Upon thi§ks Hal§r§5§oberd lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.halberd_diamond3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond3.lore.2=§9+100%% Attack Damage §0Denial
 rldregora.cursed_weapons.halberd_diamond3.lore.3=§9+100%% Luck
@@ -6351,25 +6354,25 @@ rldregora.cursed_weapons.halberd_diamond6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.halberd_diamond6.lore.2=§9+1 Luck
 rldregora.cursed_weapons.halberd_diamond6.lore.3=§9+5%% Movement Speed
 rldregora.cursed_weapons.halberd_diamond6.lore.4=§9+10%% Regeneration §0Troll
-rldregora.cursed_weapons.halberd_diamond6.lore.5=§0+100%% Eagle Thinks This Is Fun!
+rldregora.cursed_weapons.halberd_diamond6.lore.5=§9+100%% Eagle Thinks This Is Fun!
 # Diamond Glaive ================================================================
 rldregora.cursed_weapons.glaive_diamond1.name=Posessed Diamond Glaive
-rldregora.cursed_weapons.glaive_diamond1.lore.0=The§kre is§r a presence insi§kde th§re Glaive...
+rldregora.cursed_weapons.glaive_diamond1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Glaive...
 rldregora.cursed_weapons.glaive_diamond1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond1.lore.2=§9+5%% Attack Speed
 rldregora.cursed_weapons.glaive_diamond1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.glaive_diamond1.lore.4=§9+10%% Max Health §0Troll
 
 rldregora.cursed_weapons.glaive_diamond2.name=Accursed Diamond Glaive
-rldregora.cursed_weapons.glaive_diamond2.lore.0=§kThi§rs Glai§kve§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.glaive_diamond2.lore.0=§kThi§r§5§os Glai§kve§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.glaive_diamond2.lore.1=§4When in main hand:
-rldregora.cursed_weapons.glaive_diamond2.lore.2=§9+3 Fake Health
+rldregora.cursed_weapons.glaive_diamond2.lore.2=§9+3 §0Fake §9Health
 rldregora.cursed_weapons.glaive_diamond2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.glaive_diamond2.lore.4=§9+10%% Agility
 rldregora.cursed_weapons.glaive_diamond2.lore.5=§0No way to Un-Curse this!
 
 rldregora.cursed_weapons.glaive_diamond3.name=Damned Diamond Glaive
-rldregora.cursed_weapons.glaive_diamond3.lore.0=Upon thi§ks Glai§rve lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.glaive_diamond3.lore.0=Upon thi§ks Glai§r§5§ove lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.glaive_diamond3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.glaive_diamond3.lore.2=§9+100%% Attack Damage
 rldregora.cursed_weapons.glaive_diamond3.lore.3=§9+100%% Lucky §0Lies
@@ -6397,21 +6400,21 @@ rldregora.cursed_weapons.glaive_diamond6.lore.3=§9+5%% Movement Speed
 rldregora.cursed_weapons.glaive_diamond6.lore.4=§9+10%% Regeneration §0To Full Health After You Die!
 # Desert Stinger Rapier ================================================================
 rldregora.cursed_weapons.rapier_desert_venom1.name=Posessed Desert Stinger Rapier
-rldregora.cursed_weapons.rapier_desert_venom1.lore.0=The§kre is§r a presence insi§kde th§re Rapier...
+rldregora.cursed_weapons.rapier_desert_venom1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Rapier...
 rldregora.cursed_weapons.rapier_desert_venom1.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_desert_venom1.lore.2=§9+5%% Attack Yourself!
+rldregora.cursed_weapons.rapier_desert_venom1.lore.2=§9+5%% Attack §0Yourself!
 rldregora.cursed_weapons.rapier_desert_venom1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.rapier_desert_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.rapier_desert_venom2.name=Accursed Desert Stinger Rapier
-rldregora.cursed_weapons.rapier_desert_venom2.lore.0=§kThi§rs Rapie§kr§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.rapier_desert_venom2.lore.0=§kThi§r§5§os Rapie§kr§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.rapier_desert_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.rapier_desert_venom2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.rapier_desert_venom2.lore.4=§9+10%% Agility §0Fails
 
 rldregora.cursed_weapons.rapier_desert_venom3.name=Damned Desert Stinger Rapier
-rldregora.cursed_weapons.rapier_desert_venom3.lore.0=Upon thi§ks Rap§rier lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.rapier_desert_venom3.lore.0=Upon thi§ks Rap§r§5§oier lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.rapier_desert_venom3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_desert_venom3.lore.2=§9+100%% Attack Damage §0Fails
 rldregora.cursed_weapons.rapier_desert_venom3.lore.3=§9+100%% Luck
@@ -6439,14 +6442,14 @@ rldregora.cursed_weapons.rapier_desert_venom6.lore.3=§9+5%% Movement Speed §0T
 rldregora.cursed_weapons.rapier_desert_venom6.lore.4=§9+10%% Regeneration
 # Desert Stinger Rapier ================================================================
 rldregora.cursed_weapons.greatsword_jungle_venom1.name=Posessed Desert Stinger Greatsword
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.0=The§kre is§r a presence insi§kde th§re Greatsword...
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Greatsword...
 rldregora.cursed_weapons.greatsword_jungle_venom1.lore.1=§4When in fake hand:
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.2=§9+5%% Anti Speed
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.2=§9+5%% §0Anti §9Speed
 rldregora.cursed_weapons.greatsword_jungle_venom1.lore.3=§9+5%% Attack Damage
-rldregora.cursed_weapons.greatsword_jungle_venom1.lore.4=§9+10%% Less Health
+rldregora.cursed_weapons.greatsword_jungle_venom1.lore.4=§9+10%% §0Less §9Health
 
 rldregora.cursed_weapons.greatsword_jungle_venom2.name=Accursed Desert Stinger Greatsword
-rldregora.cursed_weapons.greatsword_jungle_venom2.lore.0=§kThi§rs Greatsw§kord§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.greatsword_jungle_venom2.lore.0=§kThi§r§5§os Greatsw§kord§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.2=§9+3 Max Health
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.3=§9+5%% Fly Speed §0You Fools!
@@ -6454,7 +6457,7 @@ rldregora.cursed_weapons.greatsword_jungle_venom2.lore.4=§9+10%% Agility
 rldregora.cursed_weapons.greatsword_jungle_venom2.lore.5=§0It's Fake!
 
 rldregora.cursed_weapons.greatsword_jungle_venom3.name=Damned Desert Stinger Greatsword
-rldregora.cursed_weapons.greatsword_jungle_venom3.lore.0=Upon thi§ks Great§rsword lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.greatsword_jungle_venom3.lore.0=Upon thi§ks Great§r§5§osword lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.greatsword_jungle_venom3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom3.lore.2=§9+100%% Attack Damage
 rldregora.cursed_weapons.greatsword_jungle_venom3.lore.3=§9+100%% Luck
@@ -6478,30 +6481,30 @@ rldregora.cursed_weapons.greatsword_jungle_venom6.name=Rebuked Desert Stinger Gr
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.0=This Greatsword comes with a twist
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.greatsword_jungle_venom6.lore.3=§9+5%% Movement Debuff
+rldregora.cursed_weapons.greatsword_jungle_venom6.lore.3=§9+5%% Movement §0Debuff
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.4=§9+10%% Regeneration
 rldregora.cursed_weapons.greatsword_jungle_venom6.lore.5=§0Eagle Troll!
 # Desert Stinger Sword ================================================================
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.name=Posessed Desert Stinger Sword
-rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.0=The§kre is§r a presence insi§kde th§re Sword...
+rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Sword...
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.2=§9+5%% Attack Speed
-rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.3=§9+5%% No Attack Damage
+rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.3=§9+5%% §0No §9Attack Damage
 rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.name=Accursed Desert Stinger Sword
-rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.0=§kThi§rs Swo§krd§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.0=§kThi§r§5§os Swo§krd§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.1=§4When in main hand:
-rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.2=§9+3 Max Death
+rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.2=§9+3 Max §0Death
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.4=§9+10%% Agility
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.name=Damned Desert Stinger Sword
-rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.0=Upon thi§ks S§rword lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.0=Upon thi§ks S§r§5§oword lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.2=§9+100%% Negative Yes.
 rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.3=§9+100%% Luck
-rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.4=§0+100%% Attack Speed
+rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.name=Deplored Desert Stinger Sword
 rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.0=A sinister aura envelops this Sword!
@@ -6521,29 +6524,29 @@ rldregora.cursed_weapons.myrmex_desert_sword_venom6.name=Rebuked Desert Stinger 
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.0=This Sword comes with a twist
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.3=§9+5%% Mentalberian Herritage
+rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.3=§9+5%% Mentalberian Heritage
 rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.4=§9+10%% Regeneration
 # Desert Stinger Quarterstaff ================================================================
 rldregora.cursed_weapons.staff_desert_venom1.name=Posessed Quarterstaff
-rldregora.cursed_weapons.staff_desert_venom1.lore.0=The§kre is§r a presence insi§kde th§re Quarterstaff...
+rldregora.cursed_weapons.staff_desert_venom1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Quarterstaff...
 rldregora.cursed_weapons.staff_desert_venom1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom1.lore.2=§9+5%% Return To Mentalberian When Lost
 rldregora.cursed_weapons.staff_desert_venom1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.staff_desert_venom1.lore.4=§9+10%% Max Health
 
 rldregora.cursed_weapons.staff_desert_venom2.name=Accursed Quarterstaff
-rldregora.cursed_weapons.staff_desert_venom2.lore.0=§kThi§rs Quartersta§kff§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.staff_desert_venom2.lore.0=§kThi§r§5§os Quartersta§kff§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.staff_desert_venom2.lore.1=§4When in main hand:
-rldregora.cursed_weapons.staff_desert_venom2.lore.2=§9+3 Min Health
+rldregora.cursed_weapons.staff_desert_venom2.lore.2=§9+3 §0Min §9Health
 rldregora.cursed_weapons.staff_desert_venom2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.staff_desert_venom2.lore.4=§9+10%% Jump Scare
 
 rldregora.cursed_weapons.staff_desert_venom3.name=Damned Quarterstaff
-rldregora.cursed_weapons.staff_desert_venom3.lore.0=Upon thi§ks Quarters§rtaff lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.staff_desert_venom3.lore.0=Upon thi§ks Quarters§r§5§otaff lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.staff_desert_venom3.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom3.lore.2=§9+100%% Shivaxi'd
 rldregora.cursed_weapons.staff_desert_venom3.lore.3=§9+100%% Heaven'd
-rldregora.cursed_weapons.staff_desert_venom3.lore.4=§0+100%% Eagle'd
+rldregora.cursed_weapons.staff_desert_venom3.lore.4=§9+100%% Eagle'd
 
 rldregora.cursed_weapons.staff_desert_venom4.name=Deplored Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom4.lore.0=A sinister aura envelops this Quarterstaff!
@@ -6563,34 +6566,34 @@ rldregora.cursed_weapons.staff_desert_venom6.name=Rebuked Quarterstaff
 rldregora.cursed_weapons.staff_desert_venom6.lore.0=This Quarterstaff comes with a twist
 rldregora.cursed_weapons.staff_desert_venom6.lore.1=§4When in main hand:
 rldregora.cursed_weapons.staff_desert_venom6.lore.2=§9+1 Luck
-rldregora.cursed_weapons.staff_desert_venom6.lore.3=§9+5%% Movement Slowed
+rldregora.cursed_weapons.staff_desert_venom6.lore.3=§9+5%% Movement §0Slowed
 rldregora.cursed_weapons.staff_desert_venom6.lore.4=§9+10%% Degeneration
 # Iron Rapier ================================================================
 rldregora.cursed_weapons.rapier_iron1.name=Posessed Rapier
-rldregora.cursed_weapons.rapier_iron1.lore.0=The§kre is§r a presence insi§kde th§re Rapier...
+rldregora.cursed_weapons.rapier_iron1.lore.0=The§kre is§r§5§o a presence insi§kde th§r§5§oe Rapier...
 rldregora.cursed_weapons.rapier_iron1.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron1.lore.2=§9+5%% Kotlin Language
 rldregora.cursed_weapons.rapier_iron1.lore.3=§9+5%% Attack Damage
 rldregora.cursed_weapons.rapier_iron1.lore.4=§9+10%% Eagle Scripted
 
 rldregora.cursed_weapons.rapier_iron2.name=Accursed Rapier
-rldregora.cursed_weapons.rapier_iron2.lore.0=§kThi§rs Rapi§ker§r will §kbe y§rou§kr en§rd!
+rldregora.cursed_weapons.rapier_iron2.lore.0=§kThi§r§5§os Rapi§ker§r§5§o will §kbe y§r§5§oou§kr en§r§5§od!
 rldregora.cursed_weapons.rapier_iron2.lore.1=§4When in main hand:
 rldregora.cursed_weapons.rapier_iron2.lore.2=§9+3 Untested Script
 rldregora.cursed_weapons.rapier_iron2.lore.3=§9+5%% Fly Speed
 rldregora.cursed_weapons.rapier_iron2.lore.4=§9+10%% Corrupted
 
 rldregora.cursed_weapons.rapier_iron3.name=Damned Rapier
-rldregora.cursed_weapons.rapier_iron3.lore.0=Upon thi§ks R§rapier lies a §khe§ravy curs§ke...
+rldregora.cursed_weapons.rapier_iron3.lore.0=Upon thi§ks R§r§5§oapier lies a §khe§r§5§oavy curs§ke...
 rldregora.cursed_weapons.rapier_iron3.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_iron3.lore.2=§9+100%% Failed Damage
+rldregora.cursed_weapons.rapier_iron3.lore.2=§9+100%% §0Failed §9Damage
 rldregora.cursed_weapons.rapier_iron3.lore.3=§9+100%% Luck
-rldregora.cursed_weapons.rapier_iron3.lore.4=§0+100%% Attack Speed
+rldregora.cursed_weapons.rapier_iron3.lore.4=§9+100%% Attack Speed
 
 rldregora.cursed_weapons.rapier_iron4.name=Deplored Rapier
 rldregora.cursed_weapons.rapier_iron4.lore.0=A sinister aura envelops this Rapier!
 rldregora.cursed_weapons.rapier_iron4.lore.1=§4When in main hand:
-rldregora.cursed_weapons.rapier_iron4.lore.2=§9+1 Failed Agility
+rldregora.cursed_weapons.rapier_iron4.lore.2=§9+1 §0Failed §9Agility
 rldregora.cursed_weapons.rapier_iron4.lore.3=§9+5 Magic
 rldregora.cursed_weapons.rapier_iron4.lore.4=§9-10%% Anti Fear
 
@@ -6621,121 +6624,121 @@ rldregora.gilded_tools.itemgoldnunchaku.name=Gilded Nunchaku
 ##################################################################
 # rlcraft/loot_bundles/rusted_weapons.json
 ##################################################################
-rldregora.rusted_weapons.dagger_iron.lore=Although heavily damaged the dagger appears usable.
+rldregora.rusted_weapons.dagger_iron.lore=Although heavily damaged, this dagger appears usable.
 rldregora.rusted_weapons.dagger_iron1.name=Rusted Iron Dagger
 rldregora.rusted_weapons.dagger_iron2.name=Oxidized Iron Dagger
 rldregora.rusted_weapons.dagger_iron3.name=Corroded Iron Dagger
 rldregora.rusted_weapons.dagger_iron4.name=Tarnished Iron Dagger
 
-rldregora.rusted_weapons.longsword_iron.lore=Although heavily damaged the longsword appears usable.
+rldregora.rusted_weapons.longsword_iron.lore=Although heavily damaged, this longsword appears usable.
 rldregora.rusted_weapons.longsword_iron1.name=Rusted Iron Longsword
 rldregora.rusted_weapons.longsword_iron2.name=Oxidized Iron Longsword
 rldregora.rusted_weapons.longsword_iron3.name=Corroded Iron Longsword
 rldregora.rusted_weapons.longsword_iron4.name=Tarnished Iron Longsword
 
-rldregora.rusted_weapons.katana_iron.lore=Although heavily damaged the katana appears usable.
+rldregora.rusted_weapons.katana_iron.lore=Although heavily damaged, this katana appears usable.
 rldregora.rusted_weapons.katana_iron1.name=Rusted Iron Katana
 rldregora.rusted_weapons.katana_iron2.name=Oxidized Iron Katana
 rldregora.rusted_weapons.katana_iron3.name=Corroded Iron Katana
 rldregora.rusted_weapons.katana_iron4.name=Tarnished Iron Katana
 
-rldregora.rusted_weapons.saber_iron.lore=Although heavily damaged the saber appears usable.
+rldregora.rusted_weapons.saber_iron.lore=Although heavily damaged, this saber appears usable.
 rldregora.rusted_weapons.saber_iron1.name=Rusted Iron Saber
 rldregora.rusted_weapons.saber_iron2.name=Oxidized Iron Saber
 rldregora.rusted_weapons.saber_iron3.name=Corroded Iron Saber
 rldregora.rusted_weapons.saber_iron4.name=Tarnished Iron Saber
 
-rldregora.rusted_weapons.rapier_iron.lore=Although heavily damaged the rapier appears usable.
+rldregora.rusted_weapons.rapier_iron.lore=Although heavily damaged, this rapier appears usable.
 rldregora.rusted_weapons.rapier_iron1.name=Rusted Iron Rapier
 rldregora.rusted_weapons.rapier_iron2.name=Oxidized Iron Rapier
 rldregora.rusted_weapons.rapier_iron3.name=Corroded Iron Rapier
 rldregora.rusted_weapons.rapier_iron4.name=Tarnished Iron Rapier
 
-rldregora.rusted_weapons.greatsword_iron.lore=Although heavily damaged the greatsword appears usable.
+rldregora.rusted_weapons.greatsword_iron.lore=Although heavily damaged, this greatsword appears usable.
 rldregora.rusted_weapons.greatsword_iron1.name=Rusted Iron Greatsword
 rldregora.rusted_weapons.greatsword_iron2.name=Oxidized Iron Greatsword
 rldregora.rusted_weapons.greatsword_iron3.name=Corroded Iron Greatsword
 rldregora.rusted_weapons.greatsword_iron4.name=Tarnished Iron Greatsword
 
-rldregora.rusted_weapons.hammer_iron.lore=Although heavily damaged the hammer appears usable.
+rldregora.rusted_weapons.hammer_iron.lore=Although heavily damaged, this hammer appears usable.
 rldregora.rusted_weapons.hammer_iron1.name=Rusted Iron Hammer
 rldregora.rusted_weapons.hammer_iron2.name=Oxidized Iron Hammer
 rldregora.rusted_weapons.hammer_iron3.name=Corroded Iron Hammer
 rldregora.rusted_weapons.hammer_iron4.name=Tarnished Iron Hammer
 
-rldregora.rusted_weapons.warhammer_iron.lore=Although heavily damaged the warhammer appears usable.
+rldregora.rusted_weapons.warhammer_iron.lore=Although heavily damaged, this warhammer appears usable.
 rldregora.rusted_weapons.warhammer_iron1.name=Rusted Iron Warhammer
 rldregora.rusted_weapons.warhammer_iron2.name=Oxidized Iron Warhammer
 rldregora.rusted_weapons.warhammer_iron3.name=Corroded Iron Warhammer
 rldregora.rusted_weapons.warhammer_iron4.name=Tarnished Iron Warhammer
 
-rldregora.rusted_weapons.spear_iron.lore=Although heavily damaged the spear appears usable.
+rldregora.rusted_weapons.spear_iron.lore=Although heavily damaged, this spear appears usable.
 rldregora.rusted_weapons.spear_iron1.name=Rusted Iron Spear
 rldregora.rusted_weapons.spear_iron2.name=Oxidized Iron Spear
 rldregora.rusted_weapons.spear_iron3.name=Corroded Iron Spear
 rldregora.rusted_weapons.spear_iron4.name=Tarnished Iron Spear
 
-rldregora.rusted_weapons.halberd_iron.lore=Although heavily damaged the halberd appears usable.
+rldregora.rusted_weapons.halberd_iron.lore=Although heavily damaged, this halberd appears usable.
 rldregora.rusted_weapons.halberd_iron1.name=Rusted Iron Halberd
 rldregora.rusted_weapons.halberd_iron2.name=Oxidized Iron Halberd
 rldregora.rusted_weapons.halberd_iron3.name=Corroded Iron Halberd
 rldregora.rusted_weapons.halberd_iron4.name=Tarnished Iron Halberd
 
-rldregora.rusted_weapons.pike_iron.lore=Although heavily damaged the pike appears usable.
+rldregora.rusted_weapons.pike_iron.lore=Although heavily damaged, this pike appears usable.
 rldregora.rusted_weapons.pike_iron1.name=Rusted Iron Pike
 rldregora.rusted_weapons.pike_iron2.name=Oxidized Iron Pike
 rldregora.rusted_weapons.pike_iron3.name=Corroded Iron Pike
 rldregora.rusted_weapons.pike_iron4.name=Tarnished Iron Pike
 
-rldregora.rusted_weapons.lance_iron.lore=Although heavily damaged the lance appears usable.
+rldregora.rusted_weapons.lance_iron.lore=Although heavily damaged, this lance appears usable.
 rldregora.rusted_weapons.lance_iron1.name=Rusted Iron Lance
 rldregora.rusted_weapons.lance_iron2.name=Oxidized Iron Lance
 rldregora.rusted_weapons.lance_iron3.name=Corroded Iron Lance
 rldregora.rusted_weapons.lance_iron4.name=Tarnished Iron Lance
 
-rldregora.rusted_weapons.throwing_knife_iron.lore=Although heavily damaged the throwing knife appears usable.
+rldregora.rusted_weapons.throwing_knife_iron.lore=Although heavily damaged, this throwing knife appears usable.
 rldregora.rusted_weapons.throwing_knife_iron1.name=Rusted Iron Throwing Knife
 rldregora.rusted_weapons.throwing_knife_iron2.name=Oxidized Iron Throwing Knife
 rldregora.rusted_weapons.throwing_knife_iron3.name=Corroded Iron Throwing Knife
 rldregora.rusted_weapons.throwing_knife_iron4.name=Tarnished Iron Throwing Knife
 
-rldregora.rusted_weapons.throwing_axe_iron.lore=Although heavily damaged the throwing axe appears usable.
+rldregora.rusted_weapons.throwing_axe_iron.lore=Although heavily damaged, this throwing axe appears usable.
 rldregora.rusted_weapons.throwing_axe_iron1.name=Rusted Iron Throwing Axe
 rldregora.rusted_weapons.throwing_axe_iron2.name=Oxidized Iron Throwing Axe
 rldregora.rusted_weapons.throwing_axe_iron3.name=Corroded Iron Throwing Axe
 rldregora.rusted_weapons.throwing_axe_iron4.name=Tarnished Iron Throwing Axe
 
-rldregora.rusted_weapons.javelin_iron.lore=Although heavily damaged the javelin appears usable.
+rldregora.rusted_weapons.javelin_iron.lore=Although heavily damaged, this javelin appears usable.
 rldregora.rusted_weapons.javelin_iron1.name=Rusted Iron Javelin
 rldregora.rusted_weapons.javelin_iron2.name=Oxidized Iron Javelin
 rldregora.rusted_weapons.javelin_iron3.name=Corroded Iron Javelin
 rldregora.rusted_weapons.javelin_iron4.name=Tarnished Iron Javelin
 
-rldregora.rusted_weapons.boomerang_iron.lore=Although heavily damaged the boomerang appears usable.
+rldregora.rusted_weapons.boomerang_iron.lore=Although heavily damaged, this boomerang appears usable.
 rldregora.rusted_weapons.boomerang_iron1.name=Rusted Iron Boomerang
 rldregora.rusted_weapons.boomerang_iron2.name=Oxidized Iron Boomerang
 rldregora.rusted_weapons.boomerang_iron3.name=Corroded Iron Boomerang
 rldregora.rusted_weapons.boomerang_iron4.name=Tarnished Iron Boomerang
 
-rldregora.rusted_weapons.battleaxe_iron.lore=Although heavily damaged the battleaxe appears usable.
+rldregora.rusted_weapons.battleaxe_iron.lore=Although heavily damaged, this battleaxe appears usable.
 rldregora.rusted_weapons.battleaxe_iron1.name=Rusted Iron Battleaxe
 rldregora.rusted_weapons.battleaxe_iron2.name=Oxidized Iron Battleaxe
 rldregora.rusted_weapons.battleaxe_iron3.name=Corroded Iron Battleaxe
 rldregora.rusted_weapons.battleaxe_iron4.name=Tarnished Iron Battleaxe
 
-rldregora.rusted_weapons.mace_iron.lore=Although heavily damaged the mace appears usable.
+rldregora.rusted_weapons.mace_iron.lore=Although heavily damaged, this mace appears usable.
 rldregora.rusted_weapons.mace_iron1.name=Rusted Iron Mace
 rldregora.rusted_weapons.mace_iron2.name=Oxidized Iron Mace
 rldregora.rusted_weapons.mace_iron3.name=Corroded Iron Mace
 rldregora.rusted_weapons.mace_iron4.name=Tarnished Iron Mace
 
-rldregora.rusted_weapons.glaive_iron.lore=Although heavily damaged the glaive appears usable.
+rldregora.rusted_weapons.glaive_iron.lore=Although heavily damaged, this glaive appears usable.
 rldregora.rusted_weapons.glaive_iron1.name=Rusted Iron Glaive
 rldregora.rusted_weapons.glaive_iron2.name=Oxidized Iron Glaive
 rldregora.rusted_weapons.glaive_iron3.name=Corroded Iron Glaive
 rldregora.rusted_weapons.glaive_iron4.name=Tarnished Iron Glaive
 
-rldregora.rusted_weapons.staff_iron.lore=Although heavily damaged the staff appears usable.
+rldregora.rusted_weapons.staff_iron.lore=Although heavily damaged, this staff appears usable.
 rldregora.rusted_weapons.staff_iron1.name=Rusted Iron Staff
 rldregora.rusted_weapons.staff_iron2.name=Oxidized Iron Staff
 rldregora.rusted_weapons.staff_iron3.name=Corroded Iron Staff
@@ -6777,12 +6780,12 @@ rldregora.industrial.leather_chestplate.name=Hazmat Body
 rldregora.industrial.hazmat_armor.lore=Smooth to the touch, high quality leather.
 
 rldregora.industrial.ancient_artifact.name=Ancient Artifact
-rldregora.industrial.ancient_artifact.lore.0=Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
-rldregora.industrial.ancient_artifact.lore.1=Only sold when in pristine condition, use every day iron ingots to repair.
+rldregora.industrial.ancient_artifact.lore.0=§r§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
+rldregora.industrial.ancient_artifact.lore.1=§r§6Only sold when in pristine condition, use every day iron ingots to repair.
 
 rldregora.industrial.ancient_coins.name=Ancient Coins
-rldregora.industrial.ancient_coins.lore.0=Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
-rldregora.industrial.ancient_coins.lore.1=Only sold when in pristine condition, use every day iron ingots to repair.
+rldregora.industrial.ancient_coins.lore.0=§r§6Treasure among Topographers in Outposts & the odd villager, usually found in ancient structures such as maintenance shafts and cities.
+rldregora.industrial.ancient_coins.lore.1=
 
 ##################################################################
 # ruins/nuclear.json
@@ -6823,8 +6826,8 @@ rldregora.nuclear.contaminated_ammunition.name=§e☢§r §4§lCon§e§lta§4§l
 rldregora.nuclear.contaminated_parts.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r
 rldregora.nuclear.contaminated_key.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated K§4§ley §e☢§r
 rldregora.nuclear.contaminated_ancient_artifact.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r
-rldregora.nuclear.contaminated_ancient_artifact.lore.0=Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
-rldregora.nuclear.contaminated_ancient_artifact.lore.1=Only sold when in pristine condition, use every day iron ingots to repair.
+rldregora.nuclear.contaminated_ancient_artifact.lore.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
+rldregora.nuclear.contaminated_ancient_artifact.lore.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
 rldregora.nuclear.contaminated_ancient_coins.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r
 rldregora.nuclear.contaminated_iron_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Iron In§4§lgot §e☢§r
 rldregora.nuclear.contaminated_gold_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Gol§4§ld Ingot §e☢§r
@@ -6847,7 +6850,7 @@ rldregora.milk.moldy_milk.lore=A green layer covers the milk.... Yeah... NOPE!
 rldregora.milk.spotted_milk.name=Spotted Milk
 rldregora.milk.spotted_milk.lore.0=Black.. Brown and Green spots in the milk?
 rldregora.milk.spotted_milk.lore.1=Not Drinking That!
-rldregora.milk.white_stuff.name=Bucket of White stuff
+rldregora.milk.white_stuff.name=Bottle of White stuff
 rldregora.milk.white_stuff.lore=This can't be milk.. Can it?
 
 ##################################################################
@@ -6912,6 +6915,9 @@ rldregora.toilet.rebranded_apple.lore.0=The attached note says it is
 rldregora.toilet.rebranded_apple.lore.1=Rebranded Apple Juice...
 rldregora.toilet.rebranded_apple.lore.2=This one is signed by Kekistani?
 
+##################################################################
+# switch/vanilla/toilet.json
+##################################################################
 rldregora.toilet.dirt1.name=Turd ☢
 rldregora.toilet.dirt1.lore=This has gone Nuclear!
 rldregora.toilet.dirt2.name=Discharge ‼✖
@@ -6924,15 +6930,15 @@ rldregora.toilet.mushroom_stew.lore=Yeah...
 # travelers/ocean_main.json
 ##################################################################
 rldregora.ocean_main.compass.name=Travelers Compass
-rldregora.ocean_main.compass.lore.0=The compass has a inscription on the back
-rldregora.ocean_main.compass.lore.1=Follow the pointed path and wonders await.
+rldregora.ocean_main.compass.lore.0=The compass has a inscription on the back:
+rldregora.ocean_main.compass.lore.1=§6§o"Follow the pointed path and wonders await."
 
 ##################################################################
 # travelers/oceans_castle.json
 ##################################################################
 rldregora.oceans_castle.filled_map.name=Castle Ruins
-rldregora.oceans_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_castle.filled_map.lore.1=x:-14202 z:-6004
+rldregora.oceans_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_castle.filled_map.lore.1=§rx:-14202 z:-6004
 
 rldregora.oceans_castle.book.name=x:-14202 z:-6004
 rldregora.oceans_castle.book.lore=Ruins undisturbed and lands undiscovered.
@@ -6941,8 +6947,8 @@ rldregora.oceans_castle.book.lore=Ruins undisturbed and lands undiscovered.
 # travelers/oceans_church.json
 ##################################################################
 rldregora.oceans_church.filled_map.name=Haunted Church
-rldregora.oceans_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_church.filled_map.lore.1=x:-17011 z:2659
+rldregora.oceans_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_church.filled_map.lore.1=§rx:-17011 z:2659
 
 rldregora.oceans_church.book.name=x:-17011 z:2659
 rldregora.oceans_church.book.lore=The cult of the pumpkins await!
@@ -6953,8 +6959,8 @@ rldregora.oceans_church.chest.name=Hidden
 # travelers/oceans_daeroc.json
 ##################################################################
 rldregora.oceans_daeroc.filled_map.name=Kingdom of Daeroc
-rldregora.oceans_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_daeroc.filled_map.lore.1=Area Around x:-14900 z:-3800
+rldregora.oceans_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_daeroc.filled_map.lore.1=§rArea Around x:-14900 z:-3800
 
 rldregora.oceans_daeroc.book.name=x:-14900 z:-3800
 rldregora.oceans_daeroc.book.lore=Capital on the hill.
@@ -6963,8 +6969,8 @@ rldregora.oceans_daeroc.book.lore=Capital on the hill.
 # travelers/oceans_farmstead.json
 ##################################################################
 rldregora.oceans_farmstead.filled_map.name=Farmstead
-rldregora.oceans_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_farmstead.filled_map.lore.1=x:-15384 z:-3207
+rldregora.oceans_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_farmstead.filled_map.lore.1=§rx:-15384 z:-3207
 
 rldregora.oceans_farmstead.book.name=x:-15384 z:-3207
 rldregora.oceans_farmstead.book.lore=Glorious Golden Grain
@@ -6973,8 +6979,8 @@ rldregora.oceans_farmstead.book.lore=Glorious Golden Grain
 # travelers/oceans_greendungeon.json
 ##################################################################
 rldregora.oceans_greendungeon.filled_map.name=Dungeons of the Beasts
-rldregora.oceans_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_greendungeon.filled_map.lore.1=x:-723 z:17155
+rldregora.oceans_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_greendungeon.filled_map.lore.1=§rx:-723 z:17155
 
 rldregora.oceans_greendungeon.book.name=x:-723 z:17155
 rldregora.oceans_greendungeon.book.lore.0=Three dungeons clad in green reside with treasure and foe.
@@ -6984,8 +6990,8 @@ rldregora.oceans_greendungeon.book.lore.1=One a pyramid, two a hole, three a off
 # travelers/oceans_iceships.json
 ##################################################################
 rldregora.oceans_iceships.filled_map.name=Frozen Ships
-rldregora.oceans_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_iceships.filled_map.lore.1=Area Around x:7576 z:12204
+rldregora.oceans_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_iceships.filled_map.lore.1=§rArea Around x:7576 z:12204
 
 rldregora.oceans_iceships.book.name=x:7576 z:12204
 rldregora.oceans_iceships.book.lore=Ocasionally along the shore frozen death awaits.
@@ -6994,8 +7000,8 @@ rldregora.oceans_iceships.book.lore=Ocasionally along the shore frozen death awa
 # travelers/oceans_icetemple.json
 ##################################################################
 rldregora.oceans_icetemple.filled_map.name=Temple of Winter
-rldregora.oceans_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_icetemple.filled_map.lore.1=Area Around x:14273 z:7038
+rldregora.oceans_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_icetemple.filled_map.lore.1=§rArea Around x:14273 z:7038
 
 rldregora.oceans_icetemple.book.name=x:14273 z:7038
 rldregora.oceans_icetemple.book.lore=Spikes crossing at four points, as deadly as the careless adventurer.
@@ -7004,8 +7010,8 @@ rldregora.oceans_icetemple.book.lore=Spikes crossing at four points, as deadly a
 # travelers/oceans_legacyspawn.json
 ##################################################################
 rldregora.oceans_legacyspawn.filled_map.name=Legacy Monument
-rldregora.oceans_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_legacyspawn.filled_map.lore.1=x:-2327 z:15842
+rldregora.oceans_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_legacyspawn.filled_map.lore.1=§rx:-2327 z:15842
 
 rldregora.oceans_legacyspawn.book.name=x:-2327 z:15842
 rldregora.oceans_legacyspawn.book.lore=The center of once a great civilization.
@@ -7014,8 +7020,8 @@ rldregora.oceans_legacyspawn.book.lore=The center of once a great civilization.
 # travelers/oceans_mineshafts.json
 ##################################################################
 rldregora.oceans_mineshafts.filled_map.name=Happy Times Industries
-rldregora.oceans_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_mineshafts.filled_map.lore.1=x:-14198 z:-7854
+rldregora.oceans_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_mineshafts.filled_map.lore.1=§rx:-14198 z:-7854
 
 rldregora.oceans_mineshafts.book.name=x:-14198 z:-7854
 rldregora.oceans_mineshafts.book.lore=Valley of the grand treasure mines, beware your head!
@@ -7024,8 +7030,8 @@ rldregora.oceans_mineshafts.book.lore=Valley of the grand treasure mines, beware
 # travelers/oceans_mountains.json
 ##################################################################
 rldregora.oceans_mountains.filled_map.name=Resourceful Mountains
-rldregora.oceans_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_mountains.filled_map.lore.1=x:-14881 z:-7754
+rldregora.oceans_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_mountains.filled_map.lore.1=§rx:-14881 z:-7754
 
 rldregora.oceans_mountains.book.name=x:-14881 z:-7754
 rldregora.oceans_mountains.book.lore=Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.
@@ -7034,8 +7040,8 @@ rldregora.oceans_mountains.book.lore=Vertical, down and down the shaft for at th
 # travelers/oceans_origin.json
 ##################################################################
 rldregora.oceans_origin.filled_map.name=Medieval City, ORIGIN
-rldregora.oceans_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_origin.filled_map.lore.1=Area Around x:-16972 z:5231
+rldregora.oceans_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_origin.filled_map.lore.1=§rArea Around x:-16972 z:5231
 
 rldregora.oceans_origin.book.name=x:-16972 z:5231
 rldregora.oceans_origin.book.lore=Stronghold in the ocean where no corrupted roam, except for those below.
@@ -7044,8 +7050,8 @@ rldregora.oceans_origin.book.lore=Stronghold in the ocean where no corrupted roa
 # travelers/oceans_pirate.json
 ##################################################################
 rldregora.oceans_pirate.filled_map.name=Pirate Outpost
-rldregora.oceans_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_pirate.filled_map.lore.1=Area Around x:-175 z:15950
+rldregora.oceans_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_pirate.filled_map.lore.1=§rArea Around x:-175 z:15950
 
 rldregora.oceans_pirate.book.name=x:-175 z:15950
 rldregora.oceans_pirate.book.lore=Resident the Corrupted, Vindicators and treasure!
@@ -7054,21 +7060,21 @@ rldregora.oceans_pirate.book.lore=Resident the Corrupted, Vindicators and treasu
 # travelers/oceans_quarry.json
 ##################################################################
 rldregora.oceans_quarry.filled_map.name=Quarry
-rldregora.oceans_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_quarry.filled_map.lore.1=x:-16254 z:-4887
+rldregora.oceans_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_quarry.filled_map.lore.1=§rx:-16254 z:-4887
 
 rldregora.oceans_quarry.book.name=x:-16254 z:-4887
 rldregora.oceans_quarry.book.lore=Once a brimming area full of wealth now overtaken by something else...
 
 rldregora.oceans_quarry.iron_pickaxe.name=Ancient Pickaxe
-rldregora.oceans_quarry.iron_pickaxe.lore=Inscribed in the handle it says 'Merlin's touch'
+rldregora.oceans_quarry.iron_pickaxe.lore=Inscribed in the handle it says "Merlin's touch"
 
 ##################################################################
 # travelers/oceans_spook.json
 ##################################################################
 rldregora.oceans_spook.filled_map.name=Haunted Lands
-rldregora.oceans_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_spook.filled_map.lore.1=x:-13477 z:-7683
+rldregora.oceans_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_spook.filled_map.lore.1=§rx:-13477 z:-7683
 
 rldregora.oceans_spook.book.name=x:-13477 z:-7683
 rldregora.oceans_spook.book.lore=Haunted, rot, bellows below the hanging cages and stranded pillager ships of old.
@@ -7077,18 +7083,18 @@ rldregora.oceans_spook.book.lore=Haunted, rot, bellows below the hanging cages a
 # travelers/oceans_tribal.json
 ##################################################################
 rldregora.oceans_tribal.filled_map.name=Tribal Village
-rldregora.oceans_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.oceans_tribal.filled_map.lore.1=x:-2813 z:16534
+rldregora.oceans_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.oceans_tribal.filled_map.lore.1=§rx:-2813 z:16534
 
 rldregora.oceans_tribal.book.name=Tribal Village Coordinates
-rldregora.oceans_tribal.book.lore.0=x:-2690 z:17124
-rldregora.oceans_tribal.book.lore.1=x:-2851 z:16557
-rldregora.oceans_tribal.book.lore.2=x:-2065 z:16821
-rldregora.oceans_tribal.book.lore.3=x:-2983 z:15678
-rldregora.oceans_tribal.book.lore.4=x:-2309 z:15097
-rldregora.oceans_tribal.book.lore.5=x:-1772 z:15473
-rldregora.oceans_tribal.book.lore.6=x:-1054 z:14414
-rldregora.oceans_tribal.book.lore.7=x:-302 z:15649
+rldregora.oceans_tribal.book.lore.0=§rx:-2690 z:17124
+rldregora.oceans_tribal.book.lore.1=§rx:-2851 z:16557
+rldregora.oceans_tribal.book.lore.2=§rx:-2065 z:16821
+rldregora.oceans_tribal.book.lore.3=§rx:-2983 z:15678
+rldregora.oceans_tribal.book.lore.4=§rx:-2309 z:15097
+rldregora.oceans_tribal.book.lore.5=§rx:-1772 z:15473
+rldregora.oceans_tribal.book.lore.6=§rx:-1054 z:14414
+rldregora.oceans_tribal.book.lore.7=§rx:- 302 z:15649
 
 ##################################################################
 # travelers/traveler_main.json
@@ -7101,8 +7107,8 @@ rldregora.traveler_main.compass.lore.1=where it not for the other contents in th
 # travelers/travelers_castle.json
 ##################################################################
 rldregora.travelers_castle.filled_map.name=Castle Ruins
-rldregora.travelers_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_castle.filled_map.lore.1=x:-14202 z:-6004
+rldregora.travelers_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_castle.filled_map.lore.1=§rx:-14202 z:-6004
 
 rldregora.travelers_castle.book.name=x:-14202 z:-6004
 rldregora.travelers_castle.book.lore=Ruins undisturbed and lands undiscovered.
@@ -7111,8 +7117,8 @@ rldregora.travelers_castle.book.lore=Ruins undisturbed and lands undiscovered.
 # travelers/travelers_church.json
 ##################################################################
 rldregora.travelers_church.filled_map.name=Haunted Church
-rldregora.travelers_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_church.filled_map.lore.1=x:-17011 z:2659
+rldregora.travelers_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_church.filled_map.lore.1=§rx:-17011 z:2659
 
 rldregora.travelers_church.book.name=x:-17011 z:2659
 rldregora.travelers_church.book.lore=The cult of the pumpkins await!
@@ -7123,8 +7129,8 @@ rldregora.travelers_church.chest.name=Hidden
 # travelers/travelers_daeroc.json
 ##################################################################
 rldregora.travelers_daeroc.filled_map.name=Kingdom of Daeroc
-rldregora.travelers_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_daeroc.filled_map.lore.1=Area Around x:-14900 z:-3800
+rldregora.travelers_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_daeroc.filled_map.lore.1=§rArea Around x:-14900 z:-3800
 
 rldregora.travelers_daeroc.book.name=x:-14900 z:-3800
 rldregora.travelers_daeroc.book.lore=Capital on the hill.
@@ -7133,8 +7139,8 @@ rldregora.travelers_daeroc.book.lore=Capital on the hill.
 # travelers/travelers_farmstead.json
 ##################################################################
 rldregora.travelers_farmstead.filled_map.name=Farmstead
-rldregora.travelers_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_farmstead.filled_map.lore.1=x:-15384 z:-3207
+rldregora.travelers_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_farmstead.filled_map.lore.1=§rx:-15384 z:-3207
 
 rldregora.travelers_farmstead.book.name=x:-15384 z:-3207
 rldregora.travelers_farmstead.book.lore=Glorious Golden Grain
@@ -7143,8 +7149,8 @@ rldregora.travelers_farmstead.book.lore=Glorious Golden Grain
 # travelers/travelers_greendungeon.json
 ##################################################################
 rldregora.travelers_greendungeon.filled_map.name=Dungeons of the Beasts
-rldregora.travelers_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_greendungeon.filled_map.lore.1=x:-723 z:17155
+rldregora.travelers_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_greendungeon.filled_map.lore.1=§rx:-723 z:17155
 
 rldregora.travelers_greendungeon.book.name=x:-723 z:17155
 rldregora.travelers_greendungeon.book.lore.0=Three dungeons clad in green reside with treasure and foe.
@@ -7154,8 +7160,8 @@ rldregora.travelers_greendungeon.book.lore.1=One a pyramid, two a hole, three a 
 # travelers/travelers_iceships.json
 ##################################################################
 rldregora.travelers_iceships.filled_map.name=Frozen Ships
-rldregora.travelers_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_iceships.filled_map.lore.1=Area Around x:7576 z:12204
+rldregora.travelers_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_iceships.filled_map.lore.1=§rArea Around x:7576 z:12204
 
 rldregora.travelers_iceships.book.name=x:7576 z:12204
 rldregora.travelers_iceships.book.lore=Occasionally along the shore frozen death awaits.
@@ -7164,8 +7170,8 @@ rldregora.travelers_iceships.book.lore=Occasionally along the shore frozen death
 # travelers/travelers_icetemple.json
 ##################################################################
 rldregora.travelers_icetemple.filled_map.name=Temple of Winter
-rldregora.travelers_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_icetemple.filled_map.lore.1=Area Around x:14273 z:7038
+rldregora.travelers_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_icetemple.filled_map.lore.1=§rArea Around x:14273 z:7038
 
 rldregora.travelers_icetemple.book.name=x:14273 z:7038
 rldregora.travelers_icetemple.book.lore=Spikes crossing at four points, as deadly as the careless adventurer.
@@ -7174,8 +7180,8 @@ rldregora.travelers_icetemple.book.lore=Spikes crossing at four points, as deadl
 # travelers/travelers_legacyspawn.json
 ##################################################################
 rldregora.travelers_legacyspawn.filled_map.name=Legacy Monument
-rldregora.travelers_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_legacyspawn.filled_map.lore.1=x:-2327 z:15842
+rldregora.travelers_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_legacyspawn.filled_map.lore.1=§rx:-2327 z:15842
 
 rldregora.travelers_legacyspawn.book.name=x:-2327 z:15842
 rldregora.travelers_legacyspawn.book.lore=The center of once a great civilization.
@@ -7186,14 +7192,14 @@ rldregora.travelers_legacyspawn.banner.name=Tribal Banner
 # travelers/travelers_mineshafts.json
 ##################################################################
 rldregora.travelers_mineshafts.filled_map.name=Happy Times Industries
-rldregora.travelers_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_mineshafts.filled_map.lore.1=x:-14198 z:-7854
+rldregora.travelers_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_mineshafts.filled_map.lore.1=§rx:-14198 z:-7854
 
 rldregora.travelers_mineshafts.book.name=x:-14198 z:-7854
 rldregora.travelers_mineshafts.book.lore=Valley of the grand treasure mines, beware your head!
 
 rldregora.travelers_mineshafts.golden_pickaxe.name=Golden Gurlet
-rldregora.travelers_mineshafts.golden_pickaxe.lore=a nimble pickaxe that packs a punch but leaves you wide open.
+rldregora.travelers_mineshafts.golden_pickaxe.lore=A nimble pickaxe that packs a punch, but leaves you wide open.
 
 rldregora.travelers_mineshafts.banner.name=Tribal Banner
 
@@ -7201,21 +7207,21 @@ rldregora.travelers_mineshafts.banner.name=Tribal Banner
 # travelers/travelers_mountains.json
 ##################################################################
 rldregora.travelers_mountains.filled_map.name=Resourceful Mountains
-rldregora.travelers_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_mountains.filled_map.lore.1=x:-14881 z:-7754
+rldregora.travelers_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_mountains.filled_map.lore.1=§rx:-14881 z:-7754
 
 rldregora.travelers_mountains.book.name=x:-14881 z:-7754
 rldregora.travelers_mountains.book.lore=Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.
 
 rldregora.travelers_mountains.stone_pickaxe.name=Stone Breaker
-rldregora.travelers_mountains.stone_pickaxe.lore=This pickaxe is super heavy, slows you down and destroys yours opponents
+rldregora.travelers_mountains.stone_pickaxe.lore=This pickaxe is super heavy, slows you down and destroys your opponents
 
 ##################################################################
 # travelers/travelers_origin.json
 ##################################################################
 rldregora.travelers_origin.filled_map.name=Medieval City, ORIGIN
-rldregora.travelers_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_origin.filled_map.lore.1=Area Around x:-16972 z:5231
+rldregora.travelers_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_origin.filled_map.lore.1=§rArea Around x:-16972 z:5231
 
 rldregora.travelers_origin.book.name=x:-16972 z:5231
 rldregora.travelers_origin.book.lore=Stronghold in the ocean where no corrupted roam, except for those below.
@@ -7226,8 +7232,8 @@ rldregora.travelers_origin.banner.name=City of Origins Banner
 # travelers/travelers_pirate.json
 ##################################################################
 rldregora.travelers_pirate.filled_map.name=Pirate Outpost
-rldregora.travelers_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_pirate.filled_map.lore.1=Area Around x:-175 z:15950
+rldregora.travelers_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_pirate.filled_map.lore.1=§rArea Around x:-175 z:15950
 
 rldregora.travelers_pirate.book.name=x:-175 z:15950
 rldregora.travelers_pirate.book.lore=Resident the Corrupted, Vindicators and treasure!
@@ -7238,25 +7244,25 @@ rldregora.travelers_pirate.banner.name=Pirate Flag
 # travelers/travelers_quarry.json
 ##################################################################
 rldregora.travelers_quarry.filled_map.name=Quarry
-rldregora.travelers_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_quarry.filled_map.lore.1=x:-16254 z:-4887
+rldregora.travelers_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_quarry.filled_map.lore.1=§rx:-16254 z:-4887
 
 rldregora.travelers_quarry.book.name=x:-16254 z:-4887
-rldregora.travelers_quarry.book.lore=Once a brimming area full of wealth now overtaken by something else...
+rldregora.travelers_quarry.book.lore=Once a brimming area full of wealth, now overtaken by something else...
 
 rldregora.travelers_quarry.iron_pickaxe.name=Ancient Pickaxe
-rldregora.travelers_quarry.iron_pickaxe.lore=Inscribed in the handle it says 'Merlin's touch'
+rldregora.travelers_quarry.iron_pickaxe.lore=Inscribed in the handle it says "Merlin's touch"
 
 rldregora.travelers_quarry.book_salt.name=Book of Salt
-rldregora.travelers_quarry.book_salt.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_quarry.book_salt.lore.0=The map seems unusable apart from a set of coordinates:
 rldregora.travelers_quarry.book_salt.lore.1=A mighty pickaxe within the chest, upon touching it vanishes for you carry no luck.
 
 ##################################################################
 # travelers/travelers_spook.json
 ##################################################################
 rldregora.travelers_spook.filled_map.name=Haunted Lands
-rldregora.travelers_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_spook.filled_map.lore.1=x:-13477 z:-7683
+rldregora.travelers_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_spook.filled_map.lore.1=§rx:-13477 z:-7683
 
 rldregora.travelers_spook.book.name=x:-13477 z:-7683
 rldregora.travelers_spook.book.lore=Haunted, rot, bellows below the hanging cages and stranded pillager ships of old.
@@ -7265,18 +7271,18 @@ rldregora.travelers_spook.book.lore=Haunted, rot, bellows below the hanging cage
 # travelers/travelers_tribal.json
 ##################################################################
 rldregora.travelers_tribal.filled_map.name=Tribal Village
-rldregora.travelers_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates
-rldregora.travelers_tribal.filled_map.lore.1=x:-2813 z:16534
+rldregora.travelers_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates:
+rldregora.travelers_tribal.filled_map.lore.1=§rx:-2813 z:16534
 
 rldregora.travelers_tribal.book.name=Tribal Village Coordinates
-rldregora.travelers_tribal.book.lore.0=x:-2690 z:17124
-rldregora.travelers_tribal.book.lore.1=x:-2851 z:16557
-rldregora.travelers_tribal.book.lore.2=x:-2065 z:16821
-rldregora.travelers_tribal.book.lore.3=x:-2983 z:15678
-rldregora.travelers_tribal.book.lore.4=x:-2309 z:15097
-rldregora.travelers_tribal.book.lore.5=x:-1772 z:15473
-rldregora.travelers_tribal.book.lore.6=x:-1054 z:14414
-rldregora.travelers_tribal.book.lore.7=x:-302 z:15649
+rldregora.travelers_tribal.book.lore.0=§rx:-2690 z:17124
+rldregora.travelers_tribal.book.lore.1=§rx:-2851 z:16557
+rldregora.travelers_tribal.book.lore.2=§rx:-2065 z:16821
+rldregora.travelers_tribal.book.lore.3=§rx:-2983 z:15678
+rldregora.travelers_tribal.book.lore.4=§rx:-2309 z:15097
+rldregora.travelers_tribal.book.lore.5=§rx:-1772 z:15473
+rldregora.travelers_tribal.book.lore.6=§rx:-1054 z:14414
+rldregora.travelers_tribal.book.lore.7=§rx:- 302 z:15649
 
 rldregora.travelers_tribal.banner.name=Tribe of Khadr Kryk
 

@@ -66,7 +66,7 @@
                   \"[{\\\"translate\\\":\\\"rldregora.moderncity.end_mydays.page.2\\\"}]\"
                 ],
                 title:\"The end of my days\",
-                locTtitle:\"rldregora.moderncity.end_mydays.title\",
+                locTitle:\"rldregora.moderncity.end_mydays.title\",
                 author:\"Unknown\",
                 locAuthor:\"rldregora.moderncity.end_mydays.author\",
                 display:{Lore:[\"The final scribbles of someone unable to escape.\"],LocLore:[\"rldregora.moderncity.end_mydays.lore\"]}

@@ -478,9 +478,9 @@ rldregora.variedcommodities:satchel.tooltip=§6A purse filled with ancient coins
 ## ContentTweaker ========================================================
 rldregora.reinforced_blocks.tooltip=§eCorruption Resistant
 ## Quark =================================================================
-rldregora.quark:witch_hat.tooltip=§8Makes witches friendly and negates charm spectre curses
-rldregora.quark:pirate_hat.tooltip=§8Grants permanent looting I
-rldregora.quark:archaeologist_hat.tooltip=§8Grants 25%% additional chance to drop ores.
+rldregora.quark:witch_hat.tooltip=§7Makes witches friendly and negates charm spectre curses
+rldregora.quark:pirate_hat.tooltip=§7Grants permanent looting I
+rldregora.quark:archaeologist_hat.tooltip=§7Grants 25% additional chance to drop ores.
 # Fish Undead ============================================================
 item.mod_lavacow.skeletonking_mace.name=Ban Hammer
 item.mod_lavacow.holy_grenade.name=Inferior Holy Grenade
@@ -488,7 +488,7 @@ item.mod_lavacow.bonestew.name=Dragon Bone Stew
 item.mod_lavacow.dreamcatcher.name=Cursed Dream Catcher
 rldregora.mod_lavacow:fissionpotion.tooltip=§cSplits some tamable animals into two individual baby ones.
 rldregora.mod_lavacow:hatred_shard.tooltip.0=§9Fragment of reminiscence, carried by the skeleton king's underlings.
-rldregora.mod_lavacow:kings_crown.tooltip.0=§9Legend says the soul needs it's crown to be in the true desert for the body to rise once again.
+rldregora.mod_lavacow:kings_crown.tooltip.0=§9Legend says the soul needs its crown to be in the true desert for the body to rise once again.
 rldregora.mod_lavacow:skeletonking_mace.tooltip=§9Effects not applied on bosses.
 rldregora.famine_armors.tooltip=§9Lost to the Cities and Chasms Deep
 item.mod_lavacow.acidicheart.name=Acidic Osvermis/Mummy Heart
@@ -578,8 +578,8 @@ rldregora.variedcommodities:wrench.tooltip.1=§6Only sold when in pristine condi
 item.pipe_wrench.name=Ancient Artifact
 rldregora.variedcommodities:pipe_wrench.tooltip.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
 rldregora.variedcommodities:pipe_wrench.tooltip.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
-rldregora.dimstack:bedrock:7.tooltip=§6Can be destroyed with an §4‡ §6§lBrutal Artifact - Theta§r §4‡§r equipped in offhand.
-rldregora.dimstack:bedrock:6.tooltip=§6Can be destroyed with an §4‡ §6§lBrutal Pendant - Eta§r §4‡§r equipped in offhand.
+rldregora.dimstack:bedrock:7.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Artifact - Theta§r §4‡§r §7equipped in offhand.
+rldregora.dimstack:bedrock:6.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand.
 item.artifact.name=§4‡ §6§lBrutal Artifact - Theta§r §4‡
 rldregora.variedcommodities:artifact.tooltip=§6Gain the ability to destroy Theta barrier blocks when equipped in off-hand.
 item.pendant.name=§4‡ §6§lBrutal Pendant - Eta§r §4‡
