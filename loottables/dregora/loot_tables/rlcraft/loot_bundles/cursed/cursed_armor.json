@@ -614,7 +614,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -759,7 +759,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -909,7 +909,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1054,7 +1054,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.umbrium_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1200,7 +1200,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Leather Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Leather Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1345,7 +1345,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1495,7 +1495,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1640,7 +1640,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.troll_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1786,7 +1786,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1931,7 +1931,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2081,7 +2081,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2226,7 +2226,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chitin_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2372,7 +2372,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2517,7 +2517,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2667,7 +2667,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2812,7 +2812,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.scale_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2958,7 +2958,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3103,7 +3103,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3253,7 +3253,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3398,7 +3398,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.diamond_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3530,7 +3530,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Hood of the Eternal Troll\",Lore:[\"You already feel attached!\",\"\",\"§4When on head:\",\"§9+1 Luck\",\"§9+5% Speed\",\"§9+10% Knockback Resistance\"],\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_helmet1.name\",LocLore:[\"rldregora.cursed_armor.description1.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.movementSpeed.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora1.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"5%\",\"10%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}"
+              "tag": "{display:{Name:\"Iron Hood of the Eternal Troll\",Lore:[\"You already feel attached!\",\"\",\"§4When on head:\",\"§9+1 Luck\",\"§9+5% Speed\",\"§9+10% Knockback Resistance\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_helmet1.name\",LocLore:[\"rldregora.cursed_armor.description1.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.movementSpeed.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora1.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"5%\",\"10%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -3544,7 +3544,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3689,7 +3689,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3839,7 +3839,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3984,7 +3984,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.iron_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4130,7 +4130,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4275,7 +4275,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4425,7 +4425,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4570,7 +4570,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.chain_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4716,7 +4716,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Cap of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on head:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_helmet4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4861,7 +4861,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Frame of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on body:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_chestplate4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.chest\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5001,7 +5001,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Pants of Itchy Arses\",Lore:[\"Gives kicking ass a whole new meaning!\",\"\",\"§4When on legs:\",\"§9+1 Luck\",\"§9+12% Knockback Resistance\",\"§9+1 Max Health\"\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_leggings3.name\",LocLore:[\"rldregora.cursed_armor.leggings3.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.maxHealth.plus.arg\",\"rldregora.cursed_armor.pandora3.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"12%\",\"1\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Pants of Itchy Arses\",Lore:[\"Gives kicking ass a whole new meaning!\",\"\",\"§4When on legs:\",\"§9+1 Luck\",\"§9+12% Knockback Resistance\",\"§9+1 Max Health\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_leggings3.name\",LocLore:[\"rldregora.cursed_armor.leggings3.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.maxHealth.plus.arg\",\"rldregora.cursed_armor.pandora3.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"12%\",\"1\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5011,7 +5011,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Slacks of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on legs:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_leggings5.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.legs\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora5.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5156,7 +5156,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.generic.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Sandals of RLC Essence\",Lore:[\"Whereas the Essence of RLCraft is being strong right?\",\"\",\"§4When on feet:\",\"§9+12% strength\",\"§9+8% Knockback Resistance\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_armor.golden_boots4.name\",LocLore:[\"rldregora.cursed_armor.description4.lore\",\" \",\"rldregora.cursed.modifiers.feet\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.cursed_armor.pandora4.lore\"],LocLoreArg:[\"\",\"\",\"\",\"12%\",\"8%\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

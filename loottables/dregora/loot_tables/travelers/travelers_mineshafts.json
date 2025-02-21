@@ -72,9 +72,9 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 0.2, "max": 0.8}, "operation": "addition", "slot": ["offhand"]},
-                {"attribute": "generic.armorToughness ", "name": "Less Attack Speed", "amount": {"min": -2.0, "max": -1.0}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.armorToughness", "name": "Less Attack Speed", "amount": {"min": -2.0, "max": -1.0}, "operation": "addition", "slot": ["offhand"]},
                 {"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 0.2, "max": 0.8}, "operation": "addition", "slot": ["mainhand"]},
-                {"attribute": "generic.armorToughness ", "name": "Less Attack Speed", "amount": {"min": -2.0, "max": -1.0}, "operation": "addition", "slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness", "name": "Less Attack Speed", "amount": {"min": -2.0, "max": -1.0}, "operation": "addition", "slot": ["mainhand"]}
               ]
             }
           ]

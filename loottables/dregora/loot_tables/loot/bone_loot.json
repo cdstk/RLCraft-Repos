@@ -14,8 +14,14 @@
     },
     {
       "name": "common_loot",
-      "rolls": 0,
-      "bonus_rolls": 0,
+      "rolls": {
+        "min": 3,
+        "max": 13
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
       "entries": [
         {
           "type": "item",
@@ -58,7 +64,7 @@
         "min": 3,
         "max": 13
       },
-    "bonus_rolls": {
+      "bonus_rolls": {
         "min": 1,
         "max": 2
       },

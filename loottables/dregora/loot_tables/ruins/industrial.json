@@ -354,26 +354,17 @@
         {
           "type": "item",
           "name": "variedcommodities:wrench",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Artifact\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.industrial.ancient_artifact.name\",LocLore:[\"rldregora.industrial.ancient_artifact.lore.0\",\"rldregora.industrial.ancient_artifact.lore.1\"]}}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "variedcommodities:crowbar",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Artifact\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.industrial.ancient_artifact.name\",LocLore:[\"rldregora.industrial.ancient_artifact.lore.0\",\"rldregora.industrial.ancient_artifact.lore.1\"]}}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "variedcommodities:pipe_wrench",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Artifact\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.industrial.ancient_artifact.name\",LocLore:[\"rldregora.industrial.ancient_artifact.lore.0\",\"rldregora.industrial.ancient_artifact.lore.1\"]}}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
@@ -454,10 +445,6 @@
           "type": "item",
           "name": "variedcommodities:coin_gold",
           "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Ancient Coins\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.industrial.ancient_coins.name\",LocLore:[\"rldregora.industrial.ancient_coins.lore.0\",\"rldregora.industrial.ancient_coins.lore.1\"]}}"
-            },
             {
               "function": "set_count",
               "count": {

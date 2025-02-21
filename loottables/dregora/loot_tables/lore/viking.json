@@ -210,7 +210,7 @@
                   },
                   "operation": "addition",
                   "slot": [
-                    "head"
+                    "legs"
                   ]
                 }
               ]
@@ -248,7 +248,7 @@
                   },
                   "operation": "addition",
                   "slot": [
-                    "head"
+                    "chest"
                   ]
                 }
               ]
@@ -286,7 +286,7 @@
                   },
                   "operation": "addition",
                   "slot": [
-                    "head"
+                    "feet"
                   ]
                 }
               ]
@@ -415,7 +415,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.armorThoughness",
+                  "attribute": "generic.armorToughness",
                   "name": "More Toughness",
                   "amount": {
                     "min": 0.1,
@@ -427,7 +427,7 @@
                   ]
                 },
                 {
-                  "attribute": "generic.attackKnockback",
+                  "attribute": "generic.knockbackResistance",
                   "name": "More Knockback",
                   "amount": {
                     "min": 0.1,

@@ -169,7 +169,7 @@
         {
           "type": "item",
           "name": "minecraft:iron_sword",
-          "weight": 0,
+          "weight": 1,
           "quality": 2,
           "functions": [
             {
@@ -200,12 +200,12 @@
         {
           "type": "item",
           "name": "minecraft:iron_sword",
-          "weight": 0,
+          "weight": 1,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Anchor\",Lore:[\"This sword seems to be too heavy to have been made from just iron.\"]}}"
+              "tag": "{display:{Name:\"Anchor\",Lore:[\"This sword seems to be too heavy to have been made from just iron.\"],LocName:\"rldregora.harbor.anchor.name\",LocLore:[\"rldregora.harbor.anchor.lore\"]}}"
             },
             {
               "function": "set_nbt",

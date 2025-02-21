@@ -46,7 +46,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion: \"potioncore:launch\", remainingPotionHits: 6969, display:{Lore:[\"An ancient heavy relic passed down the Royal Fonny Family\",\"Thought to be forever lost to the wicked cities of the corrupted.\"],locLore:[\"rldregora.fish_undead.skeletonking_mace.lore.0\",\"rldregora.fish_undead.skeletonking_mace.lore.1\"]}}"
+              "tag": "{Potion: \"potioncore:launch\", remainingPotionHits: 6969, display:{Lore:[\"An ancient heavy relic passed down the Royal Fonny Family\",\"Thought to be forever lost to the wicked cities of the corrupted.\"],LocLore:[\"rldregora.fish_undead.skeletonking_mace.lore.0\",\"rldregora.fish_undead.skeletonking_mace.lore.1\"]}}"
             },
             {
               "function": "set_nbt",

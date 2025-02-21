@@ -29,12 +29,12 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.1\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.2\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.3\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.4\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.5\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.6\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.dear_diary.page.6\\\"}]\"
                 ],
                 title:\"Dear Diary\",
                 locTitle:\"rldregora.village.dear_diary.title\",
@@ -49,10 +49,10 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.1\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.2\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.3\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.4\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.village.peculiar_merchant.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.peculiar_merchant.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.peculiar_merchant.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.peculiar_merchant.page.4\\\"}]\"
                 ],
                 title:\"A Peculiar Merchant\",
                 locTitle:\"rldregora.village.peculiar_merchant.title\",
@@ -68,9 +68,9 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.1\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.2\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.3\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.village.ancient_device.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.ancient_device.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.ancient_device.page.3\\\"}]\"
                 ],
                 title:\"Ancient Device\",
                 locTitle:\"rldregora.village.ancient_device.title\",
@@ -86,8 +86,8 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"rldregora.village.undelivered.page.1\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.undelivered.page.2\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.village.undelivered.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.undelivered.page.2\\\"}]\"
                 ],
                 title:\"Undelivered\",
                 locTitle:\"rldregora.village.undelivered.title\",
@@ -103,14 +103,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.1\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.2\\\"}]\",
-                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.3\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.village.last_note.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.last_note.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.village.last_note.page.3\\\"}]\"
                 ],
                 title:\"Last note\",
                 locTitle:\"rldregora.village.last_note.title\",
                 author:\"The Thief\",
-                locTuthor:\"rldregora.village.last_note.author\",
+                locAuthor:\"rldregora.village.last_note.author\",
                 display:{Lore:[\"A last note from a thief.\"],LocLore:[\"rldregora.village.last_note.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]

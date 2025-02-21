@@ -72,18 +72,6 @@
                   "slot": [
                     "offhand"
                   ]
-                },
-                {
-                  "attribute": "generic.jumpStrength",
-                  "name": "luck",
-                  "amount": {
-                    "min": 0.01,
-                    "max": 0.05
-                  },
-                  "operation": "multiply_total",
-                  "slot": [
-                    "offhand"
-                  ]
                 }
               ]
             }

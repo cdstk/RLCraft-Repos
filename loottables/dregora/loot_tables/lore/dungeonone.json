@@ -106,7 +106,7 @@
                 title:\"A Dark Encounter\",
                 locTitle:\"rldregora.dungeonone.dark_encounter.title\",
                 author:\"Elithr\",
-                locAauthor:\"rldregora.dungeonone.dark_encounter.author\",
+                locAuthor:\"rldregora.dungeonone.dark_encounter.author\",
                 display:{Lore:[\"Notes from Elithr.\"],LocLore:[\"rldregora.dungeonone.dark_encounter.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]

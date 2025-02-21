@@ -222,7 +222,7 @@
                   "amount": -1,
                   "operation": "addition",
                   "slot": [
-                    "mainhand"
+                    "feet"
                   ]
                 },
                 {
@@ -234,7 +234,7 @@
                   },
                   "operation": "addition",
                   "slot": [
-                    "mainhand"
+                    "feet"
                   ]
                 }
               ]

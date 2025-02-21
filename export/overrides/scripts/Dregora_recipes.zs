@@ -283,15 +283,15 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 <mod_lavacow:kings_crown:1>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.0", "en_us"));
 
 // Ban Hammer Tooltip
-<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip", "en_us"));
+<mod_lavacow:skeletonking_mace:*>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip", "en_us"));
 
 //Famine Armor Tooltip
-<mod_lavacow:faminearmor_helmet>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
-<mod_lavacow:faminearmor_chestplate>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
-<mod_lavacow:faminearmor_leggings>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
-<mod_lavacow:faminearmor_boots>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
-<mod_lavacow:famine>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
-<mod_lavacow:war>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_helmet:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_chestplate:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_leggings:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_boots:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:famine:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:war:*>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
 <mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
 <mod_lavacow:halo_necklace>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
 <mod_lavacow:raven_whistle>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
@@ -302,7 +302,7 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 //<mod_lavacow:burntovipositor>.displayName = "Burnt Salamander Ovipositor";
 //<mod_lavacow:foul_bristle>.displayName = "Foul Foglet/Ithaqua Bristles";
 //<mod_lavacow:hyphae>.displayName = "Mycosis Hyphae";
-<mod_lavacow:kings_crown>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.1", "en_us"));
+<mod_lavacow:kings_crown:*>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.1", "en_us"));
 <mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip.1", "en_us"));
 //<mod_lavacow:moltenbeef>.displayName = "Molten Salamander Meat";
 //<mod_lavacow:mossy_stick>.displayName = "Sludge Stick";
@@ -320,7 +320,7 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 // Description Changes
 <mod_lavacow:raven_whistle>.addTooltip(game.localize("rldregora.mod_lavacow:raven_whistle.tooltip", "en_us"));
 <mod_lavacow:ghostjelly>.addTooltip(game.localize("rldregora.mod_lavacow:ghostjelly.tooltip", "en_us"));
-<mod_lavacow:vespa_dagger>.addTooltip(game.localize("rldregora.mod_lavacow:vespa_dagger.tooltip", "en_us"));
+<mod_lavacow:vespa_dagger:*>.addTooltip(game.localize("rldregora.mod_lavacow:vespa_dagger.tooltip", "en_us"));
 <mod_lavacow:dreamcatcher>.clearTooltip(true);
 <mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.mod_lavacow:dreamcatcher.tooltip.0", "en_us"));
 <mod_lavacow:dreamcatcher>.addTooltip(" ");
@@ -328,9 +328,9 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 <mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.mod_lavacow:dreamcatcher.tooltip.2", "en_us"));
 
 // Completely rename "Death" hammer
-<mod_lavacow:skeletonking_mace>.clearTooltip(true);
-<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.0", "en_us"));
-<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.1", "en_us"));
+<mod_lavacow:skeletonking_mace:*>.clearTooltip(true);
+<mod_lavacow:skeletonking_mace:*>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.0", "en_us"));
+<mod_lavacow:skeletonking_mace:*>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.1", "en_us"));
 
 // Completely rename Molten Heart Description
 <mod_lavacow:mootenheart>.clearTooltip(true);
@@ -419,54 +419,54 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 //DREGORARL NEW ITEM SETS FROM VARIEDCOMMODITIES
 //=================================
 
-<variedcommodities:tuxedo_chest>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_chest.tooltip", "en_us"));
-<variedcommodities:tuxedo_pants>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_pants.tooltip", "en_us"));
-<variedcommodities:tuxedo_bottom>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_bottom.tooltip", "en_us"));
+<variedcommodities:tuxedo_chest:*>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_chest.tooltip", "en_us"));
+<variedcommodities:tuxedo_pants:*>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_pants.tooltip", "en_us"));
+<variedcommodities:tuxedo_bottom:*>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_bottom.tooltip", "en_us"));
 
 //<variedcommodities:soldier_head>.displayName = "§6☢ §8§lProtective Helmet";
 //<variedcommodities:soldier_chest>.displayName = "§6☢ §8§lProtective ChestPlate";
 //<variedcommodities:soldier_legs>.displayName = "§6☢ §8§lProtective Leggings";
 //<variedcommodities:soldier_bottom>.displayName = "§6☢ §8§lProtective Bottoms";
 
-<variedcommodities:soldier_head>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
-<variedcommodities:soldier_chest>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
-<variedcommodities:soldier_legs>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
-<variedcommodities:soldier_bottom>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_head:*>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_chest:*>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_legs:*>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_bottom:*>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
 
 //<variedcommodities:x407_head>.displayName = "§8§lX407 Prototype Helmet";
 //<variedcommodities:x407_chest>.displayName = "§8§lX407 Prototype ChestPlate";
 //<variedcommodities:x407_legs>.displayName = "§8§lX407 Prototype Leggings";
 //<variedcommodities:x407_boots>.displayName = "§8§lX407 Prototype Boots";
 
-<variedcommodities:x407_head>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
-<variedcommodities:x407_chest>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
-<variedcommodities:x407_legs>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
-<variedcommodities:x407_boots>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_head:*>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_chest:*>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_legs:*>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_boots:*>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
 
 //<variedcommodities:commissar_head>.displayName = "§8§lCommissar's Cap";
 //<variedcommodities:commissar_chest>.displayName = "§8§lCommissar's Torso";
 //<variedcommodities:commissar_legs>.displayName = "§8§lCommissar's Leggings";
 //<variedcommodities:commissar_bottom>.displayName = "§8§lCommissar's Bottoms";
 
-<variedcommodities:commissar_head>.addTooltip(game.localize("rldregora.variedcommodities:commissar_head.tooltip", "en_us"));
-<variedcommodities:commissar_chest>.addTooltip(game.localize("rldregora.variedcommodities:commissar_chest.tooltip", "en_us"));
-<variedcommodities:commissar_legs>.addTooltip(game.localize("rldregora.variedcommodities:commissar_legs.tooltip", "en_us"));
-<variedcommodities:commissar_bottom>.addTooltip(game.localize("rldregora.variedcommodities:commissar_bottom.tooltip", "en_us"));
+<variedcommodities:commissar_head:*>.addTooltip(game.localize("rldregora.variedcommodities:commissar_head.tooltip", "en_us"));
+<variedcommodities:commissar_chest:*>.addTooltip(game.localize("rldregora.variedcommodities:commissar_chest.tooltip", "en_us"));
+<variedcommodities:commissar_legs:*>.addTooltip(game.localize("rldregora.variedcommodities:commissar_legs.tooltip", "en_us"));
+<variedcommodities:commissar_bottom:*>.addTooltip(game.localize("rldregora.variedcommodities:commissar_bottom.tooltip", "en_us"));
 
-<variedcommodities:infantry_helmet>.addTooltip(game.localize("rldregora.variedcommodities:infantry_helmet.tooltip", "en_us"));
-<variedcommodities:officer_chest>.addTooltip(game.localize("rldregora.variedcommodities:officer_chest.tooltip", "en_us"));
-<variedcommodities:tactical_chest>.addTooltip(game.localize("rldregora.variedcommodities:tactical_chest.tooltip", "en_us"));
-<variedcommodities:tactical_head>.addTooltip(game.localize("rldregora.variedcommodities:tactical_head.tooltip", "en_us"));
+<variedcommodities:infantry_helmet:*>.addTooltip(game.localize("rldregora.variedcommodities:infantry_helmet.tooltip", "en_us"));
+<variedcommodities:officer_chest:*>.addTooltip(game.localize("rldregora.variedcommodities:officer_chest.tooltip", "en_us"));
+<variedcommodities:tactical_chest:*>.addTooltip(game.localize("rldregora.variedcommodities:tactical_chest.tooltip", "en_us"));
+<variedcommodities:tactical_head:*>.addTooltip(game.localize("rldregora.variedcommodities:tactical_head.tooltip", "en_us"));
 
 //<variedcommodities:nanorum_head>.displayName = "§8§lHeavy Industries Helmet";
 //<variedcommodities:nanorum_chest>.displayName = "§8§lHeavy Industries Torso";
 //<variedcommodities:nanorum_legs>.displayName = "§8§lHeavy Industries Leggings";
 //<variedcommodities:nanorum_boots>.displayName = "§8§lHeavy Industries Boots";
 
-<variedcommodities:nanorum_head>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_head.tooltip", "en_us"));
-<variedcommodities:nanorum_chest>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_chest.tooltip", "en_us"));
-<variedcommodities:nanorum_legs>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_legs.tooltip", "en_us"));
-<variedcommodities:nanorum_boots>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_boots.tooltip", "en_us"));
+<variedcommodities:nanorum_head:*>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_head.tooltip", "en_us"));
+<variedcommodities:nanorum_chest:*>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_chest.tooltip", "en_us"));
+<variedcommodities:nanorum_legs:*>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_legs.tooltip", "en_us"));
+<variedcommodities:nanorum_boots:*>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_boots.tooltip", "en_us"));
 
 //=================================
 //HERBALIST, AND BRUTAL TOWER TRADERS/INFO
@@ -491,24 +491,24 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 <variedcommodities:ancient_coin>.addTooltip(game.localize("rldregora.variedcommodities:ancient_coin.tooltip", "en_us"));
 
 //<variedcommodities:lead_pipe>.displayName = "Ancient Artifact";
-<variedcommodities:lead_pipe>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.0", "en_us"));
-<variedcommodities:lead_pipe>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.1", "en_us"));
+<variedcommodities:lead_pipe:*>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.0", "en_us"));
+<variedcommodities:lead_pipe:*>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.1", "en_us"));
 
 //<variedcommodities:crowbar>.displayName = "Ancient Artifact";
-<variedcommodities:crowbar>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.0", "en_us"));
-<variedcommodities:crowbar>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.1", "en_us"));
+<variedcommodities:crowbar:*>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.0", "en_us"));
+<variedcommodities:crowbar:*>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.1", "en_us"));
 
 //<variedcommodities:hammer>.displayName = "Ancient Artifact";
-<variedcommodities:hammer>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.0", "en_us"));
-<variedcommodities:hammer>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.1", "en_us"));
+<variedcommodities:hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.0", "en_us"));
+<variedcommodities:hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.1", "en_us"));
 
 //<variedcommodities:wrench>.displayName = "Ancient Artifact";
-<variedcommodities:wrench>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.0", "en_us"));
-<variedcommodities:wrench>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.1", "en_us"));
+<variedcommodities:wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.0", "en_us"));
+<variedcommodities:wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.1", "en_us"));
 
 //<variedcommodities:pipe_wrench>.displayName = "Ancient Artifact";
-<variedcommodities:pipe_wrench>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.0", "en_us"));
-<variedcommodities:pipe_wrench>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.1", "en_us"));
+<variedcommodities:pipe_wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.0", "en_us"));
+<variedcommodities:pipe_wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.1", "en_us"));
 
 //Add the Tool Used Description for Barrier Blocks:
 <dimstack:bedrock:7>.addTooltip(game.localize("rldregora.dimstack:bedrock:7.tooltip", "en_us"));
