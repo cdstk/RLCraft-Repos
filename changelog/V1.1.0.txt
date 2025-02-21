@@ -35,6 +35,8 @@ P1:
   Big Scary Thing In The Corner - Biggest flying entity - drops X33N head
   Big Parasitic LootGoblin - Drops PeteZahHutt head & empty backpacks
 
+- Random Encounters: All of our previous, current and future rats in the irradiated lands
+
 - Draining Books (1/4) need to be seperated into
   Acid Drainage
   Bookshelf entrance
