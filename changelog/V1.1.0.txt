@@ -1,0 +1,332 @@
+Fixed/Changed:
+- Changed Underworld biomesize (generates 50% smaller)
+- Changed wastelands/desert rarity and removed some biomes from some biome groups making them spawn much less often
+- Temperate/Cold and Ocean biomes spawn more often now due to wastelands/desert/underworld biomes not taking up so much space
+- Modified some defiled biomes making them generate bigger and made all defiled biomes generate more often
+- Adjusted overworld map generation by replacing the trenches leading to the center with a new type of trench encircling the center in a ~2400 block radius
+- Adjusted underneath map generation featuring the first steps towards future expansion (Added biome Ancient Remnants)
+- Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
+- Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+- Added new block Reinforced Concrete that can't be infected by Scape and Run parasites just like Reinforced Iron plate blocks
+- Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
+- Removed Health Nerf and Potion sickness from the Ban Hammer.
+- Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
+
+RLCraft to do now:
+P1:
+- Painting ideas:
+  Brutal tower dissection v1, v2 and v3
+  Herbalists Trade Poster
+  Brutal Merchant Trade Poster
+  Elder Smith Trade Poster
+  Brutal Coin Locations (Underneath & Brutal Towers + Labs in future)
+  Brutal merchant/ Elder Blacksmith or Topographer (Rename to collector?) sells paintings to encourage players taking a look?
+
+- Random Encounters: Wraamon Rat-pack generic spawn in caverns, 1 heart hp & 0 dmg
+  SkadoodleRat - ???
+  Its WikedRat - ???
+  ShroudRat - drops coffee
+
+- Random Encounters: Stingin Swarm
+  Swarm of wasps that sting but do 1 dmg
+
+- Random Encounters: Big parasites spawn at underneath roof with 10 hp, 0 dmg and extra speed
+  Big Spleefing Spider - drops Cap Sparklez head
+  Big Scary Thing In The Corner - Biggest flying entity - drops X33N head
+  Big Parasitic LootGoblin - Drops PeteZahHutt head & empty backpacks
+
+- Draining Books (1/4) need to be seperated into
+  Acid Drainage
+  Bookshelf entrance
+  Obsidian break note
+  Room below Dragon
+
+- Lore changes
+  Change 8000 years to 2000 years and make sure all the lore fits this
+
+
+- Biome Feedback: Make biome exploration have more of a purpose
+  Upcoming nuclear wastelands have NC loot
+  Upcoming Labs could be at continent set locations
+  Rare Dragon Canyon (like in ark with T5 dragons, could paint the biome)
+  Land of Ruins (Add skeletons and other undead creatures amids graveyards and such)
+  Dark Swamplands (Add Fish Undead creatures, wendigo's and slimes)
+  Cyan Garden (filled with plants that make cyan dye for greenhouses
+
+- Feedback Miscellaneous
+  Remove dull locations (map pings are going to function as fromimage discovery making coordinates more worth it)
+  Do also check spawning of both kingdoms, see if I can improve this.
+  Remove mana and replace it for mana candy in the underneath
+  Make a better questline (1.1.1)
+  Make Labs a set location except for the port city?
+  Teleport outer circle by clicking unique block?
+
+
+- Update SRPMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+- Update EagleMixins for - Long Drowning Arrows
+- Add rock crusher and simmilar machinery in the Underneath
+- Add Machine tooltips, found in abandoned fallout shelters in either the underneath or irradiated biomes.
+- Increase amount of brutal coins in underneath
+- speed up parasite spread a bit
+- add recipes for new contenttweaker blocks and items
+- add blazes to broken battle towers
+- Roguelike Dungeons increase spawn
+- When redo doomlike also add a starter house on top
+- Add testificate name 1% to villager born
+- Change LC to have safer areas possibly
+- Add recipe Steel + Lead =
+- Add ores: Boron + Uranium Ore + Lead Ore
+- configure nuclearcraft
+- Make recipes for unused SRP items
+- shelters should contain information on radiation
+- Whitelist rivers in SRParasites (make parasites not die in rivers near cities)
+- Add higher tier entities higher up in towers overworld
+- add lower tier entities at street level in underneath
+- check and decrease recall potions in city loot (there where 5 lol)
+- Corrupted Ashes should be Decayed <item name>
+- Half xp in overworld from srparasites
+- Book in gilded_grave or other graves having unluck on both main as offhand
+- Check for crabs on beaches
+- tweak hypothermic and make ozzyliner better
+- backpack gets destroyed by srparasites, this shouldnt happen
+- check hungry farmer foods in relation to auto consume nuclearcraft foods
+- add cooking for blockheads & nuclearcraft to manifest
+- check loadingscreens (make sure they work)
+- Abyssal Rift Underground noise in non abyssal areas
+- haal dekens van balkon!
+- Give sussyberian blast resistance & launch instead of delayed launch
+- Complete land-based mount list for Abyssal Rift
+- Add sussy & relic quality
+- Sussyberian invis creeper gives infinite invis?
+- Add paintings mod
+- Waterblocks on structures in mushroom biomes
+- In-game main menu needs stylizing
+- Custom loading screen mod switch
+- Make strongholds appear more often beyond the 8000 mark
+- Blacklist strongholds from grey abyss and abyssal rift biomes
+- Industrial Complexes for in nuclear wastelands
+- add biome nuclear wasteland
+- add mod NuclearCraft + SME + Update RLMixins + Add RLLuck + write EnchantSlots
+- finish remaining skyscrapers
+- remove decorations from skyscrapers
+- v_bunker with dilapitated rooms and ghoullified sections
+- bunkers and fallout shelters with entities in there called deathclaws with a 200 health and oneshotting you with 60dmg like blight darkling
+- increase temperate biomes (and ominous forest) and decrease desert biome rarity
+- 'Toxic' stuff should be added to hot blocks.... Whatever that means ;)
+- possibly repaint the trench biome to not be as frequent in the center area? Cut them off at little waystone areas
+- add long range teleportation devices
+- add bunkers and fallout shelters as ruins to biomes (make wasteland, forest, swamp, frozen and mountain types, each 10 variants)
+- more caves in underneath
+- Overhaul caverns (yung's caverns) to make underground exploring easier
+- Little towers in between bigger towers of hadron collider
+- Parasitic Pits (Fromimage sections with big parasitic dips and industrial complexes)
+- remove steppe, replace for wasteland & remove the biome from biomesoplenty
+- move brutal tower item drops to chests and remove from entities
+- increase spawning of ruins (making structure rarity more as in RLCraft)
+- block heart crystals from spawning and add in DregoraRL biomes (to allow for more control and decrease their spawning in certain biomes)
+- Make near surface troll cave entrance structures (Troll in basement, troll in cave attached to basement, troll in surface cave forest/cold/mountain types (12 in total)
+  and add weta loot to troll dens
+- add starter caches to underneath ceiling
+- make spawners feral in underneath
+- Make random encounter wildkin and call it bigfoot
+- Make random encounter immortal snail that can't be killed and do 90% of player damage if the player touches it (never 100%)
+- tone down diamond in viking village a bit
+- look into v1.5 for fish undead rising
+- Make book at brutal tower explain to follow obsidian, not fly and that not all bosses drop brutal coins but somee drop brutal fragments which you can combine
+
+
+- Make OP weapon a bit more common, set to 1% (currently 0.1% even if you get the loot table)
+- fix eagle holding cube in off hand (main hand has scythe)
+- Localizator needs updating (fixing the srp biome issues)
+- add version extension to DregoraRL & Underneath x.x.x instead of x.x
+- enchantment.level.0 on gold/iron armor in dungeon
+- add wooden sword that adds 100% health but makes you hit 1's
+- fix tile entity data missing for defiled lands altars
+- blacklist respawn statue in abyssal rift
+- give dragon armor a setbonus
+- add heart container to battletower (top chest)
+- add savanna biome to center compas biome (darker color water)
+- bountiful risk needs to be Supreme Sharpness 6
+
+
+
+Known issues:
+- Conjuring altar needs NBT data to prevent error whilst being mined
+
+P2:
+
+- Amalgalich gets affected by COTH!? It's on COTH immunity though?
+- Add EVClOCK and Lures to herbalist traders
+- remove all drops in brutal towers except from bosses (and boost chest contents)
+- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
+- ThreeTowers (X) spawns outside villages while it should not
+- zombie.spawnReinforcements in cities do not work
+- Change barrier block names & Pendants
+
+Brutal Artifact - Challenger
+Brutal Artifact - Remorseless
+Brutal Artifact - Corrupted
+Brutal Artifact - Biohazard
+Brutal Artifact - Corrosive
+Brutal Artifact - Nuclear
+Brutal Artifact - Decayed
+Brutal Artifact - Torment
+
+- Yale doesn't spawn correctly (does this still happen)
+- levelup needs sand/dirt added to treasure hunter from bop
+- Enable evolution phases, add trades for lures to villagers and add lures randomly in cities protected by parasites
+- give tower golems levitation when hit by teleport arrow
+- treasure room add special armor to chests & up the enchantment level (and remove ozzy) + add real high enchantments to armor
+- fix saplings having the stone texture
+- Structure "PirateShip.bo4" has an issue that the latern at the front of the ship generates in the wrong direction (The Stairs bug)
+- Cold Desert ID698 biome has watercutoff issue ^
+- Cold Desert ID698 biome spawns Deathworms > Can't move because of the snow and such and feels out of place
+- Volcanic Beach ID393 has an overspawn of Rock bo4's
+- Ancient Rainforest Isle RM ID548 Trolls spawn outside in daylight under canopy
+- jei earth blacklist (bop) (check if needed)
+- add quests for items in underneath
+
+P3:
+- Take a look at Liquid Enchanting
+- introduce weight system to balance out e.g. potion of flight / levitation / dragon flight?
+- add dragon/myrmex unique armors to underneath loottables
+- adjust loottables to have random hints on nametags
+- add custom qualities to swords
+- Dragons still spawn in dearoc village (also blacklist lycanite dungeons in daeroc biomes + origin biomes)
+- Dragons should be at least tier 2 in grey mountains
+- lava island should be warm
+- ruins battletower top chest empty sometimes
+- improve loot medusa temple
+- medusa temple contains remaining corrupted chest
+- remove all baubles from battletowers and add them to the golem
+- Fallout shelters with basic necessities ("Surviving for Dummies", "Git Gud" and "How not to Skill Issue" books)
+- Add hanging vines to buildings in Ruins of Blight biome
+- add specialized loot in unique structures (pirate hat in pirate outpost, pumpkins for cult, etc)
+- check if chests at dragon dens are still broken.
+- Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo) (already fixed?)
+
+P4:
+- update SRPMultiplier & check all srp configs for :* because SRPMultiplier enables wildcards now
+- Trees need NBT data in root blocks (some trees fall over without the leaves attached)
+- Clean up following errors: [22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'rustic:iron_lattice': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'iceandfire:ash': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to find property variant for block Red Sandstone Slab
+- Using recal potion/mirror whilst being grabbed by a dragon makes the dragon dissapear (this happened on a server)
+- increase luck required to get the legendary treasure
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- decrease furnaces & dispensers in underneath
+- herblorist needs dark lore in basement book
+- Take a look at lattices, see why they cause lag issues
+- Glacier lags?
+- Particle lags from parasite hosts
+- nerf lycanite bosses The chupacabra boss in the sungeon (nerf speed)
+- add lore to all books (variedcommodities books)
+- CSetBonus3 (chad solid core in setbonuses) (not sure what this to do was)
+- add waystone to Trader_Silo
+- check if creepers blow up waystones
+- Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc. Sneezing Sword is an example
+
+
+Backlog EagleMixins/SummonPotions/MobsReimagined/RLBeacons/Shifter
+P1:
+- make minecarts go faster
+- make a bauble that negates 25% of lightning damage for early game
+- added lore to mental/sussyberians as a rare drop (needs sussyberian name as drop mechanic)
+- scripts need to be moved to their own mod because CT is slower
+- Make ground entity exception for parasite biome dismount & lightning strike (change message and make array of blacklist entities)
+- Temperature goo pack in loottable, check heat biome
+- convert skylight function for conductivity making it so people do not get struck by lightning under glass (when making RLDMixins)
+
+P2:
+- add potion to revert berian state but have a chance to inflict berian effect on player on fail (have potion be a configurable 10% success/fail rate with the fail rate having a negative effect)
+- Add tool that lets you identify attributes of items and lock it behind lvl 24 magic. eagle eye (lists all curses or make them visible somehow on items?)
+- Make a vaccine that makes entity immune versus COTH
+- Make a bauble that makes you immune versus COTH & Shows what animals have COTH
+- customize arrow array to also use a timing script, something like {"<string arrow_type>",<int time>}
+
+P3:
+- if entity has a customname do not make it a berian if (event.entity.customName != "") { return; }
+- add deathloottable to berians: event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
+- make new mod enchant slots
+- make player dropped items linger around longer
+- make srp armor equip again on evolve
+- make bane of Arthropods work down a list of entities (Make the enchant more useful)
+
+P4:
+- make mod Shifter that adds a player entity that copies over it's target player attributes, armor and occasionally morphs into something else
+  make a boss that goes through all RLC entities from easy to extremely difficult with as last boss yourself (maybe make it morph with glitch effect into something else briefly)
+  make white dimension that sometimes glitches black
+  make entity morph into sim endermen if range exceeds x blocks and morphs back into what it was if range is within x blocks
+  make boss morph into something that deals 95% damage and then morphs back
+- make a biome compass that displays biome tags & otg virtual biome names
+- add entities to artropods enchantment
+- re-create herbalist, gemtrader, topographer and brutal merchant with custom skinsquar
+- RLBeacons make new types of beacons with- No explosion damage on blocks, no fire spread, no parasite biome spread
+- MobsReimagined add cooldown for passive mobs aggro
+- Banshee AOE explosion make all bodyparts take hits instead of one bodypart and destroy blocks option. (Make Epic siege replacement mod)
+- add summon potions (D&D style!) that summons a small army defending you (possibly own mod on substantial expansion)
+- Make it so flying entities keep flying (Kotlin?)
+- Make it so Compass display True biome names
+- Make sussyberian explode on death or spawn a creeper
+- Make mentalberian spawn an illusioner and/or give potion effect on death
+- Transberian? (make librarians transform into an abhorrent creatures and make them say villager stuff and sound like them) (transform into wendigo on full moon)
+- Teleberians (Teleport you to the underneath or a cool spot in dregora after trading for random teleportation)
+- Goopyberian gives 10/90 fame/shame on trade (with a 10% chance) on 5% spawn
+- Add Teleberian (teleports you to the other side of world)
+- bucket of extended milk usage
+- umbrella bauble (negate lightning from striking + slow fall)
+- increased mimic spawning by making them spawn with a 25% chance per chunkw below y45 in a darkness level of 0 to 10.
+
+Backlog (Additional mods)
+- maybe add https://www.curseforge.com/minecraft/mc-mods/dragon-tweaker
+- maybe add https://www.curseforge.com/minecraft/mc-mods/witherconfig
+- maybe add https://www.curseforge.com/minecraft/mc-mods/hotkettles
+- RLCraft Parasited https://www.curseforge.com/minecraft/mc-mods/rlcraft-parasited
+- add and test end expansion: https://discord.com/channels/199155955206717440/626949850730332160/1318254738881511475
+- add AppleSkin
+- add NC + Fog Biome for Indication
+- add https://www.curseforge.com/minecraft/mc-mods/rlluck
+- add https://www.curseforge.com/minecraft/mc-mods/foodspoiling
+- look into https://www.curseforge.com/minecraft/mc-mods/unofficial-bosses-of-mass-destruction-dungeon
+- Cooking for Blockheads (Add kitchen stuff to fallout shelters)
+- take a look at tektopia mod for 2.0.0
+- add Baublui (JB Redwards) to modpack to fix bauble dissapearing on death. (is this even needed?)
+- add https://www.curseforge.com/minecraft/mc-mods/deeper-depths
+- look into adding https://www.curseforge.com/minecraft/mc-mods/end-expansion-the-lamented-islands (end expansion)
+- maybe https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus (instead of familair fauna?)
+- Add Weather mod to the LC dimension
+
+Backlog: (1.0.5 / 1.1.0 ?)
+- reduce loot in ice ships and look for bugged chest
+- Add additional blocks (translucent) that can not be destroyed by SRParasites in any way
+- Fire Cape swarms but SRP in 2.0.0 brutal tower equivalent
+- Add Boss areas to the far out landmasses in Dregora (Make then the Ender Guardians which drop a key each making a total of 9 bosses with one situated at 0,0
+- lycanite boss in nether still goes through roof, lower with incontrol.
+- gorgon possible blacklist for aggro on mobs
+- Overgrown Cliffs Edge ID407 biome has the annoying water cutoff issue with Deep Polluted Ocean ID973 and Polluted Ocean ID31
+- Indian Dregora Village (with the totempoles etc) still has a building with the stairs bug being turned in the wrong direction.
+- Red Maple tree is missing the NBT so leaves stay in the air after harvesting the tree ( Flower Island Biome)
+- Lycanite mobs kinda lost their identity. (it feels like they don't spawn in the right spot)
+- XzeroAir: Find Broken Gun parts, Collect them all, Restore them, craft it into a new gun, and when you use it, It just explodes in your face killing you
+  XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I should have taken lessons"
+- Parkour dungeon double plants turn to half block sunflowers when trying to destroy the block.
+- Golden coins bunker fallout shelter thingy has empty chests
+- if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
+- lycanites spawner spawns unburied or dread in cold biomes when digging dirt 0.05 chance
+- change quest description on underneath
+- increase luck required to get the legendary treasure
+- Add unique loot locations: Pirate hat in pirate biome, Viking helm in viking biome, pumpkin cult has special pumpkin hat (add absurd amount of pumpkin), etc..
+- (swine armor change famine armor description removes positive effects too)
+- make setbonuses (skill issue, Eagle's Pity granted you)
+- Make set bonus if equipped like Thor
+- make atlas show cities in overworld
+- GoopyDoob script
+- Buff Wither
+- make set bonuses for specific tiers
+- Make port city have one of the labs required to progress gameplay (include parasites only through spawners) + (But eh you never know.. maybe the villagers found the mending one so important
+  (because people flocked to port city to trade with him...) that they made a secret society of mending villagers) + (needs 15-20 mending)
+- wither spawners in the nether? (nether dungeons)
+- make a potion that removes COTH (splash and maybe also children of these entities) later convert to vaccine crafted by 2.0.0 planned stuff
+- make old road structures for in biomes
+- add a way to reset adaptations on living/sentient armor
+- add parasite event "From under they come!" (but give nbt tag on spawn to exclude them from being killed & make them weaker)
+
+

@@ -103,6 +103,6 @@ bonus.WetaBonus1=+ 5 Jump Height
 bonus.WetaBonus2=+ 40%% Speed
 bonus.SwineDebuff=Hunger III & 25%% faster digging
 bonus.BanHammerDispel=Dispel
-bonus.BanHammerSickness=Potion Sickness
+bonus.BanHammerWeight=Weight
 bonus.BanHammerWarp=Anti Warp
 bonus.BanHammerAttribute=Slows AttackSpeed
