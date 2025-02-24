@@ -24,7 +24,7 @@
 
 // ====== Some items, like these ones, that don't have a default lang key, need to be renamed this way
 <notreepunching:rock/basalt>.displayName = game.localize("item.notreepunching:rock.basalt.name" ,"en_us");
-<notreepunching:cobblestone/basalt>.displayName = game.localize("item.notreepunching:cobblestone.basalt.name" ,"en_us");
+<notreepunching:cobblestone/basalt>.displayName = game.localize("tile.notreepunching:cobblestone.basalt.name" ,"en_us");
 
 //<betternether:bone_block>.displayName = "Smooth Bone Block";
 
