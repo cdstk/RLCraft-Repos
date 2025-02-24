@@ -6,6 +6,12 @@ import mods.contenttweaker.BlockMaterial;
 val StatusEffect = VanillaFactory.createItem("status_effect");
 StatusEffect.register();
 
+val BioHazard = VanillaFactory.createItem("biohazard_item");
+BioHazard.register();
+
+val Radiation = VanillaFactory.createItem("radiation_item");
+Radiation.register();
+
 // Reinforced Iron Plate Block
 val ReinforcedBlockDefault = VanillaFactory.createBlock("iron_plate_reinforced", <blockmaterial:iron>);
 ReinforcedBlockDefault.blockSoundType = <soundtype:metal>;
@@ -32,4 +38,27 @@ ReinforcedBlockSlab.register();
 // RLCraft Bliss and Blight music disks
 VanillaFactory.createRecord("rlmusic_bliss");
 VanillaFactory.createRecord("rlmusic_blight");
+
+// Reinforced Concrete Block
+val ReinforcedConcrete = VanillaFactory.createBlock("reinforced_concrete", <blockmaterial:rock>);
+ReinforcedConcrete.blockSoundType = <soundtype:stone>;
+ReinforcedConcrete.blockHardness = 30.0; //default 5.0
+ReinforcedConcrete.blockResistance = 20.0; //default 10
+ReinforcedConcrete.register();
+
+// Reinforced Concrete Biohazard
+val ReinforcedConcreteBio = VanillaFactory.createBlock("biohazard_block", <blockmaterial:rock>);
+ReinforcedConcreteBio.blockSoundType = <soundtype:stone>;
+ReinforcedConcreteBio.blockHardness = 30.0; //default 5.0
+ReinforcedConcreteBio.blockResistance = 20.0; //default 10
+ReinforcedConcreteBio.register();
+
+// Reinforced Concrete Radiation
+val ReinforcedConcreteRad = VanillaFactory.createBlock("radiation_block", <blockmaterial:rock>);
+ReinforcedConcreteRad.blockSoundType = <soundtype:stone>;
+ReinforcedConcreteRad.blockHardness = 30.0; //default 5.0
+ReinforcedConcreteRad.blockResistance = 20.0; //default 10
+ReinforcedConcreteRad.register();
+
+
 

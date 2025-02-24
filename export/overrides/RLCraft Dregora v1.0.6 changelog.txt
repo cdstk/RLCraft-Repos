@@ -1,4 +1,4 @@
-RLCraft Dregora v1.0.6 PATCH (Thou bugs shall -mostly- not pass! - edition):
+RLCraft Dregora v1.0.6b PATCH (Thou shall not bug! - edition):
 
 - Fixed remaining instances of faulty stat calculations for armor & weapons through EagleMixins (Thanks Nischelm!)
 - Added weapon the Eternal Dooter and changed weapon Keraunos to be a Javelin instead of a spear
@@ -35,5 +35,6 @@ RLCraft Dregora v1.0.6 PATCH (Thou bugs shall -mostly- not pass! - edition):
 - Buffed srp entities within Abyssal Rift that do not have health/dmg specifically defined to pre 1.0.4 values meaning they will be as strong as in LC again.
 - Fixed Biome Spread for SRP (SRPMixins) and severely limited spread rate causing significant performance gains in Abyssal Rift (Brutal Towers) (Thanks Nischi!)
 - Randomized loading screens (thanks Nischi!)
+- Disarmament/Disarm functionality still disarms but does not longer drop SRP/Dragon weapons if the entity spawned with such weaponry.
 
 !DO NOT INSTALL THIS OVER PREVIOUS INSTALLS, CREATE A NEW INSTALL AND COPY OVER YOUR WORLD SAVES (for servers and manual installs.  Curseforge launcher will update fine, but backup your options.txt if you don't want to lose custom keybinds)!

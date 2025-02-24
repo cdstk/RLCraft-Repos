@@ -57,7 +57,7 @@ ctintegration-1.8.0
 defiledlands-1.12.2-1.4.3
 disenchanter[1.12]1.8
 DoomlikeDungeons-1.14.12-MC1.12.2
-DregoraRL-2.6
+DregoraRL-2.7
 DynamicSurroundings-1.12.2-3.6.2.1
 DynamicSurroundingsHuds-1.12.2-3.6.0.0
 DynamicTrees-1.12.2-0.9.29
@@ -65,7 +65,7 @@ DynamicTreesBOP-1.12.2-1.5.2
 dynamictreesdefiledlands-1.12.2-1.0.0
 DynamicTreesQuark-1.12.2-1.0.6
 DynamicTreesTraverse-1.12.2-2.1
-EagleMixins-1.0.5
+EagleMixins-1.0.7
 EditableEdibles-1.3.1
 ElenaiDodge-1.12.2-2.1
 EnchantmentDescriptions-1.12.2-1.1.20
@@ -128,7 +128,6 @@ Neat 1.4-17
 NoiseThreader-1.0.0
 notreepunching-2.0.21
 OpenTerrainGenerator-1.12.2-v9.5-R2
-OptiFine_1.12.2_HD_U_G5
 OreLib-1.12.2-3.6.0.1
 particleculling-1.12.2-v1.4.3
 phosphor-1.12.2-0.2.6+build50-universal
@@ -175,7 +174,7 @@ SpartanShields-1.12.2-1.5.5
 SpartanWeaponry-1.12.2-1.6.0
 SpawnerControl-1.6.3b
 SRParasites-1.12.2v1.9.21
-SRPMixins-2.2.5
+SRPMixins-2.2.7
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
@@ -187,13 +186,12 @@ Trinkets and Baubles-0.32.5
 trumpetskeleton-1.12-1.0.2.1
 tschipplib-1.12.2-1.1.7
 tumbleweed-1.12-0.4.7
-Underneath-1.6
+Underneath-1.7
 VariedCommodities_1.12.2-(31Mar23)
 VerticallyStackedDimensions-1.12.2-0.1.9
 Waystones_1.12.2-4.1.0
 WearableBackpacks-RLCraft-1.12.2-3.2.6
 WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed
-worldedit-forge-mc1.12.2-6.1.10-dist
 XPFromHarvest-1.12.2-1.2.0
 xptome-1.12.2-v1.1.6
 YungsLaw-1.12.2-1.0.4

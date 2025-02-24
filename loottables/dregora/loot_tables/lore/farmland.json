@@ -58,7 +58,7 @@
                 locTitle:\"rldregora.farmland.encounter_farm.title\",
                 author:\"An unknown farmer.\",
                 locAuthor:\"rldregora.farmland.encounter_farm.author\",
-                display:{Lore:[\"Times are changing, as proven by this note.\".\"Who knows how long ago this was and\",\"where the corrupted stand now.\"],LocLore:[\"rldregora.farmland.encounter_farm.lore.0\",\"rldregora.farmland.encounter_farm.lore.1\",\"rldregora.farmland.encounter_farm.lore.2\"]}
+                display:{Lore:[\"Times are changing, as proven by this note.\",\"Who knows how long ago this was and\",\"where the corrupted stand now.\"],LocLore:[\"rldregora.farmland.encounter_farm.lore.0\",\"rldregora.farmland.encounter_farm.lore.1\",\"rldregora.farmland.encounter_farm.lore.2\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -135,7 +135,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\\\"rldregora.ancient.totem_luck.name\\\",LocLore:[\\\"rldregora.ancient.totem_luck.lore\\\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
