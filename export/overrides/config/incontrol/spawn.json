@@ -1,8 +1,9 @@
 [
   {
     "dimension": 3,
-    "minheight": 235,
+    "minheight": 225,
     "hostile": true,
+    "spawner": false,
     "result": "deny"
   },
   {

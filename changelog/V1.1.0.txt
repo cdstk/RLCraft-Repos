@@ -11,6 +11,9 @@ Fixed/Changed:
 - Removed Health Nerf and Potion sickness from the Ban Hammer.
 - Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
 - Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
+- Changed denial of hostile entities above Y235 in the Underneath to deny all hostile entity spawns above Y225 with the exception of spawners
+- Tweaked SRP difficulty per individual dimension by moving multipliers to SRPmixins and lowering them.
+- Lowered SRP mobcap per individual dimension and enabled bloodmoons in Lost Cities.
 
 RLCraft to do now:
 P1:
@@ -46,6 +49,9 @@ P1:
 - Lore changes
   Change 8000 years to 2000 years and make sure all the lore fits this
 
+- New Headstones in Brutal:
+  Add X33N, PeteZahHutt, Captain Sparklez to torment tower
+  Add Shroud and say "Shroud was (almost) here"
 
 - Biome Feedback: Make biome exploration have more of a purpose
   Upcoming nuclear wastelands have NC loot
@@ -63,6 +69,28 @@ P1:
   Make Labs a set location except for the port city?
   Teleport outer circle by clicking unique block?
 
+- update localizer
+- Your feedback is valued (discord feedback channel)
+- titans can fist through brutal tower blocks
+- change loottables to have bonus rolls last in list
+- Change Daeroc & Origin names to Daerock and Waterkeep
+- Make Castle named Durlock
+- make level 15 lightsource
+- fix block lag: https://github.com/CraftTweaker/ContentTweaker/issues/180
+- Change the hilly ocean to another biome type
+- Custom loading screen mod switch
+- add new screenshots to loading screens
+- Add qualities to srp armor?
+- SRP nodes dissapear? Make them stronger?
+- Vapula spawns from remains?
+- Triple corruption speed & change beckon spawning
+- Changed spawnchance for random encounters from x to x
+- Add shelter sign
+- Add additional cursed weapon tooltip (add tag Cursed and then add mass Cursed warning)
+- add a valheim corpserun on gravescroll feature as well with weakness so it can't be abused.
+- Add new Bleeding Obsidian Block (Portal)
+- Remove Link in Underneath, Change portal blocks to underneath special blocks and add in good starter cache's & Make portals indestructable by parasites
+- add recipes for new contenttweaker blocks and items
 - Check Ban Hammer JEI/Lore tooltip in comparison to /setblock ~ ~-1 ~ chest 0 false {LootTable:"dregora:underneath/fish_undead"} loottable
 - Update EagleMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
 - Update EagleMixins for - Long Drowning Arrows
@@ -70,7 +98,6 @@ P1:
 - Add Machine tooltips, found in abandoned fallout shelters in either the underneath or irradiated biomes.
 - Increase amount of brutal coins in underneath
 - speed up parasite spread a bit
-- add recipes for new contenttweaker blocks and items
 - add blazes to broken battle towers
 - Roguelike Dungeons increase spawn
 - When redo doomlike also add a starter house on top
@@ -103,7 +130,6 @@ P1:
 - Add paintings mod
 - Waterblocks on structures in mushroom biomes
 - In-game main menu needs stylizing
-- Custom loading screen mod switch
 - Make strongholds appear more often beyond the 8000 mark
 - Blacklist strongholds from grey abyss and abyssal rift biomes
 - Industrial Complexes for in nuclear wastelands

@@ -12,6 +12,12 @@ BioHazard.register();
 val Radiation = VanillaFactory.createItem("radiation_item");
 Radiation.register();
 
+val Fallout = VanillaFactory.createItem("shelter_item");
+Fallout.register();
+
+val FalloutSpecial = VanillaFactory.createItem("shelter_special_item");
+FalloutSpecial.register();
+
 // Reinforced Iron Plate Block
 val ReinforcedBlockDefault = VanillaFactory.createBlock("iron_plate_reinforced", <blockmaterial:iron>);
 ReinforcedBlockDefault.blockSoundType = <soundtype:metal>;
@@ -59,6 +65,13 @@ ReinforcedConcreteRad.blockSoundType = <soundtype:stone>;
 ReinforcedConcreteRad.blockHardness = 30.0; //default 5.0
 ReinforcedConcreteRad.blockResistance = 20.0; //default 10
 ReinforcedConcreteRad.register();
+
+// Reinforced Concrete Shelter
+val ReinforcedConcreteShelter = VanillaFactory.createBlock("shelter_block", <blockmaterial:rock>);
+ReinforcedConcreteShelter.blockSoundType = <soundtype:stone>;
+ReinforcedConcreteShelter.blockHardness = 30.0; //default 5.0
+ReinforcedConcreteShelter.blockResistance = 20.0; //default 10
+ReinforcedConcreteShelter.register();
 
 
 
