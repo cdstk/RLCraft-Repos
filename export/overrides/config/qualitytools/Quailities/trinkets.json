@@ -21,6 +21,12 @@
       },
       {
         "item": "minecraft:totem_of_undying"
+      },
+      {
+        "item": "minecraft:elytra"
+      },
+	  {
+        "item": "bountifulbaubles:trinketmagiclenses"
       }
     ],
     "blacklist": [

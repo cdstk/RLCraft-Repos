@@ -1,0 +1,14 @@
+options.txt/optionsof.txt defaults (ex pre-enabled resourcepacks)
+full changelog
+bhmenu ids
+aarcaddon/atlasautomarker
+dynaores settings
+localizator integration
+ddd
+nischhelm mods
+betterend
+ebwiz (no)
+socketed
+sme update
+test baubley elytra
+etc

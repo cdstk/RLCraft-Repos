@@ -11,7 +11,9 @@
       }
     ],
     "blacklist": [
-
+      {
+        "item": "minecraft:elytra"
+      }
     ],
     "qualities": [
       {

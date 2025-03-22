@@ -56,6 +56,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
   }
 });
 
+
 //stupid dupe bug lmaoooooooooooooooooo
 
 recipes.remove(<minecraft:coal_ore>);
@@ -304,6 +305,7 @@ recipes.remove(<mujmajnkraftsbettersurvival:itemdesertchitindagger>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemdragonbonenunchaku>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemfiredragonbonespear>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemicedragonbonespear>);
+recipes.remove(<mujmajnkraftsbettersurvival:itemlightningdragonbonespear>);
 
 recipes.removeByRecipeName("grapplemod:block_grapple_modifier");
 recipes.removeByRecipeName("grapplemod:launcheritem");
@@ -335,6 +337,8 @@ furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<defiledlands:umbrium_nugget>);
 furnace.remove(<variedcommodities:ingot_steel>);
 
+//furnace.remove(<iceandfire:silver_ingot>);
+//furnace.remove(<iceandfire:sapphire_gem>);
 recipes.remove(<iceandfire:earplugs>);
 recipes.remove(<iceandfire:fire_stew>);
 recipes.remove(<iceandfire:frost_stew>);
@@ -487,6 +491,17 @@ recipes.removeByRecipeName("variedcommodities:demonic_legs_0");
 recipes.removeByRecipeName("variedcommodities:mithril_boots_0");
 recipes.removeByRecipeName("variedcommodities:demonic_boots_0");
 
+recipes.remove(<dynaores:raw_copper_block>);
+recipes.remove(<dynaores:raw_iron_block>);
+recipes.remove(<dynaores:raw_silver_block>);
+recipes.remove(<dynaores:raw_umbrium_block>);
+recipes.remove(<dynaores:raw_gold_block>);
+recipes.removeByRecipeName("dynaores:raw_copper");
+recipes.removeByRecipeName("dynaores:raw_iron");
+recipes.removeByRecipeName("dynaores:raw_silver");
+recipes.removeByRecipeName("dynaores:raw_umbrium");
+recipes.removeByRecipeName("dynaores:raw_gold");
+
 furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_helmet:*>, 99999);
 furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_chestplate:*>, 99999);
 furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_leggings:*>, 99999);
@@ -571,6 +586,9 @@ furnace.addRecipe(<minecraft:iron_nugget> * 20, <wolfarmor:chainmail_wolf_armor:
 furnace.addRecipe(<minecraft:iron_ingot> * 5, <wolfarmor:iron_wolf_armor:*>, 99999);
 furnace.addRecipe(<minecraft:gold_ingot> * 5, <wolfarmor:gold_wolf_armor:*>, 99999);
 furnace.addRecipe(<minecraft:diamond> * 5, <wolfarmor:diamond_wolf_armor:*>, 99999);
+
+//furnace.addRecipe(<iceandfire:silver_ingot> * 1, <iceandfire:silver_ore:*>, 99999);
+//furnace.addRecipe(<iceandfire:sapphire_gem> * 1, <iceandfire:sapphire_ore:*>, 99999);
 
 furnace.addRecipe(<minecraft:iron_nugget> * 4, <aquaculture:loot:2>, 99999);
 furnace.addRecipe(<minecraft:dye:2> * 1, <aquaculture:food:1>, 99999);
@@ -838,7 +856,7 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "potioncore:strong_br
 brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "potioncore:long_broken_armor"}), <minecraft:dragon_breath>, <minecraft:lingering_potion>.withTag({Potion: "potioncore:long_broken_armor"}));
 
 //Potion Of Magic Focus
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:thick"}), <iceandfire:fire_dragon_blood>|<iceandfire:ice_dragon_blood>, <minecraft:potion>.withTag({Potion: "potioncore:magic_focus"}));
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:thick"}), <iceandfire:fire_dragon_blood>|<iceandfire:ice_dragon_blood>|<iceandfire:lightning_dragon_blood>, <minecraft:potion>.withTag({Potion: "potioncore:magic_focus"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:magic_focus"}), <minecraft:glowstone_dust>, <minecraft:potion>.withTag({Potion: "potioncore:strong_magic_focus"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:magic_focus"}), <minecraft:redstone>, <minecraft:potion>.withTag({Potion: "potioncore:long_magic_focus"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:magic_focus"}), <minecraft:gunpowder>, <minecraft:splash_potion>.withTag({Potion: "potioncore:magic_focus"}));
@@ -979,10 +997,6 @@ recipes.addShaped("lolarecipe16again",<mujmajnkraftsbettersurvival:itemsilverdag
   
 recipes.addShaped("lolarecipe16againagain",<mujmajnkraftsbettersurvival:itembronzedagger>,
  [[null,<variedcommodities:ingot_bronze>],
-  [<minecraft:stick>]]);
-
-recipes.addShaped("lolarecipe16againagainagain",<mujmajnkraftsbettersurvival:itemcopperdagger>,
- [[null,<iceandfire:copper_ingot>],
   [<minecraft:stick>]]);
 
 recipes.addShaped("lolarecipe16dragonbonedagger",<mujmajnkraftsbettersurvival:itemdragonbonedagger>,
@@ -1181,7 +1195,7 @@ recipes.addShaped("lolarecipe40frick",<aquaculture:loot:1>,
 recipes.addShapeless("lolarecipe40frack",<contenttweaker:neptunium_nugget> * 9,[<aquaculture:loot:1>]);
 
 recipes.addShaped("lolarecipe46",<potionfingers:ring:1>.withTag({Quality: {}, effect: "minecraft:speed"}),
- [[<minecraft:redstone_block>, <minecraft:sugar>, null],
+ [[<iceandfire:amethyst_block>, <minecraft:sugar>, null],
   [<minecraft:sugar>, <potionfingers:ring>, <minecraft:sugar>],
   [null, <minecraft:sugar>, null]]);
   
@@ -1255,6 +1269,11 @@ recipes.addShaped("lolarecipe57",<xat:glowing_ingot>,
   [<xat:glowing_powder>,<xat:glowing_powder>]]);
 
 recipes.addShapeless("lolarecipe59",<variedcommodities:trading_block>,[<minecraft:crafting_table>,<minecraft:crafting_table>]);
+
+recipes.addShaped("lolarecipe60",<xat:damage_shield>,
+ [[<xat:glowing_gem>,<quark:biotite>,<xat:glowing_gem>],
+  [<quark:biotite>,<minecraft:dragon_egg>|<iceandfire:dragonegg_red>|<iceandfire:dragonegg_green>|<iceandfire:dragonegg_bronze>|<iceandfire:dragonegg_gray>|<iceandfire:dragonegg_blue>|<iceandfire:dragonegg_white>|<iceandfire:dragonegg_sapphire>|<iceandfire:dragonegg_silver>|<iceandfire:dragonegg_amethyst>|<iceandfire:dragonegg_electric>|<iceandfire:dragonegg_black>|<iceandfire:dragonegg_copper>,<quark:biotite>],
+  [<xat:glowing_gem>,<quark:biotite>,<xat:glowing_gem>]]);
   
 recipes.addShaped("lolarecipe61",<bountifulbaubles:spectralsilt>,
  [[<bountifulbaubles:flare_red>,<bountifulbaubles:flare_red>,<bountifulbaubles:flare_red>],
@@ -1328,6 +1347,11 @@ recipes.addShaped("lolarecipe75",<spartanweaponry:arrow_wood>*4,
  [[<ore:plankWood>],
   [<minecraft:stick>],
   [<minecraft:paper>]]);
+
+recipes.addShaped("lolarecipe76",<simpledifficulty:dragon_canteen>,
+ [[<iceandfire:dragon_skull:0>|<iceandfire:dragon_skull:1>|<iceandfire:dragon_skull:2>],
+  [<simpledifficulty:iron_canteen:*>],
+  [<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<iceandfire:lightning_dragon_heart>]]);
 
 recipes.addShaped("lolarecipe77",<quark:iron_plate>*8,
  [[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
@@ -1754,6 +1778,11 @@ recipes.addShaped("bruhfirespear",<mujmajnkraftsbettersurvival:itemfiredragonbon
 recipes.addShaped("bruhicespear",<mujmajnkraftsbettersurvival:itemicedragonbonespear>*8,
  [[<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>],
   [<mujmajnkraftsbettersurvival:itemdragonbonespear>,<iceandfire:ice_dragon_blood>,<mujmajnkraftsbettersurvival:itemdragonbonespear>],
+  [<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>]]);
+
+recipes.addShaped("bruhlightningspear",<mujmajnkraftsbettersurvival:itemlightningdragonbonespear>*8,
+ [[<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>],
+  [<mujmajnkraftsbettersurvival:itemdragonbonespear>,<iceandfire:lightning_dragon_blood>,<mujmajnkraftsbettersurvival:itemdragonbonespear>],
   [<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>,<mujmajnkraftsbettersurvival:itemdragonbonespear>]]);
 
 recipes.addShaped("SUSSOUP1",<charm:suspicious_soup:0>,

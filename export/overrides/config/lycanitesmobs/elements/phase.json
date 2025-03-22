@@ -1,12 +1,15 @@
 {
   "name": "phase",
-  "loadDefault": true,
+  "loadDefault": false,
   "debuffDurationMultiplier": 0.5,
   "buffs": [
     "minecraft:speed"
   ],
   "debuffs": [
     "lycanitesmobs:fear"
+  ],
+  "immunities": [
+    "minecraft:poison"
   ],
   "components": [
     "earth",

@@ -129,6 +129,66 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break
 
 <ore:charmCrate>.add(<charm:crate:0>, <charm:crate:1>, <charm:crate:2>, <charm:crate:3>, <charm:crate:4>, <charm:crate:5>);
 
+//<mujmajnkraftsbettersurvival:itemwoodnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemstonenunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemironnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemdiamondnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemgoldnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itembronzenunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemsilvernunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemsteelnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemdragonbonenunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemjunglechitinnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+//<mujmajnkraftsbettersurvival:itemdesertchitinnunchaku:*>.addTooltip(format.green("Continuous Attack"));
+
+//<mujmajnkraftsbettersurvival:itemwooddagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemstonedagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemirondagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemdiamonddagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemgolddagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itembronzedagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemsilverdagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemsteeldagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemdragonbonedagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemjunglechitindagger:*>.addTooltip(format.green("Backstab Bonus"));
+//<mujmajnkraftsbettersurvival:itemdesertchitindagger:*>.addTooltip(format.green("Backstab Bonus"));
+
+//<mujmajnkraftsbettersurvival:itemwoodbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemstonebattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemironbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemdiamondbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemgoldbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itembronzebattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemsilverbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemsteelbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemdragonbonebattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemjunglechitinbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+//<mujmajnkraftsbettersurvival:itemdesertchitinbattleaxe:*>.addTooltip(format.green("Disarming Chance"));
+
+//<mujmajnkraftsbettersurvival:itemwoodspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemstonespear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemironspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemdiamondspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemgoldspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itembronzespear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemsilverspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemsteelspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemdragonbonespear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemjunglechitinspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+//<mujmajnkraftsbettersurvival:itemdesertchitinspear:*>.addTooltip(format.green("Extended Reach, Throwable"));
+
+//<mujmajnkraftsbettersurvival:itemwoodhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemstonehammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemironhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemdiamondhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemgoldhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itembronzehammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemsilverhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemsteelhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemdragonbonehammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemjunglechitinhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+//<mujmajnkraftsbettersurvival:itemdesertchitinhammer:*>.addTooltip(format.green("Secondary Attack, Stun And Knockback"));
+
 <sereneseasons:greenhouse_glass:*>.addTooltip(format.green("Allows crops up to 7 blocks directly beneath to grow in any season"));
 
 furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:longsword_diamond:*>, 99999);
@@ -395,16 +455,6 @@ recipes.addShaped("lolarecipe146",<betternether:stalagnate_planks_fence>*3,
 recipes.addShaped("lolarecipe147",<betternether:reeds_fence>*3,
  [[<betternether:reeds_block>,<minecraft:stick>,<betternether:reeds_block>],
   [<betternether:reeds_block>,<minecraft:stick>,<betternether:reeds_block>]]);
-
-recipes.addShaped("lolarecipe76",<simpledifficulty:dragon_canteen>,
- [[<iceandfire:dragon_skull:0>|<iceandfire:dragon_skull:1>|<iceandfire:dragon_skull:2>],
-  [<simpledifficulty:iron_canteen:*>],
-  [<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<iceandfire:lightning_dragon_heart>]]);
-
-recipes.addShaped("lolarecipe60",<xat:damage_shield>,
- [[<xat:glowing_gem>,<quark:biotite>,<xat:glowing_gem>],
-  [<quark:biotite>,<minecraft:dragon_egg>|<iceandfire:dragonegg_red>|<iceandfire:dragonegg_green>|<iceandfire:dragonegg_bronze>|<iceandfire:dragonegg_gray>|<iceandfire:dragonegg_blue>|<iceandfire:dragonegg_white>|<iceandfire:dragonegg_sapphire>|<iceandfire:dragonegg_silver>|<iceandfire:dragonegg_amethyst>|<iceandfire:dragonegg_electric>|<iceandfire:dragonegg_black>|<iceandfire:dragonegg_copper>,<quark:biotite>],
-  [<xat:glowing_gem>,<quark:biotite>,<xat:glowing_gem>]]);
 
 //===============
 //RUNE TIME

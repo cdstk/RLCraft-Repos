@@ -1688,7 +1688,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 250,
+    "unitWorth": 350,
     "weight": 15
   },
   {
@@ -1787,7 +1787,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 250,
+    "unitWorth": 350,
     "weight": 15
   },
   {
@@ -1796,7 +1796,7 @@
       "min": 1,
       "max": 4
     },
-    "unitWorth": 480,
+    "unitWorth": 580,
     "weight": 15
   },
   {
@@ -1823,7 +1823,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 240,
+    "unitWorth": 560,
     "weight": 15
   },
   {
@@ -1931,7 +1931,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 480,
+    "unitWorth": 580,
     "weight": 15
   },
   {
@@ -1985,7 +1985,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 240,
+    "unitWorth": 440,
     "weight": 15
   },
   {
@@ -2129,7 +2129,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 360,
+    "unitWorth": 560,
     "weight": 15
   },
   {
@@ -2147,7 +2147,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 360,
+    "unitWorth": 440,
     "weight": 15
   },
   {
@@ -2219,7 +2219,7 @@
       "min": 1,
       "max": 4
     },
-    "unitWorth": 420,
+    "unitWorth": 3000,
     "weight": 15
   },
   {
@@ -2273,7 +2273,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 1100,
+    "unitWorth": 1500,
     "weight": 15
   },
   {
@@ -2336,7 +2336,7 @@
       "min": 1,
       "max": 4
     },
-    "unitWorth": 1200,
+    "unitWorth": 1800,
     "weight": 15
   },
   {
