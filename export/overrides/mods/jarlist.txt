@@ -27,7 +27,7 @@ BlockOverlayFix-1.12.2-1.0.0
 Bloodmoon-MC1.12.2-1.5.3
 BNBGamingLib-1.12.2-2.17.6
 Born In A Barn 1.8-1.12-1.2
-Bountiful+Baubles-1.12.2-0.1.8
+Bountiful Baubles-1.12.2-0.1.8
 Bountiful-1.12.2-2.2.3
 BQTweaker-1.3.5
 BQ_Multiblock_Structure_Integration-1.0.9
@@ -42,16 +42,16 @@ CollisionDamage-1.2.2
 comforts-1.12.2-1.4.1.3
 CompatSkills-1.12.2-1.17.0
 ContentTweaker-1.12.2-4.10.0
-Controlling-3.0.12.3
+Controlling-3.0.12.4
 CoralReef-2.5-1.12.2
 corpsecomplex-1.12.2-1.0.12.0
 craftablechainmail-1.0
-CraftTweaker2-1.12-4.1.20.699
+CraftTweaker2-1.12-4.1.20.703
 CreativeCore_v1.10.71_mc1.12.2
 CustomMainMenu-MC1.12.2-2.0.9.1
 defiledlands-1.12.2-1.4.3
 disenchanter[1.12]1.8
-DoomlikeDungeons-1.14.12-MC1.12.2
+dldungeonsjbg-1.14.14-MC1.12.2
 DramaticTrees-1.12.2-0.13.4
 Dynamic-Raw-Ores-1.12.2-1.0.3a
 DynamicSurroundings-1.12.2-3.6.2.1
@@ -65,7 +65,7 @@ EnhancedVisuals_v1.4.4_mc1.12.2
 EntityCulling-1.12.2-6.5.0
 FamiliarFauna-1.12.2-1.0.11
 FancyBlockParticles-1.12.x-2.4.1
-FantasticLib-1.12.2.047
+FantasticLib-1.12.2.051
 fermiumasm-5.24
 firstaid-1.6.22
 FishingMadeBetter-1.12.2-2.2.6
@@ -90,11 +90,11 @@ InventoryTweaks-1.64+dev.151
 ItemPhysic_Full_1.4.37_mc1.12.2
 itlt-1.12.x-1.0.4
 IvToolkit-1.3.3-1.12
-jei_1.12.2-4.16.1.1012
+jei_1.12.2-4.16.1.1013
 JSON-Paintings-v1.2-mc1.12.2
 Kiwi-1.12.2-0.5.3.32
 lagbgonrevived-1.1.0
-LegendaryTooltips-1.12.2-1.1.10
+LegendaryTooltips-1.12.2-1.1.11
 Level Up! 2-1.1.23-1.12
 librarianlib-1.12.2-4.22
 llibrary-1.7.20-1.12.2
@@ -108,7 +108,6 @@ MainMenuScale-1.3.2
 Mantle-1.12-1.3.3.55
 MaterialTweaker-1.1.1
 mcw-bridges-1.0.6b-mc1.12.2
-MmmMmmMmmMmm-1.12-1.14
 MoBends_1.12.2-1.2.1-19.12.21
 modtweaker-4.0.20.11
 MouseTweaks-2.10.1-mc1.12.2
@@ -131,7 +130,7 @@ ReachFix-1.12.2-1.1.3
 RealBench-1.12.2-1.3.3
 RealisticTorches-1.12.2-2.1.2
 RebornCore-1.12.2-3.19.5-universal
-RecurrentComplex-1.4.8.5
+RecurrentComplex-1.4.8.6
 RenderLib-1.12.2-1.4.3
 Reskillable-1.12.2-1.13.0
 ResourceLoader-MC1.12.1-1.5.3
@@ -140,7 +139,7 @@ RLCombat-1.12.2-2.2.4
 RLFoliage-MC1.12-2.4.2
 RLMixins-1.3.18
 RLTweaker-1.12.2-0.7.3
-RoguelikeDungeonsFnarEdition-1.12.2-2.4.5
+RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
 RTG-1.12.2-6.1.0.0-snapshot.1
 Ruins-1.12.2
@@ -156,7 +155,7 @@ SnowRealMagic-1.12.2-0.7.1
 SoManyEnchantments-0.5.5
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.2-forge
-spartandefiled-1.0
+spartandefiled-1.12.2-1.2
 spartanfire_rlcraft-1.3.3
 SpartanHUDBaubles-1.12.2-1.0.0
 SpartanShields-1.12.2-1.5.5
@@ -166,6 +165,7 @@ SRParasites-1.12.2v1.9.11
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
+TestDummy2-2.0.3
 tnt_utilities-mc1.12-1.2.3
 Toast Control-1.12.2-1.8.1
 ToolBelt-1.12.2-1.9.14

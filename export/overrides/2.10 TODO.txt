@@ -24,4 +24,7 @@ fish's undead?
 srp update/srpmixins
 dsurround chats from dregora
 ray's structure updates
+im in danger mod
+nuke advancements
+nuke anvil
 etc
