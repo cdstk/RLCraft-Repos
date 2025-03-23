@@ -1,0 +1,13 @@
+{
+	"url": "https://cdn.modrinth.com/data/65qOM4nb/versions/1m3gvzYh/Nether-API-v1.3.0-mc1.12.2.jar",
+	"fileName": "Nether-API-v1.3.0-mc1.12.2.jar",
+	"metadata": {
+		"hash": {
+			"SHA-256": "f189c30b8a4b0f9b2ff67f805949a101a12e152eddb3cadcf72fc34aa2a715c8",
+			"MD5": "234635891ddfcbdad9f955f7af17d37d"
+		}
+	},
+	"installationPolicy": {
+		"description": "Required: Downloads and installs NetherAPI from Modrinth"
+	}
+}

@@ -1,3 +1,4 @@
+!mod-director-launchwrapper-1.8.3
 AdHooks-1.12.2-3.3.1.0-build.0626
 Advanced-Fishing-1.12.2-1.3.3
 AIReducer-1.12.2-0.3.0
@@ -17,6 +18,7 @@ Baubley-Elytra-v1.3.3-mc1.12.2
 BedBreakBegone-1.0.2
 betterbiomeblend-1.12.2-1.1.7-forge
 bettercaves-1.12.2-2.0.4
+BetterEndForge-Unofficial-GBPort-1.12.2-1.2.3
 BetterMineshaftsForge-1.12.2-2.2.1
 betternether-0.1.8.6
 BetterQuesting-3.5.329
@@ -51,7 +53,7 @@ CreativeCore_v1.10.71_mc1.12.2
 CustomMainMenu-MC1.12.2-2.0.9.1
 defiledlands-1.12.2-1.4.3
 disenchanter[1.12]1.8
-distinctdamagedescriptions-1.8.0 test build v2.jar
+distinctdamagedescriptions-1.8.0 test build v2
 dldungeonsjbg-1.14.14-MC1.12.2
 DramaticTrees-1.12.2-0.13.4
 Dynamic-Raw-Ores-1.12.2-1.0.3a
@@ -59,7 +61,7 @@ DynamicSurroundings-1.12.2-3.6.2.1
 DynamicSurroundingsHuds-1.12.2-3.6.0.0
 dynamictreesdefiledlands-1.12.2-1.0.0
 DynamicTreesTraverse-1.12.2-2.1
-EditableEdibles-1.3.1
+EditableEdibles-1.3.2
 ElenaiDodge-1.12.2-2.1
 EnchantmentDescriptions-1.12.2-1.1.20
 EnhancedVisuals_v1.4.4_mc1.12.2
@@ -77,6 +79,7 @@ Forgelin-1.8.4
 forgottenitems-1.12.2-1.3.1.4
 framevoidpatch-1.0.0
 FriendlyEndermite_v1.0.1_mc1.12.2
+FrozenOcean-1.12.2-1.0.0-rc1
 fxcontrol-1.12-0.1.15
 GlobalGameRules-1.12.2-2.2.7
 GooglyEyes-1.12.2-7.1.1
@@ -109,13 +112,16 @@ MainMenuScale-1.3.2
 Mantle-1.12-1.3.3.55
 MaterialTweaker-1.1.1
 mcw-bridges-1.0.6b-mc1.12.2
+MmmMmmMmmMmm-1.12-1.14
 MoBends_1.12.2-1.2.1-19.12.21
 modtweaker-4.0.20.11
 MouseTweaks-2.10.1-mc1.12.2
 MTLib-3.0.7
 MultiMine-1.12.2
 Neat 1.4-17
+Nether-API-v1.3.0-mc1.12.2
 notreepunching-2.0.21
+OptiFine_1.12.2_HD_U_G5
 OreLib-1.12.2-3.6.0.1
 particleculling-1.12.2-v1.4.3
 phosphor-1.12.2-0.2.6+build50-universal
@@ -139,7 +145,7 @@ RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLFoliage-MC1.12-2.4.2
 RLMixins-1.3.18
-RLTweaker-1.12.2-0.7.3
+RLTweaker-1.12.2-0.7.4
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
 RTG-1.12.2-6.1.0.0-snapshot.1
@@ -153,7 +159,7 @@ SilentLib-1.12.2-3.0.14+168
 SimpleDifficulty-1.12.2-0.3.9
 sit-1.12.2-v1.3
 SnowRealMagic-1.12.2-0.7.1
-SoManyEnchantments-0.5.5
+SoManyEnchantments-1.0.2-1.12.2
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.2-forge
 spartandefiled-1.12.2-1.2
@@ -162,11 +168,10 @@ SpartanHUDBaubles-1.12.2-1.0.0
 SpartanShields-1.12.2-1.5.5
 SpartanWeaponry-1.12.2-1.6.0
 SpawnerControl-1.6.3b
-SRParasites-1.12.2v1.9.11
+SRParasites-1.12.2v1.9.21
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
-TestDummy2-2.0.1
 tnt_utilities-mc1.12-1.2.3
 Toast Control-1.12.2-1.8.1
 ToolBelt-1.12.2-1.9.14
