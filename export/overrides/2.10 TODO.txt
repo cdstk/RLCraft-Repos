@@ -11,4 +11,17 @@ ebwiz (no)
 socketed
 sme update
 test baubley elytra
+new bettermineshaft from dregora
+quest notifications?
+new quests
+new quests titlecard
+bounceable
+filedirector/optifine
+jsonpaintings
+noisethreader
+potiondescriptions?
+fish's undead?
+srp update/srpmixins
+dsurround chats from dregora
+ray's structure updates
 etc
