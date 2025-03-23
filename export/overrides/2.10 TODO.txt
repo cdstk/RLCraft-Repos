@@ -28,4 +28,5 @@ im in danger mod
 nuke advancements
 nuke anvil
 handle updated srp settings/weapons/armor changes
+balance sme rework changes/loot
 etc
