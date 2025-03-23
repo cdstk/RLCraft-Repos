@@ -1,32 +1,44 @@
-options.txt/optionsof.txt defaults (ex pre-enabled resourcepacks)
-full changelog
-bhmenu ids
-aarcaddon/atlasautomarker
-dynaores settings
-localizator integration
-ddd
-nischhelm mods
-betterend
-ebwiz (no)
-socketed
-sme update
-test baubley elytra
-new bettermineshaft from dregora
-quest notifications?
-new quests
-new quests titlecard
-bounceable
-filedirector/optifine
-jsonpaintings
-noisethreader
-potiondescriptions?
-fish's undead?
-srp update/srpmixins
-dsurround chats from dregora
-ray's structure updates
-im in danger mod
-nuke advancements
-nuke anvil
-handle updated srp settings/weapons/armor changes
-balance sme rework changes/loot
-etc
+general:
+	options.txt/optionsof.txt defaults (ex pre-enabled resourcepacks)
+	full changelog
+	bhmenu ids
+	structure contest
+	enable quest notifications?
+	new quests
+	new menu/loading/quest background images
+	nuke advancements
+	nuke anvil
+	complementary shaders
+
+new mods:
+	AARCAddon
+	Antique Atlas Automarker
+	SRPMixins
+	Distinct Damage Descriptions
+	Frozen Ocean
+	RLLuck
+	Boat Delete Begone
+	Furnace XP Storage
+	Bounceable
+	NoiseThreader
+	BetterEnd
+	EBWizardry
+	Socketed
+	FileDirector (Optifine/NetherAPI)
+	JSONPaintings
+	PotionDescriptions
+	Fish's Undead Rising
+	I'm In Danger
+
+config/testing:
+	dynamic raw ores integration
+	localizator integration
+	BaubleyElytra
+	new InF content integration
+	SRP update integration
+	SME rework integration
+
+changes from dregora:
+	new bettermineshaft
+	recurrent structure updates
+	dsurround chat updates
