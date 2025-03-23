@@ -27,4 +27,5 @@ ray's structure updates
 im in danger mod
 nuke advancements
 nuke anvil
+handle updated srp settings/weapons/armor changes
 etc
