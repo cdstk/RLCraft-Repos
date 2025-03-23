@@ -1724,50 +1724,6 @@ recipes.addShaped("lolarecipe106",<minecraft:coal:1>,
   [<iceandfire:ash>,<iceandfire:ash>,<iceandfire:ash>],
   [<iceandfire:ash>,<iceandfire:ash>,<iceandfire:ash>]]);
 
-recipes.addShaped("lolatreat1",<lycanitesmobs:dragontreat>*4,
- [[null,<defiledlands:scarlite>,<iceandfire:sapphire_gem>],
-  [<minecraft:bone>,<minecraft:bone>,<defiledlands:scarlite>],
-  [null,<defiledlands:scarlite>,<iceandfire:sapphire_gem>]]);
-
-recipes.addShaped("lolatreat2",<lycanitesmobs:aviantreat>*4,
- [[null,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>],
-  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>],
-  [null,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>]]);
-
-recipes.addShaped("lolatreat3",<lycanitesmobs:beasttreat>*4,
- [[null,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>],
-  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>],
-  [null,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>]]);
-
-recipes.addShaped("lolatreat4",<lycanitesmobs:planttreat>*4,
- [[null,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>],
-  [<minecraft:reeds>,<minecraft:reeds>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>],
-  [null,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>]]);
-
-recipes.addShaped("lolatreat5",<lycanitesmobs:undeadtreat>*4,
- [[null,<lycanitesmobs:geistliver>,<lycanitesmobs:geistliver>],
-  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:geistliver>],
-  [null,<lycanitesmobs:geistliver>,<lycanitesmobs:geistliver>]]);
-  
-recipes.addShaped("lolatreat6",<lycanitesmobs:demontreat>*4,
- [[null,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>],
-  [<betternether:nether_reed>,<betternether:nether_reed>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>],
-  [null,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>]]);
-
-recipes.addShaped("lolanetherwartsoupalt",<foodexpansion:itemnetherwartsoup>,
- [[<minecraft:nether_wart>,<betternether:black_apple>,<minecraft:nether_wart>],
-  [null,<minecraft:bowl>,null]]);
-
-recipes.addShaped("lolatreat7",<lycanitesmobs:arachnidtreat>*4,
- [[null,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>],
-  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>],
-  [null,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>]]);
-
-recipes.addShaped("lolatreat8",<lycanitesmobs:aquatictreat>*4,
- [[null,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>],
-  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>],
-  [null,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>]]);
-
 recipes.addShaped("lolarecipe109",<disenchanter:disenchantmenttable>,
  [[null,null,null],
   [<defiledlands:book_wyrm_scale_golden>,<minecraft:emerald>,<defiledlands:book_wyrm_scale_golden>],

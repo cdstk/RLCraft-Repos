@@ -51,6 +51,7 @@ CreativeCore_v1.10.71_mc1.12.2
 CustomMainMenu-MC1.12.2-2.0.9.1
 defiledlands-1.12.2-1.4.3
 disenchanter[1.12]1.8
+distinctdamagedescriptions-1.8.0 test build v2.jar
 dldungeonsjbg-1.14.14-MC1.12.2
 DramaticTrees-1.12.2-0.13.4
 Dynamic-Raw-Ores-1.12.2-1.0.3a
@@ -81,7 +82,7 @@ GlobalGameRules-1.12.2-2.2.7
 GooglyEyes-1.12.2-7.1.1
 grapplemod-1.12.2-v12.3
 HelpFixer-1.12.1-1.5.18
-Ice and Fire-2.0.9
+Ice and Fire-2.1.1
 iChunUtil-1.12.2-7.2.2
 incontrol-1.12-3.9.18
 InfernalMobs-1.12.2
@@ -165,7 +166,7 @@ SRParasites-1.12.2v1.9.11
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
-TestDummy2-2.0.3
+TestDummy2-2.0.1
 tnt_utilities-mc1.12-1.2.3
 Toast Control-1.12.2-1.8.1
 ToolBelt-1.12.2-1.9.14
