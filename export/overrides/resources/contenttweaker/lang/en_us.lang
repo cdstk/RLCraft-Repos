@@ -22,20 +22,22 @@ item.contenttweaker.rlmusic_bliss.name=§dBliss
 item.record.rlmusic_bliss.desc=Shivaxi - Bliss
 item.contenttweaker.coin_pile.name=Coin Pile
 item.contenttweaker.coin_pile.desc=§6Big pile o' coins!
-
 item.contenttweaker.shelter_special_item.name=Registered Fallout Shelter
-
 item.contenttweaker.biohazard_item.name=Biohazard Warning
 tile.contenttweaker.biohazard_block.name=Biohazard Warning
 block.contenttweaker.biohazard_block.name=Biohazard Warning
-
 block.contenttweaker.radiation_block.name=Radiation Warning
 item.contenttweaker.radiation_item.name=Radiation Warning
 tile.contenttweaker.radiation_block.name=Radiation Warning
-
 block.contenttweaker.reinforced_concrete.name=Reinforced Concrete
 tile.contenttweaker.reinforced_concrete.name=Reinforced Concrete
-
 item.contenttweaker.shelter_item.name=Fallout Shelter
 block.contenttweaker.shelter_block.name=Fallout Shelter
 tile.contenttweaker.shelter_block.name=Fallout Shelter
+block.contenttweaker.reinforced_concrete_danger.name=Hazard Block
+tile.contenttweaker.reinforced_concrete_danger.name=Hazard Block
+block.contenttweaker.depleted_leu-235_block.name=Block of Depleted LEU-235
+tile.contenttweaker.depleted_leu-235_block.name=Block of Depleted LEU-235
+fluid.contenttweaker.coolant_water.name = Coolant Fluid
+block.contenttweaker.resource_crate.name=Industrial Crate
+tile.contenttweaker.resource_crate.name=Industrial Crate

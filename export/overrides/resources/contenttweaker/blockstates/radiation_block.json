@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/radiation_block",
       "particle": "contenttweaker:blocks/radiation_block"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:radiation_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

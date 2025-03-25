@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/biohazard_block",
       "particle": "contenttweaker:blocks/biohazard_block"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:biohazard_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

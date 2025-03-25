@@ -14,10 +14,15 @@ Fixed/Changed:
 - Changed denial of hostile entities above Y235 in the Underneath to deny all hostile entity spawns above Y225 with the exception of spawners
 - Tweaked SRP difficulty per individual dimension by moving multipliers to SRPmixins and lowering them.
 - Lowered SRP mobcap per individual dimension and enabled bloodmoons in Lost Cities.
+- added block hazard stripes and weathered variants of concrete blocks
+- enabled culling on old & new blocks, performance gains in brutal tower and more locations.
+- added new toxic fluid
+- changed B:"LycanitesMobs Lowercase Performance Patch (LycanitesMobs)"=false & made breathing animation 0.01 for bettercombatmod
 
 RLCraft to do now:
 P1:
 - Painting ideas:
+  Viking Animation by lqury
   Brutal tower dissection v1, v2 and v3
   Herbalists Trade Poster
   Brutal Merchant Trade Poster
@@ -69,6 +74,13 @@ P1:
   Make Labs a set location except for the port city?
   Teleport outer circle by clicking unique block?
 
+- item_gem_ruby_vc.name
+- make sledgehammer ancient artifact
+- change dough recipe to use vial x1 and ale x8 also check wine and check ratio between vials/buckets (remove bucket recipe)
+- add industrial drops to industrial crate
+- check liquid name
+- add new mod: https://www.curseforge.com/minecraft/texture-packs/rl-enchanted-books
+- loadingscreens_0 not found
 - update localizer
 - Your feedback is valued (discord feedback channel)
 - titans can fist through brutal tower blocks

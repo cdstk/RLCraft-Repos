@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/iron_plate_slab_reinforced",
       "particle": "contenttweaker:blocks/iron_plate_slab_reinforced"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:iron_plate_slab_reinforced",
     "uvlock": true,
     "transform": "forge:default-block"
   },
