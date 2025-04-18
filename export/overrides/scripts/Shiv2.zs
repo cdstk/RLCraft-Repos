@@ -191,27 +191,27 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break
 
 <sereneseasons:greenhouse_glass:*>.addTooltip(game.localize("tooltip.sereneseasons:greenhouse_glass", "en_us"));
 
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 99999);
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 99999);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 99999);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 99999);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 1);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 1);
 
 
-furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot> * 1, <spartanweaponry:scythe_gold:*>, 99999);
-furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:scythe_diamond:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:scythe_silver:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <spartanweaponry:scythe_steel:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 99999);
+furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 1);
+furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 1);
+furnace.addRecipe(<minecraft:gold_ingot> * 1, <spartanweaponry:scythe_gold:*>, 1);
+furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:scythe_diamond:*>, 1);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:scythe_silver:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <spartanweaponry:scythe_steel:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 1);
 
 recipes.remove(<inspirations:materials:2>);
 recipes.remove(<inspirations:materials:3>);
@@ -701,14 +701,14 @@ recipes.addShaped("lolarmor4",<rlmixins:steel_boots>,
 // [[<defiledlands:scarlite>,null,<defiledlands:scarlite>],
 //  [<defiledlands:scarlite>,null,<defiledlands:scarlite>]]);
 
-//furnace.addRecipe(<defiledlands:scarlite> * 2, <rlmixins:scarlite_helmet:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_chestplate:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_leggings:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 1, <rlmixins:scarlite_boots:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 2, <rlmixins:steel_helmet:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_chestplate:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_leggings:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <rlmixins:steel_boots:*>, 99999);
+//furnace.addRecipe(<defiledlands:scarlite> * 2, <rlmixins:scarlite_helmet:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_chestplate:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_leggings:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 1, <rlmixins:scarlite_boots:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 2, <rlmixins:steel_helmet:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_chestplate:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_leggings:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <rlmixins:steel_boots:*>, 1);
 
 //=================================
 //ArtiFACTS bro
