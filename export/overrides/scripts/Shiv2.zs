@@ -191,27 +191,27 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break
 
 <sereneseasons:greenhouse_glass:*>.addTooltip(game.localize("tooltip.sereneseasons:greenhouse_glass", "en_us"));
 
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 1);
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 1);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 1);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 1);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 1);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 1);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 1);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 1);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 1);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 1);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 1);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 1);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 0.1);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 0.1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 0.1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 0.1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 0.1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 0.1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 0.1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 0.1);
 
 
-furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 1);
-furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 1);
+furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 0.7);
+furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 0.7);
 furnace.addRecipe(<minecraft:gold_ingot> * 1, <spartanweaponry:scythe_gold:*>, 1);
 furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:scythe_diamond:*>, 1);
 furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:scythe_silver:*>, 1);
 furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <spartanweaponry:scythe_steel:*>, 1);
-furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 0.7);
 
 recipes.remove(<inspirations:materials:2>);
 recipes.remove(<inspirations:materials:3>);
