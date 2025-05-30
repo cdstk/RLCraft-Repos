@@ -1,5 +1,40 @@
 #PARSE_ESCAPES
 ##################################################################
+# dregorarl/bunkers
+##################################################################
+rldregora.bunker.apartements.page.1=Hiding out, supplies ran low so we had to leave
+rldregora.bunker.radiation.page.1=-------------------\n Radiation Handbook\n-------------------\n\n         Pages:\n\nRad Detection: 2-3\nRad Levels: 4-5\nRad Dangers: 6-7\nRad Sources: 8\nRad Shielding: 9-11\nRad Warning: 12
+rldregora.bunker.radiation.page.2=  Radiation Detection\n-------------------\n\nRadiation detection is done through Geiger counters which can be either stationary or equip able on your person.\n\nAlternatively you can equip a radiation badge. These will
+rldregora.bunker.radiation.page.3=alert you with each 25 Radiation absorbed where a lethal dose would be 1000 Radiation.
+rldregora.bunker.radiation.page.4=   Radiation Levels\n-------------------\n\npRad/t = Safe\n\nnRad/t = Moderately Safe, take precautions.\n\nuRad/t = Alert, take measures!\n\nmRad/t = High Risk, vacate area!
+rldregora.bunker.radiation.page.5=Rad/t = Danger, take measures and vacate area immediately!
+rldregora.bunker.radiation.page.6=-------------------   Radiation Dangers\n\nRadiation empowers the Corrupted and weakens all other entities along with the land it affects.\n\nAt higher exposure side effects start kicking in.
+rldregora.bunker.radiation.page.7=Nausea, Poison, Hallucinations, Fatigue and Weakness all belong to these side effects so take care to not get irradiated.
+rldregora.bunker.radiation.page.8=  Radiation Sources\n-------------------\n\nRadiation sources vary as everything can get contaminated but most notably are depleted fuel sources and highly radiated areas. Be wary of either by using a radiation badge or Geiger counter.
+rldregora.bunker.radiation.page.9=   Radiation Shielding\n-------------------\n\nAside from monitoring equipment such as Geiger counters or Radiation badges there is also radiation shielding.\n\nThese are distinguishable by their Rad Resistance tag
+rldregora.bunker.radiation.page.10=you'll find attached to the equipment.\n\nAdditionally there are Light, Medium and Heavy radiation shields for which fabrication complex machinery is required. These can be found in most public fallout shelters recognizable by
+rldregora.bunker.radiation.page.11=the red radiation icon at the entrance.\n\nThese locations are usually found at high risk areas with elevated radiation levels.
+rldregora.bunker.radiation.page.12=   Radiation Warning\n-------------------\n\nIf you come across a stone column with a nuclear symbol depicted on it this means that the area has a high radiation risk and you should not venture further.
+rldregora.bunker.silo.page.1=Blocked in, Power low\n\nunable to fix the reactor\n\n\ndo not turn it on for a meltdown is imminent
+rldregora.bunker.storage.page.1=It's been ages since I've been on the run and this here is a blessing, not only it'll keep the corruption out but it also serves as a good protection against the radiation outside!
+rldregora.bunker.storage.page.2=I wish I knew what day it was, I really got lost of track being constantly on the run.\n\nThere's enough food here to last for a long time but entertainment? other people? none of it, just this blank book to keep me sane.
+rldregora.bunker.storage.page.3=I went outside and it got me, weeks passed and my leg doesn't only still hurts but there's a rash over it as well.\n\nRadiation sickness or something worse?\n\nHopefully it is getting better, up till now I
+rldregora.bunker.storage.page.4=wasn't even able to think of a coherent sentence and look me now.\n\nYeah it should be good, no radiation poisoning no infection no nothing, just some green rash.
+rldregora.bunker.mid.page.1=-------------------Date 19 Feb 2118\n-------------------\nAll hell broke loose, we are lucky to have this shelter as the monsters roam above... Stockpile seems good to last us a few months.
+rldregora.bunker.mid.page.2=-------------------Date 26 Feb 2118\n-------------------I went outside during the quiet moments and bumped into a fellow survivor which is with us right now.\n\nPete, his name went on quite the horrendous trip to get here, he explained the
+rldregora.bunker.mid.page.3=Corruption of the cities, corruption referring to the take over of these monsters.\n\nHumanity is rare nowadays, most of them corrupted into these other beings and if that wasn't enough there's also
+rldregora.bunker.mid.page.4=the radiation now, the corrupted are seemingly unaffected by this or so Pete told us but it's a wasteland in the makings above our head...\n\nSo yeah make sure we take a Geiger counter with us whenever we go above ground I guess.
+rldregora.bunker.mid.page.5=-------------------Date 17 March 2118\n-------------------Our new friend Pete is acting strange in some way, seems more shy and aggressive at times. I hope it was not a mistake to bring him in.
+rldregora.bunker.mid.page.6=-------------------Date 19 March 2118\n-------------------Our new friend Pete is acting strange in some way, seems more shy and aggressive at times. I hope it was not a mistake bringing him in.
+rldregora.bunker.mid.page.7=-------------------Date 26 March 2118\n-------------------We are safe, and lucky to be alive. Pete changed, he changed into a monster and we managed to get rid of him... For now he is in the pool room until it gets quiet above once again.
+rldregora.bunker.mid.page.8=-------------------Date 18 April 2118\n-------------------The quiet moments are no more, Pete's remains are still in the pool room but it is of no worry.. This rash, and this anger is though...\n\nAm I turning too?
+rldregora.bunker.mid.page.9=-------------------Date 23 April 2118\n-------------------Kate, Elliot my family... they are gone, they turned and I had no choice... I can feel myself changing too.\n\nMy newborn anger will be the downfall of those above, the corrupted will feel
+rldregora.bunker.mid.page.10=my wrath as I will butcher them knowing it'll be the last thing I do before it's too late and I turn into one of them or succumb to the radiation.
+rldregora.bunker.mid_nuclear.page.1=     Uranium Fuel\n     Fabrication\n-------------------\n\nInsert uranium ingot or dust into isotope seperator.\n\nIf power is depleted turn on reactor.\n\nCombine tiny clumps of Uranium-235 to make
+rldregora.bunker.mid_nuclear.page.2=Uranium-235\n\nCombine 8/9 Uranium-238 with 1/9 Uranium-235 to make LEU-235 fuel\n\nLEU-235 fuel can be used to power the reactor.
+rldregora.bunker.small_03.page.1=Corrupted broke in, we fled with our lives
+rldregora.bunker.small_02.page.1=Corruption cut off access to our communal fallout shelter and thus we had to hide in our\nown shelter until\nresources ran out
+##################################################################
 # dregorarl/loot/piratejunk_loot.json
 ##################################################################
 rldregora.piratejunk.dirtbucket.name=Jar of Dirt

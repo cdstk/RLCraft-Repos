@@ -1,7 +1,9 @@
 {
 	"parent": "block/cube",
 	"textures": {
-		"all": "contenttweaker:blocks/depleted_leu-235_block"},
+		"top": "contenttweaker:blocks/depleted_leu-235_top",
+		"side": "contenttweaker:blocks/depleted_leu-235_side"
+	},
 	"elements": [
 		{
 			"from": [ 0, 0, 0 ],

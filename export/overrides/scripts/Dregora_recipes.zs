@@ -2,6 +2,57 @@ import crafttweaker.item.IItemStack;
 
 print("Dregora Recipe Script starting!");
 
+//================================
+//New concrete block recipes:
+//================================
+
+  recipes.addShapeless("dregora59",<contenttweaker:shelter_block>,[<contenttweaker:reinforced_concrete>,<contenttweaker:shelter_item>]);
+  recipes.addShapeless("dregora60",<contenttweaker:biohazard_block>,[<contenttweaker:reinforced_concrete>,<contenttweaker:biohazard_item>]);
+  recipes.addShapeless("dregora61",<contenttweaker:reinforced_concrete_danger>,[<contenttweaker:reinforced_concrete>,<minecraft:dye:11>,<minecraft:dye:0>]);
+
+//================================
+//Ore Tooltips
+//================================
+
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
+//
+//<biomesoplenty:biome_block:0>.addTooltip(game.localize("rldregora.biomesoplenty:biome_block:0.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:0>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:0.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:1.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:2.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:3.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:4.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:5.tooltip", "en_us"));
+//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:7.tooltip", "en_us"));
+//
+//<iceandfire:amethyst_ore>.addTooltip(game.localize("rldregora.iceandfire:amethyst_ore.tooltip", "en_us"));
+//<iceandfire:copper_ore>.addTooltip(game.localize("rldregora.iceandfire:copper_ore.tooltip", "en_us"));
+//<iceandfire:silver_ore>.addTooltip(game.localize("rldregora.iceandfire:silver_ore.tooltip", "en_us"));
+//<iceandfire:sapphire_ore>.addTooltip(game.localize("rldregora.iceandfire:sapphire_ore.tooltip", "en_us"));
+//
+//<defiledlands:hephaestite_ore>.addTooltip(game.localize("rldregora.defiledlands:hephaestite_ore.tooltip", "en_us"));
+//<defiledlands:umbrium_ore>.addTooltip(game.localize("rldregora.defiledlands:umbrium_ore.tooltip", "en_us"));
+//<defiledlands:scarlite_ore>.addTooltip(game.localize("rldregora.defiledlands:scarlite_ore.tooltip", "en_us"));
+//
+//<quark:biotite_ore>.addTooltip(game.localize("rldregora.quark:biotite_ore.tooltip", "en_us"));
+//
+//<scalinghealth:crystalore>.addTooltip(game.localize("rldregora.scalinghealth:crystalore.tooltip", "en_us"));
+
+
+
+//================================
+//Fallout Shelter Tooltips
+//================================
+
+<contenttweaker:shelter_special_item>.addTooltip(game.localize("rldregora.contenttweaker:shelter_special_item.tooltip", "en_us"));
+<contenttweaker:shelter_item>.addTooltip(game.localize("rldregora.contenttweaker:shelter_item.tooltip", "en_us"));
+
 //=================================
 //Normal recipe adjustments
 //=================================
@@ -490,25 +541,29 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 //<variedcommodities:ancient_coin>.displayName = "Brutal Coins";
 <variedcommodities:ancient_coin>.addTooltip(game.localize("rldregora.variedcommodities:ancient_coin.tooltip", "en_us"));
 
-//<variedcommodities:lead_pipe>.displayName = "Ancient Artifact";
+//<variedcommodities:lead_pipe>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
 <variedcommodities:lead_pipe:*>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.0", "en_us"));
 <variedcommodities:lead_pipe:*>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.1", "en_us"));
 
-//<variedcommodities:crowbar>.displayName = "Ancient Artifact";
+//<variedcommodities:crowbar>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
 <variedcommodities:crowbar:*>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.0", "en_us"));
 <variedcommodities:crowbar:*>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.1", "en_us"));
 
-//<variedcommodities:hammer>.displayName = "Ancient Artifact";
+//<variedcommodities:hammer>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
 <variedcommodities:hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.0", "en_us"));
 <variedcommodities:hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.1", "en_us"));
 
-//<variedcommodities:wrench>.displayName = "Ancient Artifact";
+//<variedcommodities:wrench>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
 <variedcommodities:wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.0", "en_us"));
 <variedcommodities:wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.1", "en_us"));
 
-//<variedcommodities:pipe_wrench>.displayName = "Ancient Artifact";
+//<variedcommodities:pipe_wrench>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
 <variedcommodities:pipe_wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.0", "en_us"));
 <variedcommodities:pipe_wrench:*>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.1", "en_us"));
+
+//<variedcommodities:sledge_hammer>.displayName = "(game.localize("rldregora.variedcommodities:artifact.name", "en_us"))";
+<variedcommodities:sledge_hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:sledge_hammer.tooltip.0", "en_us"));
+<variedcommodities:sledge_hammer:*>.addTooltip(game.localize("rldregora.variedcommodities:sledge_hammer.tooltip.1", "en_us"));
 
 //Add the Tool Used Description for Barrier Blocks:
 <dimstack:bedrock:7>.addTooltip(game.localize("rldregora.dimstack:bedrock:7.tooltip", "en_us"));

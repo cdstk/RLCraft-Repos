@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:ithaqua",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:scarecrow",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 3,
+    "mobs": [
+      {
+        "mob": "defiledlands:book_wyrm",
+        "weight": 30,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  }
+]

@@ -144,6 +144,7 @@
     "minecraft:taiga_cold_hills": "SNOW_PINES_HILLS",
     "minecraft:taiga_hills": "PINES_HILLS",
     "minecraft:void": "END_VOID",
+    "nuclearcraft:nuclear_wasteland": "DESERT",
     "srparasites:biome_parasite": "PLAINS",
     "traverse:arid_highland": "MOUNTAINS_NAKED",
     "traverse:autumnal_wooded_hills": "T_AUTUMN_HILLS",

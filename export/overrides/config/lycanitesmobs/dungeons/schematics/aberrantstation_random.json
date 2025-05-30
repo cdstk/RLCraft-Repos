@@ -17,7 +17,11 @@
         "nether",
         "end"
       ],
-      "biomeTagListType": "whitelist"
+      "biomeTagListType": "whitelist",
+      "biomeIds": [
+        "nuclearcraft:nuclear_wasteland"
+      ],
+      "biomeIdListType": "blacklist"
     }
   ],
   "placer": {

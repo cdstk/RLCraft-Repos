@@ -5,6 +5,10 @@ import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 
+
+val CementRebar = VanillaFactory.createItem("rebar");
+CementRebar.register();
+
 val StatusEffect = VanillaFactory.createItem("status_effect");
 StatusEffect.register();
 
@@ -62,6 +66,13 @@ ReinforcedConcrete.setToolClass("pickaxe");
 ReinforcedConcrete.setToolLevel(3);
 ReinforcedConcrete.register();
 
+ReinforcedConcrete.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+	drops.add(<item:minecraft:concrete_powder:8>);
+	drops.add(<item:minecraft:iron_nugget> * 6);
+    return;
+});
+
 // Reinforced Concrete Biohazard
 val ReinforcedConcreteBio = VanillaFactory.createBlock("biohazard_block", <blockmaterial:rock>);
 ReinforcedConcreteBio.blockSoundType = <soundtype:stone>;
@@ -70,6 +81,13 @@ ReinforcedConcreteBio.blockResistance = 20.0; //default 10
 ReinforcedConcreteBio.setToolClass("pickaxe");
 ReinforcedConcreteBio.setToolLevel(3);
 ReinforcedConcreteBio.register();
+
+ReinforcedConcreteBio.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+	drops.add(<item:minecraft:concrete_powder:8>);
+	drops.add(<item:minecraft:iron_nugget> * 6);
+    return;
+});
 
 // Reinforced Concrete Radiation
 val ReinforcedConcreteRad = VanillaFactory.createBlock("radiation_block", <blockmaterial:rock>);
@@ -80,6 +98,13 @@ ReinforcedConcreteRad.setToolClass("pickaxe");
 ReinforcedConcreteRad.setToolLevel(3);
 ReinforcedConcreteRad.register();
 
+ReinforcedConcreteRad.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+	drops.add(<item:minecraft:concrete_powder:8>);
+	drops.add(<item:minecraft:iron_nugget> * 6);
+    return;
+});
+
 // Reinforced Concrete Shelter
 val ReinforcedConcreteShelter = VanillaFactory.createBlock("shelter_block", <blockmaterial:rock>);
 ReinforcedConcreteShelter.blockSoundType = <soundtype:stone>;
@@ -88,6 +113,13 @@ ReinforcedConcreteShelter.blockResistance = 20.0; //default 10
 ReinforcedConcreteShelter.setToolClass("pickaxe");
 ReinforcedConcreteShelter.setToolLevel(3);
 ReinforcedConcreteShelter.register();
+
+ReinforcedConcreteShelter.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+	drops.add(<item:minecraft:concrete_powder:8>);
+	drops.add(<item:minecraft:iron_nugget> * 6);
+    return;
+});
 
 // Resource Crate
 val ResourceCrate = VanillaFactory.createBlock("resource_crate", <blockmaterial:iron>);
@@ -111,12 +143,18 @@ CoolantWater.setMaterial(<blockmaterial:lava>);
 CoolantWater.temperature = 1000;
 CoolantWater.register();
 
+var CementFluid = VanillaFactory.createFluid("cement_fluid", Color.fromHex("acacac"));
+CementFluid.colorize = false;
+CementFluid.setMaterial(<blockmaterial:water>);
+CementFluid.setDensity(10000);
+CementFluid.viscosity = 10000;
+CementFluid.flowingLocation = "contenttweaker:fluids/cement_fluid_flow";
+CementFluid.stillLocation = "contenttweaker:fluids/cement_fluid";
+CementFluid.register();
+
 // Depleted LEU-235 Block
 val DepletedLeu235 = VanillaFactory.createBlock("depleted_leu-235_block", <blockmaterial:iron>);
 DepletedLeu235.blockSoundType = <soundtype:metal>;
 DepletedLeu235.blockHardness = 5.0; //default 5.0
 DepletedLeu235.blockResistance = 10.0; //default 10
 DepletedLeu235.register();
-
-
-

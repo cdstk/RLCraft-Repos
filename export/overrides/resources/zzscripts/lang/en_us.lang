@@ -4,6 +4,42 @@
 ## Event-conditioned Item Names & Lore =============================================
 item.rldregora.corrupted_ashes.name=Corrupted Ashes
 item.rldregora.infernal_ashes.name=Infernal Ashes
+## Ores
+
+
+##################################################################
+# Nuclearcraft_recipes.zs
+##################################################################
+## Ores
+rldregora.nuclearcraft:ore:2.tooltip=Resource found in;
+rldregora.nuclearcraft:ore:3.tooltip=Resource found in;
+rldregora.nuclearcraft:ore:4.tooltip=Resource found in;
+rldregora.nuclearcraft:ore:5.tooltip=Resource found in;
+rldregora.nuclearcraft:ore:6.tooltip=Resource found in;
+## Misc items
+rldregora.nuclearcraft:tritium_lamp.tooltip=§dOld world light source, rarely found in §4§lRegistered Fallout Shelters.
+rldregora.nuclearcraft:upgrade.tooltip=§dLost technology, rarely found in §8§lIndustrial Crates
+rldregora.nuclearcraft:record.tooltip=§dVinyl! rarely found in §8§lIndustrial Crates
+## Radiation protection
+rldregora.nuclearcraft:helm_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:chest_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:legs_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:boots_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:radaway_slow.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:rad_x.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:radaway.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
+## Nuclear Reactor Components
+rldregora.nuclearcraft:shelter_fission.tooltip=§dReactor Core Component, exclusively found in §4§lRegistered Fallout Shelters
+## Machine Blocks that use power in Big Shelters
+rldregora.nuclearcraft:shelter_big.tooltip=§dOld World Machinery usually found in §4§lRegistered Fallout Shelters§r and rarely in §8§lIndustrial Crates
+## Machine Blocks in small & big shelters that do not use power
+rldregora.nuclearcraft:shelter_small.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRRegistered§r and §e§lRegular Fallout Shelters
+## Machine Blocks that collect resources when powered (Water/Nitrogen/Helium)
+rldregora.nuclearcraft:collector.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRRegistered§r and §e§lRegular Fallout Shelters
+## Blocks that emit radiation and RF (energy)
+rldregora.nuclearcraft:generators.tooltip=§dDangerous, Radioactive Generators found rarely in §8§lIndustrial Crates§r and §4§lRegistered Fallout Shelters
+## Blocks that store power
+rldregora.nuclearcraft:power_storage.tooltip=§dOld World Machinery usually found in §4§lRegistered Fallout Shelters§r and rarely in §8§lIndustrial Crates
 
 ##################################################################
 # Dregora_arrays.zs
@@ -476,6 +512,8 @@ rldregora.variedcommodities:mana.tooltip=§6A valuable resource used as ancient 
 item.satchel.name=Coin Purse
 rldregora.variedcommodities:satchel.tooltip=§6A purse filled with ancient coins!
 ## ContentTweaker ========================================================
+rldregora.contenttweaker:shelter_special_item.tooltip=§eThis sign marks §4§bRegistered Fallout Shelters§r found exclusively in radiated zones
+rldregora.contenttweaker:shelter_item.tooltip=§eThis sign marks §4§bFallout Shelters§r found commonly throughout the world
 rldregora.reinforced_blocks.tooltip=§eCorruption Resistant
 ## Quark =================================================================
 rldregora.quark:witch_hat.tooltip=§7Makes witches friendly and negates charm spectre curses
@@ -554,6 +592,7 @@ rldregora.variedcommodities:nanorum_chest.tooltip=Aged Chestplate, made of advan
 rldregora.variedcommodities:nanorum_legs.tooltip=Aged Legs, made of advanced alloys. Provides excellent protection.
 rldregora.variedcommodities:nanorum_boots.tooltip=Aged Boots, made of advanced alloys. Provides excellent protection.
 # Herbalist and Brutal Tower Traders/Info ================================================
+rldregora.variedcommodities:artifact.name=Ancient Artifact
 rldregora.srparasites:biomepurifier.tooltip=§6Obtainable at most Herbalists, rarely found at their overgrown cabin in plains and flower fields.
 rldregora.contenttweaker:blood_tear.tooltip=§eRemnants of Dreadnauts and Overlords
 item.coin_stone.name=Brutal Fragment
@@ -578,6 +617,9 @@ rldregora.variedcommodities:wrench.tooltip.1=§6Only sold when in pristine condi
 item.pipe_wrench.name=Ancient Artifact
 rldregora.variedcommodities:pipe_wrench.tooltip.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
 rldregora.variedcommodities:pipe_wrench.tooltip.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
+rldregora.variedcommodities:sledge_hammer.tooltip.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
+rldregora.variedcommodities:sledge_hammer.tooltip.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
+item.hammer.name=Ancient Artifact
 rldregora.dimstack:bedrock:7.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Artifact - Theta§r §4‡§r §7equipped in offhand.
 rldregora.dimstack:bedrock:6.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand.
 item.artifact.name=§4‡ §6§lBrutal Artifact - Theta§r §4‡

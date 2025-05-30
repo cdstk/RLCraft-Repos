@@ -32,7 +32,8 @@
         "openterraingenerator:overworld_grey_abyss_border",
         "openterraingenerator:overworld_grey_abyss_pit",
         "openterraingenerator:overworld_grey_abyss_pit_border",
-        "srparasites:biome_parasite"
+        "srparasites:biome_parasite",
+        "nuclearcraft:nuclear_wasteland"
       ],
       "biomeIdListType": "blacklist",
       "biomeTagListType": "whitelist"

@@ -18,6 +18,33 @@ Fixed/Changed:
 - enabled culling on old & new blocks, performance gains in brutal tower and more locations.
 - added new toxic fluid
 - changed B:"LycanitesMobs Lowercase Performance Patch (LycanitesMobs)"=false & made breathing animation 0.01 for bettercombatmod
+- Changed following trades for Elder Blacksmith: Hearth Container = 10 satchels, Spectral Silt = 1 satchel, Glowing Powder =  30 coins, Nether star = 25 satchels & limited to 1 trade per elder blacksmith
+- Fixed Yale spawns, these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
+- Added new biomea Nuclear Blight & Nuclear Creek
+- Added dense fog to biome Nuclear Blight and weather effects through mod dsurroundings
+- Ithaquas and Scarecrow spawns are boosted in Forests/Spooky Biomes and Plains during thunderstorms now
+- Blacklisted Dragons, Lycanites Structures, Lycanites Entities and ReComplex structures from spawning in Nuclear Blight Biome
+- variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
+- Blacklisted defiledlands:book_wyrm from parasites target list.
+- Added new large underneath biome Defiled Caverns biome with increased bookwyrm spawns (30 weight instead of 14)
+- Disabled OTG fog for underneath making way for dynamic surroundings fog to take over
+- Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures.
+- Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills
+  a isle biome within Underworld still inherits from ocean adding to the diversity of said biome.
+- Fixed Lycanites Vapula (GEM) spawner from srparasites:gore block and increased spawn chance from 0.02 to 0.03.
+  QUADRUPLE TEST ALL LYCANITES MOBS because this may break other things like ore spawning
+- Increased Lycanites Geonach spawner (ORE) spawn chance from 0.01 to 0.02
+- Tripled speed of corruption spread (SRPARASITES)
+- Increased amount of Roguelike Dungeon spawning by lowering spawnFrequency=17 to 15
+- Added Reinforced Concrete recipe
+- Fixed localization for item_gem_ruby_vc.name
+- Lowered COTH range from 3 to 1 making it harder for COTH to transfer from mob to mob
+- Lowered COTH health threshold from 0.3 to 0.2 meaning they'll now try to transform under 20% health rather than 30%
+- Disabled dragon cave generation in biomesoplenty:rainforest due to exposed dragon cave generation.
+- Disabled fog amplification near bedrock through dynamic surroundings
+- Added localization for books within bunkers
+- Disabled fog increase near bedrock
+
 
 RLCraft to do now:
 P1:
@@ -29,6 +56,7 @@ P1:
   Elder Smith Trade Poster
   Brutal Coin Locations (Underneath & Brutal Towers + Labs in future)
   Brutal merchant/ Elder Blacksmith or Topographer (Rename to collector?) sells paintings to encourage players taking a look?
+  Ozzyliners Painting
 
 - Random Encounters: Wraamon Rat-pack generic spawn in caverns, 1 heart hp & 0 dmg
   SkadoodleRat - ???
@@ -74,44 +102,98 @@ P1:
   Make Labs a set location except for the port city?
   Teleport outer circle by clicking unique block?
 
-- item_gem_ruby_vc.name
-- make sledgehammer ancient artifact
+- EagleMixins Add:
+  make srparasites deal "nuclearcraft:capability_entity_rads":{radiationLevel} x 10 damage per x ticks
+  high priority: fix eaglemixins make biome blacklist configurable and make the blacklist interchangeable as a whitelist too
+  Add status effect Light Medium and High Radiation Exposure
+
+- New Random Encounters:
+  Make random encounter wildkin and call it bigfoot
+  Make random encounter immortal snail that can't be killed and do 90% of player damage if the player touches it (never 100%)
+  Changed spawnchance for random encounters from x to x
+  random encounter mob MR. Bone's Big Stick (Skeleton with a troll weapon)
+
+- Fix Bugs:
+  Give nuclear coolant liquid a name "Radioactive Water"
+  center loot overfills, make a special loottable with max 9 items of which x are always in
+  missing registry item, shield issue in either scripts of configs, compare client to intellij
+  loadingscreens_0 not found
+  fix block lag: https://github.com/CraftTweaker/ContentTweaker/issues/180
+
+- Update/Add mods:
+  update localizer
+  Update EagleMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+  Update EagleMixins for - Long Drowning Arrows
+  add new mod: https://www.curseforge.com/minecraft/texture-packs/rl-enchanted-books
+  Add paintings mod
+  Custom loading screen mod switch
+  add mod NuclearCraft + SME + Update RLMixins + Add RLLuck
+  add new mod: https://www.curseforge.com/minecraft/mc-mods/food-fix
+  add and configure new mod: Antique Atlas Auto Marker (Nischi)
+  update FUR (1.1.1)
+  add and configure new mod: Rats (1.1.1)
+  https://www.curseforge.com/minecraft/mc-mods/rebirth-of-the-mobs (1.1.1)
+
+- Add locational information on all ores and add specialized ore locations;
+  Defiled Lands
+  Traverse Biomes
+  Corrupted Biomes
+  Underneath (all ores)
+  Lost Cities (all ores)
+  Underworld
+  (All cavern biomes?)
+
+
+- NuclearCraft ores and recipes:
+  Magnesium, Tin & Copper Disabled
+  Lead, Thorium, Boron, Lithium & Uranium enabled
+  Disable all spartanweaponry lead weapons and blacklist JEI
+  disable all nuclearcraft machinery recipes (Keep JEI enabled)
+  Add locational tooltip to all nuclearcraft machinery Ancient, magical machinery, found in dilapidated shelters from olden days
+  add tooltips to ores & lore
+
+- improve SRP drops in overworld, cancel them/replace them
+- Reskillable Mixins add additional entities to Drop Guarantee
+- change ashes to Weak Parasite Remains
+- Add industrial drops to industrial crate
+- Add Industrial crate to underneath
+- Add new structures to generation & localize added lore
+- Added new ores to overworld, underneath and lost cities.
+- Added new biome Breeding Grounds in Underneath containing a increased amount of new ores.
+- Add trigger locations (kotlin) to center for Hadron Collider tower areas and these areas revealing corresponding teleportation spots
+- renamed Topographers to Explorer and give books that tells about radiation, brutal towers, locations such as defiled lands in underneath
+  and selling handy items like radiation badge, geiger counter, radiation suit and so on
+- pirate outpost and other structures in far away lands add better chestloot
+- Made parasites weak to radiation
+- Added x small and x big underground structures to Nuclear Blight
+- immortality potion needs to get infinite potion sickness (test with nether wart)
+- add wormhole potions to starter bunker loot
+- Add defiled lands to underneath
+- Localize the fallout shelter books
+- reduce loot in ice ships and look for bugged chest
 - change dough recipe to use vial x1 and ale x8 also check wine and check ratio between vials/buckets (remove bucket recipe)
-- add industrial drops to industrial crate
-- check liquid name
-- add new mod: https://www.curseforge.com/minecraft/texture-packs/rl-enchanted-books
-- loadingscreens_0 not found
-- update localizer
+
 - Your feedback is valued (discord feedback channel)
 - titans can fist through brutal tower blocks
 - change loottables to have bonus rolls last in list
 - Change Daeroc & Origin names to Daerock and Waterkeep
-- Make Castle named Durlock
-- make level 15 lightsource
-- fix block lag: https://github.com/CraftTweaker/ContentTweaker/issues/180
-- Change the hilly ocean to another biome type
-- Custom loading screen mod switch
+
+- replace all candles (variedcommodities:candle_unlit:0) bannerrotation:0 for bannerrotation:6 and otherwise for other candles
+- parasite add debuff on radiation: -50% health, -30% damage and -20% armor.
+- add dreamcatcher entity mimic
+- add recipes for new contenttweaker blocks and items
 - add new screenshots to loading screens
 - Add qualities to srp armor?
 - SRP nodes dissapear? Make them stronger?
-- Vapula spawns from remains?
-- Triple corruption speed & change beckon spawning
-- Changed spawnchance for random encounters from x to x
-- Add shelter sign
-- Add additional cursed weapon tooltip (add tag Cursed and then add mass Cursed warning)
 - add a valheim corpserun on gravescroll feature as well with weakness so it can't be abused.
 - Add new Bleeding Obsidian Block (Portal)
 - Remove Link in Underneath, Change portal blocks to underneath special blocks and add in good starter cache's & Make portals indestructable by parasites
-- add recipes for new contenttweaker blocks and items
 - Check Ban Hammer JEI/Lore tooltip in comparison to /setblock ~ ~-1 ~ chest 0 false {LootTable:"dregora:underneath/fish_undead"} loottable
-- Update EagleMixins for - Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
-- Update EagleMixins for - Long Drowning Arrows
 - Add rock crusher and simmilar machinery in the Underneath
 - Add Machine tooltips, found in abandoned fallout shelters in either the underneath or irradiated biomes.
 - Increase amount of brutal coins in underneath
 - speed up parasite spread a bit
 - add blazes to broken battle towers
-- Roguelike Dungeons increase spawn
 - When redo doomlike also add a starter house on top
 - Add testificate name 1% to villager born
 - Change LC to have safer areas possibly
@@ -139,14 +221,13 @@ P1:
 - Complete land-based mount list for Abyssal Rift
 - Add sussy & relic quality
 - Sussyberian invis creeper gives infinite invis?
-- Add paintings mod
+
 - Waterblocks on structures in mushroom biomes
 - In-game main menu needs stylizing
 - Make strongholds appear more often beyond the 8000 mark
 - Blacklist strongholds from grey abyss and abyssal rift biomes
 - Industrial Complexes for in nuclear wastelands
 - add biome nuclear wasteland
-- add mod NuclearCraft + SME + Update RLMixins + Add RLLuck + write EnchantSlots
 - finish remaining skyscrapers
 - remove decorations from skyscrapers
 - v_bunker with dilapitated rooms and ghoullified sections
@@ -168,8 +249,6 @@ P1:
   and add weta loot to troll dens
 - add starter caches to underneath ceiling
 - make spawners feral in underneath
-- Make random encounter wildkin and call it bigfoot
-- Make random encounter immortal snail that can't be killed and do 90% of player damage if the player touches it (never 100%)
 - tone down diamond in viking village a bit
 - look into v1.5 for fish undead rising
 - Make book at brutal tower explain to follow obsidian, not fly and that not all bosses drop brutal coins but somee drop brutal fragments which you can combine
@@ -335,7 +414,8 @@ Backlog (Additional mods)
 - Add Weather mod to the LC dimension
 
 Backlog: (1.0.5 / 1.1.0 ?)
-- reduce loot in ice ships and look for bugged chest
+- Make Castle named Durlock
+- make level 15 lightsource
 - Add additional blocks (translucent) that can not be destroyed by SRParasites in any way
 - Fire Cape swarms but SRP in 2.0.0 brutal tower equivalent
 - Add Boss areas to the far out landmasses in Dregora (Make then the Ender Guardians which drop a key each making a total of 9 bosses with one situated at 0,0
@@ -368,5 +448,6 @@ Backlog: (1.0.5 / 1.1.0 ?)
 - make old road structures for in biomes
 - add a way to reset adaptations on living/sentient armor
 - add parasite event "From under they come!" (but give nbt tag on spawn to exclude them from being killed & make them weaker)
+- make ice weapons do stuff?
 
 
