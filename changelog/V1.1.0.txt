@@ -22,7 +22,7 @@ Fixed/Changed:
 - Fixed Yale spawns, these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
 - Added new biomea Nuclear Blight & Nuclear Creek
 - Added dense fog to biome Nuclear Blight and weather effects through mod dsurroundings
-- Ithaquas and Scarecrow spawns are boosted in Forests/Spooky Biomes and Plains during thunderstorms now
+- Ithaquas  spawns are boosted in Forests/Spooky Biomes during thunderstorms now
 - Blacklisted Dragons, Lycanites Structures, Lycanites Entities and ReComplex structures from spawning in Nuclear Blight Biome
 - variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
 - Blacklisted defiledlands:book_wyrm from parasites target list.
@@ -44,6 +44,16 @@ Fixed/Changed:
 - Disabled fog amplification near bedrock through dynamic surroundings
 - Added localization for books within bunkers
 - Disabled fog increase near bedrock
+- Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
+
+
+
+Custom Main menu:
+Installed Custom Main Menu
+Disabled Fancy Menu
+Updated RenderLib dev3 (dev chat)
+Updated ReachLib dev1 (dev chat)
+
 
 
 RLCraft to do now:
@@ -109,7 +119,7 @@ P1:
 
 - New Random Encounters:
   Make random encounter wildkin and call it bigfoot
-  Make random encounter immortal snail that can't be killed and do 90% of player damage if the player touches it (never 100%)
+  Make random encounter immortal snail that can't be killed and do 90% of player damage if the player touches it (never 100%) (Star Artsy Idea) Starry Snail?
   Changed spawnchance for random encounters from x to x
   random encounter mob MR. Bone's Big Stick (Skeleton with a troll weapon)
 
@@ -152,6 +162,7 @@ P1:
   Add locational tooltip to all nuclearcraft machinery Ancient, magical machinery, found in dilapidated shelters from olden days
   add tooltips to ores & lore
 
+- make new loot chests for bunkers
 - improve SRP drops in overworld, cancel them/replace them
 - Reskillable Mixins add additional entities to Drop Guarantee
 - change ashes to Weak Parasite Remains
@@ -178,10 +189,15 @@ P1:
 - change loottables to have bonus rolls last in list
 - Change Daeroc & Origin names to Daerock and Waterkeep
 
-- replace all candles (variedcommodities:candle_unlit:0) bannerrotation:0 for bannerrotation:6 and otherwise for other candles
+
+IMPORTANT AVOID DUPE:
+ADD CONTAINER TO RLTWEAKER CONTAINERDISTANCECLASSES (COOKINGFORBLOCKHEADS)
+
+
 - parasite add debuff on radiation: -50% health, -30% damage and -20% armor.
-- add dreamcatcher entity mimic
-- add recipes for new contenttweaker blocks and items
+
+- add recipes for new contenttweaker blocks and items (Block of depleted LEU & Warning Signs & stairs & slabs)
+- give contaminated water a radiation level
 - add new screenshots to loading screens
 - Add qualities to srp armor?
 - SRP nodes dissapear? Make them stronger?

@@ -21,6 +21,7 @@ rldregora.nuclearcraft:tritium_lamp.tooltip=§dOld world light source, rarely fo
 rldregora.nuclearcraft:upgrade.tooltip=§dLost technology, rarely found in §8§lIndustrial Crates
 rldregora.nuclearcraft:record.tooltip=§dVinyl! rarely found in §8§lIndustrial Crates
 ## Radiation protection
+rldregora.nuclearcraft:geiger_counter.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
 rldregora.nuclearcraft:helm_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
 rldregora.nuclearcraft:chest_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
 rldregora.nuclearcraft:legs_hazmat.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
@@ -29,13 +30,13 @@ rldregora.nuclearcraft:radaway_slow.tooltip=§dFound in either §8§lIndustrial 
 rldregora.nuclearcraft:rad_x.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
 rldregora.nuclearcraft:radaway.tooltip=§dFound in either §8§lIndustrial Crates§r, §e§lFallout Shelters§r and §4§lRegistered Fallout Shelters
 ## Nuclear Reactor Components
-rldregora.nuclearcraft:shelter_fission.tooltip=§dReactor Core Component, exclusively found in §4§lRegistered Fallout Shelters
+rldregora.nuclearcraft:shelter_fission.tooltip=§dReactor Core Component, found in §4§lRegistered Fallout Shelters§r & very rarely in §8§lIndustrial Crates
 ## Machine Blocks that use power in Big Shelters
 rldregora.nuclearcraft:shelter_big.tooltip=§dOld World Machinery usually found in §4§lRegistered Fallout Shelters§r and rarely in §8§lIndustrial Crates
 ## Machine Blocks in small & big shelters that do not use power
-rldregora.nuclearcraft:shelter_small.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRRegistered§r and §e§lRegular Fallout Shelters
+rldregora.nuclearcraft:shelter_small.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRegistered§r and §e§lRegular Fallout Shelters
 ## Machine Blocks that collect resources when powered (Water/Nitrogen/Helium)
-rldregora.nuclearcraft:collector.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRRegistered§r and §e§lRegular Fallout Shelters
+rldregora.nuclearcraft:collector.tooltip=§dOld World Machinery found in §8§lIndustrial Crates, §4§lRegistered§r and §e§lRegular Fallout Shelters
 ## Blocks that emit radiation and RF (energy)
 rldregora.nuclearcraft:generators.tooltip=§dDangerous, Radioactive Generators found rarely in §8§lIndustrial Crates§r and §4§lRegistered Fallout Shelters
 ## Blocks that store power

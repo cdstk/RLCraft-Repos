@@ -163,7 +163,12 @@ recipes.remove(<nuclearcraft:turbine_rotor_blade_extreme>);
 recipes.remove(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
 recipes.remove(<nuclearcraft:turbine_rotor_stator>);
 recipes.remove(<nuclearcraft:turbine_rotor_bearing>);
-recipes.remove(<nuclearcraft:turbine_dynamo_coil:*>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:0>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:1>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:2>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:3>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:4>);
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:5>);
 recipes.remove(<nuclearcraft:turbine_coil_connector>);
 recipes.remove(<nuclearcraft:turbine_inlet>);
 recipes.remove(<nuclearcraft:turbine_outlet>);
@@ -260,6 +265,8 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:ore:6>.addTooltip(game.localize("rldregora.nuclearcraft:ore:6.tooltip", "en_us"));
 
 //Misc
+
+<nuclearcraft:geiger_counter>.addTooltip(game.localize("rldregora.nuclearcraft:geiger_counter.tooltip", "en_us"));
 <nuclearcraft:tritium_lamp>.addTooltip(game.localize("rldregora.nuclearcraft:tritium_lamp.tooltip", "en_us"));
 <nuclearcraft:upgrade:0>.addTooltip(game.localize("rldregora.nuclearcraft:upgrade.tooltip", "en_us"));
 <nuclearcraft:upgrade:1>.addTooltip(game.localize("rldregora.nuclearcraft:upgrade.tooltip", "en_us"));

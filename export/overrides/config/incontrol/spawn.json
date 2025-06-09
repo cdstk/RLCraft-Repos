@@ -65,13 +65,6 @@
     "result": "default"
   },
   {
-    "dimension": 0,
-    "biometype": ["PLAINS", "!FOREST"],
-    "weather": "thunder",
-    "mob": "mod_lavacow:scarecrow",
-    "result": "default"
-  },
-  {
     "biome": ["Nuclear Wasteland"],
     "result": "deny"
   },

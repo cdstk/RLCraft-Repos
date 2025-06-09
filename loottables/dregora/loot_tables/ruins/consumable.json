@@ -24,6 +24,16 @@
       },
       "entries": [
         {
+          "type": "item",
+          "name": "armorunder:goopak_cool",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "iarmorunder:goopak_heat",
+          "weight": 10
+        },
+        {
           "type": "loot_table",
           "name": "dregora:switch/city_switch",
           "weight": 5

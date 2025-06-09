@@ -34,6 +34,14 @@ rldregora.bunker.mid_nuclear.page.1=     Uranium Fuel\n     Fabrication\n-------
 rldregora.bunker.mid_nuclear.page.2=Uranium-235\n\nCombine 8/9 Uranium-238 with 1/9 Uranium-235 to make LEU-235 fuel\n\nLEU-235 fuel can be used to power the reactor.
 rldregora.bunker.small_03.page.1=Corrupted broke in, we fled with our lives
 rldregora.bunker.small_02.page.1=Corruption cut off access to our communal fallout shelter and thus we had to hide in our\nown shelter until\nresources ran out
+rldregora.bunker.tunnel.book_01.page.1=Reactor control room\nstorage room, corrupted have us trapped in here but before we did we managed to put the reactor on lower power mode, this would last the rest of the shelter a couple centuries of power
+rldregora.bunker.tunnel.book_02.page.1=starvation while they try to break in lore\n\nkid & wife\nin bathroom\nhusband in bedroom\nbedroom only access to bathroom\n\nPeople started eating other people, cannabalism due to parasitic infection
+rldregora.bunker.tunnel.book_03.page.1=Docters note about increasing number of patients experiencing a lack of saturation. First dismissed due to rations and once discovered its due to the corruption it was too late and too widespread already.
+rldregora.bunker.tunnel.book_04.page.1=Reactor Oversight Room\n\nControl has put the reactor in low power mode, auto shutdown defect, manual shutdown required or meltdown imminent.
+rldregora.bunker.tunnel.book_05.page.1=Additional Resourced required from exotic locations;\n\nDeep Mining Operation "Underneath"\n\nDimensional Bridge Designated:\n\n"111 - Lost Cities"
+rldregora.bunker.tunnel.book_05.page.2=Resources Found:\n\n- Boron\n- Lithium\n- Uranium\n- Lead
+rldregora.bunker.tunnel.book_06.page.1=pump room and re-enrichment\n\npump 1 and 3 failing\n2,4,5 still operational
+rldregora.bunker.tunnel.book_07.page.1=Last stand survivors at reactor access
 ##################################################################
 # dregorarl/loot/piratejunk_loot.json
 ##################################################################
