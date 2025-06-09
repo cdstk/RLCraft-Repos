@@ -5,7 +5,7 @@
     {
       "image" : "mainmenu:rlcraft_dregora_logo_full_01.png",
       "posX" : -220,
-      "posY" : 0,
+      "posY" : -25,
       "width" : 400,
       "height" : 200,
       "imageWidth" : 2000,
@@ -33,7 +33,7 @@
     {
       "text" : "menu.singleplayer",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : -100,
       "posY" : 70,
       "width" : 200,
@@ -52,7 +52,7 @@
     {
       "text" : "menu.multiplayer",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : -100,
       "posY" : 95,
       "width" : 200,
@@ -71,7 +71,7 @@
     {
       "text" : "fml.menu.mods",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : -100,
       "posY" : 120,
       "width" : 200,
@@ -90,7 +90,7 @@
     {
       "text" : "menu.hostyourserver",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : -100,
       "posY" : 145,
       "width" : 200,
@@ -110,7 +110,7 @@
     {
       "text" : "menu.options",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : -100,
       "posY" : 170,
       "width" : 98,
@@ -129,7 +129,7 @@
     {
       "text" : "menu.quit",
       "normalTextColor" : 14737632,
-      "hoverTextColor" : 11184810,
+      "hoverTextColor" : 14737632,
       "posX" : 2,
       "posY" : 170,
       "width" : 98,
@@ -282,37 +282,7 @@
 
   "other": {
     "background": {
-      "image": "",
-      "slideshow": {
-        "images": [
-          "mainmenu:images/0.jpg",
-          "mainmenu:images/1 new.jpg",
-          "mainmenu:images/1.jpg",
-          "mainmenu:images/2 new.jpg",
-          "mainmenu:images/2.jpg",
-          "mainmenu:images/3.jpg",
-          "mainmenu:images/4 new.jpg",
-          "mainmenu:images/4.jpg",
-          "mainmenu:images/5.jpg",
-          "mainmenu:images/6 new.jpg",
-          "mainmenu:images/6 newer.jpg",
-          "mainmenu:images/6.jpg",
-          "mainmenu:images/7 new.jpg",
-          "mainmenu:images/7.jpg",
-          "mainmenu:images/8.jpg",
-          "mainmenu:images/9.jpg",
-          "mainmenu:images/10 new.jpg",
-          "mainmenu:images/10 newer.jpg",
-          "mainmenu:images/10.jpg",
-          "mainmenu:images/11.jpg",
-          "mainmenu:images/12.jpg",
-          "mainmenu:images/13.jpg",
-          "mainmenu:images/14.jpg"
-        ],
-        "displayDuration": 50,
-        "fadeDuration": 100,
-        "mode":"fill"
-      }
+      "image": "mainmenu:background/background_troll.png"
     }
   }
 }

@@ -45,16 +45,17 @@ Fixed/Changed:
 - Added localization for books within bunkers
 - Disabled fog increase near bedrock
 - Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
-
+- Fixed JotunnHeim biome dread horse overspawning
 
 
 Custom Main menu:
 Installed Custom Main Menu
 Disabled Fancy Menu
-Updated RenderLib dev3 (dev chat)
-Updated ReachLib dev1 (dev chat)
-
-
+Updated RenderLib
+Updated ReachLib
+Updated EntityCulling
+Updated RLTweaker2
+Installed Main Menu Scale
 
 RLCraft to do now:
 P1:
@@ -162,6 +163,7 @@ P1:
   Add locational tooltip to all nuclearcraft machinery Ancient, magical machinery, found in dilapidated shelters from olden days
   add tooltips to ores & lore
 
+- FGive JotunnHeim better spawns (DREAD)
 - make new loot chests for bunkers
 - improve SRP drops in overworld, cancel them/replace them
 - Reskillable Mixins add additional entities to Drop Guarantee
