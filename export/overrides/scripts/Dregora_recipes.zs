@@ -9,6 +9,19 @@ print("Dregora Recipe Script starting!");
   recipes.addShapeless("dregora59",<contenttweaker:shelter_block>,[<contenttweaker:reinforced_concrete>,<contenttweaker:shelter_item>]);
   recipes.addShapeless("dregora60",<contenttweaker:biohazard_block>,[<contenttweaker:reinforced_concrete>,<contenttweaker:biohazard_item>]);
   recipes.addShapeless("dregora61",<contenttweaker:reinforced_concrete_danger>,[<contenttweaker:reinforced_concrete>,<minecraft:dye:11>,<minecraft:dye:0>]);
+  recipes.addShapeless("dregora62",<contenttweaker:radiation_block>,[<contenttweaker:reinforced_concrete>,<contenttweaker:radiation_item>]);
+  recipes.addShaped("dregora63",<contentcreator:concrete_stairs_reinforced> * 8,
+   [[<contenttweaker:reinforced_concrete>,null,null],
+    [<contenttweaker:reinforced_concrete>,<contenttweaker:reinforced_concrete>,null],
+    [<contenttweaker:reinforced_concrete>,<contenttweaker:reinforced_concrete>,<contenttweaker:reinforced_concrete>]]);
+  recipes.addShaped("dregora64",<contentcreator:concrete_slab_reinforced> * 6,
+   [[null,null,null],
+    [<contenttweaker:reinforced_concrete>,<contenttweaker:reinforced_concrete>,<contenttweaker:reinforced_concrete>],
+    [null,null,null]]);
+  recipes.addShapeless("dregora65",<contenttweaker:shelter_item>,[<nuclearcraft:part:0>,<minecraft:dye:0>]);
+  recipes.addShapeless("dregora66",<contenttweaker:shelter_special_item>,[<nuclearcraft:part:0>,<minecraft:dye:1>]);
+  recipes.addShapeless("dregora67",<contenttweaker:radiation_item>,[<nuclearcraft:part:0>,<minecraft:dye:11>]);
+
 
 //================================
 //Ore Tooltips
@@ -292,6 +305,32 @@ brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "mod_lavacow:str
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "mod_lavacow:fragile"}), <minecraft:redstone>); //Removes DeathTouch Lingering 1
 brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "mod_lavacow:long_fragile"}), <minecraft:dragon_breath>); //Removes DeathTouch Lingering 1
 
+recipes.remove(<spartanweaponry:warhammer_lead>);
+recipes.remove(<spartanweaponry:throwing_knife_lead>);
+recipes.remove(<spartanweaponry:throwing_axe_lead>);
+recipes.remove(<spartanweaponry:spear_lead>);
+recipes.remove(<spartanweaponry:scythe_lead>);
+recipes.remove(<spartanweaponry:saber_lead>);
+recipes.remove(<spartanweaponry:rapier_lead>);
+recipes.remove(<spartanweaponry:staff_lead>);
+recipes.remove(<spartanweaponry:pike_lead>);
+recipes.remove(<spartanweaponry:mace_lead>);
+recipes.remove(<spartanweaponry:longsword_lead>);
+recipes.remove(<spartanweaponry:longbow_lead>);
+recipes.remove(<spartanweaponry:lance_lead>);
+recipes.remove(<spartanweaponry:katana_lead>);
+recipes.remove(<spartanweaponry:javelin_lead>);
+recipes.remove(<spartanweaponry:hammer_lead>);
+recipes.remove(<spartanweaponry:halberd_lead>);
+recipes.remove(<spartanweaponry:greatsword_lead>);
+recipes.remove(<spartanweaponry:glaive_lead>);
+recipes.remove(<spartanweaponry:dagger_lead>);
+recipes.remove(<spartanweaponry:crossbow_lead>);
+recipes.remove(<spartanweaponry:boomerang_lead>);
+recipes.remove(<spartanweaponry:battleaxe_lead>);
+recipes.remove(<spartanshields:shield_tower_lead>);
+recipes.remove(<spartanshields:shield_basic_lead>);
+recipes.remove(<nuclearcraft:alloy:5>);
 
 recipes.remove(<mod_lavacow:reapers_scythe>);
 recipes.remove(<mod_lavacow:war>);

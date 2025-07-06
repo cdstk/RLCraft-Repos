@@ -10,14 +10,18 @@ item.rldregora.infernal_ashes.name=Infernal Ashes
 ##################################################################
 # Nuclearcraft_recipes.zs
 ##################################################################
-## Ores
-rldregora.nuclearcraft:ore:2.tooltip=Resource found in;
-rldregora.nuclearcraft:ore:3.tooltip=Resource found in;
-rldregora.nuclearcraft:ore:4.tooltip=Resource found in;
-rldregora.nuclearcraft:ore:5.tooltip=Resource found in;
-rldregora.nuclearcraft:ore:6.tooltip=Resource found in;
+## Lead Ore
+rldregora.nuclearcraft:ore:2.tooltip=Found deep under solid ground
+## Thorium Ore
+rldregora.nuclearcraft:ore:3.tooltip=Found in Abyssal Rift and lower Underneath/Lost Cities
+## Uranium Ore
+rldregora.nuclearcraft:ore:4.tooltip=Found in Nuclear Blight and below Cities
+## Boron Ore
+rldregora.nuclearcraft:ore:5.tooltip=Found deep below Mountains and lower Underneath/Lost Cities
+## Lithium Ore
+rldregora.nuclearcraft:ore:6.tooltip=Resource found in the Underneath/Lost Cities
 ## Misc items
-rldregora.nuclearcraft:tritium_lamp.tooltip=§dOld world light source, rarely found in §4§lRegistered Fallout Shelters.
+rldregora.nuclearcraft:tritium_lamp.tooltip=§dAncient light source, rarely found in §4§lRegistered Fallout Shelters.
 rldregora.nuclearcraft:upgrade.tooltip=§dLost technology, rarely found in §8§lIndustrial Crates
 rldregora.nuclearcraft:record.tooltip=§dVinyl! rarely found in §8§lIndustrial Crates
 ## Radiation protection

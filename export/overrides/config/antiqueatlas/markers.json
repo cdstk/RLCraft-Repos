@@ -113,6 +113,91 @@
       "textures": [
         "antiqueatlas:textures/gui/markers/wizardtower.png"
       ]
+    },
+    "eaglemixin:mountain": {
+      "textures": [
+        "eaglemixins:textures/markers/mountain.png"
+      ]
+    },
+    "eaglemixin:lake": {
+      "textures": [
+        "eaglemixins:textures/markers/lake.png"
+      ]
+    },
+    "eaglemixin:desert": {
+      "textures": [
+        "eaglemixins:textures/markers/desert.png"
+      ]
+    },
+    "eaglemixin:canyon": {
+      "textures": [
+        "eaglemixins:textures/markers/canyon.png"
+      ]
+    },
+    "eaglemixin:city": {
+      "textures": [
+        "eaglemixins:textures/markers/city.png"
+      ]
+    },
+    "eaglemixin:mushroom": {
+      "textures": [
+        "eaglemixins:textures/markers/mushroom.png"
+      ]
+    },
+    "eaglemixin:volcano": {
+      "textures": [
+        "eaglemixins:textures/markers/volcano.png"
+      ]
+    },
+    "eaglemixin:plains": {
+      "textures": [
+        "eaglemixins:textures/markers/plains.png"
+      ]
+    },
+    "eaglemixin:cave": {
+      "textures": [
+        "eaglemixins:textures/markers/cave.png"
+      ]
+    },
+    "eaglemixin:pillars": {
+      "textures": [
+        "eaglemixins:textures/markers/pillars.png"
+      ]
+    },
+    "eaglemixins:frost": {
+      "textures": [
+        "eaglemixins:textures/markers/frost.png"
+      ]
+    },
+    "eaglemixins:jungle": {
+      "textures": [
+        "eaglemixins:textures/markers/jungle.png"
+      ]
+    },
+    "eaglemixins:palm": {
+      "textures": [
+        "eaglemixins:textures/markers/palm.png"
+      ]
+    },
+    "eaglemixin:castle": {
+      "textures": [
+        "eaglemixins:textures/markers/castle.png"
+      ]
+    },
+    "eaglemixin:swamp": {
+      "textures": [
+        "eaglemixins:textures/markers/swamp.png"
+      ]
+    },
+    "eaglemixin:mine": {
+      "textures": [
+        "eaglemixins:textures/markers/mine.png"
+      ]
+    },
+    "eaglemixin:church": {
+      "textures": [
+        "eaglemixins:textures/markers/church.png"
+      ]
     }
   }
 }

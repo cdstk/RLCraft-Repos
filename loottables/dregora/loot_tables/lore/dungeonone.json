@@ -666,33 +666,9 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {
-                  "attribute": "generic.attackDamage",
-                  "name": "More Damage",
-                  "amount": 20,
-                  "operation": "addition",
-                  "slot": [
-                    "offhand"
-                  ]
-                },
-                {
-                  "attribute": "generic.armorToughness",
-                  "name": "More Damage",
-                  "amount": -5,
-                  "operation": "addition",
-                  "slot": [
-                    "offhand"
-                  ]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Less Health",
-                  "amount": -15.0,
-                  "operation": "addition",
-                  "slot": [
-                    "offhand"
-                  ]
-                }
+                {"attribute": "generic.attackDamage", "name": "More Damage", "amount": 20, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.armorToughness", "name": "More Damage", "amount": -5, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.95, "operation": "multiply_total", "slot": ["offhand"]}
               ]
             }
           ]

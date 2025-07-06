@@ -46,29 +46,225 @@ Fixed/Changed:
 - Disabled fog increase near bedrock
 - Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
 - Fixed JotunnHeim biome dread horse overspawning
+- Removed dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
+- Overworld Parasites now do 50% less damage instead of 75% less damage.
+- Overworld evolution phase set to 4 instead of 8 and chunk based evolution enabled in parasite biomes.
+- Enabled spawnchunks for a radius of 6 chunks in the overworld.
+- Added new containers to the RLTweaker Distance Classes list.
+- Added I&F Amphithere Mod
+- changed incontrol spawning 1% parasites to chunk based spawning but only on concrete slabs between 0 and 12 lightlevel.
+- Configured SRP for the overworld to work with chunk based phases and set default phase to 4 in whitelisted biomes and phase 8
+  (default as it was before) in parasite biomes
 
 
-Custom Main menu:
+
+
+RLMixin Changes:
+B:"Switchbow Love Arrow Dupe Fix (Switchbow)"=true
+
+Remaining most important tasks;
+  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
+  RLTweaker2:
+  X - APNG Support for the custom main menu mod
+  X - Randomized main menu scenes
+  - in-game menu & respawn screen support for hover over text & button changes
+  Eaglemixins:
+  X Turn hardcoded "parasites custom names drop loot without restrictions" into a configurable whitelist
+  - fix radiation particles being played in menu
+  X Biome blacklist should be a config & have the option to make it a whitelist (SRP white/blacklist)
+  X Radiation biome spawn blacklist - fonny? otherwise eagle
+  - Dismounter should also work on entity targeted in abyssal rift
+  - Kitchen Cabinet & Counter loottable support - Kotlin
+  - Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin/Eagle
+  Installation, configuration, creation and/or updating of following mods:
+  - Update Localizer, SoManyEnchantments & RLMixins
+  - Add RL Enchanted Books Texture pack,
+  X - Add paintings mod (and create custom paintings)
+  - Add & Configure RLLuck & Antique Atlas Auto Marker (Nischi)
+  - Add FoodFix
+  - Configure localized SRP phases & increase SRP damage, (Phase 2/3 till 10?) (easier early game, harder late game)
+  - Create Nuclearcraft weathered texture pack
+  - Review & further configuration of NuclearCraft
+  - add new nuclearcraft items to conductivity list
+  - add defiled mushrooms (for defiled powder) to underneath spawns
+  - tone down bunker spawns (make them further away from one another but easily spawned)
+  - add radiation to heath and nuclear biomes (but low & add to blacklist spawns)
+  - add resource crates to Underneath
+  - add antique atlas radiation marker
+  Needs testing:
+  - SRP Armor drop on upgrade
+  - Long drowning arrows shouldn't be a thing any longer
+  More stuff:
+  - go over all the remaining to do's, mostly smaller tweaks which originated from feedback or bug reports.
+  - go over git issues & solve where possible, note for 1.1.1 if not feasible for 1.1.0
+
+
+Optional Additions:
+  - Adjust lore, specifically dates of events
+  - Additional random encounters. (There are a few heh)
+  - Skyscrapers & custom qualities (If @NLBLackHeavenNL makes it?)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+backup markers:
+
+            0; 0; 0; -7236; -17890; Green Hell; eaglemixin:jungle
+            0; -8242; -8242; 0; 0; Frozen Greens; eaglemixin:plains #[LAB]
+            0; -12666; -14091; 0; 0; Dead Dunes; eaglemixin:desert
+            0; -17363; -11669; 0; 0; Ancient Swamps; eaglemixin:swamp
+            0; -16191; -17841; 0; 0; Nuclear Dead Zone; eaglemixin:desert
+            0; -14345; -6923; 0; 0; The Highlands; eaglemixin:mountain #[LAB]
+                0; -13608; -7793; 0; 0; Valley of Caverns; eaglemixin:valley
+                0; -15937; -3457; 0; 0; Kingdom of Daeroc; eaglemixin:castle
+                0; -14892; -3779; 0; 0; Capital of Daeroc; eaglemixin:castle
+                0; -15908; -4843; 0; 0; Mines; eaglemixin:mine
+                0; -16318; -5849; 0; 0; Mines; eaglemixin:mine
+                0; -11993; -9272; 0; 0; Mines; eaglemixin:mine
+            0; -11689; -546; 0; 0; Isle of Mushroom; eaglemixin:mushroom
+            0; -16577; 2348; 0; 0; Isle of Diversity; eaglemixin:plains
+                0; -17075; 5136; 0; 0; Stronghold of Origins; eaglemixin:castle
+                0; -17202; 3847; 0; 0; Mines; eaglemixin:mine
+                0; -17006; 2714; 0; 0; Pumpkin Cult; eaglemixin:church
+                0; -16743; 551; 0; 0; Northern Canyons; eaglemixin:canyon
+            0; -15869; 7890; 0; 0; Sea of Decay; eaglemixin:mushroom
+            0; -11694; 6489; 0; 0; Valley of Sulfur; eaglemixin:desert #[LAB]
+            0; -13046; 12031; 0; 0; Grand Canyons; eaglemixin:canyon
+            0; -8671; 15136; 0; 0; Endless Desert; eaglemixin:desert
+            0; -7983; 11069; 0; 0; Three Point Desert; eaglemixin:desert
+            0; -5800; 12949; 0; 0; Isle of Mushroom; eaglemixin:mushroom
+            0; -2363; 15883; 0; 0; Southern Green; eaglemixins:jungle #[LAB]
+                0; -102; 15332; 0; 0; Archipelago of Pirates; eaglemixins:palm
+                0; -3881; 16411; 0; 0; Purple Jungle; eaglemixins:jungle
+                0; -1123; 16323; 0; 0; Green Peaks; eaglemixin:mountain
+            0; 7988; 13359; 0; 0; Permafrost; eaglemixins:frost
+                0; 5107; 13710; 0; 0; Western Cavernous Pines; eaglemixin:cave
+                0; 8540; 12636; 0; 0; Basalt Plains; eaglemixin:pillars
+                0; 6650; 13144; 0; 0; Frostburn Canyons; eaglemixin:canyon
+                0; 9829; 12436; 0; 0; Eastern Cavernous Pines; eaglemixin:cav
+            0; 16240; 17021; 0; 0; Land of Lakes; eaglemixin:plains
+            0; 15107; 5195; 0; 0; Impact Ground Zero; eaglemixin:volcano
+            0; 15439; -302; 0; 0; Red Canyon Hills; eaglemixin:canyon
+            0; 12050; -2773; 0; 0; Sea of Decay; eaglemixin:mushroom
+            0; 13505; -8554; 0; 0; Sea of Decay; eaglemixin:mushroom
+                0; 16103; -4921; 0; 0; Nuclear Cities; eaglemixin:city
+                0; 12041; -6582; 0; 0; Nuclear Cities; eaglemixin:city
+            0; 17490; -12392; 0; 0; Desert Eye; eaglemixin:desert
+            0; 17402; -17050; 0; 0; Nuclear Sands; eaglemixin:desert
+            0; 3303; -13134; 0; 0; Green Desert; eaglemixin:desert #[LAB]
+                0; 7177; -15234; 0; 0; Green Canyons; eaglemixin:canyon
+                0; 4267; -15117; 0; 0; Lower Lakes; eaglemixin:lake
+            0; -2714; -14477; 0; 0; Four Mountains; eaglemixin:mountain
+
+Backup json
+
+    "eaglemixin:mountain": {
+      "textures": [
+        "eaglemixins:textures/markers/mountain.png"
+      ]
+    },
+    "eaglemixin:lake": {
+      "textures": [
+        "eaglemixins:textures/markers/lake.png"
+      ]
+    },
+    "eaglemixin:desert": {
+      "textures": [
+        "eaglemixins:textures/markers/desert.png"
+      ]
+    },
+    "eaglemixin:canyon": {
+      "textures": [
+        "eaglemixins:textures/markers/canyon.png"
+      ]
+    },
+    "eaglemixin:city": {
+      "textures": [
+        "eaglemixins:textures/markers/city.png"
+      ]
+    },
+    "eaglemixin:mushroom": {
+      "textures": [
+        "eaglemixins:textures/markers/mushroom.png"
+      ]
+    },
+    "eaglemixin:volcano": {
+      "textures": [
+        "eaglemixins:textures/markers/volcano.png"
+      ]
+    },
+    "eaglemixin:plains": {
+      "textures": [
+        "eaglemixins:textures/markers/plains.png"
+      ]
+    },
+    "eaglemixin:cave": {
+      "textures": [
+        "eaglemixins:textures/markers/cave.png"
+      ]
+    },
+    "eaglemixin:pillars": {
+      "textures": [
+        "eaglemixins:textures/markers/pillars.png"
+      ]
+    },
+    "eaglemixins:frost": {
+      "textures": [
+        "eaglemixins:textures/markers/frost.png"
+      ]
+    },
+    "eaglemixins:jungle": {
+      "textures": [
+        "eaglemixins:textures/markers/jungle.png"
+      ]
+    },
+    "eaglemixins:palm": {
+      "textures": [
+        "eaglemixins:textures/markers/palm.png"
+      ]
+    },
+    "eaglemixin:castle": {
+      "textures": [
+        "eaglemixins:textures/markers/castle.png"
+      ]
+    },
+    "eaglemixin:swamp": {
+      "textures": [
+        "eaglemixins:textures/markers/swamp.png"
+      ]
+    },
+    "eaglemixin:mine": {
+      "textures": [
+        "eaglemixins:textures/markers/mine.png"
+      ]
+    },
+    "eaglemixin:church": {
+      "textures": [
+        "eaglemixins:textures/markers/church.png"
+      ]
+    }
+
+
+
+
+Installed/Updated mods:
 Installed Custom Main Menu
 Disabled Fancy Menu
 Updated RenderLib
 Updated ReachLib
 Updated EntityCulling
-Updated RLTweaker2
+Dev Version RLTweaker2
 Installed Main Menu Scale
+Dev Version EagleMixins
+Installed JSonPaintings
+Installed Painting Selection Gui Revamped
 
 RLCraft to do now:
 P1:
-- Painting ideas:
-  Viking Animation by lqury
-  Brutal tower dissection v1, v2 and v3
-  Herbalists Trade Poster
-  Brutal Merchant Trade Poster
-  Elder Smith Trade Poster
-  Brutal Coin Locations (Underneath & Brutal Towers + Labs in future)
-  Brutal merchant/ Elder Blacksmith or Topographer (Rename to collector?) sells paintings to encourage players taking a look?
-  Ozzyliners Painting
-
 - Random Encounters: Wraamon Rat-pack generic spawn in caverns, 1 heart hp & 0 dmg
   SkadoodleRat - ???
   Its WikedRat - ???
@@ -163,7 +359,12 @@ P1:
   Add locational tooltip to all nuclearcraft machinery Ancient, magical machinery, found in dilapidated shelters from olden days
   add tooltips to ores & lore
 
-- FGive JotunnHeim better spawns (DREAD)
+- Add waystone random names list
+- Petition Eagle to add a Herobrine zombie that has a chance to spawn after killing herobrine on the next
+  blood moon that wields a 3x3x18 geonach pickaxe and comes for revenge. I cant believe I am adding this one to the to do list heh
+- On Pandora item click shift item to other slot with 30% chance or other effects like 1% lightning, or 10% some random effect
+- add a item or bauble that would negate being struck by lightning in the abyssal rift biome (place in brutal tower?)
+- Give JotunnHeim better spawns (DREAD)
 - make new loot chests for bunkers
 - improve SRP drops in overworld, cancel them/replace them
 - Reskillable Mixins add additional entities to Drop Guarantee
@@ -190,12 +391,6 @@ P1:
 - titans can fist through brutal tower blocks
 - change loottables to have bonus rolls last in list
 - Change Daeroc & Origin names to Daerock and Waterkeep
-
-
-IMPORTANT AVOID DUPE:
-ADD CONTAINER TO RLTWEAKER CONTAINERDISTANCECLASSES (COOKINGFORBLOCKHEADS)
-
-
 - parasite add debuff on radiation: -50% health, -30% damage and -20% armor.
 
 - add recipes for new contenttweaker blocks and items (Block of depleted LEU & Warning Signs & stairs & slabs)
@@ -404,6 +599,7 @@ P4:
 - Make it so Compass display True biome names
 - Make sussyberian explode on death or spawn a creeper
 - Make mentalberian spawn an illusioner and/or give potion effect on death
+- Ratberian (Transforms into a pile of rats that attack you)
 - Transberian? (make librarians transform into an abhorrent creatures and make them say villager stuff and sound like them) (transform into wendigo on full moon)
 - Teleberians (Teleport you to the underneath or a cool spot in dregora after trading for random teleportation)
 - Goopyberian gives 10/90 fame/shame on trade (with a 10% chance) on 5% spawn

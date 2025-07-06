@@ -16,7 +16,9 @@
     "dimension": 0,
     "mob": ["srparasites:ancientball","srparasites:antiinfestedblock","srparasites:ballball","srparasites:ballmall","srparasites:balltall","srparasites:biomass","srparasites:biomassball","srparasites:bomb","srparasites:buglin","srparasites:cloudtoxic","srparasites:fer_bear","srparasites:fer_cow","srparasites:fer_enderman","srparasites:fer_horse","srparasites:fer_human","srparasites:fer_pig","srparasites:fer_sheep","srparasites:fer_villager","srparasites:fer_wolf","srparasites:gore","srparasites:grunt","srparasites:homming","srparasites:missile","srparasites:nade","srparasites:nadeball","srparasites:orb","srparasites:pullingball","srparasites:remain","srparasites:rupter","srparasites:salivaball","srparasites:scent","srparasites:seeker","srparasites:seizer","srparasites:sim_adventurer","srparasites:sim_adventurerhead","srparasites:sim_bear","srparasites:sim_bigspider","srparasites:sim_cow","srparasites:sim_cowhead","srparasites:sim_enderman","srparasites:sim_endermanhead","srparasites:sim_horse","srparasites:sim_horsehead","srparasites:sim_human","srparasites:sim_humanhead","srparasites:sim_pig","srparasites:sim_pighead","srparasites:sim_sheep","srparasites:sim_sheephead","srparasites:sim_squid","srparasites:sim_villager","srparasites:sim_villagerhead","srparasites:sim_wolf","srparasites:sim_wolfhead","srparasites:source","srparasites:spineball","srparasites:tendril","srparasites:wave","srparasites:waveshock","srparasites:webball"],
     "spawner": false,
-    "random": 0.01,
+    "block": ["minecraft:concrete","minecraft:stone_slab"],
+    "minlight": 0,
+    "maxlight": 12,
     "biome": ["srparasites:biome_parasite", "openterraingenerator:overworld_abyssal_rift","Abyssal Rift","Lair of the Thing", "Nuclear Ruins", "Ruins of Blight", "Steppe", "Wasteland", "biomesoplenty:steppe", "biomesoplenty:wasteland"],
     "result": "default"
   },
@@ -35,13 +37,6 @@
     "biome": ["Nuclear Wasteland"],
     "mob": ["nuclearcraft:feral_ghoul","minecraft:skeleton","mod_lavacow:zombiemushroom","mod_lavacow:weta","mod_lavacow:foglet","mod_lavacow:boneworm"],
     "result": "default"
-  },
-  {
-    "dimension": 0,
-    "mincount": 2,
-    "perplayer": true,
-    "mob": "mod_lavacow:scarecrow",
-    "result": "deny"
   },
   {
     "dimension": 0,

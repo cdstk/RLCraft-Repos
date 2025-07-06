@@ -1,5 +1,12 @@
 #PARSE_ESCAPES
 ##################################################################
+# lore/underneath.json
+##################################################################
+rldregora.underneath.blindfold.name=Strap of Oblivion
+rldregora.underneath.blindfold.lore=Wear this if you have arachnophobia!
+rldregora.underneath.access_duct.page.1=service station lore, collapsed staircase and the hollow earth. Ceiling is so high one can't even see it\n\n\nCoolant pipe was ripped out and spilled radioactive coolant making the higher caves mostly free of parasites.
+rldregora.underneath.access_duct.page.2=temp page?
+##################################################################
 # dregorarl/bunkers
 ##################################################################
 rldregora.bunker.apartements.page.1=Hiding out, supplies ran low so we had to leave

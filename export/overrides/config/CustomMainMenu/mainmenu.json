@@ -4,10 +4,10 @@
     "title":
     {
       "image" : "mainmenu:rlcraft_dregora_logo_full_01.png",
-      "posX" : -220,
-      "posY" : -25,
-      "width" : 400,
-      "height" : 200,
+      "posX" : -200,
+      "posY" : -5,
+      "width" : 360,
+      "height" : 140,
       "imageWidth" : 2000,
       "imageHeight" : 1000,
       "alignment" : "top_center"
@@ -16,26 +16,13 @@
 
   "buttons":
   {
-    "refresh":
-    {
-      "text" : "",
-      "posX" : -154,
-      "posY" : 170,
-      "width" : 20,
-      "height" : 20,
-      "texture" : "custommainmenu:textures/gui/buttons.png",
-      "action" :
-      {
-        "type" : "refresh"
-      }
-    },
     "singleplayer":
     {
       "text" : "menu.singleplayer",
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : -100,
-      "posY" : 70,
+      "posY" : 36,
       "width" : 200,
       "height" : 20,
       "imageWidth" : 1000,
@@ -54,7 +41,7 @@
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : -100,
-      "posY" : 95,
+      "posY" : 60,
       "width" : 200,
       "height" : 20,
       "imageWidth" : 1000,
@@ -73,7 +60,7 @@
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : -100,
-      "posY" : 120,
+      "posY" : 84,
       "width" : 200,
       "height" : 20,
       "imageWidth" : 1000,
@@ -92,7 +79,7 @@
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : -100,
-      "posY" : 145,
+      "posY" : 108,
       "width" : 200,
       "height" : 20,
       "imageWidth" : 1000,
@@ -112,7 +99,7 @@
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : -100,
-      "posY" : 170,
+      "posY" : 132,
       "width" : 98,
       "height" : 20,
       "imageWidth" : 500,
@@ -131,7 +118,7 @@
       "normalTextColor" : 14737632,
       "hoverTextColor" : 14737632,
       "posX" : 2,
-      "posY" : 170,
+      "posY" : 132,
       "width" : 98,
       "imageWidth" : 500,
       "imageHeight" : 125,
@@ -144,7 +131,6 @@
       }
     }
   },
-
   "labels":
   {
     "mojang":
@@ -255,7 +241,7 @@
       "alignment":"bottom_left"
     },
     "rl_craft":{
-      "text":"RLCraft Dregora v1.0.6b",
+      "text":"RLCraft Dregora v1.1.0",
       "posX":5,
       "posY":-38,
       "color" : 14737632,
@@ -282,7 +268,7 @@
 
   "other": {
     "background": {
-      "image": "mainmenu:background/background_troll.png"
+      "image": ["mainmenu:background/background_mines.apng", "mainmenu:background/background_troll.apng", "mainmenu:background/background_troll.apng"]
     }
   }
 }

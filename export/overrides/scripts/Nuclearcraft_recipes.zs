@@ -25,9 +25,24 @@ print("Nuclearcraft Recipe Script starting!");
 //New concrete block recipes:
 //================================
 
-
+// Crafttweaker quirk, have to define each metadata block seperately
 // Fluid Enricher | minecraft:water + minecraft:concrete_powder = contenttweaker:cement_fluid
-mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:*>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:0>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:1>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:2>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:3>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:4>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:5>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:6>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:7>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:8>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:9>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:10>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:11>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:12>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:13>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:14>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
+mods.nuclearcraft.dissolver.addRecipe([<minecraft:concrete_powder:15>, <liquid:water> * 7500, <liquid:cement_fluid> * 1000]);
 
 // Crafting Table | rustic:iron_lattice -> contenttweaker:rebar
 recipes.addShaped("nuclearcraft04",<contenttweaker:rebar> * 3,
@@ -37,9 +52,6 @@ recipes.addShaped("nuclearcraft04",<contenttweaker:rebar> * 3,
 
 // Fluid Infuser | contenttweaker:rebar + contenttweaker:cement_fluid = contenttweaker:reinforced_concrete
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:rebar>, <liquid:cement_fluid> * 1000, <contenttweaker:reinforced_concrete>]);
-
-// Manufacturer | contenttweaker:old_rebar -> contenttweaker:rebar
-mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:old_rebar>, <contenttweaker:rebar>]);
 
 //#######################
 //remove recipes & jei:

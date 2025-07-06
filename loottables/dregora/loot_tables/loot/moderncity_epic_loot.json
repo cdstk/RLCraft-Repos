@@ -136,7 +136,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "variedcommodities:mana",
+          "name": "xat:mana_candy",
           "weight": 100,
           "functions": [
             {
