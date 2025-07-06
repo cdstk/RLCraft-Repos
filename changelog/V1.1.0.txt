@@ -1,108 +1,184 @@
-Fixed/Changed:
-- Changed Underworld biomesize (generates 50% smaller)
-- Changed wastelands/desert rarity and removed some biomes from some biome groups making them spawn much less often
-- Temperate/Cold and Ocean biomes spawn more often now due to wastelands/desert/underworld biomes not taking up so much space
-- Modified some defiled biomes making them generate bigger and made all defiled biomes generate more often
-- Adjusted overworld map generation by replacing the trenches leading to the center with a new type of trench encircling the center in a ~2400 block radius
-- Adjusted underneath map generation featuring the first steps towards future expansion (Added biome Ancient Remnants)
-- Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
-- Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
-- Added new block Reinforced Concrete that can't be infected by Scape and Run parasites just like Reinforced Iron plate blocks
-- Removed Health Nerf and Potion sickness from the Ban Hammer.
-- Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
-- Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
-- Changed denial of hostile entities above Y235 in the Underneath to deny all hostile entity spawns above Y225 with the exception of spawners
-- Tweaked SRP difficulty per individual dimension by moving multipliers to SRPmixins and lowering them.
-- Lowered SRP mobcap per individual dimension and enabled bloodmoons in Lost Cities.
-- added block hazard stripes and weathered variants of concrete blocks
-- enabled culling on old & new blocks, performance gains in brutal tower and more locations.
-- added new toxic fluid
-- changed B:"LycanitesMobs Lowercase Performance Patch (LycanitesMobs)"=false & made breathing animation 0.01 for bettercombatmod
-- Changed following trades for Elder Blacksmith: Hearth Container = 10 satchels, Spectral Silt = 1 satchel, Glowing Powder =  30 coins, Nether star = 25 satchels & limited to 1 trade per elder blacksmith
-- Fixed Yale spawns, these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
-- Added new biomea Nuclear Blight & Nuclear Creek
-- Added dense fog to biome Nuclear Blight and weather effects through mod dsurroundings
-- Ithaquas  spawns are boosted in Forests/Spooky Biomes during thunderstorms now
-- Blacklisted Dragons, Lycanites Structures, Lycanites Entities and ReComplex structures from spawning in Nuclear Blight Biome
-- variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
-- Blacklisted defiledlands:book_wyrm from parasites target list.
-- Added new large underneath biome Defiled Caverns biome with increased bookwyrm spawns (30 weight instead of 14)
-- Disabled OTG fog for underneath making way for dynamic surroundings fog to take over
-- Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures.
-- Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills
-  a isle biome within Underworld still inherits from ocean adding to the diversity of said biome.
-- Fixed Lycanites Vapula (GEM) spawner from srparasites:gore block and increased spawn chance from 0.02 to 0.03.
-  QUADRUPLE TEST ALL LYCANITES MOBS because this may break other things like ore spawning
-- Increased Lycanites Geonach spawner (ORE) spawn chance from 0.01 to 0.02
-- Tripled speed of corruption spread (SRPARASITES)
-- Increased amount of Roguelike Dungeon spawning by lowering spawnFrequency=17 to 15
-- Added Reinforced Concrete recipe
-- Fixed localization for item_gem_ruby_vc.name
-- Lowered COTH range from 3 to 1 making it harder for COTH to transfer from mob to mob
-- Lowered COTH health threshold from 0.3 to 0.2 meaning they'll now try to transform under 20% health rather than 30%
-- Disabled dragon cave generation in biomesoplenty:rainforest due to exposed dragon cave generation.
-- Disabled fog amplification near bedrock through dynamic surroundings
-- Added localization for books within bunkers
-- Disabled fog increase near bedrock
-- Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
-- Fixed JotunnHeim biome dread horse overspawning
-- Removed dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
-- Overworld Parasites now do 50% less damage instead of 75% less damage.
-- Overworld evolution phase set to 4 instead of 8 and chunk based evolution enabled in parasite biomes.
-- Enabled spawnchunks for a radius of 6 chunks in the overworld.
-- Added new containers to the RLTweaker Distance Classes list.
-- Added I&F Amphithere Mod
-- changed incontrol spawning 1% parasites to chunk based spawning but only on concrete slabs between 0 and 12 lightlevel.
-- Configured SRP for the overworld to work with chunk based phases and set default phase to 4 in whitelisted biomes and phase 8
-  (default as it was before) in parasite biomes
+[Added]:
+✅  Added I&F Amphithere, NuclearCraft, Json Paintings, FoodFix, RLLuck, Antique Atlas Auto Marker and DramaticTrees Mods
+✅  Added a bunch of new custom paintings using Json Paintings
+✅  Added TexturePacks: RL Enchanted Books & RLCraft Dregora NC Textures
+✅  Adjusted overworld map generation by replacing the trenches leading to the center with a new type of trench encircling the center in a ~2400 block radius
+✅  Adjusted underneath map generation featuring the first steps towards future expansion (Added biome Ancient Remnants)
+✅  Added new block Reinforced Concrete that can't be infected by Scape and Run parasites just like Reinforced Iron plate blocks
+✅  Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
+✅  added block hazard stripes and weathered variants of concrete blocks
+✅  added new (radioactive) liquid: coolant water
+✅  Added new biomes Nuclear Blight & Nuclear Creek
+✅  Added dense fog to biome Nuclear Blight and weather effects through mod dsurroundings
+✅  Added new large underneath biome Defiled Caverns biome with increased bookwyrm spawns (30 weight instead of 14)
+✅  Added Reinforced Concrete recipe to NuclearCraft machines.
+✅  Added localization for books within bunkers
+✅  Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
+✅  Added Mana candy to all underneath chests
+✅  Added level requirements to blockheads & nuclearcraft
+✅  Added hazmat suits to loottables ruins (commonly)
+✅  Removed portal creation ceiling Underneath & Add survivor caches
+✅  Added NC ores to DregoraRL
+✅  add resource crates to Underneath
+✅  add defiled mushrooms (for defiled powder) to underneath spawns
+
+[Fixed/Changed]:
+✅  Configured chunk based SRP phases & increase SRP damage, (Phase 2/3 till 10?) (easier early game, harder late game)
+✅  Make curseforge automatically use 6GB ram (It is adviced to NOT use more than 8GB ram!)
+✅  Updated various mods such as Localizer
+✅  Changed Underworld biomesize (generates 50% smaller)
+✅  Changed wastelands/desert rarity and removed some biomes from some biome groups making them spawn much less often
+✅  Temperate/Cold and Ocean biomes spawn more often now due to wastelands/desert/underworld biomes not taking up so much space
+✅  Modified some defiled biomes making them generate bigger and made all defiled biomes generate more often
+✅  Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
+✅  Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+✅  Removed Health Nerf and Potion sickness from the Ban Hammer.
+✅  Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
+✅  Changed denial of hostile entities above Y235 in the Underneath to deny all hostile entity spawns above Y225 with the exception of spawners
+✅  Tweaked SRP difficulty per individual dimension by moving multipliers to SRPmixins and lowering them.
+✅  Lowered SRP mobcap per individual dimension and enabled bloodmoons in Lost Cities.
+✅  enabled culling on old & new blocks, performance gains in brutal tower and more locations.
+✅  changed B:"LycanitesMobs Lowercase Performance Patch (LycanitesMobs)"=false & made breathing animation 0.01 for bettercombatmod
+✅  Changed following trades for Elder Blacksmith: Hearth Container = 10 satchels, Spectral Silt = 1 satchel, Glowing Powder =  30 coins, Nether star = 25 satchels & limited to 1 trade per elder blacksmith
+✅  Fixed Yale spawns, these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
+✅  Ithaquas  spawns are boosted in Forests/Spooky Biomes during thunderstorms now
+✅  Blacklisted Dragons, Lycanites Structures, Lycanites Entities and ReComplex structures from spawning in Nuclear Blight Biome
+✅  variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
+✅  Blacklisted defiledlands:book_wyrm from parasites target list.
+✅  Disabled OTG fog for underneath making way for dynamic surroundings fog to take over
+✅  Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures.
+✅  Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills
+✅  a isle biome within Underworld still inherits from ocean adding to the diversity of said biome.
+✅  Increased Lycanites Geonach spawner (ORE) spawn chance from 0.01 to 0.02
+✅  Tripled speed of corruption spread (SRPARASITES)
+✅  Increased amount of Roguelike Dungeon spawning by lowering spawnFrequency=17 to 15
+✅  Fixed localization for item_gem_ruby_vc.name
+✅  Lowered COTH range from 3 to 1 making it harder for COTH to transfer from mob to mob
+✅  Lowered COTH health threshold from 0.3 to 0.2 meaning they'll now try to transform under 20% health rather than 30%
+✅  Disabled dragon cave generation in biomesoplenty:rainforest due to exposed dragon cave generation.
+✅  Disabled fog amplification near bedrock through dynamic surroundings
+✅  Disabled fog increase near bedrock
+✅  Fixed Lycanites Vapula (GEM) spawner from srparasites:gore block and increased spawn chance from 0.02 to 0.03.
+✅  QUADRUPLE TEST ALL LYCANITES MOBS because this may break other things like ore spawning
+✅  Fixed JotunnHeim biome dread horse overspawning
+✅  Removed dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
+✅  Overworld Parasites now do 50% less damage instead of 75% less damage.
+✅  Overworld evolution phase set to 4 instead of 8 and chunk based evolution enabled in parasite biomes.
+✅  Enabled spawnchunks for a radius of 6 chunks in the overworld.
+✅  Added new containers to the RLTweaker Distance Classes list (prevents duping of items)
+✅  changed incontrol spawning 1% parasites to chunk based spawning but only on concrete slabs between 0 and 12 lightlevel.
+✅  Configured SRP for the overworld to work with chunk based phases and set default phase to 4 in whitelisted biomes and phase 8
+✅  Decreased the amount of bunker spawns after initially testing them.
+✅  Made a recipe for Radiation Warning Block
+✅  Nerfed the corrupted shield in dungeonone loottable that gives a +20 dmg boost to +20 damage boost & -95% hp
+✅  Fix Brutal shiv dropping key out of abyssal rift.
+✅  Remove ability to use ender pearls in abyssal rift
 
 
+EagleMixin:
+✅  Turn hardcoded "parasites custom names drop loot without restrictions" into a configurable whitelist
+✅  Biome blacklist should be a config & have the option to make it a whitelist (SRP white/blacklist)
+✅  Toggle option for dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
+✅  Radiation biome spawn blacklist - PR made to RLMixins (PR Accepted... sort of >:|
+✅  Fix enderpearl glitch in abyssal rift
+✅  Teleporation function between sender/receiver towers
+✅  Kitchen Cabinet & Counter loottable support - Kotlin
+
+[Fixed for Beta 1]:
+✅  fixed old_rebar error
+✅  1.0.6 should be 1.1.0
+✅  Fixed: Whoops.... I forgot the texture packs!
+
+[Fixed for Beta 2]:
+✅  Removed metadata from vapula biomesoplenty:gem_ore spawns
+✅  InControl Crystal Abbys typo fixed
+✅  Sussyberians wont spawn 90% of the time anymore but 10% as intended (Rebuild Eaglemixins)
+✅  Fixed Eaglemixins arrow issue (Rebuild Eaglemixins)
+✅  Updated SME to 1.0.2 & I&F to 2.0.9 & Added DramaticTrees 1.12.2-0.13.4 & Removed DynamicTrees
+✅  Fixed Compiling error for eaglemixins (symbols not accepted for compilation in some intellij environments)
 
 
-RLMixin Changes:
-B:"Switchbow Love Arrow Dupe Fix (Switchbow)"=true
+Beta Remaining Tasks [Nischelm Commit]
+❌  Cleaned up Incontrol Spawn
+❌  Fix/Simplify yale spawning
+❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks
+❌  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
+❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
 
-Remaining most important tasks;
-  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
-  RLTweaker2:
-  X - APNG Support for the custom main menu mod
-  X - Randomized main menu scenes
-  - in-game menu & respawn screen support for hover over text & button changes
-  Eaglemixins:
-  X Turn hardcoded "parasites custom names drop loot without restrictions" into a configurable whitelist
-  - fix radiation particles being played in menu
-  X Biome blacklist should be a config & have the option to make it a whitelist (SRP white/blacklist)
-  X Radiation biome spawn blacklist - fonny? otherwise eagle
-  - Dismounter should also work on entity targeted in abyssal rift
-  - Kitchen Cabinet & Counter loottable support - Kotlin
-  - Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin/Eagle
-  Installation, configuration, creation and/or updating of following mods:
-  - Update Localizer, SoManyEnchantments & RLMixins
-  - Add RL Enchanted Books Texture pack,
-  X - Add paintings mod (and create custom paintings)
-  - Add & Configure RLLuck & Antique Atlas Auto Marker (Nischi)
-  - Add FoodFix
-  - Configure localized SRP phases & increase SRP damage, (Phase 2/3 till 10?) (easier early game, harder late game)
-  - Create Nuclearcraft weathered texture pack
-  - Review & further configuration of NuclearCraft
-  - add new nuclearcraft items to conductivity list
-  - add defiled mushrooms (for defiled powder) to underneath spawns
-  - tone down bunker spawns (make them further away from one another but easily spawned)
-  - add radiation to heath and nuclear biomes (but low & add to blacklist spawns)
-  - add resource crates to Underneath
-  - add antique atlas radiation marker
-  Needs testing:
-  - SRP Armor drop on upgrade
-  - Long drowning arrows shouldn't be a thing any longer
-  More stuff:
-  - go over all the remaining to do's, mostly smaller tweaks which originated from feedback or bug reports.
-  - go over git issues & solve where possible, note for 1.1.1 if not feasible for 1.1.0
+Beta Remaining Tasks [General]
+❌  Update Localizer
+❌  Dead Wasteland check spawn rules, Stymp bird should not be there, and people freeze in that biome? or in Schrubland?
+❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
+❌  update i&f to 2.0.9 (not newest)
+❌  update target dummy, rlmixins, rltweaker, renderlib, reachfix, broken heart & undershirt statistic,
+    bisecthosting, contentcreator, jei, crafttweaker, dynamic surroundings, editable edibles, fermiumasm,
+    file director, fishing made better, loot tweaker
+❌  add mods: furnacexpstorage &  optifine cit patch (Also fix xp from furnaces? as in... this MUST be done?)
+❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
+❌  Configure EditbaleEdibles (not all raw food gives status effects yet)
+❌  Neptunium should be radioactive
+❌  You may spawn in irradiated biomes, RLMixin isn't ready yet but I know this feature works once RLMixin releases
+❌  EnderCrown teleportation in brutal tower (loop)
+❌  replace dynamictrees with dramatictrees
+❌  Make recipes to reset parasite armor adaptation
+❌  Incontrol block end portal interaction in Abyssal Rift
+❌  Review & further configuration of nuclearcraft
+❌  Write lore for bunkers & add SRParasite weakness explaination
+❌  Add in additional Skyscrapers
+❌  Configure EditbaleEdibles for NuclearCraft & FUR & BOP & AQUACULTURE (any raw meats)
+❌  Update SoManyEnchantments & RLMixins
+❌  add radiation to heath and nuclear biomes & added these biomes to the RLMixins Blacklist
+    (Darn it fonny, you changed the config thingies so now I need to fix it again)
+
+Teleporter specific:
+❌  1% Teleportation message gets cut off by regular teleportation message real quick
+❌  Teleportation sometimes causes this crash: https://mclo.gs/iUnfwtp
+❌  Re-Export receiver/sender due to dimstack bedrock being erased as well.
+❌  Make waystones non exploitable in teleporters
+❌  Add new crystal abyss biome & virtual biomes for inheritance (so we can apply abyssal rift biome rules)
+❌  Make new biomes follow same ruleset as abyssal biome (no glitching)
+❌  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
+❌  Creation of far end tower portal
+❌  Add in all sender/receiver teleporters and double check/update all markers.
+❌  Add a fallback if receiver is not detected, then teleport back to sender (just in case so people are not stranded)
+❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
+❌  Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin/Eagle
+❌  Make config option for eaglemixins max beckon in radius and turn it off
+
+Testing required:
+❌  SRP Armor drop on upgrade
+❌  SRP Spawn quantity in the Underneath
+❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
+❌  Machinery/explanations in /otg tp Nuclear Blight bunkers.
+❌  Amphithere flying
+❌  Villager trading in relation to luck stat|
+❌  Parasite behavior such as chunk based phases, spawning and spread
+❌  Radiation mechanic, maybe some inputs on what else should be radioactive like Neptunium.
+❌  SRP Armor drop on upgrade
+❌  SRP Spawn quantity in the Underneath
+❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
 
 
 Optional Additions:
-  - Adjust lore, specifically dates of events
-  - Additional random encounters. (There are a few heh)
-  - Skyscrapers & custom qualities (If @NLBLackHeavenNL makes it?)
+❌  Adjust lore, specifically dates of events
+❌  Add wither mod
+❌  Add rats mod
+❌  Make the whole new teleportation mechanism configurable and do clean up
+❌  Additional random encounters. (There are a few heh)
+❌  Export map as java again (saving resources)
+❌  go over all the remaining to do's, mostly smaller tweaks which originated from feedback or bug reports.
+❌  go over git issues & solve where possible, note for 1.1.1 if not feasible for 1.1.0
+❌  More custom qualities
+
+
+[Postponed for 1.1.1/1.1.2]
+ ✅  APNG Support for the custom main menu mod
+ ✅  Randomized main menu scenes
+ 🅰️  In-game GUI gets zoomed in when opening menu and reverts back to normal when typing in-game
+ 🅰️  in-game menu & respawn screen support for hover over text & button changes (Error on openToLan, crashes client) need deobf
+
+
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -98,7 +98,7 @@
   {
     "dimension": 0,
     "mob": ["iceandfire:if_troll", "iceandfire:firedragon", "iceandfire:icedragon" ],
-    "biome": ["Crystal Abbys", "Dregora_TrenchDeep", "Dregora_TrenchDeepBridge", "Dregora_TrenchDeepRiver", "Dregora_TrenchDeepRiverBridge", "Dregora_TrenchInnerBorderFromImage", "Dregora_TrenchInnerBorderRandom", "Dregora_TrenchIslands", "Dregora_TrenchOutterBorderFromImage", "Dregora_TrenchOutterBorderRandom", "Dregora_TrenchOutterBorderSlope" ],
+    "biome": ["Crystal Abyss", "Dregora_TrenchDeep", "Dregora_TrenchDeepBridge", "Dregora_TrenchDeepRiver", "Dregora_TrenchDeepRiverBridge", "Dregora_TrenchInnerBorderFromImage", "Dregora_TrenchInnerBorderRandom", "Dregora_TrenchIslands", "Dregora_TrenchOutterBorderFromImage", "Dregora_TrenchOutterBorderRandom", "Dregora_TrenchOutterBorderSlope" ],
     "result": "deny"
   },
   {
