@@ -96,7 +96,11 @@ EagleMixin:
 ✅  Fixed Eaglemixins arrow issue (Rebuild Eaglemixins)
 ✅  Updated SME to 1.0.2 & I&F to 2.0.9 & Added DramaticTrees 1.12.2-0.13.4 & Removed DynamicTrees
 ✅  Fixed Compiling error for eaglemixins (symbols not accepted for compilation in some intellij environments)
-
+✅  Updated Localizer
+✅  Replaced Dynamictrees for Dramatictrees
+✅  Updated Shrubland biome to inherit from minecraft:desert spawns and increased temperature from 1.3 to 1.4 (Rebuild DregoraRL)
+✅  Made Neptunium radioactive.
+✅  Fx-control block end portal right-click interaction in Abyssal Rift
 
 Beta Remaining Tasks [Nischelm Commit]
 ❌  Cleaned up Incontrol Spawn
@@ -106,22 +110,16 @@ Beta Remaining Tasks [Nischelm Commit]
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
 
 Beta Remaining Tasks [General]
-❌  Update Localizer
-❌  Dead Wasteland check spawn rules, Stymp bird should not be there, and people freeze in that biome? or in Schrubland?
 ❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
-❌  update i&f to 2.0.9 (not newest)
 ❌  update target dummy, rlmixins, rltweaker, renderlib, reachfix, broken heart & undershirt statistic,
     bisecthosting, contentcreator, jei, crafttweaker, dynamic surroundings, editable edibles, fermiumasm,
     file director, fishing made better, loot tweaker
 ❌  add mods: furnacexpstorage &  optifine cit patch (Also fix xp from furnaces? as in... this MUST be done?)
 ❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
 ❌  Configure EditbaleEdibles (not all raw food gives status effects yet)
-❌  Neptunium should be radioactive
 ❌  You may spawn in irradiated biomes, RLMixin isn't ready yet but I know this feature works once RLMixin releases
 ❌  EnderCrown teleportation in brutal tower (loop)
-❌  replace dynamictrees with dramatictrees
 ❌  Make recipes to reset parasite armor adaptation
-❌  Incontrol block end portal interaction in Abyssal Rift
 ❌  Review & further configuration of nuclearcraft
 ❌  Write lore for bunkers & add SRParasite weakness explaination
 ❌  Add in additional Skyscrapers
@@ -131,6 +129,7 @@ Beta Remaining Tasks [General]
     (Darn it fonny, you changed the config thingies so now I need to fix it again)
 
 Teleporter specific:
+❌  Make receiver biome also inherit from Abyssal Rift biomes.
 ❌  1% Teleportation message gets cut off by regular teleportation message real quick
 ❌  Teleportation sometimes causes this crash: https://mclo.gs/iUnfwtp
 ❌  Re-Export receiver/sender due to dimstack bedrock being erased as well.
@@ -146,6 +145,7 @@ Teleporter specific:
 ❌  Make config option for eaglemixins max beckon in radius and turn it off
 
 Testing required:
+❌  Interaction with portal frames in teleport and receiver towers.
 ❌  SRP Armor drop on upgrade
 ❌  SRP Spawn quantity in the Underneath
 ❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
