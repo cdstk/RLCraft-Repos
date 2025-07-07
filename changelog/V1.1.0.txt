@@ -101,6 +101,11 @@ EagleMixin:
 ✅  Updated Shrubland biome to inherit from minecraft:desert spawns and increased temperature from 1.3 to 1.4 (Rebuild DregoraRL)
 ✅  Made Neptunium radioactive.
 ✅  Fx-control block end portal right-click interaction in Abyssal Rift
+✅  Fixed Duplicate pool name 'moderncity_junk_loot' in table 'dregora:dregorarl/loot/moderncity_junk_loot'
+✅  Fixed Duplicate pool name 'rare_loot' in table 'dregora:dregorarl/loot/rare_loot'
+✅  Fixed Duplicate pool name 'rare Chest' in table 'dregora:loot/rare_loot'.
+✅  Fixed Duplicate pool name 'spawn book' in table 'dregora:rlcraft/lore/spawnbook'
+
 
 Beta Remaining Tasks [Nischelm Commit]
 ❌  Cleaned up Incontrol Spawn
@@ -110,10 +115,21 @@ Beta Remaining Tasks [Nischelm Commit]
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
 
 Beta Remaining Tasks [General]
+❌  Questbook entry on nuclearcraft progression
+❌  Questbook fix the underneath message, stop hiding it and clean it up.
 ❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
-❌  update target dummy, rlmixins, rltweaker, renderlib, reachfix, broken heart & undershirt statistic,
-    bisecthosting, contentcreator, jei, crafttweaker, dynamic surroundings, editable edibles, fermiumasm,
-    file director, fishing made better, loot tweaker
+❌  update
+target dummy,
+rlmixins,
+rltweaker,
+renderlib,
+reachfix,
+broken heart & undershirt statistic,
+jei,
+editable edibles,
+fermiumasm,
+fishing made better
+
 ❌  add mods: furnacexpstorage &  optifine cit patch (Also fix xp from furnaces? as in... this MUST be done?)
 ❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
 ❌  Configure EditbaleEdibles (not all raw food gives status effects yet)
@@ -160,6 +176,9 @@ Testing required:
 
 
 Optional Additions:
+❌  Fix water issue in mushroom biomes
+❌  Add Bisect Painting?
+❌  Add NotKotlin painting
 ❌  Adjust lore, specifically dates of events
 ❌  Add wither mod
 ❌  Add rats mod

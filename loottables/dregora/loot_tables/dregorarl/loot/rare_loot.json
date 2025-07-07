@@ -16,7 +16,7 @@
       ]
     },
     {
-      "name": "rare_loot",
+      "name": "rare_infused_loot",
       "rolls": {
         "min": 1,
         "max": 2

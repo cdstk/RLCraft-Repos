@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "moderncity_junk_loot",
+      "name": "moderncity_infuse_junk",
       "rolls": {
         "min": 1,
         "max": 2
