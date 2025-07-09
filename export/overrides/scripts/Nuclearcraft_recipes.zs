@@ -53,6 +53,12 @@ recipes.addShaped("nuclearcraft04",<contenttweaker:rebar> * 3,
 // Fluid Infuser | contenttweaker:rebar + contenttweaker:cement_fluid = contenttweaker:reinforced_concrete
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:rebar>, <liquid:cement_fluid> * 1000, <contenttweaker:reinforced_concrete>]);
 
+// Melter | Steel = Fluid Steel
+mods.nuclearcraft.melter.addRecipe([<variedcommodities:ingot_steel>, <nuclearcraft:fluid_steel> * 144]);
+
+// Ingot Former | Fluid Steel = Steel
+mods.nuclearcraft.ingot_former.addRecipe([<nuclearcraft:fluid_steel>, <variedcommodities:ingot_steel>]);]);
+
 //#######################
 //remove recipes & jei:
 //#######################

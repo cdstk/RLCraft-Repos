@@ -105,7 +105,8 @@ EagleMixin:
 ✅  Fixed Duplicate pool name 'rare_loot' in table 'dregora:dregorarl/loot/rare_loot'
 ✅  Fixed Duplicate pool name 'rare Chest' in table 'dregora:loot/rare_loot'.
 ✅  Fixed Duplicate pool name 'spawn book' in table 'dregora:rlcraft/lore/spawnbook'
-
+✅  Changed Frozen Temple lapis blocks into Emerald blocks (Rebuild DregoraRL)
+✅  Fixed lorebook in underneath duct (Rebuild Underneath)
 
 Beta Remaining Tasks [Nischelm Commit]
 ❌  Cleaned up Incontrol Spawn
@@ -115,21 +116,12 @@ Beta Remaining Tasks [Nischelm Commit]
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
 
 Beta Remaining Tasks [General]
+❌  Increase spawning of Atrium
 ❌  Questbook entry on nuclearcraft progression
 ❌  Questbook fix the underneath message, stop hiding it and clean it up.
 ❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
-❌  update
-target dummy,
-rlmixins,
-rltweaker,
-renderlib,
-reachfix,
-broken heart & undershirt statistic,
-jei,
-editable edibles,
-fermiumasm,
-fishing made better
-
+❌  Check if update applicable: target dummy, rlmixins, rltweaker, renderlib, reachfix, broken heart & undershirt statistic, jei,
+    editable edibles, fermiumasm, fishing made better
 ❌  add mods: furnacexpstorage &  optifine cit patch (Also fix xp from furnaces? as in... this MUST be done?)
 ❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
 ❌  Configure EditbaleEdibles (not all raw food gives status effects yet)
@@ -145,6 +137,7 @@ fishing made better
     (Darn it fonny, you changed the config thingies so now I need to fix it again)
 
 Teleporter specific:
+❌  Teleportation in Progress also triggers when switching dimensions per default
 ❌  Make receiver biome also inherit from Abyssal Rift biomes.
 ❌  1% Teleportation message gets cut off by regular teleportation message real quick
 ❌  Teleportation sometimes causes this crash: https://mclo.gs/iUnfwtp
@@ -197,6 +190,25 @@ Optional Additions:
  🅰️  in-game menu & respawn screen support for hover over text & button changes (Error on openToLan, crashes client) need deobf
 
 
+
+Current Timeline:
+2116 - Before the Blight
+6156 Dregorian Voyager Returns
+6236 First Settlers - Dregora
+8537 City of Origin, reclaiming the lands.
+
+New Timeline:
+2116 - Days before the blight
+2118 June - Radiation Rampant
+2118 Feb - 2 years after the Blight, corruption taking hold.
+2458 Dregorian Voyager returns
+2538 First Settlers
+2744 City of Origin
+
+Add new effect thingy for contamination effect
+Remove recipes for: nuclearcraft:alloy:5
+
+Change underneath quest, add in ores as well, also maybe add to nuclearcraft questline?
 
 
 #######################################################################
@@ -358,8 +370,18 @@ Dev Version EagleMixins
 Installed JSonPaintings
 Installed Painting Selection Gui Revamped
 
+
+
+
 RLCraft to do now:
 P1:
+
+- Streamer Events:
+
+
+"Onetrickpony24": Lightning Strike at random (But no damage) - jumpscape and send message "Ha! Taste my revenge" type array with multiple taunts
+
+
 - Random Encounters: Wraamon Rat-pack generic spawn in caverns, 1 heart hp & 0 dmg
   SkadoodleRat - ???
   Its WikedRat - ???
