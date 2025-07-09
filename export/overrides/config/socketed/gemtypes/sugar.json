@@ -1,0 +1,35 @@
+{
+  "Display Name": "socketed.tooltip.default.sugar",
+  "Gem Tier": 0,
+  "Text Color": "WHITE",
+  "Effects": [
+    {
+      "Potion Name": "minecraft:speed",
+      "Amplifier": 0,
+      "Duration": 40,
+      "Activator": {
+        "Activation Rate": 39,
+        "Activator Type": "Passive"
+      },
+      "Targets": [
+        {
+          "Target Type": "Self"
+        },
+        {
+          "Block Range": 4,
+          "Target Type": "Self AOE"
+        }
+      ],
+      "Effect Type": "Potion",
+      "Equipment Slot Type": "FEET"
+    }
+  ],
+  "Filters": [
+    {
+      "Item Name": "minecraft:sugar",
+      "Item Metadata": 0,
+      "Strict Metadata": false,
+      "Filter Type": "Item"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Display Name": "socketed.tooltip.default.skullskeleton",
+  "Gem Tier": 3,
+  "Text Color": "WHITE",
+  "Effects": [
+    {
+      "Activator": {
+        "Activator Type": "Targeted",
+        "Condition": {
+          "Entity": "minecraft:skeleton",
+          "Condition Type": "Entity"
+        }
+      },
+      "Targets": [
+        {
+          "Target Type": "Other"
+        }
+      ],
+      "Effect Type": "Remove Target",
+      "Equipment Slot Type": "BODY"
+    }
+  ],
+  "Filters": [
+    {
+      "Item Name": "minecraft:skull",
+      "Item Metadata": 0,
+      "Strict Metadata": true,
+      "Filter Type": "Item"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Display Name": "socketed.tooltip.default.emerald",
+  "Gem Tier": 1,
+  "Text Color": "GREEN",
+  "Effects": [
+    {
+      "Potion Name": "minecraft:luck",
+      "Amplifier": 0,
+      "Duration": 40,
+      "Activator": {
+        "Activation Rate": 39,
+        "Activator Type": "Passive"
+      },
+      "Targets": [
+        {
+          "Target Type": "Self"
+        }
+      ],
+      "Effect Type": "Potion",
+      "Equipment Slot Type": "BODY"
+    }
+  ],
+  "Filters": [
+    {
+      "Ore Dictionary Name": "gemEmerald",
+      "Strict Metadata": false,
+      "Filter Type": "Ore Dictionary"
+    }
+  ]
+}

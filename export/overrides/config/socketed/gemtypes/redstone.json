@@ -1,0 +1,30 @@
+{
+  "Display Name": "socketed.tooltip.default.redstone",
+  "Gem Tier": 1,
+  "Text Color": "RED",
+  "Effects": [
+    {
+      "Potion Name": "minecraft:haste",
+      "Amplifier": 0,
+      "Duration": 40,
+      "Activator": {
+        "Activation Rate": 39,
+        "Activator Type": "Passive"
+      },
+      "Targets": [
+        {
+          "Target Type": "Self"
+        }
+      ],
+      "Effect Type": "Potion",
+      "Equipment Slot Type": "CHEST"
+    }
+  ],
+  "Filters": [
+    {
+      "Ore Dictionary Name": "blockRedstone",
+      "Strict Metadata": false,
+      "Filter Type": "Ore Dictionary"
+    }
+  ]
+}
