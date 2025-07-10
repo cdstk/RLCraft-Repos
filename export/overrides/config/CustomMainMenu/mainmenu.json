@@ -75,7 +75,7 @@
 		
         "hosting":
         {
-            "text" : "Host your own server!",
+            "text" : "menu.hostyourserver",
 			"normalTextColor" : 9561599,
 			"hoverTextColor" : -1,
             "posX" : -100,
@@ -85,7 +85,7 @@
             "imageWidth" : 1000,
             "imageHeight" : 125,
 			"texture" : "mainmenu:buttonlong.png",
-			"hoverText" : "By BisectHosting, use code Shivaxi",
+			"hoverText" : "menu.hostyourserver.hover",
             "action" : 
             {
                 "type" : "openLink",
@@ -124,7 +124,7 @@
             "imageHeight" : 125,
             "height" : 20,
 			"texture" : "mainmenu:button.png",
-			"hoverText" : "Embrace Cowardice?",
+			"hoverText" : "menu.quit.hover",
             "action" : 
             {
                 "type" : "quit"
