@@ -4,19 +4,6 @@ import crafttweaker.block.IBlockDefinition;
 
 print("Script starting!");
 
-events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-  var player = event.player;
-  var potionToRemove = <potion:srparasites:viral>;
-  var maxAmplifierAllowed = 9;
-  if player.isPotionActive(potionToRemove) {
-    var active = player.getActivePotionEffect(potionToRemove);
-    if active.amplifier > maxAmplifierAllowed {
-      player.removePotionEffect(potionToRemove);
-      player.addPotionEffect(<potion:srparasites:viral>.makePotionEffect(active.duration, 9));
-    }
-  }
-});
-
 <simpledifficulty:wool_helmet:*>.addTooltip(game.localize("tooltip.simpledifficulty:wool_helmet", "en_us"));
 <simpledifficulty:wool_chestplate:*>.addTooltip(game.localize("tooltip.simpledifficulty:wool_chestplate", "en_us"));
 <simpledifficulty:wool_leggings:*>.addTooltip(game.localize("tooltip.simpledifficulty:wool_leggings", "en_us"));
