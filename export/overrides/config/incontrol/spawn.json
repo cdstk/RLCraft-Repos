@@ -40,15 +40,10 @@
   },
   {
     "dimension": 0,
-    "mob": "mod_lavacow:ithaqua",
-    "mincount": 2,
-    "perplayer": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 0,
     "biometype": ["FOREST"],
     "weather": "thunder",
+    "maxcount": 2,
+    "perplayer": true,
     "mob": "mod_lavacow:ithaqua",
     "result": "default"
   },
@@ -56,8 +51,15 @@
     "dimension": 0,
     "biometype": ["SPOOKY"],
     "mintime": 13000,
+    "maxcount": 2,
+    "perplayer": true,
     "mob": "mod_lavacow:ithaqua",
     "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "mod_lavacow:ithaqua",
+    "result": "deny"
   },
   {
     "biome": ["Nuclear Wasteland"],
@@ -67,17 +69,6 @@
     "dimension": 0,
     "mob": "mod_lavacow:ghostray",
     "result": "deny"
-  },
-  {
-    "dimension": 0,
-    "mob": "lycanitesmobs:yale",
-    "result": "deny"
-  },
-  {
-    "dimension": 0,
-    "mob": "lycanitesmobs:yale",
-    "biometype": ["MOUNTAIN"],
-    "result": "default"
   },
   {
     "dimension": 0,

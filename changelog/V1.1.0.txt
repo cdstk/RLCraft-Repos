@@ -109,6 +109,7 @@ EagleMixin:
 ✅  Fixed lorebook in underneath duct (Rebuild Underneath)
 ✅  Changed default spawning for Blight City Biomes, srp focussed now.
 ✅  Changed Horrors of the Deep quest to always show and minimally changed quest structure
+✅  Fixed ithaqua spawning (Nischi)
 
 [Updated/Installed but needs to be added to manifest]:
 ✅  Updated I&F Amphithere Mod from 1.0.1 to 1.0.2 (Fix for latest fermiumbooter)
@@ -118,14 +119,11 @@ EagleMixin:
 ✅  Updated FermiumASM from 5.24 to 5.28 (TL;DR Fixed Stuff)
 ✅  Updated SRPMixins from 2.7.1 to 2.8.0 (TL;DR Fixed Stuff)
 ✅  Updated FermiumBooter from 1.2.0 to 1.3.0 (TL;DR Fixed Stuff)
-✅  File Director from 1.8.3 to 1.9.1 (Shows on taskbar now!)
+✅  UpdatedFile Director from 1.8.3 to 1.9.1 (Shows on taskbar now!)
 ✅  Updated Fishing Made Better from 2.2.6 to 2.2.7 (Fixes Rare Crash related to Bobber)
 ✅  Updated RLMixins fvrom 1.2.16 to 1.4.0 (Compat to SME & FermiumBooter)
 ✅  Updated RLTweaker2 from 0.6.8 to 0.7.5 (TL;DR Fixed Stuff)
-✅  VCFix from 1.0.0 to 1.0.1 (Fermiumbooter 1.3.0 compat)
-✅  Installed FermiumMixins 1.0.0
-✅  Installed AntiqueAtlas - RecurrentComplex Compatability 1.0.1
-✅  Installed OptiFine CIT Enchantment Patch 1.0.2
+✅  Updated VCFix from 1.0.0 to 1.0.1 (Fermiumbooter 1.3.0 compat)
 ✅  Updated Reachfix from 1.0.10 to 1.1.3 (Compat with RLTweaker2)
 ✅  Updated Entity Culling from 6.4.3 to 6.5.0 (Compat with RLTweaker2)
 ✅  Updated RenderLib from 1.3.5 to 1.4.5 (Compat with RLTweaker2)
@@ -134,7 +132,9 @@ EagleMixin:
 ✅  Updated MmmMmmMmmMmm (Target Dummy) from 1.14 to 2.0.4
 ✅  Updated SetBonus from 020 to 040
 ✅  Updated SnowRealMagic from 0.7.1 to 0.7.4
-
+✅  Installed FermiumMixins 1.0.0
+✅  Installed AntiqueAtlas - RecurrentComplex Compatability 1.0.1
+✅  Installed OptiFine CIT Enchantment Patch 1.0.2
 
 [Added for Beta 2]:
 ✅  Added Resource Crate & Brutal Coin Fragments to Bounty Boards Rewards
@@ -154,9 +154,11 @@ Beta Remaining Tasks [Nischelm Commit]
 ❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks
 ❌  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
-❌  Update SoManyEnchantments Enchant names Would Nischi do this or...?
+❌  replace all enchant specific loot functions referencing sme enchants
 
 Beta Remaining Tasks [General]
+❌  DregoraRL, Underneath & Eaglemixins upload once their content is finalized.
+❌  Fix map generation for structures (make them a tad bigger so daeroc spawns)
 ❌  hungry farmer foods add nuclearcraft and bop consumables that give good effects
 ❌  srparasites:worm spawns above y225 in dim 3 when player has scent (give sentient equipment to gain scent)
 ❌  Add SRP Squids to spawn pool of following biome: \RandomMode\ModBiomes\Blight\Rivers
@@ -201,18 +203,15 @@ Teleporter specific:
 ❌  Make config option for eaglemixins max beckon in radius and turn it off
 
 Testing required:
+❌  yale spawning in biomes where they should not spawn, such as crystal abyss
 ❌  Interaction with portal frames in teleport and receiver towers.
 ❌  SRP Armor drop on upgrade
 ❌  SRP Spawn quantity in the Underneath
 ❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
-❌  Machinery/explanations in /otg tp Nuclear Blight bunkers.
 ❌  Amphithere flying
-❌  Villager trading in relation to luck stat|
+❌  Villager trading in relation to luck stat
 ❌  Parasite behavior such as chunk based phases, spawning and spread
-❌  Radiation mechanic, maybe some inputs on what else should be radioactive like Neptunium.
-❌  SRP Armor drop on upgrade
-❌  SRP Spawn quantity in the Underneath
-❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
+❌  Radiation mechanic, maybe some inputs on what else should be radioactive like Neptunium
 
 
 Optional Additions:
