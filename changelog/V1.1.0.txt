@@ -143,9 +143,6 @@ EagleMixin:
 ✅  Added Kyphosis parasites to beckon stage 3 spawn queue
 ✅  Added Brutal Tower, Nuclear Blight and Corrupted Cities to quest book (Currently no hat reward yet)
 
-❌  Readd: {"content": "rlmixins:cleansing_talisman","unitWorth": 750,"weight": 50,"amount": {"min": 1,"max": 1}},
-
-
 [Update Maybe?]
 ❌  Doomlike Dungeons, Seems safe to update and packs some fixes.
 ❌  JEI seems like a TON was updated, so a equal amount could go wrong?

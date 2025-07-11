@@ -13,7 +13,6 @@ print("Script starting!");
 <simpledifficulty:ice_leggings:*>.addTooltip(game.localize("tooltip.simpledifficulty:ice_leggings", "en_us"));
 <simpledifficulty:ice_boots:*>.addTooltip(game.localize("tooltip.simpledifficulty:ice_boots", "en_us"));
 
-// iirc, if I removed these displayName lines, the script dies... So I'll leave them for now
 <rlmixins:scarlite_helmet:*>.displayName = game.localize("item.scarlite_helmet.name", "en_us");
 <rlmixins:scarlite_chestplate:*>.displayName = game.localize("item.scarlite_chestplate.name", "en_us");
 <rlmixins:scarlite_leggings:*>.displayName = game.localize("item.scarlite_leggings.name", "en_us");
@@ -85,30 +84,32 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break
 <block:quark:elder_prismarine_dark_wall>.getBlock().definition.resistance=15;
 
 <ore:toolAxe>.add(<iceandfire:silver_axe:*>);
+<ore:toolAxe>.add(<iceandfire:copper_axe:*>);
 <ore:toolAxe>.add(<iceandfire:dragonbone_axe:*>);
 
-<ore:spartanStaff>.add(<spartanweaponry:staff_steel:*>, <spartanweaponry:staff:*>, <spartanweaponry:staff_stone:*>, <spartanweaponry:staff_iron:*>, <spartanweaponry:staff_gold:*>, <spartanweaponry:staff_diamond:*>, <spartanweaponry:staff_bronze:*>, <spartanweaponry:staff_silver:*>, <spartanfire:staff_desert_venom:*>, <spartanfire:staff_jungle_venom:*>, <spartanfire:staff_desert:*>, <spartanfire:staff_jungle:*>, <spartanfire:staff_ice_dragonbone:*>, <spartanfire:staff_fire_dragonbone:*>, <spartanfire:staff_dragonbone:*>, <spartandefiled:staff_umbrium:*>);
-<ore:spartanGlaive>.add(<spartanweaponry:glaive_steel:*>, <spartanweaponry:glaive_wood:*>, <spartanweaponry:glaive_stone:*>, <spartanweaponry:glaive_iron:*>, <spartanweaponry:glaive_gold:*>, <spartanweaponry:glaive_diamond:*>, <spartanweaponry:glaive_bronze:*>, <spartanweaponry:glaive_silver:*>, <spartanfire:glaive_desert_venom:*>, <spartanfire:glaive_jungle_venom:*>, <spartanfire:glaive_desert:*>, <spartanfire:glaive_jungle:*>, <spartanfire:glaive_ice_dragonbone:*>, <spartanfire:glaive_fire_dragonbone:*>, <spartanfire:glaive_dragonbone:*>, <spartandefiled:glaive_umbrium:*>);
-<ore:spartanMace>.add(<spartanweaponry:mace_steel:*>, <spartanweaponry:mace_wood:*>, <spartanweaponry:mace_stone:*>, <spartanweaponry:mace_iron:*>, <spartanweaponry:mace_gold:*>, <spartanweaponry:mace_diamond:*>, <spartanweaponry:mace_bronze:*>, <spartanweaponry:mace_silver:*>, <spartanfire:mace_desert_venom:*>, <spartanfire:mace_jungle_venom:*>, <spartanfire:mace_desert:*>, <spartanfire:mace_jungle:*>, <spartanfire:mace_ice_dragonbone:*>, <spartanfire:mace_fire_dragonbone:*>, <spartanfire:mace_dragonbone:*>, <spartandefiled:mace_umbrium:*>);
-<ore:spartanBattleaxe>.add(<spartanweaponry:battleaxe_steel:*>, <spartanweaponry:battleaxe_wood:*>, <spartanweaponry:battleaxe_stone:*>, <spartanweaponry:battleaxe_iron:*>, <spartanweaponry:battleaxe_gold:*>, <spartanweaponry:battleaxe_diamond:*>, <spartanweaponry:battleaxe_bronze:*>, <spartanweaponry:battleaxe_silver:*>, <spartanfire:battleaxe_desert_venom:*>, <spartanfire:battleaxe_jungle_venom:*>, <spartanfire:battleaxe_desert:*>, <spartanfire:battleaxe_jungle:*>, <spartanfire:battleaxe_ice_dragonbone:*>, <spartanfire:battleaxe_fire_dragonbone:*>, <spartanfire:battleaxe_dragonbone:*>, <spartandefiled:battleaxe_umbrium:*>);
-<ore:spartanBoomerang>.add(<spartanweaponry:boomerang_steel:*>, <spartanweaponry:boomerang_wood:*>, <spartanweaponry:boomerang_stone:*>, <spartanweaponry:boomerang_iron:*>, <spartanweaponry:boomerang_gold:*>, <spartanweaponry:boomerang_diamond:*>, <spartanweaponry:boomerang_bronze:*>, <spartanweaponry:boomerang_silver:*>, <spartanfire:boomerang_desert_venom:*>, <spartanfire:boomerang_jungle_venom:*>, <spartanfire:boomerang_desert:*>, <spartanfire:boomerang_jungle:*>, <spartanfire:boomerang_ice_dragonbone:*>, <spartanfire:boomerang_fire_dragonbone:*>, <spartanfire:boomerang_dragonbone:*>, <spartandefiled:boomerang_umbrium:*>);
-<ore:spartanjavelin>.add(<spartanweaponry:javelin_steel:*>, <spartanweaponry:javelin_wood:*>, <spartanweaponry:javelin_stone:*>, <spartanweaponry:javelin_iron:*>, <spartanweaponry:javelin_gold:*>, <spartanweaponry:javelin_diamond:*>, <spartanweaponry:javelin_bronze:*>, <spartanweaponry:javelin_silver:*>, <spartanfire:javelin_desert_venom:*>, <spartanfire:javelin_jungle_venom:*>, <spartanfire:javelin_desert:*>, <spartanfire:javelin_jungle:*>, <spartanfire:javelin_ice_dragonbone:*>, <spartanfire:javelin_fire_dragonbone:*>, <spartanfire:javelin_dragonbone:*>, <spartandefiled:javelin_umbrium:*>);
-<ore:spartanThrowingAxe>.add(<spartanweaponry:throwing_axe_steel:*>, <spartanweaponry:throwing_axe_wood:*>, <spartanweaponry:throwing_axe_stone:*>, <spartanweaponry:throwing_axe_iron:*>, <spartanweaponry:throwing_axe_gold:*>, <spartanweaponry:throwing_axe_diamond:*>, <spartanweaponry:throwing_axe_bronze:*>, <spartanweaponry:throwing_axe_silver:*>, <spartanfire:throwing_axe_desert_venom:*>, <spartanfire:throwing_axe_jungle_venom:*>, <spartanfire:throwing_axe_desert:*>, <spartanfire:throwing_axe_jungle:*>, <spartanfire:throwing_axe_ice_dragonbone:*>, <spartanfire:throwing_axe_fire_dragonbone:*>, <spartanfire:throwing_axe_dragonbone:*>, <spartandefiled:throwing_axe_umbrium:*>);
-<ore:spartanThrowingKnife>.add(<spartanweaponry:throwing_knife_steel:*>, <spartanweaponry:throwing_knife_wood:*>, <spartanweaponry:throwing_knife_stone:*>, <spartanweaponry:throwing_knife_iron:*>, <spartanweaponry:throwing_knife_gold:*>, <spartanweaponry:throwing_knife_diamond:*>, <spartanweaponry:throwing_knife_bronze:*>, <spartanweaponry:throwing_knife_silver:*>, <spartanfire:throwing_knife_desert_venom:*>, <spartanfire:throwing_knife_jungle_venom:*>, <spartanfire:throwing_knife_desert:*>, <spartanfire:throwing_knife_jungle:*>, <spartanfire:throwing_knife_ice_dragonbone:*>, <spartanfire:throwing_knife_fire_dragonbone:*>, <spartanfire:throwing_knife_dragonbone:*>, <spartandefiled:throwing_knife_umbrium:*>);
-<ore:spartanCrossbow>.add(<spartanweaponry:crossbow_steel:*>, <spartanweaponry:crossbow_wood:*>, <spartanweaponry:crossbow_leather:*>, <spartanweaponry:crossbow_iron:*>, <spartanweaponry:crossbow_diamond:*>, <spartanweaponry:crossbow_bronze:*>, <spartanweaponry:crossbow_silver:*>, <spartanfire:crossbow_desert_venom:*>, <spartanfire:crossbow_jungle_venom:*>, <spartanfire:crossbow_desert:*>, <spartanfire:crossbow_jungle:*>, <spartanfire:crossbow_ice_dragonbone:*>, <spartanfire:crossbow_fire_dragonbone:*>, <spartanfire:crossbow_dragonbone:*>, <spartandefiled:crossbow_umbrium:*>);
-<ore:spartanKatana>.add(<spartanweaponry:katana_steel:*>, <spartanweaponry:katana_wood:*>, <spartanweaponry:katana_stone:*>, <spartanweaponry:katana_iron:*>, <spartanweaponry:katana_gold:*>, <spartanweaponry:katana_diamond:*>, <spartanweaponry:katana_bronze:*>, <spartanweaponry:katana_silver:*>, <spartanfire:katana_desert_venom:*>, <spartanfire:katana_jungle_venom:*>, <spartanfire:katana_desert:*>, <spartanfire:katana_jungle:*>, <spartanfire:katana_ice_dragonbone:*>, <spartanfire:katana_fire_dragonbone:*>, <spartanfire:katana_dragonbone:*>, <spartandefiled:katana_umbrium:*>);
-<ore:spartanLongsword>.add(<spartanweaponry:longsword_steel:*>, <spartanweaponry:longsword_wood:*>, <spartanweaponry:longsword_stone:*>, <spartanweaponry:longsword_iron:*>, <spartanweaponry:longsword_gold:*>, <spartanweaponry:longsword_diamond:*>, <spartanweaponry:longsword_bronze:*>, <spartanweaponry:longsword_silver:*>, <spartanfire:longsword_desert_venom:*>, <spartanfire:longsword_jungle_venom:*>, <spartanfire:longsword_desert:*>, <spartanfire:longsword_jungle:*>, <spartanfire:longsword_ice_dragonbone:*>, <spartanfire:longsword_fire_dragonbone:*>, <spartanfire:longsword_dragonbone:*>, <spartandefiled:longsword_umbrium:*>);
-<ore:spartanGreatsword>.add(<spartanweaponry:greatsword_steel:*>, <spartanweaponry:greatsword_wood:*>, <spartanweaponry:greatsword_stone:*>, <spartanweaponry:greatsword_iron:*>, <spartanweaponry:greatsword_gold:*>, <spartanweaponry:greatsword_diamond:*>, <spartanweaponry:greatsword_bronze:*>, <spartanweaponry:greatsword_silver:*>, <spartanfire:greatsword_desert_venom:*>, <spartanfire:greatsword_jungle_venom:*>, <spartanfire:greatsword_desert:*>, <spartanfire:greatsword_jungle:*>, <spartanfire:greatsword_ice_dragonbone:*>, <spartanfire:greatsword_fire_dragonbone:*>, <spartanfire:greatsword_dragonbone:*>, <spartandefiled:greatsword_umbrium:*>);
-<ore:spartanRapier>.add(<spartanweaponry:rapier_steel:*>, <spartanweaponry:saber_wood:*>, <spartanweaponry:rapier_stone:*>, <spartanweaponry:rapier_iron:*>, <spartanweaponry:rapier_gold:*>, <spartanweaponry:rapier_diamond:*>, <spartanweaponry:rapier_bronze:*>, <spartanweaponry:rapier_silver:*>, <spartanfire:rapier_desert_venom:*>, <spartanfire:rapier_jungle_venom:*>, <spartanfire:rapier_desert:*>, <spartanfire:rapier_jungle:*>, <spartanfire:rapier_ice_dragonbone:*>, <spartanfire:rapier_fire_dragonbone:*>, <spartanfire:rapier_dragonbone:*>, <spartandefiled:rapier_umbrium:*>);
-<ore:spartanSaber>.add(<spartanweaponry:saber_steel:*>, <spartanweaponry:saber_stone:*>, <spartanweaponry:saber_iron:*>, <spartanweaponry:saber_gold:*>, <spartanweaponry:saber_diamond:*>, <spartanweaponry:saber_bronze:*>, <spartanweaponry:saber_silver:*>, <spartanfire:saber_desert_venom:*>, <spartanfire:saber_jungle_venom:*>, <spartanfire:saber_desert:*>, <spartanfire:saber_jungle:*>, <spartanfire:saber_ice_dragonbone:*>, <spartanfire:saber_fire_dragonbone:*>, <spartanfire:saber_dragonbone:*>, <spartandefiled:saber_umbrium:*>);
-<ore:spartanLance>.add(<spartanweaponry:lance_steel:*>, <spartanweaponry:lance_wood:*>, <spartanweaponry:lance_stone:*>, <spartanweaponry:lance_iron:*>, <spartanweaponry:lance_gold:*>, <spartanweaponry:lance_diamond:*>, <spartanweaponry:lance_bronze:*>, <spartanweaponry:lance_silver:*>, <spartanfire:lance_desert_venom:*>, <spartanfire:lance_jungle_venom:*>, <spartanfire:lance_desert:*>, <spartanfire:lance_jungle:*>, <spartanfire:lance_ice_dragonbone:*>, <spartanfire:lance_fire_dragonbone:*>, <spartanfire:lance_dragonbone:*>, <spartandefiled:lance_umbrium:*>);
-<ore:spartanPike>.add(<spartanweaponry:pike_steel:*>, <spartanweaponry:pike_wood:*>, <spartanweaponry:pike_stone:*>, <spartanweaponry:pike_iron:*>, <spartanweaponry:pike_gold:*>, <spartanweaponry:pike_diamond:*>, <spartanweaponry:pike_bronze:*>, <spartanweaponry:pike_silver:*>, <spartanfire:pike_desert_venom:*>, <spartanfire:pike_jungle_venom:*>, <spartanfire:pike_desert:*>, <spartanfire:pike_jungle:*>, <spartanfire:pike_ice_dragonbone:*>, <spartanfire:pike_fire_dragonbone:*>, <spartanfire:pike_dragonbone:*>, <spartandefiled:pike_umbrium:*>);
-<ore:spartanSpear>.add(<spartanweaponry:spear_steel:*>, <spartanweaponry:spear_wood:*>, <spartanweaponry:spear_stone:*>, <spartanweaponry:spear_iron:*>, <spartanweaponry:spear_gold:*>, <spartanweaponry:spear_diamond:*>, <spartanweaponry:spear_bronze:*>, <spartanweaponry:spear_silver:*>, <spartanfire:spear_desert_venom:*>, <spartanfire:spear_jungle_venom:*>, <spartanfire:spear_desert:*>, <spartanfire:spear_jungle:*>, <spartanfire:spear_ice_dragonbone:*>, <spartanfire:spear_fire_dragonbone:*>, <spartanfire:spear_dragonbone:*>, <spartandefiled:spear_umbrium:*>);
-<ore:spartanLongbow>.add(<spartanweaponry:longbow_steel:*>, <spartanweaponry:longbow_wood:*>, <spartanweaponry:longbow_leather:*>, <spartanweaponry:longbow_iron:*>, <spartanweaponry:longbow_diamond:*>, <spartanweaponry:longbow_bronze:*>, <spartanweaponry:longbow_silver:*>, <spartanfire:longbow_desert_venom:*>, <spartanfire:longbow_jungle_venom:*>, <spartanfire:longbow_desert:*>, <spartanfire:longbow_jungle:*>, <spartanfire:longbow_ice_dragonbone:*>, <spartanfire:longbow_fire_dragonbone:*>, <spartanfire:longbow_dragonbone:*>, <spartandefiled:longbow_umbrium:*>);
-<ore:spartanHalberd>.add(<spartanweaponry:halberd_steel:*>, <spartanweaponry:halberd_wood:*>, <spartanweaponry:halberd_stone:*>, <spartanweaponry:halberd_iron:*>, <spartanweaponry:halberd_gold:*>, <spartanweaponry:halberd_diamond:*>, <spartanweaponry:halberd_bronze:*>, <spartanweaponry:halberd_silver:*>, <spartanfire:halberd_desert_venom:*>, <spartanfire:halberd_jungle_venom:*>, <spartanfire:halberd_desert:*>, <spartanfire:halberd_jungle:*>, <spartanfire:halberd_ice_dragonbone:*>, <spartanfire:halberd_fire_dragonbone:*>, <spartanfire:halberd_dragonbone:*>, <spartandefiled:halberd_umbrium:*>);
-<ore:spartanHammer>.add(<spartanweaponry:hammer_steel:*>, <spartanweaponry:hammer_wood:*>, <spartanweaponry:hammer_stone:*>, <spartanweaponry:hammer_iron:*>, <spartanweaponry:hammer_gold:*>, <spartanweaponry:hammer_diamond:*>, <spartanweaponry:hammer_bronze:*>, <spartanweaponry:hammer_silver:*>, <spartanfire:hammer_desert_venom:*>, <spartanfire:hammer_jungle_venom:*>, <spartanfire:hammer_desert:*>, <spartanfire:hammer_jungle:*>, <spartanfire:hammer_ice_dragonbone:*>, <spartanfire:hammer_fire_dragonbone:*>, <spartanfire:hammer_dragonbone:*>, <spartandefiled:hammer_umbrium:*>);
-<ore:spartanWarhammer>.add(<spartanweaponry:warhammer_steel:*>, <spartanweaponry:warhammer_wood:*>, <spartanweaponry:warhammer_stone:*>, <spartanweaponry:warhammer_iron:*>, <spartanweaponry:warhammer_gold:*>, <spartanweaponry:warhammer_diamond:*>, <spartanweaponry:warhammer_bronze:*>, <spartanweaponry:warhammer_silver:*>, <spartanfire:warhammer_desert_venom:*>, <spartanfire:warhammer_jungle_venom:*>, <spartanfire:warhammer_desert:*>, <spartanfire:warhammer_jungle:*>, <spartanfire:warhammer_ice_dragonbone:*>, <spartanfire:warhammer_fire_dragonbone:*>, <spartanfire:warhammer_dragonbone:*>, <spartandefiled:warhammer_umbrium:*>);
-<ore:spartanDagger>.add(<spartanweaponry:dagger_steel:*>, <spartanweaponry:dagger_wood:*>, <spartanweaponry:dagger_stone:*>, <spartanweaponry:dagger_iron:*>, <spartanweaponry:dagger_gold:*>, <spartanweaponry:dagger_diamond:*>, <spartanweaponry:dagger_bronze:*>, <spartanweaponry:dagger_silver:*>, <spartanfire:dagger_desert_venom:*>, <spartanfire:dagger_jungle_venom:*>, <spartanfire:dagger_desert:*>, <spartanfire:dagger_jungle:*>, <spartanfire:dagger_ice_dragonbone:*>, <spartanfire:dagger_fire_dragonbone:*>, <spartanfire:dagger_dragonbone:*>, <spartandefiled:dagger_umbrium:*>);
+<ore:spartanStaff>.add(<spartanweaponry:staff_steel:*>, <spartanweaponry:staff:*>, <spartanweaponry:staff_stone:*>, <spartanweaponry:staff_iron:*>, <spartanweaponry:staff_gold:*>, <spartanweaponry:staff_diamond:*>, <spartanweaponry:staff_bronze:*>, <spartanweaponry:staff_silver:*>, <spartanweaponry:staff_copper:*>, <spartanfire:staff_desert_venom:*>, <spartanfire:staff_jungle_venom:*>, <spartanfire:staff_desert:*>, <spartanfire:staff_jungle:*>, <spartanfire:staff_ice_dragonbone:*>, <spartanfire:staff_fire_dragonbone:*>, <spartanfire:staff_dragonbone:*>, <spartandefiled:staff_umbrium:*>);
+<ore:spartanGlaive>.add(<spartanweaponry:glaive_steel:*>, <spartanweaponry:glaive_wood:*>, <spartanweaponry:glaive_stone:*>, <spartanweaponry:glaive_iron:*>, <spartanweaponry:glaive_gold:*>, <spartanweaponry:glaive_diamond:*>, <spartanweaponry:glaive_bronze:*>, <spartanweaponry:glaive_silver:*>, <spartanweaponry:glaive_copper:*>, <spartanfire:glaive_desert_venom:*>, <spartanfire:glaive_jungle_venom:*>, <spartanfire:glaive_desert:*>, <spartanfire:glaive_jungle:*>, <spartanfire:glaive_ice_dragonbone:*>, <spartanfire:glaive_fire_dragonbone:*>, <spartanfire:glaive_dragonbone:*>, <spartandefiled:glaive_umbrium:*>);
+<ore:spartanMace>.add(<spartanweaponry:mace_steel:*>, <spartanweaponry:mace_wood:*>, <spartanweaponry:mace_stone:*>, <spartanweaponry:mace_iron:*>, <spartanweaponry:mace_gold:*>, <spartanweaponry:mace_diamond:*>, <spartanweaponry:mace_bronze:*>, <spartanweaponry:mace_silver:*>, <spartanweaponry:mace_copper:*>, <spartanfire:mace_desert_venom:*>, <spartanfire:mace_jungle_venom:*>, <spartanfire:mace_desert:*>, <spartanfire:mace_jungle:*>, <spartanfire:mace_ice_dragonbone:*>, <spartanfire:mace_fire_dragonbone:*>, <spartanfire:mace_dragonbone:*>, <spartandefiled:mace_umbrium:*>);
+<ore:spartanBattleaxe>.add(<spartanweaponry:battleaxe_steel:*>, <spartanweaponry:battleaxe_wood:*>, <spartanweaponry:battleaxe_stone:*>, <spartanweaponry:battleaxe_iron:*>, <spartanweaponry:battleaxe_gold:*>, <spartanweaponry:battleaxe_diamond:*>, <spartanweaponry:battleaxe_bronze:*>, <spartanweaponry:battleaxe_silver:*>, <spartanweaponry:battleaxe_copper:*>, <spartanfire:battleaxe_desert_venom:*>, <spartanfire:battleaxe_jungle_venom:*>, <spartanfire:battleaxe_desert:*>, <spartanfire:battleaxe_jungle:*>, <spartanfire:battleaxe_ice_dragonbone:*>, <spartanfire:battleaxe_fire_dragonbone:*>, <spartanfire:battleaxe_dragonbone:*>, <spartandefiled:battleaxe_umbrium:*>);
+<ore:spartanBoomerang>.add(<spartanweaponry:boomerang_steel:*>, <spartanweaponry:boomerang_wood:*>, <spartanweaponry:boomerang_stone:*>, <spartanweaponry:boomerang_iron:*>, <spartanweaponry:boomerang_gold:*>, <spartanweaponry:boomerang_diamond:*>, <spartanweaponry:boomerang_bronze:*>, <spartanweaponry:boomerang_silver:*>, <spartanweaponry:boomerang_copper:*>, <spartanfire:boomerang_desert_venom:*>, <spartanfire:boomerang_jungle_venom:*>, <spartanfire:boomerang_desert:*>, <spartanfire:boomerang_jungle:*>, <spartanfire:boomerang_ice_dragonbone:*>, <spartanfire:boomerang_fire_dragonbone:*>, <spartanfire:boomerang_dragonbone:*>, <spartandefiled:boomerang_umbrium:*>);
+<ore:spartanjavelin>.add(<spartanweaponry:javelin_steel:*>, <spartanweaponry:javelin_wood:*>, <spartanweaponry:javelin_stone:*>, <spartanweaponry:javelin_iron:*>, <spartanweaponry:javelin_gold:*>, <spartanweaponry:javelin_diamond:*>, <spartanweaponry:javelin_bronze:*>, <spartanweaponry:javelin_silver:*>, <spartanweaponry:javelin_copper:*>, <spartanfire:javelin_desert_venom:*>, <spartanfire:javelin_jungle_venom:*>, <spartanfire:javelin_desert:*>, <spartanfire:javelin_jungle:*>, <spartanfire:javelin_ice_dragonbone:*>, <spartanfire:javelin_fire_dragonbone:*>, <spartanfire:javelin_dragonbone:*>, <spartandefiled:javelin_umbrium:*>);
+<ore:spartanThrowingAxe>.add(<spartanweaponry:throwing_axe_steel:*>, <spartanweaponry:throwing_axe_wood:*>, <spartanweaponry:throwing_axe_stone:*>, <spartanweaponry:throwing_axe_iron:*>, <spartanweaponry:throwing_axe_gold:*>, <spartanweaponry:throwing_axe_diamond:*>, <spartanweaponry:throwing_axe_bronze:*>, <spartanweaponry:throwing_axe_silver:*>, <spartanweaponry:throwing_axe_copper:*>, <spartanfire:throwing_axe_desert_venom:*>, <spartanfire:throwing_axe_jungle_venom:*>, <spartanfire:throwing_axe_desert:*>, <spartanfire:throwing_axe_jungle:*>, <spartanfire:throwing_axe_ice_dragonbone:*>, <spartanfire:throwing_axe_fire_dragonbone:*>, <spartanfire:throwing_axe_dragonbone:*>, <spartandefiled:throwing_axe_umbrium:*>);
+<ore:spartanThrowingKnife>.add(<spartanweaponry:throwing_knife_steel:*>, <spartanweaponry:throwing_knife_wood:*>, <spartanweaponry:throwing_knife_stone:*>, <spartanweaponry:throwing_knife_iron:*>, <spartanweaponry:throwing_knife_gold:*>, <spartanweaponry:throwing_knife_diamond:*>, <spartanweaponry:throwing_knife_bronze:*>, <spartanweaponry:throwing_knife_silver:*>, <spartanweaponry:throwing_knife_copper:*>, <spartanfire:throwing_knife_desert_venom:*>, <spartanfire:throwing_knife_jungle_venom:*>, <spartanfire:throwing_knife_desert:*>, <spartanfire:throwing_knife_jungle:*>, <spartanfire:throwing_knife_ice_dragonbone:*>, <spartanfire:throwing_knife_fire_dragonbone:*>, <spartanfire:throwing_knife_dragonbone:*>, <spartandefiled:throwing_knife_umbrium:*>);
+<ore:spartanCrossbow>.add(<spartanweaponry:crossbow_steel:*>, <spartanweaponry:crossbow_wood:*>, <spartanweaponry:crossbow_leather:*>, <spartanweaponry:crossbow_iron:*>, <spartanweaponry:crossbow_diamond:*>, <spartanweaponry:crossbow_bronze:*>, <spartanweaponry:crossbow_silver:*>, <spartanweaponry:crossbow_copper:*>, <spartanfire:crossbow_desert_venom:*>, <spartanfire:crossbow_jungle_venom:*>, <spartanfire:crossbow_desert:*>, <spartanfire:crossbow_jungle:*>, <spartanfire:crossbow_ice_dragonbone:*>, <spartanfire:crossbow_fire_dragonbone:*>, <spartanfire:crossbow_dragonbone:*>, <spartandefiled:crossbow_umbrium:*>);
+<ore:spartanKatana>.add(<spartanweaponry:katana_steel:*>, <spartanweaponry:katana_wood:*>, <spartanweaponry:katana_stone:*>, <spartanweaponry:katana_iron:*>, <spartanweaponry:katana_gold:*>, <spartanweaponry:katana_diamond:*>, <spartanweaponry:katana_bronze:*>, <spartanweaponry:katana_silver:*>, <spartanweaponry:katana_copper:*>, <spartanfire:katana_desert_venom:*>, <spartanfire:katana_jungle_venom:*>, <spartanfire:katana_desert:*>, <spartanfire:katana_jungle:*>, <spartanfire:katana_ice_dragonbone:*>, <spartanfire:katana_fire_dragonbone:*>, <spartanfire:katana_dragonbone:*>, <spartandefiled:katana_umbrium:*>);
+<ore:spartanScythe>.add(<spartanweaponry:scythe_steel:*>, <spartanweaponry:scythe_wood:*>, <spartanweaponry:scythe_stone:*>, <spartanweaponry:scythe_iron:*>, <spartanweaponry:scythe_gold:*>, <spartanweaponry:scythe_diamond:*>, <spartanweaponry:scythe_bronze:*>, <spartanweaponry:scythe_silver:*>, <spartanweaponry:scythe_copper:*>, <spartanfire:scythe_desert_venom:*>, <spartanfire:scythe_jungle_venom:*>, <spartanfire:scythe_desert:*>, <spartanfire:scythe_jungle:*>, <spartanfire:scythe_ice_dragonbone:*>, <spartanfire:scythe_fire_dragonbone:*>, <spartanfire:scythe_dragonbone:*>);
+<ore:spartanLongsword>.add(<spartanweaponry:longsword_steel:*>, <spartanweaponry:longsword_wood:*>, <spartanweaponry:longsword_stone:*>, <spartanweaponry:longsword_iron:*>, <spartanweaponry:longsword_gold:*>, <spartanweaponry:longsword_diamond:*>, <spartanweaponry:longsword_bronze:*>, <spartanweaponry:longsword_silver:*>, <spartanweaponry:longsword_copper:*>, <spartanfire:longsword_desert_venom:*>, <spartanfire:longsword_jungle_venom:*>, <spartanfire:longsword_desert:*>, <spartanfire:longsword_jungle:*>, <spartanfire:longsword_ice_dragonbone:*>, <spartanfire:longsword_fire_dragonbone:*>, <spartanfire:longsword_dragonbone:*>, <spartandefiled:longsword_umbrium:*>);
+<ore:spartanGreatsword>.add(<spartanweaponry:greatsword_steel:*>, <spartanweaponry:greatsword_wood:*>, <spartanweaponry:greatsword_stone:*>, <spartanweaponry:greatsword_iron:*>, <spartanweaponry:greatsword_gold:*>, <spartanweaponry:greatsword_diamond:*>, <spartanweaponry:greatsword_bronze:*>, <spartanweaponry:greatsword_silver:*>, <spartanweaponry:greatsword_copper:*>, <spartanfire:greatsword_desert_venom:*>, <spartanfire:greatsword_jungle_venom:*>, <spartanfire:greatsword_desert:*>, <spartanfire:greatsword_jungle:*>, <spartanfire:greatsword_ice_dragonbone:*>, <spartanfire:greatsword_fire_dragonbone:*>, <spartanfire:greatsword_dragonbone:*>, <spartandefiled:greatsword_umbrium:*>);
+<ore:spartanRapier>.add(<spartanweaponry:rapier_steel:*>, <spartanweaponry:saber_wood:*>, <spartanweaponry:rapier_stone:*>, <spartanweaponry:rapier_iron:*>, <spartanweaponry:rapier_gold:*>, <spartanweaponry:rapier_diamond:*>, <spartanweaponry:rapier_bronze:*>, <spartanweaponry:rapier_silver:*>, <spartanweaponry:rapier_copper:*>, <spartanfire:rapier_desert_venom:*>, <spartanfire:rapier_jungle_venom:*>, <spartanfire:rapier_desert:*>, <spartanfire:rapier_jungle:*>, <spartanfire:rapier_ice_dragonbone:*>, <spartanfire:rapier_fire_dragonbone:*>, <spartanfire:rapier_dragonbone:*>, <spartandefiled:rapier_umbrium:*>);
+<ore:spartanSaber>.add(<spartanweaponry:saber_steel:*>, <spartanweaponry:saber_stone:*>, <spartanweaponry:saber_iron:*>, <spartanweaponry:saber_gold:*>, <spartanweaponry:saber_diamond:*>, <spartanweaponry:saber_bronze:*>, <spartanweaponry:saber_silver:*>, <spartanweaponry:saber_copper:*>, <spartanfire:saber_desert_venom:*>, <spartanfire:saber_jungle_venom:*>, <spartanfire:saber_desert:*>, <spartanfire:saber_jungle:*>, <spartanfire:saber_ice_dragonbone:*>, <spartanfire:saber_fire_dragonbone:*>, <spartanfire:saber_dragonbone:*>, <spartandefiled:saber_umbrium:*>);
+<ore:spartanLance>.add(<spartanweaponry:lance_steel:*>, <spartanweaponry:lance_wood:*>, <spartanweaponry:lance_stone:*>, <spartanweaponry:lance_iron:*>, <spartanweaponry:lance_gold:*>, <spartanweaponry:lance_diamond:*>, <spartanweaponry:lance_bronze:*>, <spartanweaponry:lance_silver:*>, <spartanweaponry:lance_copper:*>, <spartanfire:lance_desert_venom:*>, <spartanfire:lance_jungle_venom:*>, <spartanfire:lance_desert:*>, <spartanfire:lance_jungle:*>, <spartanfire:lance_ice_dragonbone:*>, <spartanfire:lance_fire_dragonbone:*>, <spartanfire:lance_dragonbone:*>, <spartandefiled:lance_umbrium:*>);
+<ore:spartanPike>.add(<spartanweaponry:pike_steel:*>, <spartanweaponry:pike_wood:*>, <spartanweaponry:pike_stone:*>, <spartanweaponry:pike_iron:*>, <spartanweaponry:pike_gold:*>, <spartanweaponry:pike_diamond:*>, <spartanweaponry:pike_bronze:*>, <spartanweaponry:pike_silver:*>, <spartanweaponry:pike_copper:*>, <spartanfire:pike_desert_venom:*>, <spartanfire:pike_jungle_venom:*>, <spartanfire:pike_desert:*>, <spartanfire:pike_jungle:*>, <spartanfire:pike_ice_dragonbone:*>, <spartanfire:pike_fire_dragonbone:*>, <spartanfire:pike_dragonbone:*>, <spartandefiled:pike_umbrium:*>);
+<ore:spartanSpear>.add(<spartanweaponry:spear_steel:*>, <spartanweaponry:spear_wood:*>, <spartanweaponry:spear_stone:*>, <spartanweaponry:spear_iron:*>, <spartanweaponry:spear_gold:*>, <spartanweaponry:spear_diamond:*>, <spartanweaponry:spear_bronze:*>, <spartanweaponry:spear_silver:*>, <spartanweaponry:spear_copper:*>, <spartanfire:spear_desert_venom:*>, <spartanfire:spear_jungle_venom:*>, <spartanfire:spear_desert:*>, <spartanfire:spear_jungle:*>, <spartanfire:spear_ice_dragonbone:*>, <spartanfire:spear_fire_dragonbone:*>, <spartanfire:spear_dragonbone:*>, <spartandefiled:spear_umbrium:*>);
+<ore:spartanLongbow>.add(<spartanweaponry:longbow_steel:*>, <spartanweaponry:longbow_wood:*>, <spartanweaponry:longbow_leather:*>, <spartanweaponry:longbow_iron:*>, <spartanweaponry:longbow_diamond:*>, <spartanweaponry:longbow_bronze:*>, <spartanweaponry:longbow_silver:*>, <spartanweaponry:longbow_copper:*>, <spartanfire:longbow_desert_venom:*>, <spartanfire:longbow_jungle_venom:*>, <spartanfire:longbow_desert:*>, <spartanfire:longbow_jungle:*>, <spartanfire:longbow_ice_dragonbone:*>, <spartanfire:longbow_fire_dragonbone:*>, <spartanfire:longbow_dragonbone:*>, <spartandefiled:longbow_umbrium:*>);
+<ore:spartanHalberd>.add(<spartanweaponry:halberd_steel:*>, <spartanweaponry:halberd_wood:*>, <spartanweaponry:halberd_stone:*>, <spartanweaponry:halberd_iron:*>, <spartanweaponry:halberd_gold:*>, <spartanweaponry:halberd_diamond:*>, <spartanweaponry:halberd_bronze:*>, <spartanweaponry:halberd_silver:*>, <spartanweaponry:halberd_copper:*>, <spartanfire:halberd_desert_venom:*>, <spartanfire:halberd_jungle_venom:*>, <spartanfire:halberd_desert:*>, <spartanfire:halberd_jungle:*>, <spartanfire:halberd_ice_dragonbone:*>, <spartanfire:halberd_fire_dragonbone:*>, <spartanfire:halberd_dragonbone:*>, <spartandefiled:halberd_umbrium:*>);
+<ore:spartanHammer>.add(<spartanweaponry:hammer_steel:*>, <spartanweaponry:hammer_wood:*>, <spartanweaponry:hammer_stone:*>, <spartanweaponry:hammer_iron:*>, <spartanweaponry:hammer_gold:*>, <spartanweaponry:hammer_diamond:*>, <spartanweaponry:hammer_bronze:*>, <spartanweaponry:hammer_silver:*>, <spartanweaponry:hammer_copper:*>, <spartanfire:hammer_desert_venom:*>, <spartanfire:hammer_jungle_venom:*>, <spartanfire:hammer_desert:*>, <spartanfire:hammer_jungle:*>, <spartanfire:hammer_ice_dragonbone:*>, <spartanfire:hammer_fire_dragonbone:*>, <spartanfire:hammer_dragonbone:*>, <spartandefiled:hammer_umbrium:*>);
+<ore:spartanWarhammer>.add(<spartanweaponry:warhammer_steel:*>, <spartanweaponry:warhammer_wood:*>, <spartanweaponry:warhammer_stone:*>, <spartanweaponry:warhammer_iron:*>, <spartanweaponry:warhammer_gold:*>, <spartanweaponry:warhammer_diamond:*>, <spartanweaponry:warhammer_bronze:*>, <spartanweaponry:warhammer_silver:*>, <spartanweaponry:warhammer_copper:*>, <spartanfire:warhammer_desert_venom:*>, <spartanfire:warhammer_jungle_venom:*>, <spartanfire:warhammer_desert:*>, <spartanfire:warhammer_jungle:*>, <spartanfire:warhammer_ice_dragonbone:*>, <spartanfire:warhammer_fire_dragonbone:*>, <spartanfire:warhammer_dragonbone:*>, <spartandefiled:warhammer_umbrium:*>);
+<ore:spartanDagger>.add(<spartanweaponry:dagger_steel:*>, <spartanweaponry:dagger_wood:*>, <spartanweaponry:dagger_stone:*>, <spartanweaponry:dagger_iron:*>, <spartanweaponry:dagger_gold:*>, <spartanweaponry:dagger_diamond:*>, <spartanweaponry:dagger_bronze:*>, <spartanweaponry:dagger_silver:*>, <spartanweaponry:dagger_copper:*>, <spartanfire:dagger_desert_venom:*>, <spartanfire:dagger_jungle_venom:*>, <spartanfire:dagger_desert:*>, <spartanfire:dagger_jungle:*>, <spartanfire:dagger_ice_dragonbone:*>, <spartanfire:dagger_fire_dragonbone:*>, <spartanfire:dagger_dragonbone:*>, <spartandefiled:dagger_umbrium:*>);
 
 <ore:lycaniteTreat>.add(<lycanitesmobs:planttreat:*>, <lycanitesmobs:dragontreat:*>, <lycanitesmobs:anthroniantreat:*>, <lycanitesmobs:undeadtreat:*>, <lycanitesmobs:demontreat:*>, <lycanitesmobs:imptreat:*>, <lycanitesmobs:aberrationtreat:*>, <lycanitesmobs:aviantreat:*>, <lycanitesmobs:amphibiantreat:*>, <lycanitesmobs:arachnidtreat:*>, <lycanitesmobs:wormtreat:*>, <lycanitesmobs:beasttreat:*>, <lycanitesmobs:insecttreat:*>, <lycanitesmobs:aquatictreat:*>, <lycanitesmobs:reptiletreat:*>);
 <ore:lycaniteSaddle>.add(<lycanitesmobs:saddle_beast:*>, <lycanitesmobs:saddle_insect:*>, <lycanitesmobs:saddle_dragon:*>, <lycanitesmobs:saddle_amphibian:*>, <lycanitesmobs:saddle_reptile:*>, <lycanitesmobs:saddle_avian:*>, <lycanitesmobs:saddle_aquatic:*>, <lycanitesmobs:saddle_aberration:*>, <lycanitesmobs:saddle_demon:*>);
@@ -177,57 +178,56 @@ brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break
 
 <sereneseasons:greenhouse_glass:*>.addTooltip(game.localize("tooltip.sereneseasons:greenhouse_glass", "en_us"));
 
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 99999);
-furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 99999);
-furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 99999);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 99999);
-furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 99999);
-furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:longbow_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:crossbow_copper:*>, 99999);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:longbow_umbrium:*>, 0.1);
+furnace.addRecipe(<defiledlands:umbrium_nugget> * 4, <spartandefiled:crossbow_umbrium:*>, 0.1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:longbow_iron:*>, 0.1);
+furnace.addRecipe(<minecraft:iron_nugget> * 4, <spartanweaponry:crossbow_iron:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:longbow_diamond:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_diamond> * 4, <spartanweaponry:crossbow_diamond:*>, 0.1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:longbow_silver:*>, 0.1);
+furnace.addRecipe(<iceandfire:silver_nugget> * 4, <spartanweaponry:crossbow_silver:*>, 0.1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:longbow_steel:*>, 0.1);
+furnace.addRecipe(<contenttweaker:steel_nugget> * 4, <spartanweaponry:crossbow_steel:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:longbow_bronze:*>, 0.1);
+furnace.addRecipe(<variedcommodities:coin_bronze> * 4, <spartanweaponry:crossbow_bronze:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:longbow_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:crossbow_copper:*>, 0.1);
 
+furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 0.7);
+furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 0.7);
+furnace.addRecipe(<minecraft:gold_ingot> * 1, <spartanweaponry:scythe_gold:*>, 1);
+furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:scythe_diamond:*>, 1);
+furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:scythe_silver:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <spartanweaponry:scythe_steel:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 0.7);
 
-furnace.addRecipe(<defiledlands:umbrium_ingot> * 1, <spartandefiled:scythe_umbrium:*>, 99999);
-furnace.addRecipe(<minecraft:iron_ingot> * 1, <spartanweaponry:scythe_iron:*>, 99999);
-furnace.addRecipe(<minecraft:gold_ingot> * 1, <spartanweaponry:scythe_gold:*>, 99999);
-furnace.addRecipe(<minecraft:diamond> * 1, <spartanweaponry:scythe_diamond:*>, 99999);
-furnace.addRecipe(<iceandfire:silver_ingot> * 1, <spartanweaponry:scythe_silver:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:scythe_copper:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <spartanweaponry:scythe_steel:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_bronze> * 1, <spartanweaponry:scythe_bronze:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:scythe_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 2, <mujmajnkraftsbettersurvival:itemcopperhammer:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 2, <mujmajnkraftsbettersurvival:itemcopperbattleaxe:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 1, <mujmajnkraftsbettersurvival:itemcopperdagger:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 4, <mujmajnkraftsbettersurvival:itemcoppernunchaku:*>, 0.1);
 
-furnace.addRecipe(<iceandfire:copper_ingot> * 2, <mujmajnkraftsbettersurvival:itemcopperhammer:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 2, <mujmajnkraftsbettersurvival:itemcopperbattleaxe:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 1, <mujmajnkraftsbettersurvival:itemcopperdagger:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 4, <mujmajnkraftsbettersurvival:itemcoppernunchaku:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:longsword_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:katana_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:saber_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:rapier_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:greatsword_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:hammer_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:warhammer_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:halberd_copper:*>, 0.1);
+//furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:throwing_axe_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:battleaxe_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:mace_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:glaive_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:staff_copper:*>, 0.1);
 
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:longsword_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:katana_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:saber_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:rapier_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:greatsword_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:hammer_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:warhammer_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:halberd_copper:*>, 99999);
-//furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:throwing_axe_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 2, <spartanweaponry:battleaxe_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:mace_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanweaponry:glaive_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 4, <spartanweaponry:staff_copper:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:dagger_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:spear_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:pike_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:lance_copper:*>, 0.1);
 
-furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:dagger_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:spear_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:pike_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_nugget> * 1, <spartanweaponry:lance_copper:*>, 99999);
-
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanshields:shield_basic_copper:*>, 99999);
-furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanshields:shield_tower_copper:*>, 99999);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanshields:shield_basic_copper:*>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot> * 1, <spartanshields:shield_tower_copper:*>, 0.1);
 
 recipes.remove(<inspirations:materials:2>);
 recipes.remove(<inspirations:materials:3>);
@@ -717,14 +717,14 @@ recipes.addShaped("lolarmor4",<rlmixins:steel_boots>,
 // [[<defiledlands:scarlite>,null,<defiledlands:scarlite>],
 //  [<defiledlands:scarlite>,null,<defiledlands:scarlite>]]);
 
-//furnace.addRecipe(<defiledlands:scarlite> * 2, <rlmixins:scarlite_helmet:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_chestplate:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_leggings:*>, 99999);
-//furnace.addRecipe(<defiledlands:scarlite> * 1, <rlmixins:scarlite_boots:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 2, <rlmixins:steel_helmet:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_chestplate:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_leggings:*>, 99999);
-furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <rlmixins:steel_boots:*>, 99999);
+//furnace.addRecipe(<defiledlands:scarlite> * 2, <rlmixins:scarlite_helmet:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_chestplate:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 3, <rlmixins:scarlite_leggings:*>, 1);
+//furnace.addRecipe(<defiledlands:scarlite> * 1, <rlmixins:scarlite_boots:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 2, <rlmixins:steel_helmet:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_chestplate:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 3, <rlmixins:steel_leggings:*>, 1);
+furnace.addRecipe(<variedcommodities:ingot_steel> * 1, <rlmixins:steel_boots:*>, 1);
 
 //=================================
 //ArtiFACTS bro
@@ -871,5 +871,49 @@ recipes.addShaped("lolarecipe76",<simpledifficulty:dragon_canteen>,
  [[<iceandfire:dragon_skull:0>|<iceandfire:dragon_skull:1>|<iceandfire:dragon_skull:2>],
   [<simpledifficulty:iron_canteen:*>],
   [<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<iceandfire:lightning_dragon_heart>]]);
+
+recipes.addShaped("lolatreat1",<lycanitesmobs:dragontreat>*4,
+ [[null,<defiledlands:scarlite>,<iceandfire:sapphire_gem>],
+  [<minecraft:bone>,<minecraft:bone>,<defiledlands:scarlite>],
+  [null,<defiledlands:scarlite>,<iceandfire:sapphire_gem>]]);
+
+recipes.addShaped("lolatreat2",<lycanitesmobs:aviantreat>*4,
+ [[null,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>],
+  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>],
+  [null,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>,<lycanitesmobs:cooked_ika_meat>|<lycanitesmobs:cooked_silex_meat>|<quark:cooked_crab_leg>]]);
+
+recipes.addShaped("lolatreat3",<lycanitesmobs:beasttreat>*4,
+ [[null,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>],
+  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>],
+  [null,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>,<lycanitesmobs:cooked_pinky_meat>|<aquaculture:food:5>|<lycanitesmobs:cooked_aspid_meat>]]);
+
+recipes.addShaped("lolatreat4",<lycanitesmobs:planttreat>*4,
+ [[null,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>],
+  [<minecraft:reeds>,<minecraft:reeds>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>],
+  [null,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>,<minecraft:pumpkin>|<minecraft:beetroot>|<minecraft:golden_carrot>]]);
+
+recipes.addShaped("lolatreat5",<lycanitesmobs:undeadtreat>*4,
+ [[null,<lycanitesmobs:geistliver>,<lycanitesmobs:geistliver>],
+  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:geistliver>],
+  [null,<lycanitesmobs:geistliver>,<lycanitesmobs:geistliver>]]);
+
+recipes.addShaped("lolatreat6",<lycanitesmobs:demontreat>*4,
+ [[null,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>],
+  [<betternether:nether_reed>,<betternether:nether_reed>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>],
+  [null,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>,<betternether:black_apple>|<betternether:wart_seed>|<foodexpansion:itemnetherwartsoup>]]);
+
+recipes.addShaped("lolanetherwartsoupalt",<foodexpansion:itemnetherwartsoup>,
+ [[<minecraft:nether_wart>,<betternether:black_apple>,<minecraft:nether_wart>],
+  [null,<minecraft:bowl>,null]]);
+
+recipes.addShaped("lolatreat7",<lycanitesmobs:arachnidtreat>*4,
+ [[null,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>],
+  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>],
+  [null,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>,<lycanitesmobs:cooked_joust_meat>|<lycanitesmobs:cooked_concapede_meat>]]);
+
+recipes.addShaped("lolatreat8",<lycanitesmobs:aquatictreat>*4,
+ [[null,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>],
+  [<minecraft:bone>,<minecraft:bone>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>],
+  [null,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>,<lycanitesmobs:cooked_cephignis_meat>|<lycanitesmobs:lapis_fish_and_chips>|<aquaculture:food:6>]]);
 
 print("Script ending!");
