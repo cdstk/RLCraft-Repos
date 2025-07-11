@@ -74,7 +74,7 @@ FamiliarFauna-1.12.2-1.0.11
 FancyBlockParticles-1.12.x-2.4.1
 FantasticLib-1.12.2.069
 fermiumasm-5.28
-FermiumMixins-1.0.0
+FermiumMixins-1.0.1
 firstaid-1.6.22
 FishingMadeBetter-1.12.2-2.2.7
 foamfix-0.10.15-1.12.2
@@ -127,7 +127,7 @@ Neat 1.4-17
 Nether-API-v1.3.0-mc1.12.2
 NoiseThreader-1.0.0
 notreepunching-2.0.21
-OptiFineCITPatch-1.0.2
+OptiFineCITPatch-1.0.3
 OptiFine_1.12.2_HD_U_G5
 OreLib-1.12.2-3.6.0.1
 particleculling-1.12.2-v1.4.3
@@ -152,7 +152,7 @@ RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLCraftLuckified-1.1.1
 RLFoliage-MC1.12-2.4.2
-RLMixins-1.4.0
+RLMixins-1.4.1
 RLTweaker-1.12.2-0.7.5
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
@@ -167,7 +167,7 @@ SilentLib-1.12.2-3.0.14+168
 SimpleDifficulty-1.12.2-0.3.9
 sit-1.12.2-v1.3
 SnowRealMagic-1.12.2-0.7.4
-SoManyEnchantments-1.0.2-1.12.2
+SoManyEnchantments-1.0.4-1.12.2
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.140-forge
 spartandefiled-1.12.2-1.2
