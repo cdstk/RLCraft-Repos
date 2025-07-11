@@ -1,6 +1,8 @@
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.dissolver;
 import mods.nuclearcraft.manufactory;
+import mods.nuclearcraft.melter;
+import mods.nuclearcraft.ingot_former;
 
 print("Nuclearcraft Recipe Script starting!");
 
@@ -54,10 +56,10 @@ recipes.addShaped("nuclearcraft04",<contenttweaker:rebar> * 3,
 mods.nuclearcraft.infuser.addRecipe([<contenttweaker:rebar>, <liquid:cement_fluid> * 1000, <contenttweaker:reinforced_concrete>]);
 
 // Melter | Steel = Fluid Steel
-mods.nuclearcraft.melter.addRecipe([<variedcommodities:ingot_steel>, <nuclearcraft:fluid_steel> * 144]);
+mods.nuclearcraft.melter.addRecipe([<variedcommodities:ingot_steel>, <liquid:fluid_steel> * 144]);
 
 // Ingot Former | Fluid Steel = Steel
-mods.nuclearcraft.ingot_former.addRecipe([<nuclearcraft:fluid_steel>, <variedcommodities:ingot_steel>]);]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:fluid_steel>, <variedcommodities:ingot_steel>]);
 
 //#######################
 //remove recipes & jei:

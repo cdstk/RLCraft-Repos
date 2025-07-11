@@ -1537,12 +1537,12 @@
               "3:10": {}
             },
             "OwnerUUID:8": "",
-            "Color:3": 0,
-            "Air:2": 300,
             "HandItems:9": {
               "0:10": {},
               "1:10": {}
             },
+            "Color:3": 0,
+            "Air:2": 300,
             "Fire:2": -1,
             "FallDistance:5": 0.0,
             "id:8": "iceandfire:if_pixie",
@@ -2816,17 +2816,17 @@
                 "Base:6": 1.0
               }
             },
-            "Items:9": {},
+            "DeathStage:3": 0,
             "Dimension:3": 0,
             "UUIDMost:4": 8221582379696211012,
             "Age:3": 1,
             "Sitting:1": 0,
-            "HurtByTimestamp:3": 0,
+            "Items:9": {},
             "Rotation:9": {
               "0:5": 4.9279213,
               "1:5": 0.0
             },
-            "DeathStage:3": 0,
+            "HurtByTimestamp:3": 0,
             "Sleeping:1": 0,
             "OwnerUUID:8": "",
             "HandItems:9": {
@@ -14467,8 +14467,8 @@
             },
             "MobLevel:3": 1,
             "HurtTime:2": 0,
-            "Health:5": 2400.0,
             "FallFlying:1": 0,
+            "Health:5": 2400.0,
             "SpawnedAsBoss:1": 0,
             "PortalCooldown:3": 0
           },
@@ -14997,15 +14997,15 @@
             "SpawnEventCount:3": -1,
             "Drops:9": {},
             "id:8": "lycanitesmobs:asmodeus",
+            "FallFlying:1": 0,
+            "HurtTime:2": 0,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
               "2:6": 0.0
             },
-            "HurtTime:2": 0,
-            "Health:5": 3200.0,
             "MobLevel:3": 1,
-            "FallFlying:1": 0,
+            "Health:5": 3200.0,
             "SpawnedAsBoss:1": 0,
             "PortalCooldown:3": 0
           },
@@ -16209,7 +16209,11 @@
         341,
         342,
         346,
-        343
+        343,
+        390,
+        391,
+        392,
+        393
       ],
       "rewards:9": {
         "0:10": {
@@ -24767,20 +24771,7 @@
       },
       "questID:3": 350,
       "preRequisites:11": [],
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "Damage:2": 0,
-              "id:8": "nuclearcraft:radaway",
-              "OreDict:8": "",
-              "Count:3": 1
-            }
-          },
-          "rewardID:8": "bq_standard:item"
-        }
-      },
+      "rewards:9": {},
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -24814,54 +24805,6 @@
           "ignoreNbt:1": 0,
           "block:10": {
             "amount:3": 1,
-            "meta:3": 1,
-            "oreDict:8": "",
-            "nbt:10": {},
-            "blockID:8": "quark:basalt"
-          },
-          "item:10": {
-            "Damage:2": 0,
-            "id:8": "minecraft:flint_and_steel",
-            "OreDict:8": "",
-            "Count:3": 1
-          },
-          "taskID:8": "bq_standard:interact_item",
-          "onInteract:1": 1,
-          "allowOffHand:1": 1,
-          "onHit:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 0,
-          "allowMainHand:1": 1
-        },
-        "1:10": {
-          "requiredUses:3": 1,
-          "ignoreNbt:1": 0,
-          "block:10": {
-            "amount:3": 1,
-            "meta:3": 3,
-            "oreDict:8": "",
-            "nbt:10": {},
-            "blockID:8": "quark:world_stone_carved"
-          },
-          "item:10": {
-            "Damage:2": 0,
-            "id:8": "minecraft:flint_and_steel",
-            "OreDict:8": "",
-            "Count:3": 1
-          },
-          "taskID:8": "bq_standard:interact_item",
-          "onInteract:1": 1,
-          "allowOffHand:1": 1,
-          "onHit:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "allowMainHand:1": 1
-        },
-        "2:10": {
-          "requiredUses:3": 1,
-          "ignoreNbt:1": 0,
-          "block:10": {
-            "amount:3": 1,
             "meta:3": -1,
             "oreDict:8": "",
             "nbt:10": {},
@@ -24889,7 +24832,7 @@
       "rewards:9": {},
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "HIDDEN",
+          "visibility:8": "NORMAL",
           "icon:10": {
             "Damage:2": 0,
             "id:8": "charm:rune_portal",
@@ -24970,10 +24913,10 @@
           "blocks:9": {
             "0:10": {
               "amount:3": 1,
-              "meta:3": -1,
+              "meta:3": 6,
               "oreDict:8": "",
               "nbt:10": {},
-              "blockID:8": "scalinghealth:crystalore"
+              "blockID:8": "nuclearcraft:ore"
             }
           },
           "taskID:8": "bq_standard:block_break",
@@ -24989,8 +24932,8 @@
         "betterquesting:10": {
           "visibility:8": "NORMAL",
           "icon:10": {
-            "Damage:2": 0,
-            "id:8": "minecraft:iron_pickaxe",
+            "Damage:2": 6,
+            "id:8": "nuclearcraft:ore",
             "OreDict:8": "",
             "Count:3": 1
           },
@@ -25035,8 +24978,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
-          "issilent:1": 0,
-          "autoclaim:1": 0,
+          "issilent:1": 1,
+          "autoclaim:1": 1,
           "desc:8": "Location: Nuclear Blight - The Fortress in the Tunnels.\nEntrance: Unknown\n\nUseful Machinery Found:\n\n- Salt Mixer\n- Alloy Furnace\n- Ingot Former\n- Rock Crusher\n- Fuel Reprocessor\n- Decay Hastener\n\nCritical function: Ingredients used in fabrication of Heavy Radiation Shielding",
           "simultaneous:1": 0,
           "tasklogic:8": "AND",
@@ -25068,8 +25011,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
-          "issilent:1": 0,
-          "autoclaim:1": 0,
+          "issilent:1": 1,
+          "autoclaim:1": 1,
           "desc:8": "Location: Nuclear Blight - The Atrium\nEntrance: Nuclear Blight\n\nUseful Machinery Found:\n\n- Manufactory\n- Fluid Infuser\n- Fluid Enricher\n- Chemical Reactor\n- Universal Bin\n- Melter\n\nCritical function: Fabrication of Rad-Away \u0026 Parasite Experimentation",
           "simultaneous:1": 0,
           "tasklogic:8": "AND",
@@ -25168,44 +25111,7 @@
       },
       "questID:3": 357,
       "preRequisites:11": [],
-      "rewards:9": {
-        "0:10": {
-          "choices:9": {
-            "0:10": {
-              "Damage:2": 0,
-              "id:8": "nuclearcraft:radaway",
-              "OreDict:8": "",
-              "Count:3": 1
-            },
-            "1:10": {
-              "Damage:2": 0,
-              "id:8": "nuclearcraft:rad_x",
-              "OreDict:8": "",
-              "Count:3": 1
-            },
-            "2:10": {
-              "Damage:2": 0,
-              "id:8": "nuclearcraft:radaway_slow",
-              "OreDict:8": "",
-              "Count:3": 1
-            },
-            "3:10": {
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "nuclearcraft:capability_radiation_sink:10": {
-                  "radiationBuffer:6": 0.0,
-                  "radiationLevel:6": 0.0
-                }
-              },
-              "id:8": "nuclearcraft:radiation_badge",
-              "OreDict:8": "",
-              "Count:3": 1
-            }
-          },
-          "index:3": 0,
-          "rewardID:8": "bq_standard:choice"
-        }
-      },
+      "rewards:9": {},
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -25301,7 +25207,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
-          "issilent:1": 0,
+          "issilent:1": 1,
           "autoclaim:1": 0,
           "desc:8": "Location: Any relatively flat surface biome.\nEntrance: Factory Ruins\n\nUseful Machinery Found:\n\n- Fluid Enricher\n- Fluid Infuser\n- Plutonium RTG\n\nCritical function: Fabrication of Reinforced Concrete",
           "simultaneous:1": 0,
@@ -26026,6 +25932,12 @@
               "id:8": "nuclearcraft:buffer",
               "OreDict:8": "",
               "Count:3": 1
+            },
+            "9:10": {
+              "Damage:2": 4,
+              "id:8": "nuclearcraft:fuel_uranium",
+              "OreDict:8": "",
+              "Count:3": 1
             }
           },
           "partialMatch:1": 1,
@@ -26038,20 +25950,7 @@
         354,
         355
       ],
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "Damage:2": 4,
-              "id:8": "nuclearcraft:fuel_uranium",
-              "OreDict:8": "",
-              "Count:3": 1
-            }
-          },
-          "rewardID:8": "bq_standard:item"
-        }
-      },
+      "rewards:9": {},
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
@@ -26105,6 +26004,1520 @@
           "issilent:1": 0,
           "autoclaim:1": 0,
           "desc:8": "§4Parasite Weaknesses:§r\n\n- Parasites are weak to Radiation, Lightning and Fire\n- Parasites have mild trouble breaking reinforced iron\n- Parasites up to pure variantsa have a lot trouble breaking reinforced concrete\n- Lures can be used to lower the parasite phase in localized biomes\n- Biome Purifiers can be used to revert the corruption\n\n\n§5§4Parasite Origins:\n§r\n- First appearance after the Blight, a catastrophic event that created interdimensional rifts between ours and other worlds such as the Lost Cities\n\n- Radiation decimated the surface of Dregora, former Earth and caused the retreat of Parasitic beings to deep within the Earth, commonly referred to as the Underneath\n\n- Underneath, home to the Altered Hadron Collider. Being the direct cause of the Blight and the interdimensional rift this plane of existence is located closest to the Lost Cities and thus most infested by the corruption\n",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "375:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": 2,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "nuclearcraft:ore"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        }
+      },
+      "questID:3": 375,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 2,
+            "id:8": "nuclearcraft:ore",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Lead Ore",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Found in non-canyon biomes deep under solid ground\n\nUsed in various recipes related to protection from nuclear contamination"
+        }
+      }
+    },
+    "376:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": 4,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "nuclearcraft:ore"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        }
+      },
+      "questID:3": 376,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 4,
+            "id:8": "nuclearcraft:ore",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Uranium Ore",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Found in Nuclear Blight and below Cities\n\nUsed to power up ancient machinery found in Nuclear Blight and from Resource Crates and various recipes related to protection from nuclear contamination"
+        }
+      }
+    },
+    "377:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": 3,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "nuclearcraft:ore"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        }
+      },
+      "questID:3": 377,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 3,
+            "id:8": "nuclearcraft:ore",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Thorium Ore",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Found in Abyssal Rift and lower Underneath/Lost Cities\n\nUsed to power up ancient machinery found in Nuclear Blight and from Resource Crates"
+        }
+      }
+    },
+    "378:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": 5,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "nuclearcraft:ore"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        }
+      },
+      "questID:3": 378,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 5,
+            "id:8": "nuclearcraft:ore",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Boron Ore",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Found deep below Mountains and lower Underneath/Lost Cities\n\nUsed in various recipes related to protection from nuclear contamination"
+        }
+      }
+    },
+    "379:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": 6,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "nuclearcraft:ore"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        }
+      },
+      "questID:3": 379,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 6,
+            "id:8": "nuclearcraft:ore",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Lithium Ore",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Resource found in the Underneath/Lost Cities\n\nUsed in various recipes related to protection from nuclear contamination."
+        }
+      }
+    },
+    "380:10": {
+      "tasks:9": {},
+      "questID:3": 380,
+      "preRequisites:11": [
+        367,
+        366,
+        371,
+        374,
+        373,
+        357,
+        372,
+        361,
+        364,
+        365,
+        363,
+        362,
+        381
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "contenttweaker:shelter_item",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Going Nuclear!",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": ""
+        }
+      }
+    },
+    "381:10": {
+      "tasks:9": {
+        "0:10": {
+          "allowCraft:1": 0,
+          "allowAnvil:1": 0,
+          "taskID:8": "bq_standard:crafting",
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 2,
+              "id:8": "nuclearcraft:ingot",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "1:10": {
+              "Damage:2": 3,
+              "id:8": "nuclearcraft:ingot",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "2:10": {
+              "Damage:2": 4,
+              "id:8": "nuclearcraft:ingot",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "3:10": {
+              "Damage:2": 5,
+              "id:8": "nuclearcraft:ingot",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "4:10": {
+              "Damage:2": 6,
+              "id:8": "nuclearcraft:ingot",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 381,
+      "preRequisites:11": [
+        376,
+        377,
+        375,
+        379,
+        378
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "nuclearcraft:nuclear_furnace_active",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Nuclear Collector",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": "Got to collect them all!"
+        }
+      }
+    },
+    "382:10": {
+      "tasks:9": {
+        "0:10": {
+          "taxiCabDist:1": 0,
+          "hideInfo:1": 0,
+          "structure:8": "",
+          "invert:1": 0,
+          "visible:1": 0,
+          "posZ:3": 0,
+          "range:3": -1,
+          "taskID:8": "bq_standard:location",
+          "posY:3": 0,
+          "posX:3": 0,
+          "name:8": "Ruins of Blight",
+          "index:3": 0,
+          "dimension:3": 0,
+          "biome:8": "openterraingenerator:overworld_ruins_of_blight"
+        }
+      },
+      "questID:3": 382,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "srparasites:itemmobspawner_vesta",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Ruins of Blight - Jungle",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Many, many years ago once home to a thriving civilization now in ruins and infested by those who caused it\u0027s demise.\n\nFew dare travel here despite the riches found within the confines of the once mighty buildings, some tall littered with chests spread across the floors reaching to heaven and other buried deep below mightly banks of old in secured vaults hidden from the prying eyes of looters.\n\n\n- Jungle\n- Parasite Starting Phase: 4",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "383:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "srparasites:sim_dragone",
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "index:3": 0,
+          "required:3": 1,
+          "targetNBT:10": {
+            "CustomName:8": "§4☢ §5§lBlighted Shivaxi§r §4☢"
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 383,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "HIDDEN",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "minecraft:nether_star",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "lockedprogress:1": 0,
+          "questlogic:8": "AND",
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "name:8": "Defeat §kCorrupted Shiv",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "desc:8": ""
+        }
+      }
+    },
+    "384:10": {
+      "tasks:9": {
+        "0:10": {
+          "taxiCabDist:1": 0,
+          "hideInfo:1": 0,
+          "structure:8": "",
+          "invert:1": 0,
+          "visible:1": 0,
+          "posZ:3": 0,
+          "range:3": -1,
+          "taskID:8": "bq_standard:location",
+          "posY:3": 0,
+          "posX:3": 0,
+          "name:8": "Lair of the Thing",
+          "index:3": 0,
+          "dimension:3": 0,
+          "biome:8": "openterraingenerator:overworld_lair_of_the_thing"
+        }
+      },
+      "questID:3": 385,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "srparasites:itemmobspawner_jinjo",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Lair of the Thing - Frozen",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Many, many years ago once home to a thriving civilization now in ruins and infested by those who caused it\u0027s demise.\n\nFew dare travel here despite the riches found within the confines of the once mighty buildings, some tall littered with chests spread across the floors reaching to heaven and other buried deep below mightly banks of old in secured vaults hidden from the prying eyes of looters.\n\n\n- Frozen\n- Parasite Starting Phase: 4",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "385:10": {
+      "tasks:9": {
+        "0:10": {
+          "taxiCabDist:1": 0,
+          "hideInfo:1": 0,
+          "structure:8": "",
+          "invert:1": 0,
+          "visible:1": 0,
+          "posZ:3": 0,
+          "range:3": -1,
+          "taskID:8": "bq_standard:location",
+          "posY:3": 0,
+          "posX:3": 0,
+          "name:8": "Nuclear Ruins",
+          "index:3": 0,
+          "dimension:3": 0,
+          "biome:8": "openterraingenerator:overworld_nuclear_ruin"
+        }
+      },
+      "questID:3": 386,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "srparasites:itemmobspawner_pheon",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Nuclear Ruins - Desert",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Many, many years ago once home to a thriving civilization now in ruins and infested by those who caused it\u0027s demise.\n\nFew dare travel here despite the riches found within the confines of the once mighty buildings, some tall littered with chests spread across the floors reaching to heaven and other buried deep below mightly banks of old in secured vaults hidden from the prying eyes of looters.\n\n\n- Desert\n- Low Radiation Level\n- Parasite Starting Phase: 4",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "386:10": {
+      "tasks:9": {},
+      "questID:3": 387,
+      "preRequisites:11": [
+        386,
+        382,
+        385
+      ],
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "srparasites:evclock",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "rewardID:8": "bq_standard:item"
+        }
+      },
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "srparasites:evclock",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "The Corruption Spreads...",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "387:10": {
+      "tasks:9": {
+        "0:10": {
+          "target:8": "srparasites:sim_villager",
+          "taskID:8": "bq_standard:hunt",
+          "damageType:8": "",
+          "index:3": 0,
+          "required:3": 50,
+          "targetNBT:10": {
+            "DeathTime:2": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "srpinvblocksname:9": {},
+            "UUIDLeast:4": -7233882523480926662,
+            "parasitedespawn:1": 1,
+            "OnGround:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Attributes:9": {
+              "0:10": {
+                "Name:8": "potioncore.projectileDamage",
+                "Base:6": 1.0
+              },
+              "1:10": {
+                "Name:8": "potioncore.magicDamage",
+                "Base:6": 1.0
+              },
+              "2:10": {
+                "Name:8": "potioncore.jumpHeight",
+                "Base:6": 1.0
+              },
+              "3:10": {
+                "Name:8": "potioncore.damageResistance",
+                "Base:6": 1.0
+              },
+              "4:10": {
+                "Name:8": "potioncore.magicShielding",
+                "Base:6": 0.0
+              },
+              "5:10": {
+                "Name:8": "xat.entityRace",
+                "Base:6": 1.0
+              },
+              "6:10": {
+                "Name:8": "xat.jump",
+                "Base:6": 0.41999998688697815
+              },
+              "7:10": {
+                "Name:8": "xat.stepheight",
+                "Base:6": 0.6000000238418579
+              },
+              "8:10": {
+                "Name:8": "xat.entityMagic.maxMana",
+                "Base:6": 100.0
+              },
+              "9:10": {
+                "Name:8": "xat.entityMagic.regen",
+                "Base:6": 1.0
+              },
+              "10:10": {
+                "Name:8": "xat.entityMagic.regen.cooldown",
+                "Base:6": 1.0
+              },
+              "11:10": {
+                "Name:8": "xat.entityMagic.affinity",
+                "Base:6": 0.0
+              },
+              "12:10": {
+                "Name:8": "generic.maxHealth",
+                "Base:6": 16.0
+              },
+              "13:10": {
+                "Name:8": "generic.knockbackResistance",
+                "Base:6": 0.2
+              },
+              "14:10": {
+                "Name:8": "generic.movementSpeed",
+                "Base:6": 0.230000004172325
+              },
+              "15:10": {
+                "Name:8": "generic.armor",
+                "Base:6": 5.0
+              },
+              "16:10": {
+                "Name:8": "generic.armorToughness",
+                "Base:6": 0.0
+              },
+              "17:10": {
+                "Name:8": "forge.swimSpeed",
+                "Base:6": 1.0
+              },
+              "18:10": {
+                "Name:8": "generic.followRange",
+                "Base:6": 16.0
+              },
+              "19:10": {
+                "Name:8": "generic.attackDamage",
+                "Base:6": 10.0
+              }
+            },
+            "Invulnerable:1": 0,
+            "srpinvblocksnumber:9": {},
+            "Dimension:3": 0,
+            "ForgeCaps:10": {
+              "xat:magicstats:10": {
+                "bonus_mana:6": 0.0,
+                "mana:5": 100.0,
+                "max_mana:5": 100.0
+              },
+              "dsurround:entityfx:10": {},
+              "mujmajnkraftsbettersurvival:spearsin:9": {},
+              "nuclearcraft:capability_entity_rads:10": {
+                "setFromMaxHealth:1": 1,
+                "radiationImmunityTime:6": 0.0,
+                "radawayBuffer:6": 0.0,
+                "radXCooldown:6": 0.0,
+                "radawayBufferSlow:6": 0.0,
+                "radawayCooldown:6": 0.0,
+                "shouldWarn:1": 0,
+                "recentPoisonAddition:6": 0.0,
+                "poisonBuffer:6": 0.0,
+                "recentRadawayAddition:6": 0.0,
+                "totalRads:6": 0.0,
+                "recentRadXAddition:6": 0.0,
+                "radXWoreOff:1": 0,
+                "externalRadiationResistance:6": 0.0,
+                "maxRads:6": 800.0,
+                "internalRadiationResistance:6": 0.0,
+                "radXUsed:1": 0,
+                "radiationLevel:6": 0.0,
+                "consumed:1": 0,
+                "radiationImmunityStage:1": 0
+              },
+              "iceandfire:entity_effect:10": {
+                "effectTime:3": 0,
+                "effectId:8": "NONE",
+                "effectAdditionalData:3": 0
+              },
+              "champions:championship:10": {},
+              "llibrary:extendedentitydatacapability:10": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "xat:statushandler:10": {},
+              "mujmajnkraftsbettersurvival:nunchakucombo:10": {
+                "Power:5": 0.0,
+                "Time:3": 0
+              },
+              "epicsiegemod:modified_handler:10": {
+                "modified:1": 0,
+                "data:10": {}
+              },
+              "dsurround:speech:10": {},
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "UUIDMost:4": -4456555844201200720,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Rotation:9": {
+              "0:5": 2.9384522,
+              "1:5": 0.0
+            },
+            "HurtByTimestamp:3": 0,
+            "SurgeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.9500000476837158,
+              "5:6": 0.30000001192092896
+            },
+            "UpdateBlocked:1": 0,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "phasecreat:1": 0,
+            "parasitekills:5": 0.0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Air:2": 300,
+            "parasitecoldl:1": 0,
+            "PersistenceRequired:1": 0,
+            "FallFlying:1": 0,
+            "HurtTime:2": 0,
+            "FallDistance:5": 0.0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "id:8": "srparasites:sim_villager",
+            "CanPickUpLoot:1": 0,
+            "parasitetype:3": 0,
+            "parasitecolob:1": 0,
+            "parasitehost:3": 0,
+            "Health:5": 16.0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "PortalCooldown:3": 0
+          },
+          "subtypes:1": 1,
+          "ignoreNBT:1": 1
+        }
+      },
+      "questID:3": 388,
+      "preRequisites:11": [
+        387
+      ],
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "srparasites:nodecompass",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "1:10": {
+              "Damage:2": 0,
+              "id:8": "contenttweaker:blood_tear",
+              "OreDict:8": "",
+              "Count:3": 1
+            },
+            "2:10": {
+              "Damage:2": 0,
+              "id:8": "srparasites:evolutionlure",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "rewardID:8": "bq_standard:item"
+        }
+      },
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "srparasites:itemmobspawner_pod",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Monster Hunter",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Defeat 50 Parasitic Villagers",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "388:10": {
+      "tasks:9": {
+        "0:10": {
+          "taxiCabDist:1": 0,
+          "hideInfo:1": 0,
+          "structure:8": "",
+          "invert:1": 0,
+          "visible:1": 0,
+          "posZ:3": 0,
+          "range:3": -1,
+          "taskID:8": "bq_standard:location",
+          "posY:3": 0,
+          "posX:3": 0,
+          "name:8": "Abyssal Rift",
+          "index:3": 0,
+          "dimension:3": 0,
+          "biome:8": "openterraingenerator:overworld_abyssal_rift"
+        }
+      },
+      "questID:3": 389,
+      "preRequisites:11": [],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:artifact",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Abyssal Rift",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "There where the corruption slumbers, home to the energy extraction point from which once massive amounts of energy rushed into our dimension enabled by the ALHC (Altered Large Hadron Collider) until a equilibrium was met and while only spanning mere seconds the world was forever changed.\n\nThis event would later be known as the Blight.",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "389:10": {
+      "tasks:9": {},
+      "questID:3": 390,
+      "preRequisites:11": [
+        380
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "contenttweaker:shelter_special_item",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Chapter Nuclear Blight",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 1,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "390:10": {
+      "tasks:9": {},
+      "questID:3": 391,
+      "preRequisites:11": [
+        397,
+        394
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:ancient_coin",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Chapter Brutal Tower",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 1,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "391:10": {
+      "tasks:9": {},
+      "questID:3": 392,
+      "preRequisites:11": [
+        348
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 1,
+            "id:8": "srparasites:parasitecanister",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Chapter Horrors of the Deep",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 1,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "392:10": {
+      "tasks:9": {},
+      "questID:3": 393,
+      "preRequisites:11": [
+        388
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:skull",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Chapter Corrupted Cities",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 1,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "393:10": {
+      "tasks:9": {},
+      "questID:3": 394,
+      "preRequisites:11": [
+        400
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 7,
+            "id:8": "dimstack:bedrock",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Destroy a Theta Barrier",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "394:10": {
+      "tasks:9": {
+        "0:10": {
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "taskID:8": "bq_standard:crafting",
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "variedcommodities:ancient_coin",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 395,
+      "preRequisites:11": [
+        396
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:ancient_coin",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Brutal Coins!",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "395:10": {
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "variedcommodities:coin_stone",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 396,
+      "preRequisites:11": [
+        389
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:coin_stone",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Brutal Fragments!",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "396:10": {
+      "tasks:9": {},
+      "questID:3": 397,
+      "preRequisites:11": [
+        399
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 6,
+            "id:8": "dimstack:bedrock",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Destroy a Eta Barrier",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "397:10": {
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": -1,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "minecraft:obsidian"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
+        },
+        "1:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "meta:3": -1,
+              "oreDict:8": "",
+              "nbt:10": {},
+              "blockID:8": "minecraft:mob_spawner"
+            }
+          },
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 1
+        }
+      },
+      "questID:3": 398,
+      "preRequisites:11": [
+        396
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "minecraft:obsidian",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Hidden Doorways",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "398:10": {
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "variedcommodities:pendant",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 399,
+      "preRequisites:11": [
+        398
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:pendant",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Eta Pendant",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Buy this off a Brutal Merchant in Gem Outposts",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "399:10": {
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "variedcommodities:artifact",
+              "OreDict:8": "",
+              "Count:3": 1
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 400,
+      "preRequisites:11": [
+        395
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:artifact",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Theta Artifact",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Buy this off a Brutal Merchant in Gem Outposts",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "400:10": {
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0,
+          "groupDetect:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Damage:2": 0,
+              "id:8": "variedcommodities:ancient_coin",
+              "OreDict:8": "",
+              "Count:3": 10
+            }
+          },
+          "partialMatch:1": 1,
+          "consume:1": 0,
+          "ignoreNBT:1": 0
+        }
+      },
+      "questID:3": 401,
+      "preRequisites:11": [
+        389
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "variedcommodities:ancient_coin",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Collect 10 brutal coins",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "401:10": {
+      "tasks:9": {
+        "0:10": {
+          "taxiCabDist:1": 0,
+          "hideInfo:1": 0,
+          "structure:8": "",
+          "invert:1": 0,
+          "visible:1": 0,
+          "posZ:3": 0,
+          "range:3": -1,
+          "taskID:8": "bq_standard:location",
+          "posY:3": 0,
+          "posX:3": 0,
+          "name:8": "Underneath",
+          "index:3": 0,
+          "dimension:3": 3,
+          "biome:8": ""
+        }
+      },
+      "questID:3": 403,
+      "preRequisites:11": [
+        389
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 0,
+            "id:8": "forge:bucketfilled",
+            "OreDict:8": "",
+            "Count:3": 1,
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "deadblood"
+            }
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Better take a Warp Scroll!",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "Fall in the green goo in Abyssal Rift",
+          "simultaneous:1": 0,
+          "tasklogic:8": "AND",
+          "globalshare:1": 0
+        }
+      }
+    },
+    "402:10": {
+      "tasks:9": {},
+      "questID:3": 405,
+      "preRequisites:11": [
+        391,
+        403,
+        401,
+        383
+      ],
+      "rewards:9": {},
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "icon:10": {
+            "Damage:2": 1,
+            "id:8": "srparasites:parasitecanister",
+            "OreDict:8": "",
+            "Count:3": 1
+          },
+          "questlogic:8": "AND",
+          "lockedprogress:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "name:8": "Conquor the Tower!",
+          "ismain:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "issilent:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "",
           "simultaneous:1": 0,
           "tasklogic:8": "AND",
           "globalshare:1": 0
@@ -28602,7 +30015,7 @@
       }
     },
     "13:10": {
-      "order:3": 17,
+      "order:3": 21,
       "lineID:3": 13,
       "properties:10": {
         "betterquesting:10": {
@@ -28681,6 +30094,13 @@
           "sizeY:3": 24,
           "id:3": 353,
           "y:3": -144,
+          "sizeX:3": 24
+        },
+        "5:10": {
+          "x:3": -144,
+          "sizeY:3": 24,
+          "id:3": 392,
+          "y:3": 0,
           "sizeX:3": 24
         }
       }
@@ -28777,7 +30197,7 @@
       }
     },
     "16:10": {
-      "order:3": 16,
+      "order:3": 19,
       "lineID:3": 16,
       "properties:10": {
         "betterquesting:10": {
@@ -28840,7 +30260,7 @@
       }
     },
     "17:10": {
-      "order:3": 19,
+      "order:3": 17,
       "lineID:3": 17,
       "properties:10": {
         "betterquesting:10": {
@@ -28887,10 +30307,10 @@
           "sizeX:3": 24
         },
         "4:10": {
-          "x:3": 168,
+          "x:3": -48,
           "sizeY:3": 24,
           "id:3": 357,
-          "y:3": -180,
+          "y:3": -144,
           "sizeX:3": 24
         },
         "5:10": {
@@ -28904,7 +30324,7 @@
           "x:3": 132,
           "sizeY:3": 24,
           "id:3": 359,
-          "y:3": -180,
+          "y:3": -108,
           "sizeX:3": 24
         },
         "7:10": {
@@ -28957,24 +30377,24 @@
           "sizeX:3": 24
         },
         "14:10": {
-          "x:3": 96,
+          "x:3": 60,
           "sizeY:3": 24,
           "id:3": 367,
-          "y:3": -108,
+          "y:3": -72,
           "sizeX:3": 24
         },
         "15:10": {
-          "x:3": 96,
+          "x:3": 24,
           "sizeY:3": 24,
           "id:3": 368,
-          "y:3": -144,
+          "y:3": -72,
           "sizeX:3": 24
         },
         "16:10": {
-          "x:3": 96,
+          "x:3": -12,
           "sizeY:3": 24,
           "id:3": 369,
-          "y:3": -180,
+          "y:3": -72,
           "sizeX:3": 24
         },
         "17:10": {
@@ -28988,14 +30408,14 @@
           "x:3": 132,
           "sizeY:3": 24,
           "id:3": 371,
-          "y:3": -108,
+          "y:3": -180,
           "sizeX:3": 24
         },
         "19:10": {
-          "x:3": 168,
+          "x:3": -48,
           "sizeY:3": 24,
           "id:3": 372,
-          "y:3": -144,
+          "y:3": -108,
           "sizeX:3": 24
         },
         "20:10": {
@@ -29011,6 +30431,62 @@
           "id:3": 374,
           "y:3": -72,
           "sizeX:3": 24
+        },
+        "22:10": {
+          "x:3": 168,
+          "sizeY:3": 24,
+          "id:3": 375,
+          "y:3": -180,
+          "sizeX:3": 24
+        },
+        "23:10": {
+          "x:3": 168,
+          "sizeY:3": 24,
+          "id:3": 376,
+          "y:3": -108,
+          "sizeX:3": 24
+        },
+        "24:10": {
+          "x:3": 168,
+          "sizeY:3": 24,
+          "id:3": 377,
+          "y:3": -144,
+          "sizeX:3": 24
+        },
+        "25:10": {
+          "x:3": 96,
+          "sizeY:3": 24,
+          "id:3": 378,
+          "y:3": -72,
+          "sizeX:3": 24
+        },
+        "26:10": {
+          "x:3": 132,
+          "sizeY:3": 24,
+          "id:3": 379,
+          "y:3": -72,
+          "sizeX:3": 24
+        },
+        "27:10": {
+          "x:3": 24,
+          "sizeY:3": 60,
+          "id:3": 380,
+          "y:3": -180,
+          "sizeX:3": 60
+        },
+        "28:10": {
+          "x:3": 168,
+          "sizeY:3": 24,
+          "id:3": 381,
+          "y:3": -72,
+          "sizeX:3": 24
+        },
+        "29:10": {
+          "x:3": 36,
+          "sizeY:3": 24,
+          "id:3": 390,
+          "y:3": -108,
+          "sizeX:3": 36
         }
       }
     },
@@ -29022,7 +30498,7 @@
           "visibility:8": "NORMAL",
           "icon:10": {
             "Damage:2": 0,
-            "id:8": "variedcommodities:artifact",
+            "id:8": "variedcommodities:ancient_coin",
             "OreDict:8": "",
             "Count:3": 1
           },
@@ -29032,10 +30508,102 @@
           "desc:8": "Trough suffering we will conquer!"
         }
       },
-      "quests:9": {}
+      "quests:9": {
+        "0:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 383,
+          "y:3": -156,
+          "sizeX:3": 24
+        },
+        "1:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 389,
+          "y:3": -192,
+          "sizeX:3": 24
+        },
+        "2:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 391,
+          "y:3": -84,
+          "sizeX:3": 24
+        },
+        "3:10": {
+          "x:3": -240,
+          "sizeY:3": 24,
+          "id:3": 394,
+          "y:3": -96,
+          "sizeX:3": 24
+        },
+        "4:10": {
+          "x:3": -240,
+          "sizeY:3": 24,
+          "id:3": 395,
+          "y:3": -216,
+          "sizeX:3": 24
+        },
+        "5:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 396,
+          "y:3": -228,
+          "sizeX:3": 24
+        },
+        "6:10": {
+          "x:3": -120,
+          "sizeY:3": 24,
+          "id:3": 397,
+          "y:3": -96,
+          "sizeX:3": 24
+        },
+        "7:10": {
+          "x:3": -120,
+          "sizeY:3": 24,
+          "id:3": 398,
+          "y:3": -216,
+          "sizeX:3": 24
+        },
+        "8:10": {
+          "x:3": -108,
+          "sizeY:3": 24,
+          "id:3": 399,
+          "y:3": -156,
+          "sizeX:3": 24
+        },
+        "9:10": {
+          "x:3": -252,
+          "sizeY:3": 24,
+          "id:3": 400,
+          "y:3": -156,
+          "sizeX:3": 24
+        },
+        "10:10": {
+          "x:3": -216,
+          "sizeY:3": 24,
+          "id:3": 401,
+          "y:3": -156,
+          "sizeX:3": 24
+        },
+        "11:10": {
+          "x:3": -144,
+          "sizeY:3": 24,
+          "id:3": 403,
+          "y:3": -156,
+          "sizeX:3": 24
+        },
+        "12:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 405,
+          "y:3": -120,
+          "sizeX:3": 24
+        }
+      }
     },
     "19:10": {
-      "order:3": 21,
+      "order:3": 14,
       "lineID:3": 19,
       "properties:10": {
         "betterquesting:10": {
@@ -29048,14 +30616,57 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "name:8": "Cities of the Damned",
-          "desc:8": "Be damned those who venture in..."
+          "name:8": "Corrupted Cities",
+          "desc:8": "Beware those who set foot in my streets..."
         }
       },
-      "quests:9": {}
+      "quests:9": {
+        "0:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 382,
+          "y:3": -120,
+          "sizeX:3": 24
+        },
+        "1:10": {
+          "x:3": -144,
+          "sizeY:3": 24,
+          "id:3": 385,
+          "y:3": -120,
+          "sizeX:3": 24
+        },
+        "2:10": {
+          "x:3": -216,
+          "sizeY:3": 24,
+          "id:3": 386,
+          "y:3": -120,
+          "sizeX:3": 24
+        },
+        "3:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 387,
+          "y:3": -72,
+          "sizeX:3": 24
+        },
+        "4:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 388,
+          "y:3": -36,
+          "sizeX:3": 24
+        },
+        "5:10": {
+          "x:3": -180,
+          "sizeY:3": 24,
+          "id:3": 393,
+          "y:3": 0,
+          "sizeX:3": 24
+        }
+      }
     },
     "20:10": {
-      "order:3": 14,
+      "order:3": 15,
       "lineID:3": 22,
       "properties:10": {
         "betterquesting:10": {
@@ -29125,7 +30736,7 @@
       }
     },
     "21:10": {
-      "order:3": 15,
+      "order:3": 16,
       "lineID:3": 23,
       "properties:10": {
         "betterquesting:10": {
@@ -29212,9 +30823,9 @@
       "home_offset_x:3": -128,
       "livesmax:3": 10,
       "home_image:8": "rlcraft:textures/gui/title_card.png",
-      "pack_version:3": 290,
-      "party_enable:1": 1,
       "pack_name:8": "RLCraft",
+      "party_enable:1": 1,
+      "pack_version:3": 290,
       "home_anchor_y:5": 0.0
     }
   },

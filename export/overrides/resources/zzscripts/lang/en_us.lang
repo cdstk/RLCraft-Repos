@@ -11,7 +11,7 @@ item.rldregora.infernal_ashes.name=Infernal Ashes
 # Nuclearcraft_recipes.zs
 ##################################################################
 ## Lead Ore
-rldregora.nuclearcraft:ore:2.tooltip=Found deep under solid ground
+rldregora.nuclearcraft:ore:2.tooltip=Found in non-canyon biomes deep under solid ground
 ## Thorium Ore
 rldregora.nuclearcraft:ore:3.tooltip=Found in Abyssal Rift and lower Underneath/Lost Cities
 ## Uranium Ore
