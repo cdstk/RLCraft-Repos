@@ -74,6 +74,7 @@ FamiliarFauna-1.12.2-1.0.11
 FancyBlockParticles-1.12.x-2.4.1
 FantasticLib-1.12.2.069
 fermiumasm-5.28
+FermiumMixins-1.0.0
 firstaid-1.6.22
 FishingMadeBetter-1.12.2-2.2.7
 foamfix-0.10.15-1.12.2
@@ -85,7 +86,6 @@ forgottenitems-1.12.2-1.3.1.4
 framevoidpatch-1.0.0
 FriendlyEndermite_v1.0.1_mc1.12.2
 FrozenOcean-1.12.2-1.0.0-rc1
-FurnaceXPStorage-1.1.3
 fxcontrol-1.12-0.1.15
 GlobalGameRules-1.12.2-2.2.7
 GooglyEyes-1.12.2-7.1.1
@@ -152,7 +152,7 @@ RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLCraftLuckified-1.1.1
 RLFoliage-MC1.12-2.4.2
-RLMixins-1.3.18
+RLMixins-1.4.0
 RLTweaker-1.12.2-0.7.5
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
@@ -169,7 +169,7 @@ sit-1.12.2-v1.3
 SnowRealMagic-1.12.2-0.7.4
 SoManyEnchantments-1.0.2-1.12.2
 SoundFilters-0.12.1_for_1.12
-spark-unforged-1.11.2-forge
+spark-unforged-1.11.140-forge
 spartandefiled-1.12.2-1.2
 spartanfire_rlcraft-1.3.3
 SpartanHUDBaubles-1.12.2-1.0.0
@@ -198,5 +198,5 @@ WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed
 XPFromHarvest-1.12.2-1.2.0
 xptome-1.12.2-v1.1.6
 YungsLaw-1.12.2-1.0.4
-[___MixinCompat-1.1-1.12.2___]
+[___MixinCompat-0.8___]
 `FermiumBooter-1.3.0

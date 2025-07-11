@@ -78,9 +78,6 @@ iceandfire:lectern
 iceandfire:desert_myrmex_cocoon
 iceandfire:jungle_myrmex_cocoon
 quark:variant_sapling
-biomesoplenty:sapling_0
-biomesoplenty:sapling_1
-biomesoplenty:sapling_2
 srparasites:parasitesapling
 defiledlands:tenebra_sapling
 inspirations:enlightened_bush
