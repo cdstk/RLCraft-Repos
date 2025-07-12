@@ -109,7 +109,7 @@ EagleMixin:
 ✅  Fixed lorebook in underneath duct (Rebuild Underneath)
 ✅  Changed default spawning for Blight City Biomes, srp focussed now.
 ✅  Changed Horrors of the Deep quest to always show and minimally changed quest structure
-✅  Fixed ithaqua spawning (Nischi)
+✅  Fixed ithaqua spawning (Nischi) & Simplified yale spawning
 
 [Updated/Installed but needs to be added to manifest]:
 ✅  Updated I&F Amphithere Mod from 1.0.1 to 1.0.2 (Fix for latest fermiumbooter)
@@ -149,8 +149,6 @@ EagleMixin:
 ❌  Spark Unforged, what does updating benefit?
 
 Beta Remaining Tasks [Nischelm Commit]
-❌  Cleaned up Incontrol Spawn
-❌  Fix/Simplify yale spawning
 ❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks
 ❌  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
