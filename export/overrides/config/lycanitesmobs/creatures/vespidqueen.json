@@ -23,7 +23,8 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomes": [
-      "Abyssal Rift"
+      "Abyssal Rift",
+      "Abyssal Gate"
     ],
     "biomeIdListType": "blacklist",
     "biomeTags": [

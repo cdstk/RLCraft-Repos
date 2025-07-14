@@ -6,7 +6,7 @@
   },
   {
     "block": [ "charm:rune_portal_frame" ],
-    "biome": [ "Abyssal Rift" ],
+    "biome": [ "Abyssal Rift", "Abyssal Gate"],
     "message": "The runes are locked in place.",
     "result": "deny"
   },
@@ -32,7 +32,7 @@
   },
   {
     "bothhandsitem": ["lycanitesmobs:soulkeyemerald", "lycanitesmobs:soulkey", "lycanitesmobs:soulkeydiamond"],
-    "biome": [ "Abyssal Rift" ],
+    "biome": [ "Abyssal Rift", "Abyssal Gate" ],
     "block": [ "minecraft:diamond_block" ],
     "message": "A powerful presence prevents you from summoning this entity.",
     "result": "deny"

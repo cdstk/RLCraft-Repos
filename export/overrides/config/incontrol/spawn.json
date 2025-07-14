@@ -30,7 +30,7 @@
   {
     "dimension": 0,
     "mob": ["lycanitesmobs:ent","lycanitesmobs:calpod","lycanitesmobs:zephyr","lycanitesmobs:triffid","lycanitesmobs:vapula","lycanitesmobs:gorgomite","lycanitesmobs:spriggan","lycanitesmobs:geonach","lycanitesmobs:treant"],
-    "biome": ["Abyssal Rift"],
+    "biome": ["Abyssal Rift", "Abyssal Gate"],
     "result": "deny"
   },
   {
