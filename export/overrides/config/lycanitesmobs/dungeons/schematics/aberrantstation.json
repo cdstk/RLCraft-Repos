@@ -27,6 +27,7 @@
         "-abyssal"
       ],
       "biomeIds": [
+        "openterraingenerator:overworld_abyssal_gate",
         "openterraingenerator:overworld_abyssal_rift",
         "openterraingenerator:overworld_grey_abyss",
         "openterraingenerator:overworld_grey_abyss_border",

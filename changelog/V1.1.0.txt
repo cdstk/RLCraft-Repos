@@ -110,6 +110,11 @@ EagleMixin:
 ✅  Changed Horrors of the Deep quest to always show and minimally changed quest structure
 ✅  Fixed ithaqua spawning (Nischi) & Simplified yale spawning
 ✅  Update file director config with Json paintings from Modrinth
+✅  Fixed bounties.json errors, Amount needed min/max
+✅  Increased Performance Generation related performance boosts made possible by FermiumMixins & Noisethreader updates.
+✅  add radiation to heath and nuclear biomes & added these biomes to the RLMixins Blacklist
+    (Darn it fonny, you changed the config thingies so now I need to fix it again)
+✅  Write lore for bunkers & add SRParasite weakness explaination
 
 [Updated/Installed but needs to be added to manifest]:
 ✅  Updated I&F Amphithere Mod from 1.0.1 to 1.0.2 (Fix for latest fermiumbooter)
@@ -138,6 +143,8 @@ EagleMixin:
 ✅  Updated Noisethreader
 ✅  Updated Spark Unforged
 ✅  Updated SME
+✅  Updated FermiumMixins Config with values from Commit bd6eeca
+✅  Updated SME config to fully reflect RLC 2.10 SME config
 
 
 [Added for Beta 2]:
@@ -147,43 +154,50 @@ EagleMixin:
 ✅  Added Kyphosis parasites to beckon stage 3 spawn queue
 ✅  Added Brutal Tower, Nuclear Blight and Corrupted Cities to quest book (Currently no hat reward yet)
 
+[Rebuilds for Beta 2]:
+✅  Rebuilded Eaglemixins (All above changes are therefor applied to Beta 2)
+
+[Fixed for Beta 3]:
+✅  Fixed liquid error from nuclearcraft
+✅  Decreased likelihood of Daeroc & Cult Church not spawning in the world by increasing their viable spawn area. (Rebuild DregoraRL)
+✅  Added in Enchant Upgrading script for full compatibility with new SME features
+✅  Added new status effect description in JEI status potions for new Contaminated effect.
+✅  Lowered HP and DMG multipliers from 2.0 to 1.75 in overworld and raised from 2 to 2.25 for underneath
+✅  hungry farmer foods add nuclearcraft and bop consumables that give effects; biomesoplenty:berries, nuclearcraft:radaway, nuclearcraft:radaway_slow, nuclearcraft:rad_x, mod_lavacow:netherstew, mod_lavacow:parasite_item, mod_lavacow:plagued_porkchop, mod_lavacow:ghostjelly, mod_lavacow:bonestew, mod_lavacow:cactus_fruit, mod_lavacow:baobing
+✅  Removed recipes for nuclearcraft:alloy:5
+✅  Fixed steel recipes
+✅  Increased spawning of Atrium (Bunker)
+✅  Configured EditbaleEdibles for NuclearCraft & FUR & BOP & AQUACULTURE (any raw meats)
+
 Beta Remaining Tasks [Nischelm Commit]
-❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks
+❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks or below task?
+❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
 ❌  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
 ❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
 ❌  replace all enchant specific loot functions referencing sme enchants
 
+
 Beta Remaining Tasks [General]
-❌  Reference SME, FermiumMixins, Mod Director update?
-❌  DregoraRL, Underneath & Eaglemixins upload once their content is finalized.
-❌  Fix map generation for structures (make them a tad bigger so daeroc spawns)
-❌  hungry farmer foods add nuclearcraft and bop consumables that give good effects
+❌  Fix Blighted Shivaxi name formatting
 ❌  srparasites:worm spawns above y225 in dim 3 when player has scent (give sentient equipment to gain scent)
+❌  Underneath,  SRP spawns have less than intended health sometimes (85/170 in underneath & overworld city biomes) (120/270 in LC)
+
+
+
+❌  EnderCrown teleportation in brutal tower (loop)
+❌  Make recipes to reset parasite armor adaptation? (CraftTweaker Script yahoo!)
 ❌  Add SRP Squids to spawn pool of following biome: \RandomMode\ModBiomes\Blight\Rivers
-❌  Check underneath srp health multiplier for defiled biome (might be less than intended)
 ❌  Add Bounty Board to structures: Gem Traders, Herbalists, Teleporter?
 ❌  Herbalist needs: Waystone, Vindicators and Villagers in prison.
-❌  Add new effect thingy for contamination effect
-❌  Remove recipes for: nuclearcraft:alloy:5
-❌  Improve City Spawning (make spawn chunks bigger)
-❌  Increase spawning of Atrium
-❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
-❌  Check if update applicable: target dummy, rlmixins, rltweaker, renderlib, reachfix, broken heart & undershirt statistic, jei,
-    editable edibles, fermiumasm, fishing made better
-❌  add mods: furnacexpstorage &  optifine cit patch (Also fix xp from furnaces? as in... this MUST be done?)
-❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
-❌  Configure EditbaleEdibles (not all raw food gives status effects yet)
-❌  You may spawn in irradiated biomes, RLMixin isn't ready yet but I know this feature works once RLMixin releases
-❌  EnderCrown teleportation in brutal tower (loop)
-❌  Make recipes to reset parasite armor adaptation
-❌  Review & further configuration of nuclearcraft
-❌  Write lore for bunkers & add SRParasite weakness explaination
+❌  Add mod furnacexpstorage
 ❌  Add in additional Skyscrapers
-❌  Configure EditbaleEdibles for NuclearCraft & FUR & BOP & AQUACULTURE (any raw meats)
-❌  add radiation to heath and nuclear biomes & added these biomes to the RLMixins Blacklist
-    (Darn it fonny, you changed the config thingies so now I need to fix it again)
+❌  Review & further configuration of nuclearcraft
+❌  Rebuild Dregora, Underneath & Eaglemixins
+
 
 Teleporter specific:
+❌  Make receiver biome also Abyssal Rift or a new biome
+❌  Sponges should be Vindicators in Teleporter Structure
 ❌  Teleportation in Progress also triggers when switching dimensions per default
 ❌  Make receiver biome also inherit from Abyssal Rift biomes.
 ❌  1% Teleportation message gets cut off by regular teleportation message real quick
@@ -213,6 +227,7 @@ Testing required:
 
 
 Optional Additions:
+❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
 ❌  Remove tear from Shiv's painting
 ❌  "Nether Bane Weapon List" add FUR spiritual weapons
 ❌  "Nether Bane Mob List" add FUR entities from Nether

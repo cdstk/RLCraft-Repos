@@ -3801,7 +3801,10 @@
   },
   {
     "content": "quark:pirate_hat",
-    "amount": 1,
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
     "unitWorth": 3000,
     "weight": 15
   }

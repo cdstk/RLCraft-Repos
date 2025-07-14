@@ -380,8 +380,9 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "
 
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.bountifulbaubles.sinful.name",LocLore:["rldregora.effect.bountifulbaubles.sinful.lore"," ","§8id: bountifulbaubles:sinful"]}}));
 
+//=================================
+// Eaglemixins Effects
+//=================================
 
-
-
-
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.eaglemixins.contamination.name",LocLore:["rldregora.effect.eaglemixins.contamination.lore"," ","§8id: eaglemixins:radiation_sickness"]}}));
 
