@@ -258,5 +258,15 @@
 			},
 		"width": 3,
 		"height": 4
+	},
+	{
+		"motive": "krill",
+		"textures":
+			{
+			"side": "jsonpaintings:clear",
+			"back": "jsonpaintings:clear"
+			},
+		"width": 1,
+		"height": 1
 	}
 ]
