@@ -19,9 +19,8 @@ BattleTowers-1.12.2
 Baubles-1.12-1.5.2
 Baubley-Elytra-v1.3.3-mc1.12.2
 BedBreakBegone-1.0.2
-betterbiomeblend-1.12.2-1.1.7-forge
+betterbiomeblend-1.2.0-1.12.2
 bettercaves-1.12.2-2.0.4
-BetterEndForge-Unofficial-GBPort-1.12.2-1.2.3
 BetterMineshaftsForge-1.12.2-2.2.1
 betternether-0.1.8.6
 BetterQuesting-3.5.329
@@ -74,7 +73,7 @@ FamiliarFauna-1.12.2-1.0.11
 FancyBlockParticles-1.12.x-2.4.1
 FantasticLib-1.12.2.069
 fermiumasm-5.28
-FermiumMixins-1.0.1
+FermiumMixins-1.0.4
 firstaid-1.6.22
 FishingMadeBetter-1.12.2-2.2.7
 foamfix-0.10.15-1.12.2
@@ -101,7 +100,7 @@ ItemPhysic_Full_1.4.37_mc1.12.2
 itlt-1.12.x-1.0.4
 IvToolkit-1.3.3-1.12
 jei_1.12.2-4.16.1.1013
-JSON-Paintings-v1.2-mc1.12.2
+JSON-Paintings-v1.4.0-mc1.12.2
 Kiwi-1.12.2-0.5.3.32
 lagbgonrevived-1.1.0
 LegendaryTooltips-1.12.2-1.1.11
@@ -125,13 +124,14 @@ MTLib-3.0.7
 MultiMine-1.12.2
 Neat 1.4-17
 Nether-API-v1.3.0-mc1.12.2
-NoiseThreader-1.0.0
+NoiseThreader-1.1.0
 notreepunching-2.0.21
-OptiFineCITPatch-1.0.3
+OptifineCITPatch-1.0.4
 OptiFine_1.12.2_HD_U_G5
 OreLib-1.12.2-3.6.0.1
 particleculling-1.12.2-v1.4.3
 phosphor-1.12.2-0.2.6+build50-universal
+PhosphorCrashFix-1.12.2-1.0.0
 pigstep-1.12
 Placebo-1.12.2-1.6.1
 playerbosses-1.12.2-1.1.0
@@ -152,7 +152,7 @@ RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLCraftLuckified-1.1.1
 RLFoliage-MC1.12-2.4.2
-RLMixins-1.4.1
+RLMixins-1.4.3
 RLTweaker-1.12.2-0.7.5
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
@@ -171,13 +171,13 @@ SoManyEnchantments-1.0.4-1.12.2
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.140-forge
 spartandefiled-1.12.2-1.2
-spartanfire_rlcraft-1.3.3
+spartanfire_rlcraft-1.4.0
 SpartanHUDBaubles-1.12.2-1.0.0
 SpartanShields-1.12.2-1.5.5
 SpartanWeaponry-1.12.2-1.6.0
 SpawnerControl-1.6.3b
 SRParasites-1.12.2v1.9.21
-SRPMixins-2.8.0
+SRPMixins-2.8.2
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
@@ -198,5 +198,4 @@ WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed
 XPFromHarvest-1.12.2-1.2.0
 xptome-1.12.2-v1.1.6
 YungsLaw-1.12.2-1.0.4
-[___MixinCompat-0.8___]
-`FermiumBooter-1.3.0
+`FermiumBooter-1.3.1

@@ -1,4 +1,5 @@
-antiquecities-1.2.1.jar (Manual)
-FrozenOcean-1.12.2-1.0.0-rc1.jar
+antiquecities-1.2.1.jar (Manual Override)
+FrozenOcean-1.12.2-1.0.0-rc1.jar (Indev)
+JSON-Paintings-v1.4.0-mc1.12.2 (FileDirector)
 Nether-API-v1.3.0-mc1.12.2.jar (FileDirector)
 OptiFine_1.12.2_HD_U_G5.jar (FileDirector)
