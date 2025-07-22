@@ -106,12 +106,12 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 //<locks:steel_lock>.addTooltip(format.green("Blast Resistance: Strong"));
 //<locks:diamond_lock>.addTooltip(format.green("Blast Resistance: Supreme"));
 
-<variedcommodities:heart>.displayName = "Demonic Heart";
+<variedcommodities:heart>.displayName = game.localize("item.heart.name","en_us");
 <variedcommodities:heart>.addTooltip(game.localize("tooltip.variedcommodities:heart", "en_us"));
-<variedcommodities:skull>.displayName = "Corrupted Skull";
+<variedcommodities:skull>.displayName = game.localize("item.skull.name","en_us");
 <variedcommodities:skull>.addTooltip(game.localize("tooltip.variedcommodities:skull", "en_us"));
 
-<minecraft:saddle>.displayName = "Basic Saddle";
+<minecraft:saddle>.displayName = game.localize("item.saddle.name","en_us");
 
 <sereneseasons:greenhouse_glass:*>.addTooltip(game.localize("tooltip.sereneseasons:greenhouse_glass", "en_us"));
 
