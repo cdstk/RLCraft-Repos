@@ -275,11 +275,11 @@ EagleMixins Changelog:
 ✅  Review & further configuration of nuclearcraft
 ✅  Altered incontrol spawn rules to account for all entities above y225, including spawners.
 ✅  Rebuild Dregora, Eaglemixins and Underneath & Upload & add to manifest
+✅  Update modlist & jarfile mods
 
 Beta Remaining Tasks [General]
 ❌  Compare changes between 1.0.6b and 1.1.0 github and write all changes to changelog
 ❌  Include changes from DregoraRL & Underneath
-❌  Update modlist & jarfile mods
 
 [Beta 3 Testing]:
 ❌  Multiplayer Test
