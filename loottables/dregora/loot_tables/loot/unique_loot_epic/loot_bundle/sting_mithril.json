@@ -11,7 +11,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting\",Lore:[\"This dagger seems to always give off a bright glow...\"],LocName:\"rldregora.sting_mithril.sting.name\",LocLore:[\"rldregora.sting_mithril.sting.lore\"]}}"},
-            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:moonlight"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lunasblessing"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lightweight"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:disarm"]},

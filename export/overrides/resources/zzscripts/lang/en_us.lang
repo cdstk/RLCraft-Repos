@@ -509,7 +509,9 @@ rldregora.effect.firstaid.morphine.lore=§f ☕§b Allowing you to run with brok
 rldregora.effect.bountifulbaubles.sinful.name=§rStatus Effect§a Sinful
 rldregora.effect.bountifulbaubles.sinful.lore=§f ☕§b Gives an armor and damage buff.
 rldregora.effect.eaglemixins.contamination.name=§rStatus Effect§a Contaminated
-rldregora.effect.eaglemixins.contamination.lore=§r Gives Mining Fatigue and Weakness, gives radiation damage for 50% health from amplifier IV and 100% from amplifier V
+rldregora.effect.eaglemixins.contamination.lore=§r Gives Mining Fatigue and Weakness, gives radiation damage for 50% health from amplifier IV and 100% from amplifier V.
+rldregora.effect.eaglemixins.teleportation_sickness.name=§rStatus Effect§a Teleportation Sickness
+rldregora.effect.eaglemixins.teleportation_sickness.lore=§r Cancels teleportation through unconventional teleportation methods.
 ##################################################################
 # Dregora_recipes.zs
 ##################################################################

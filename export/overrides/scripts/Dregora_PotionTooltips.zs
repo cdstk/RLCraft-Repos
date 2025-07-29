@@ -385,4 +385,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "
 //=================================
 
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.eaglemixins.contamination.name",LocLore:["rldregora.effect.eaglemixins.contamination.lore"," ","§8id: eaglemixins:radiation_sickness"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.eaglemixins.teleportation_sickness.name",LocLore:["rldregora.effect.eaglemixins.teleportation_sickness.lore"," ","§8id: eaglemixins:teleportation_sickness"]}}));
+
+
 

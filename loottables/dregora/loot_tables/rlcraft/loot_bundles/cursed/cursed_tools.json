@@ -81,7 +81,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -89,7 +89,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]
@@ -211,7 +211,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -219,7 +219,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]
@@ -341,7 +341,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -349,7 +349,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]
@@ -471,7 +471,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -479,7 +479,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]
@@ -601,7 +601,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -609,7 +609,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]
@@ -731,7 +731,7 @@
               "enchantments": [
                 "somanyenchantments:instability",
                 "mujmajnkraftsbettersurvival:heavy",
-                "somanyenchantments:pandora"
+                "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -739,7 +739,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "enchantments": [
                 "somanyenchantments:rusted",
-                "somanyenchantments:inefficent",
+                "somanyenchantments:inefficient",
                 "somanyenchantments:bluntness",
                 "somanyenchantments:cursededge"
               ]

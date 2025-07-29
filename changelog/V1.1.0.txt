@@ -21,6 +21,8 @@
 ✅  Added NC ores to DregoraRL
 ✅  add resource crates to Underneath
 ✅  add defiled mushrooms (for defiled powder) to underneath spawns
+✅  Added Abyssal Gate Biomes
+✅  Added New Bunkers;
 
 [Fixed/Changed]:
 ✅  Configured chunk based SRP phases & increase SRP damage, (Phase 2/3 till 10?) (easier early game, harder late game)
@@ -48,7 +50,6 @@
 ✅  Disabled OTG fog for underneath making way for dynamic surroundings fog to take over
 ✅  Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures.
 ✅  Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills
-✅  a isle biome within Underworld still inherits from ocean adding to the diversity of said biome.
 ✅  Increased Lycanites Geonach spawner (ORE) spawn chance from 0.01 to 0.02
 ✅  Tripled speed of corruption spread (SRPARASITES)
 ✅  Increased amount of Roguelike Dungeon spawning by lowering spawnFrequency=17 to 15
@@ -61,7 +62,11 @@
 ✅  Fixed Lycanites Vapula (GEM) spawner from srparasites:gore block and increased spawn chance from 0.02 to 0.03.
 ✅  QUADRUPLE TEST ALL LYCANITES MOBS because this may break other things like ore spawning
 ✅  Fixed JotunnHeim biome dread horse overspawning
-✅  Removed dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
+✅  Added Dismount on "Dismounter" targets player.
+✅  Abyssal/Parasite biome added allowed mounts: (All Land Mounts + Ignibus & I&F Dragons Flying mounts)
+    Lycanites: Barghest, Erepede, Eyewig, Feradon, Maug, Pinky, Salamander, Shade, Uvaraptor, Ventoraptor, Warg, Zoataur
+    Ice and Fire: Fire Dragon, Ice Dragon, Lightning Dragon
+    Fish Undead Rising: Salamander
 ✅  Overworld Parasites now do 50% less damage instead of 75% less damage.
 ✅  Overworld evolution phase set to 4 instead of 8 and chunk based evolution enabled in parasite biomes.
 ✅  Enabled spawnchunks for a radius of 6 chunks in the overworld.
@@ -73,9 +78,32 @@
 ✅  Nerfed the corrupted shield in dungeonone loottable that gives a +20 dmg boost to +20 damage boost & -95% hp
 ✅  Fix Brutal shiv dropping key out of abyssal rift.
 ✅  Remove ability to use ender pearls in abyssal rift
+✅  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
+✅  Creation of far end tower portal
 
 
-EagleMixin:
+EagleMixins Changelog:
+✅  Added config option for beckon kill radius range
+✅  Fixed Player was able to add effects on entities just by having tipped arrows in hand (Nischelm)
+✅  Fixed various arrow handler issues including arrow potions to applying for a long time (Nischelm)
+✅  in theory a tipped arrow skelly could also apply its arrow effects using thorns or whatever other side dmg bc there was no check for using an arrow (Nischelm)
+✅  fixed berian handler (my fault 💀 was 90% berian chance ) (Nischelm)
+✅  moved abyssal stuff into its own config+handler (Nischelm)
+✅  added some configs for SRPhandler (Nischelm)
+✅  Added teleportation mechanic with overlay and a 1% chance for terror to happen (Eagle)
+✅  Move over Dregora-specific patches from RLMixins (FonnyMunkey
+✅  Fix (BT) Shivaxi dropping skeleton key outside of the Abyssal Rift (Kotlin)
+✅  Introduce custom hearts for Radiation Sickness (Kotlin)
+✅  Added resource crates block (randomly drops nuclearcraft items) (Eagle)
+✅  Added custom-name support to Counters & Cabinets (Kotlin)
+✅  Added loot-table to Counters & Cabinets (Kotlin)
+✅  Added paintings for JSON paintings to EagleMixins
+✅  Added config values for SRP biome black/whitelist & a whitelist for named parasites that should not have any item drops removed. (Eagle)
+✅  Added Effect PotionRadiationSickness (Eagle)
+✅  Added Radiation overlay effect (FonnyMunkey)
+✅  Added handling for Irradiated parasites (Nischelm)
+✅  Fixed clientside methods crashing servers (Nischelm)
+✅  Fixed non-berians turning into berians on chunk reload (Nischelm)
 ✅  Turn hardcoded "parasites custom names drop loot without restrictions" into a configurable whitelist
 ✅  Biome blacklist should be a config & have the option to make it a whitelist (SRP white/blacklist)
 ✅  Toggle option for dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
@@ -115,8 +143,9 @@ EagleMixin:
 ✅  add radiation to heath and nuclear biomes & added these biomes to the RLMixins Blacklist
     (Darn it fonny, you changed the config thingies so now I need to fix it again)
 ✅  Write lore for bunkers & add SRParasite weakness explaination
+✅  Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin
 
-[Updated/Installed but needs to be added to manifest]:
+[Updated/Installed but needs to be added to manifest Beta 2]:
 ✅  Updated I&F Amphithere Mod from 1.0.1 to 1.0.2 (Fix for latest fermiumbooter)
 ✅  Updated Antique Atlas Auto Marker from 1.2.8.4 to 1.3.0 (Fix for latest fermiumbooter)
 ✅  Updated BisectHosting Server Integration Menu from 2.4.3 to 2.4.5 (Improved compat)
@@ -146,7 +175,6 @@ EagleMixin:
 ✅  Updated FermiumMixins Config with values from Commit bd6eeca
 ✅  Updated SME config to fully reflect RLC 2.10 SME config
 
-
 [Added for Beta 2]:
 ✅  Added Resource Crate & Brutal Coin Fragments to Bounty Boards Rewards
 ✅  Added Parasite components & entities to list of possible bounties
@@ -168,83 +196,130 @@ EagleMixin:
 ✅  Fixed steel recipes
 ✅  Increased spawning of Atrium (Bunker)
 ✅  Configured EditbaleEdibles for NuclearCraft & FUR & BOP & AQUACULTURE (any raw meats)
+✅  Added Abyssal Gate to remaining blacklists (same as Abyssal Rift)
+✅  Make recipes to reset parasite armor adaptation? (CraftTweaker Script yahoo!)
+✅  Reinforcement System Infestation Spawning Beckons  needs to be set to 0.0
+✅  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
+✅  Add Quest click on Dregora Discord Link
+✅  replace all enchant specific loot functions referencing sme enchants
+✅  Verified Potion ID's and Enchantment ID's are all vanilla and thus should not be shifted.
+✅  Make waystones non-exploitable in teleporters (Abyssal Gate has same ruleset as Abyssal Rift)
+✅  Make range config option for Eaglemixins kill beckons in radius
+✅  Remove Markers from Eaglemixins
+✅  Added SRParasites, Abyssal Rift, Abyssal Gate and Crystal Abyss to spawn denial list
+✅  Fixed entities for Herbalist and added waystones for Herbalist and Silo Gem Trader.
+✅  Added Bountry boards to Herbalist and all gem traders.
+✅  Changed Lycanite events Min duration from 5 hours to 3 hours and left maximum to 10 hours.
+✅  Changed Bloodmoon chance from 1% to 3% chance
+✅  Localized new Quests
+✅  Exported map using java for performance gain
+✅  Updated SRPMixins Config (Beckons dying wont revert blocks to gravel/dirt any longer)
+✅  Altered the way Overworld Cities generate boosting performance in said biomes.
+✅  Changed a technicality in Brutal Towers making them spawn more reliably, may not be noticable though.
+✅  SetBonus has hide effects due to B:"Cancel Incorrect Clientside addPotionEffect Calls (Vanilla)"=true, set to false.
+✅  Fix parasite spawning in fake parasite biomes - Incontrol issue
+✅  Made Easter Egg Tower Rare
+✅  Fixed WALL_BANNER, WALL_SIGN and BED_BLOCK, DROPPERS and TRAPPED_CHESTS in tron towers
+✅  Added SRP Squids to spawn pool.
+✅  Added in additional Skyscrapers
+    ✅ - White Skyscraper
+    ✅ - Easter Egg Skyscraper
 
-Beta Remaining Tasks [Nischelm Commit]
-❌  Fix Beckon parasites of lvl 1 spawning everywhere on specific blocks or below task?
-❌  change infested dirt from metadata :0 to :4, this will prevent it from reverting back to dirt when a beckon is killed on top.
-❌  fix abyssal rift stat multis (bc they are now in a different config section they are on default 1x 1x 1x instead of 2x 4x 2x)
-❌  disable rlmixins tipped arrow handler (moved to eaglemixins) by setting chance to 0 and clearing allowed entity list
-❌  replace all enchant specific loot functions referencing sme enchants
+[Teleport Specific for Beta 3]:
+✅  Add new crystal abyss biome & virtual biomes for inheritance (so we can apply abyssal rift biome rules)
+✅  Make new biomes follow same ruleset as abyssal biome (no glitching)
+✅  Made Receiver biome inherit from Abyssal Gate (Rebuild DregoraRL)
+✅  Made Teleportation Sickness Potion that blocks all teleportation for 10 seconds (Rebuild EagleMixins)
+✅  Fixed Teleportation in Progress also triggering when switching dimensions.
+✅  Fixed 1% Teleportation message getting cut off.
+✅  Fixed Concurrent task by executing the teleportation as a scheduled server task (https://mclo.gs/iUnfwtp)
+✅  Added in all sender/receiver teleporters and updated all markers.
+✅  More Sponges should be added and be made Vindicators in Teleporter Structure
+✅  Re-Export receiver/sender due to dimstack bedrock being erased & other export issues.
+✅  Make receiver biomes fit surroundings
+✅  Lowered bookwyrms level from lvl 60 to level 40.
+✅  Fixed ConcurrentMethod Crash (Teleportation related) in Eaglemixins
 
+[Updated/Installed for Beta 3]:
+✅  OptifineCitPatch 1.0.3 > 1.0.4
+✅  SRPMixins 2.8.0 -> 2.8.5
+✅  FermiumBooter 1.3.0 -> 1.3.1
+✅  FermiumMixins 1.0.2 -> 1.0.4
+✅  RLMixins 1.4.1 -> 1.4.3
+✅  Added mod furnacexpstorage
+✅  Dynamic Surroundings adjust Abyssal Rift Fog to fit Parasite biome better
+
+
+[Updated/Installed for Release Candidate 1]:
+✅  SRPMixins 2.8.5 -> 2.8.6
+✅  Fix Blighted Shivaxi name formatting in EagleMixins
+✅  Made Grey Abyss Border inherit from Abyssal Rift and allowed continuation of Abyssal Tower making the structure less rare.
+✅  Updated BetterQuests with correct custom name for kill entity task in Brutal Tower Quest
+✅  Updated Eaglemixins from 1.1.0 to 1.1.1
+✅  Removed Djin spawning from Abyssal Rift
+✅  Changed general biomegeneration
+✅  Add in additional Skyscrapers:
+    ✅ - Orange Skyscraper V1, V2 and V3
+    ✅ - Park 2x2 & Park 3x3
+    ✅ - Park 3x3 additionals
+✅  Changed soundscape of Underneath, Cities and Nuclear Blight
+✅  fix SRP EntityProjectileHoming Nullpointer
+✅  Removed radiation from steppe
+✅  Fixed Yale spawning, again
+✅  Fixed Structure spawning rarity in city biomes
+✅  Recurrent complex spawning fixed for City biomes through recurrent scripts.
+✅  deny Rune Removal from portals (Added through EagleMixins)
+✅  Added Vindicators & Evokers to teleportation stations
+✅  Make radiation shielding also work with damaged armor
+✅  Teleportation Stations Bedrock at underneath entrance.
+✅  Review & further configuration of nuclearcraft
+✅  Altered incontrol spawn rules to account for all entities above y225, including spawners.
+✅  Rebuild Dregora, Eaglemixins and Underneath & Upload & add to manifest
 
 Beta Remaining Tasks [General]
-❌  Fix Blighted Shivaxi name formatting
-❌  srparasites:worm spawns above y225 in dim 3 when player has scent (give sentient equipment to gain scent)
-❌  Underneath,  SRP spawns have less than intended health sometimes (85/170 in underneath & overworld city biomes) (120/270 in LC)
+❌  Compare changes between 1.0.6b and 1.1.0 github and write all changes to changelog
+❌  Include changes from DregoraRL & Underneath
+❌  Update modlist & jarfile mods
 
-
-
-❌  EnderCrown teleportation in brutal tower (loop)
-❌  Make recipes to reset parasite armor adaptation? (CraftTweaker Script yahoo!)
-❌  Add SRP Squids to spawn pool of following biome: \RandomMode\ModBiomes\Blight\Rivers
-❌  Add Bounty Board to structures: Gem Traders, Herbalists, Teleporter?
-❌  Herbalist needs: Waystone, Vindicators and Villagers in prison.
-❌  Add mod furnacexpstorage
-❌  Add in additional Skyscrapers
-❌  Review & further configuration of nuclearcraft
-❌  Rebuild Dregora, Underneath & Eaglemixins
-
-
-Teleporter specific:
-❌  Make receiver biome also Abyssal Rift or a new biome
-❌  Sponges should be Vindicators in Teleporter Structure
-❌  Teleportation in Progress also triggers when switching dimensions per default
-❌  Make receiver biome also inherit from Abyssal Rift biomes.
-❌  1% Teleportation message gets cut off by regular teleportation message real quick
-❌  Teleportation sometimes causes this crash: https://mclo.gs/iUnfwtp
-❌  Re-Export receiver/sender due to dimstack bedrock being erased as well.
-❌  Make waystones non exploitable in teleporters
-❌  Add new crystal abyss biome & virtual biomes for inheritance (so we can apply abyssal rift biome rules)
-❌  Make new biomes follow same ruleset as abyssal biome (no glitching)
-❌  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
-❌  Creation of far end tower portal
-❌  Add in all sender/receiver teleporters and double check/update all markers.
-❌  Add a fallback if receiver is not detected, then teleport back to sender (just in case so people are not stranded)
-❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
-❌  Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin/Eagle
-❌  Make config option for eaglemixins max beckon in radius and turn it off
-
-Testing required:
-❌  yale spawning in biomes where they should not spawn, such as crystal abyss
-❌  Interaction with portal frames in teleport and receiver towers.
-❌  SRP Armor drop on upgrade
-❌  SRP Spawn quantity in the Underneath
-❌  Teleport Mechanism, also what happens with pets n all? (/tp -950 200 -2228) - currently only tower
-❌  Amphithere flying
-❌  Villager trading in relation to luck stat
-❌  Parasite behavior such as chunk based phases, spawning and spread
-❌  Radiation mechanic, maybe some inputs on what else should be radioactive like Neptunium
-
+[Beta 3 Testing]:
+❌  Multiplayer Test
+❌  Amphithere flying (Also see if ground glitches are a thing)
+❌  Multiplayer Testing (Teleportation Mechanic mostly)
+❌  Radiation mechanic: Do parasites get significantly easier in highly radiated areas?, is Radiation working as it's supposed to work?
+✅  Interaction with portal frames in teleport and receiver towers. at following locations:
+    /tp -950 120 -2228
+    /tp -2355 120 -642
+    /tp -1987 120 1453
+    /tp -116 120 2455
+    /tp 2407 120 -401
+    /tp 1171 120 -2126
+    /tp 1831 120 1635
+✅  SRP Spawn quantity in the Underneath, seems good?
+✅  SRParasites:worm spawning above y255 in the underneath, they still spawn
 
 Optional Additions:
-❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
-❌  Remove tear from Shiv's painting
+❌  portable jukebox
+❌  change max dmg cap to 75 per hit -> 100 if dual wield or two handed
+❌  add 5% damage increase if dual wielding/two handed
+❌  Diagonally connected textures?
+❌  AsianHome needs blue cursed fire instead of regular fire
+❌  Adjust lore, specifically dates of events
 ❌  "Nether Bane Weapon List" add FUR spiritual weapons
 ❌  "Nether Bane Mob List" add FUR entities from Nether
-❌  B:"(SRParasites) Custom Adventurer Names Mixin"
 ❌  Fix water issue in mushroom biomes
-❌  Add painting of bare-chest chad fonny with a beard and a ban hammer
-❌  Add Paintings lobster & krill issue
-❌  Add NotKotlin painting
-❌  Adjust lore, specifically dates of events
+❌  Fix Radiation visual playing in menu for 1-2 seconds after quitting to menu from radiated area
+❌  B:"(SRParasites) Custom Adventurer Names Mixin"
 ❌  Add wither mod
 ❌  Add rats mod
 ❌  Make the whole new teleportation mechanism configurable and do clean up
 ❌  Additional random encounters. (There are a few heh)
-❌  Export map as java again (saving resources)
 ❌  go over all the remaining to do's, mostly smaller tweaks which originated from feedback or bug reports.
 ❌  go over git issues & solve where possible, note for 1.1.1 if not feasible for 1.1.0
 ❌  More custom qualities
+❌  Make Custom Encounters mod and move all encounters to said mod
+
+Eaglemixins backlog:
+❌  SetBonus does not clear bonus when switching armor when using wine (e.g. cure works on leather)
 
 
 [Postponed for 1.1.1/1.1.2]
@@ -252,7 +327,7 @@ Optional Additions:
  ✅  Randomized main menu scenes
  🅰️  In-game GUI gets zoomed in when opening menu and reverts back to normal when typing in-game
  🅰️  in-game menu & respawn screen support for hover over text & button changes (Error on openToLan, crashes client) need deobf
-
+ ❌  Make Akira Elevator in Labs
 
 
 Current Timeline:
@@ -270,16 +345,6 @@ New Timeline:
 2744 City of Origin
 
 
-
-todo: Fix teleportation in eaglemixins & take a look at OTG.
-
-MinecraftServer server = player.getServer();
-if (server != null) {
-    server.addScheduledTask(() -> {
-        // Put teleportation or entity manipulation here
-        teleportPlayerSafely(player, finalPos, finalDim);
-    });
-}
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -446,9 +511,19 @@ Installed Painting Selection Gui Revamped
 RLCraft to do now:
 P1:
 
+The Drump Collective:
+
+- Drump Tower
+- Tariff Item - costs 10 coins at villager
+- villagers in Drump Tower sell regular items for regular price but you also need to pay 1 Tariff
+- Drump Villager (eaglemixins:villager_drump)
+- Chat bubbles for Drump Villager
+- Special skin for Drump Villager
+- JD Vance - eaglemixins:villager_vance
+- Chat bubbles for JD Vance
+- special skin for Vance Villager
+
 - Streamer Events:
-
-
 "Onetrickpony24": Lightning Strike at random (But no damage) - jumpscape and send message "Ha! Taste my revenge" type array with multiple taunts
 
 

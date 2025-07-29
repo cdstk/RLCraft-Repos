@@ -19,7 +19,7 @@
             {
               "function": "enchant_randomly",
               "enchantments": [
-                  "somanyenchantments:pandora"
+                  "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -114,7 +114,7 @@
                   "somanyenchantments:curseofvulnerability",
                   "somanyenchantments:curseofdecay",
                   "charm:rusting_curse",
-                  "somanyenchantments:pandora"
+                  "somanyenchantments:pandorascurse"
               ]
             },
             {
@@ -215,7 +215,7 @@
             {
               "function": "enchant_randomly",
               "enchantments": [
-                  "somanyenchantments:pandora"
+                  "somanyenchantments:pandorascurse"
               ]
             },
             {
