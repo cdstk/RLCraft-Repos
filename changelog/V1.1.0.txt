@@ -277,15 +277,10 @@ EagleMixins Changelog:
 ✅  Rebuild Dregora, Eaglemixins and Underneath & Upload & add to manifest
 ✅  Update modlist & jarfile mods
 
-Beta Remaining Tasks [General]
-❌  Compare changes between 1.0.6b and 1.1.0 github and write all changes to changelog
-❌  Include changes from DregoraRL & Underneath
-
 [Beta 3 Testing]:
-❌  Multiplayer Test
 ❌  Amphithere flying (Also see if ground glitches are a thing)
 ❌  Multiplayer Testing (Teleportation Mechanic mostly)
-❌  Radiation mechanic: Do parasites get significantly easier in highly radiated areas?, is Radiation working as it's supposed to work?
+✅  Radiation mechanic: Do parasites get significantly easier in highly radiated areas?, is Radiation working as it's supposed to work?
 ✅  Interaction with portal frames in teleport and receiver towers. at following locations:
     /tp -950 120 -2228
     /tp -2355 120 -642
@@ -296,6 +291,16 @@ Beta Remaining Tasks [General]
     /tp 1831 120 1635
 ✅  SRP Spawn quantity in the Underneath, seems good?
 ✅  SRParasites:worm spawning above y255 in the underneath, they still spawn
+
+Beta Remaining Tasks [General]
+✅  Added mining requirements to nc blocks
+✅  Added EagleMixins handler for nuclearcraft blocks force enable interactions (even if reskillable denies them)
+❌  Disable water buckets placement on hazard blocks in Abyssal Gate biome
+❌  Update EagleMixins, jarfile, manifest, modlist.
+❌  Compare changes between 1.0.6b and 1.1.0 github and write all changes to changelog Include changes from DregoraRL & Underneath
+❌  Fix the sound thing!
+
+
 
 Optional Additions:
 ❌  portable jukebox
