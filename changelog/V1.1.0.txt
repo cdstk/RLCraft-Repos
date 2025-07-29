@@ -295,10 +295,10 @@ EagleMixins Changelog:
 Beta Remaining Tasks [General]
 ✅  Added mining requirements to nc blocks
 ✅  Added EagleMixins handler for nuclearcraft blocks force enable interactions (even if reskillable denies them)
-❌  Disable water buckets placement on hazard blocks in Abyssal Gate biome
-❌  Update EagleMixins, jarfile, manifest, modlist.
+✅  Disable water buckets placement on hazard blocks in Abyssal Gate biome
+✅  Update EagleMixins, jarfile, manifest, modlist.
 ❌  Compare changes between 1.0.6b and 1.1.0 github and write all changes to changelog Include changes from DregoraRL & Underneath
-❌  Fix the sound thing!
+✅  Fix the sound thing!
 
 
 
