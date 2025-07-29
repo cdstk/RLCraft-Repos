@@ -31,7 +31,6 @@
   "cave.ambient": {
     "category": "ambient",
     "sounds": [
-      "dsurround:ambient/cave/cave_ambient",
       "dsurround:ambient/cave/smallslide1",
       "dsurround:ambient/cave/smallslide2",
       "dsurround:ambient/cave/smallslide3",

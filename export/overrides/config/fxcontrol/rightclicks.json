@@ -36,5 +36,9 @@
     "block": [ "mcwbridges:oak_rail_bridge" ],
     "message": "www.twitch.tv/shivaxi",
     "result": "deny"
+  },
+  {
+    "block": [ "contenttweaker:reinforced_concrete_danger" ],
+    "result": "deny"
   }
 ]
