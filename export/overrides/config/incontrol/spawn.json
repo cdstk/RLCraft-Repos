@@ -1,7 +1,7 @@
 [
   {
     "dimension": 3,
-    "minheight": 225,
+    "minheight": 235,
     "spawner": false,
     "onjoin": true,
     "result": "deny"
@@ -29,7 +29,13 @@
   },
   {
     "dimension": 0,
-    "mob": ["lycanitesmobs:djinn","lycanitesmobs:ent","lycanitesmobs:calpod","lycanitesmobs:zephyr","lycanitesmobs:triffid","lycanitesmobs:vapula","lycanitesmobs:gorgomite","lycanitesmobs:spriggan","lycanitesmobs:geonach","lycanitesmobs:treant"],
+    "mob": ["lycanitesmobs:djinn"],
+    "biome": ["Abyssal Rift"],
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": ["lycanitesmobs:ent","lycanitesmobs:calpod","lycanitesmobs:zephyr","lycanitesmobs:triffid","lycanitesmobs:vapula","lycanitesmobs:gorgomite","lycanitesmobs:spriggan","lycanitesmobs:geonach","lycanitesmobs:treant"],
     "biome": ["Abyssal Rift", "Abyssal Gate"],
     "result": "deny"
   },

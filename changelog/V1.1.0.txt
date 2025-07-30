@@ -1,104 +1,214 @@
-[Added]:
-✅  Added I&F Amphithere, NuclearCraft, Json Paintings, FoodFix, RLLuck, Antique Atlas Auto Marker and DramaticTrees Mods
-✅  Added a bunch of new custom paintings using Json Paintings
-✅  Added TexturePacks: RL Enchanted Books & RLCraft Dregora NC Textures
-✅  Adjusted overworld map generation by replacing the trenches leading to the center with a new type of trench encircling the center in a ~2400 block radius
-✅  Adjusted underneath map generation featuring the first steps towards future expansion (Added biome Ancient Remnants)
-✅  Added new block Reinforced Concrete that can't be infected by Scape and Run parasites just like Reinforced Iron plate blocks
-✅  Added items Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft a hazard block
-✅  added block hazard stripes and weathered variants of concrete blocks
-✅  added new (radioactive) liquid: coolant water
-✅  Added new biomes Nuclear Blight & Nuclear Creek
-✅  Added dense fog to biome Nuclear Blight and weather effects through mod dsurroundings
-✅  Added new large underneath biome Defiled Caverns biome with increased bookwyrm spawns (30 weight instead of 14)
+Full Changelog:
+
+Bigger Changes (Check Again Properly)
+- eaglemixins
+- FermiumMixins
+- rlmixins
+- rltweaker
+- srpmixins
+- srparasites
+
+Added/Updated Resource Packs:
+✅  RL Enchanted Books
+✅  RLCraft Dregora NC Textures
+
+Added Mods: (Describe what they add in bigger changes)
+✅  AARCAddon 1.0.1
+✅  Amphithere Mod 1.0.2
+✅  AntiqueAtlasAutoMarker 1.3.0
+✅  DelightfulCuisineForWoodheads 1.0.0
+✅  FermiumMixins 1.0.4
+✅  FoodFix 001
+✅  FurnaceXPStorage 1.1.4
+✅  JSON-Paintings 1.4.0
+✅  NuclearCraft 2.19a
+✅  OptifineCITPatch 1.0.4
+✅  PaintingSelGui 1.1.0.1
+✅  RLCraftLucified 1.1.1
+✅  VCFix 1.0.1
+
+Updated Mods (Check Changelogs):
+✅  !mod-director-launchwrapper 1.8.3 to 1.9.1
+✅  BHMenu 2.4.3 to 2.4.5
+✅  CraftTweaker2 4.1.20.700 to 4.1.20.700
+✅  DregoraRL 2.7 to 2.9
+✅  EagleMixins 1.0.7 to 1.1.3
+✅  EditableEdibles 1.3.1 to 1.3.2
+✅  EntityCulling 6.4.3 to 6.5.0
+✅  FantasticLib 047 to 069
+✅  FermiumASM 5.24 to 5.28
+✅  FishingMadeBetter 2.2.6 to 2.2.7
+✅  Ice and Fire 2.0.8 to 2.0.9
+✅  Localizator 1.0.10 to 1.0.13
+✅  MmmMmmMmmMmm 1.14 to TestDummy2 2.0.4
+✅  NoiseThreader 1.0.0 to 1.1.0
+✅  ReachFix 1.0.10 to 1.1.3
+✅  RenderLib 1.3.5 to 1.4.5
+✅  RLMixins 1.3.16 to 1.4.3
+✅  RLTweaker 0.6.8 to 0.7.5
+✅  SetBonus 020 to 040
+✅  SnowRealMagic 0.7.1 to 0.7.4
+✅  SoManyEnchantments 0.5.5 to 1.0.4
+✅  Spark Unforged 1.11.2 to 1.11.140
+✅  SRPMixins 2.2.7 to 2.8.6
+✅  Underneath 1.7 to 1.8
+✅  FermiumBooter 1.1.1 to 1.3.1
+
+Big Changes:
+    ✅  Dregora Generation [
+    ✅  Added Biomes;
+        * Nuclear Blight & 1 sub biome
+        * Crystal Abyss & ~ 10 sub biomes
+        * Abyssal Gate & ~ 20 sub biomes [copied over anti-cheese measures from Abyssal Rift with the exception of flight denial]
+    ✅  Removed duplicate steppe biomes
+    ✅  Increased Generation of;
+        * Temperate Biomes
+        * Jungle Biomes
+        * Defiled Biomes & made them bigger
+        * Frozen Biomes
+    ✅  Fixed JotunnHeim biome dread horse overspawning
+    ✅  Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills remains the same for added diversity
+    ✅  Decreased Underworld biome size with 50%
+    ✅  Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures
+    ✅  Decreased Generation of Desert & Wasteland Biomes
+    ✅  Gave Cities their own dedicated biomegroup
+    ✅  Tweaked city generation performance
+    ✅  Added Numerous new "Bunker" type starter structures
+    ✅  Added Multiple new "Advanced Bunker" type structures in Nuclear Blight Biome
+    ✅  Tweaked Brutal Tower spawning increasing the spawn liklihood
+    ✅  Added Bounty Boards to all gem traders & herbalist
+    ✅  Fixed entities for Herbalist and added waystones for Herbalist and Silo Gem Trader.
+    ✅  Added various new skyscrapers & parks to city biomes.
+    ✅  Added special structures for Abyssal Gate
+    ✅  Added hazmat suits to loottables ruins
+    ✅  Added new nuclearcraft ores to generation (see in-game tooltips)
+    ✅  Adjusted overworld map generation by replacing the trenches leading to the center with a new type of trench encircling the center in a ~2400 block radius
+    ✅  Changed following trades for Elder Blacksmith: Hearth Container = 10 satchels, Spectral Silt = 1 satchel, Glowing Powder =  30 coins, Nether star = 25 satchels & limited to 1 trade per elder blacksmith
+    ✅  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
+    ✅  Updated Shrubland biome to inherit from minecraft:desert spawns and increased temperature from 1.3 to 1.4
+    ✅  Fixed Duplicate pool name 'moderncity_junk_loot' in table 'dregora:dregorarl/loot/moderncity_junk_loot'
+    ✅  Fixed Duplicate pool name 'rare_loot' in table 'dregora:dregorarl/loot/rare_loot'
+    ✅  Fixed Duplicate pool name 'rare Chest' in table 'dregora:loot/rare_loot'.
+    ✅  Fixed Duplicate pool name 'spawn book' in table 'dregora:rlcraft/lore/spawnbook'
+    ✅  Changed Frozen Temple lapis blocks into Emerald blocks
+    ✅  Decreased likelihood of Daeroc & Cult Church not spawning in the world by increasing their viable spawn area
+    ✅  Changed a technicality in Brutal Towers making them spawn more reliably, may not be noticable though.
+    ✅  Made Grey Abyss Border inherit from Abyssal Rift and allowed continuation of Abyssal Tower making the structure less rare.
+]
+✅  Underneath Generation [
+    ✅  Added Biomes;
+        * Defiled Caverns
+        * Ancient Remnants [WIP] content
+    ✅  Added new nuclearcraft ores to generation (see in-game tooltips)
+    ✅  Removed bookwyrms from parasite target list
+    ✅  Added bookwyrms to spawnpool of Underneath Defiled Lands with increased spawn weight (30 instead of 14)
+    ✅  Added various new skyscrapers
+    ✅  Added special structure with randomized "Escapist" loot such as a pickaxe, grapple hook, bandages, etc
+    ✅  Changed portal blocks removing the ability to create portals on roof
+    ✅  Adjusted underneath map generation featuring the first steps towards future expansion
+    ✅  Added Mana candy to all underneath chests
+    ✅  Added resource crates to chest-spawns in cities, new block that drops various new items when mined.
+    ✅  add defiled mushrooms (for defiled powder) to defiled caverns
+]
+✅  Added Quests for new content, brutal towers and also updated the Underneath quest. (No Hats Yet)
+✅  Added new bounty rewards: resource crate & brutal coin fragments and new bounties: Scape and Run Parasites and Lightning Dragons
+✅  Expanded soundscape for City biomes, Underneath and added custom soundscape for Nuclear Blight Biome
+✅  Allowed natural spawning of parasites in parasite biome such as Abyssal Rift if in certain light-level and within certain yet mostly to be added structures.
+✅  Added various new loading screens teasing new areas and structures
+✅  Changed minimum time required between lycanite events from 5 to 3 hours.
+✅  Buffed BanHammer by removing health, armor and potion sickness debuffs and reducing movement speed debuff
+✅  Added several new blocks, stairs, slabs and one new fluid through contenttweaker;
+    * Coolant Water [Toxic]
+    * Reinforced Concrete [Corruption & Parasite grief resistant blocks with the exception of Preeminent, Ancient, and Nexus tiers]
+    * Radioactive and Biohazard items for use in inspiration signs, banners and the new Reinforced Concrete Block to craft special variants
+✅  Added ability to reset adaptation on SRP Sentient armor pieces.
+✅  Reworked enchant upgradability through the enchant table.
+✅  Added ~30 new paintings through JsonPaintings, stored in EagleMixins
+✅  Disabled OTG fog effect and re-enabled dynamic surrounding fog effects & adjusted values on a per biome type basis
+✅  Bookwyrm max level decreased to 40 instead of 60 (Don't worry enchant grind has been addressed too)
+✅  Configured chunk based SRP phases, lowered starting phase from 8 to 4 and boosted hp/dmg/armor making SRP entities easier in newly
+    visited chunks but slowely ramp up in the same chunk the longer you stay in said chunk
+✅  Curseforge new feature automatically sets the recommended ram value to 6gb, recommended to NOT SET RAM HIGHER THAN 8GB
+✅  Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
+✅  Abyssal/Parasite biome added allowed mounts: (All Land Mounts + Ignibus & I&F Dragons Flying mounts)
+    Lycanites: Barghest, Erepede, Eyewig, Feradon, Maug, Pinky, Salamander, Shade, Uvaraptor, Ventoraptor, Warg, Zoataur
+    Ice and Fire: Fire Dragon, Ice Dragon, Lightning Dragon
+    Fish Undead Rising: Salamander
+✅  Added some usefullness to the 0,0 center of Dregora
+✅  Added pre-determined markers throughout Dregora with locational activators
+✅  Added long distance free teleportation with 1% chance terror for late-gamestage
+✅  Added in Enchant Upgrading script for full compatibility with new SME features
+✅  Added new foods to the hungry farmer blacklist; biomesoplenty:berries, nuclearcraft:radaway, nuclearcraft:radaway_slow, nuclearcraft:rad_x, mod_lavacow:netherstew, mod_lavacow:parasite_item, mod_lavacow:plagued_porkchop, mod_lavacow:ghostjelly, mod_lavacow:bonestew, mod_lavacow:cactus_fruit, mod_lavacow:baobing
+✅  Configured EditbaleEdibles for NuclearCraft & FUR & BOP & AQUACULTURE (any raw meats) adding various effects when consumed
+
+Smaller Changes:
+✅  Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
+✅  Added new status effect description in JEI status potions for new Contaminated & Teleportation Denial effects.
+✅  localized all quest names & descriptions
+✅  Changed various fish names in language files
+✅  variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
+✅  Disabled Djin spawning in Abyssal rift biomes.
+✅  Disabled block-grieving entities from spawning in Abyssal Gate biomes
+✅  Tweaked Underneath spawning above y235 to only deny natural spawning but allow spawning from spawners.
+✅  Tweaked Ithaqua spawning
+✅  Changed advancedfishing fish rarity and weather requirements for Bluebottle Jellyfish, Charged Bullhead and Sparkling Eel, Lightlevels for Prismatic Angler and Abyssal Lurker, Reproductiontime for MagiKarp, Thunder requirement for Nitric Crucian and Mandarin Dragonet,
+✅  changed any time to night time for aquaculture Electric Eel
+✅  Tweaked Lycanite and Doomlike Dungeons spawning to include the new Nuclear Blight biome.
+✅  changed AntiqueAtlas maxscale from 4.0 to 6.0
+✅  changed spartanweaponry scythe damage from 5.0 to 4.0 and speed 1.0 to 0.9
+✅  Disabled iron skin rendering for slimes and shulkers
+✅  Altered universal biome matcher and added a script for recurrent complex disallowing structure generation in some biomes
+✅  Fixed sorting buttons in variedcommodities crates.
+✅  Shivaxi Boss holds a dragonbone ice sword now instead of a diamond greatsword.
+✅  Disabled broken particles (normalasm.cfg)
+✅  Enabled return to main menu after crash in normalasm.cfg
+✅  lagbgonrevived blacklisted new iceandire entities from being culled.
+✅  disabled I&F dragon spawning in nuclear wastelands, biomesoplenty (canyon) rainforest and abyssal gate biomes
+✅  disabled myrmex spawning in nuclear wastelands and abyssal gate
+✅  Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
+✅  defined setBonusGui scaling in fabtasticlib.cfg
+✅  Enabled 5 Additional death messages (These where already added, just not enabled)
+✅  added % chance of hunger/parasites/nausea and various other effects to all raw food items.
+✅  Added Hazmat loot to battletowers
+✅  Changed the too close animation for better combat to 0.3 from 0.7 and intensity from 0.4 to 0.6
+✅  Increased Bloodmoon chance from 1% to 3%
 ✅  Added Reinforced Concrete recipe to NuclearCraft machines.
 ✅  Added localization for books within bunkers
-✅  Added artifacts Mimic chests to Fish Undead Rising dreamcatcher bauble spawnlist with a weight of 30
-✅  Added Mana candy to all underneath chests
 ✅  Added level requirements to blockheads & nuclearcraft
-✅  Added hazmat suits to loottables ruins (commonly)
-✅  Removed portal creation ceiling Underneath & Add survivor caches
-✅  Added NC ores to DregoraRL
-✅  add resource crates to Underneath
-✅  add defiled mushrooms (for defiled powder) to underneath spawns
-✅  Added Abyssal Gate Biomes
-✅  Added New Bunkers;
-
-[Fixed/Changed]:
-✅  Configured chunk based SRP phases & increase SRP damage, (Phase 2/3 till 10?) (easier early game, harder late game)
-✅  Make curseforge automatically use 6GB ram (It is adviced to NOT use more than 8GB ram!)
-✅  Updated various mods such as Localizer
-✅  Changed Underworld biomesize (generates 50% smaller)
-✅  Changed wastelands/desert rarity and removed some biomes from some biome groups making them spawn much less often
-✅  Temperate/Cold and Ocean biomes spawn more often now due to wastelands/desert/underworld biomes not taking up so much space
-✅  Modified some defiled biomes making them generate bigger and made all defiled biomes generate more often
-✅  Removed long drown from randomized entity arrows (there may still be entities with long drown but they should be significantly rarer)
-✅  Stopped living armor from dropping on upgrade and made a lightning storm spawn around the player on evolve. (Thanks Nischi!)
-✅  Removed Health Nerf and Potion sickness from the Ban Hammer.
 ✅  Fixed item lore/language keys, a lot of typo's and a boatload of other issues, (Thanks KameiB!)
-✅  Changed denial of hostile entities above Y235 in the Underneath to deny all hostile entity spawns above Y225 with the exception of spawners
 ✅  Tweaked SRP difficulty per individual dimension by moving multipliers to SRPmixins and lowering them.
 ✅  Lowered SRP mobcap per individual dimension and enabled bloodmoons in Lost Cities.
 ✅  enabled culling on old & new blocks, performance gains in brutal tower and more locations.
 ✅  changed B:"LycanitesMobs Lowercase Performance Patch (LycanitesMobs)"=false & made breathing animation 0.01 for bettercombatmod
-✅  Changed following trades for Elder Blacksmith: Hearth Container = 10 satchels, Spectral Silt = 1 satchel, Glowing Powder =  30 coins, Nether star = 25 satchels & limited to 1 trade per elder blacksmith
-✅  Fixed Yale spawns, these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
+✅  Fixed Yale spawns (Again!?), these should now spawn in biomes of type MOUNTAIN without the following tags: HOT, LUSH, WET
 ✅  Ithaquas  spawns are boosted in Forests/Spooky Biomes during thunderstorms now
 ✅  Blacklisted Dragons, Lycanites Structures, Lycanites Entities and ReComplex structures from spawning in Nuclear Blight Biome
-✅  variedcommodities:sledge_hammer removed from JEI blacklist & made tradable with topographers
-✅  Blacklisted defiledlands:book_wyrm from parasites target list.
-✅  Disabled OTG fog for underneath making way for dynamic surroundings fog to take over
-✅  Transformed all mixed defiled biomes into full defiled biomes by changing spawnqueue of mixed parts which now should also spawn defiled creatures.
-✅  Changed the Underworld (Polluted Ocean with hills) biome to inherit from biomesoplenty:wetlands rather than minecraft:ocean. Underworld Hills
 ✅  Increased Lycanites Geonach spawner (ORE) spawn chance from 0.01 to 0.02
 ✅  Tripled speed of corruption spread (SRPARASITES)
 ✅  Increased amount of Roguelike Dungeon spawning by lowering spawnFrequency=17 to 15
 ✅  Fixed localization for item_gem_ruby_vc.name
 ✅  Lowered COTH range from 3 to 1 making it harder for COTH to transfer from mob to mob
 ✅  Lowered COTH health threshold from 0.3 to 0.2 meaning they'll now try to transform under 20% health rather than 30%
-✅  Disabled dragon cave generation in biomesoplenty:rainforest due to exposed dragon cave generation.
 ✅  Disabled fog amplification near bedrock through dynamic surroundings
-✅  Disabled fog increase near bedrock
 ✅  Fixed Lycanites Vapula (GEM) spawner from srparasites:gore block and increased spawn chance from 0.02 to 0.03.
 ✅  QUADRUPLE TEST ALL LYCANITES MOBS because this may break other things like ore spawning
-✅  Fixed JotunnHeim biome dread horse overspawning
-✅  Added Dismount on "Dismounter" targets player.
-✅  Abyssal/Parasite biome added allowed mounts: (All Land Mounts + Ignibus & I&F Dragons Flying mounts)
-    Lycanites: Barghest, Erepede, Eyewig, Feradon, Maug, Pinky, Salamander, Shade, Uvaraptor, Ventoraptor, Warg, Zoataur
-    Ice and Fire: Fire Dragon, Ice Dragon, Lightning Dragon
-    Fish Undead Rising: Salamander
 ✅  Overworld Parasites now do 50% less damage instead of 75% less damage.
-✅  Overworld evolution phase set to 4 instead of 8 and chunk based evolution enabled in parasite biomes.
 ✅  Enabled spawnchunks for a radius of 6 chunks in the overworld.
 ✅  Added new containers to the RLTweaker Distance Classes list (prevents duping of items)
 ✅  changed incontrol spawning 1% parasites to chunk based spawning but only on concrete slabs between 0 and 12 lightlevel.
-✅  Configured SRP for the overworld to work with chunk based phases and set default phase to 4 in whitelisted biomes and phase 8
-✅  Decreased the amount of bunker spawns after initially testing them.
-✅  Made a recipe for Radiation Warning Block
 ✅  Nerfed the corrupted shield in dungeonone loottable that gives a +20 dmg boost to +20 damage boost & -95% hp
-✅  Fix Brutal shiv dropping key out of abyssal rift.
+✅  Fix (Brutal) Shivaxi dropping skeleton key outside of the Abyssal Rift (Kotlin)
 ✅  Remove ability to use ender pearls in abyssal rift
-✅  Creation of energy extraction tower for the dimensional bridges between the overworld & underneath
-✅  Creation of far end tower portal
-
-
-EagleMixins Changelog:
-✅  Added config option for beckon kill radius range
-✅  Fixed Player was able to add effects on entities just by having tipped arrows in hand (Nischelm)
+✅  Made beckon kill radius range & toggle config options in Eaglemixins
+✅  Fixed Player being able to add effects on entities just by having tipped arrows in hand (Nischelm)
 ✅  Fixed various arrow handler issues including arrow potions to applying for a long time (Nischelm)
-✅  in theory a tipped arrow skelly could also apply its arrow effects using thorns or whatever other side dmg bc there was no check for using an arrow (Nischelm)
-✅  fixed berian handler (my fault 💀 was 90% berian chance ) (Nischelm)
-✅  moved abyssal stuff into its own config+handler (Nischelm)
-✅  added some configs for SRPhandler (Nischelm)
-✅  Added teleportation mechanic with overlay and a 1% chance for terror to happen (Eagle)
-✅  Move over Dregora-specific patches from RLMixins (FonnyMunkey
-✅  Fix (BT) Shivaxi dropping skeleton key outside of the Abyssal Rift (Kotlin)
+✅  In theory a tipped arrow skelly could also apply its arrow effects using thorns or whatever other side dmg bc there was no check for using an arrow (Nischelm)
+✅  moved abyssal based tweaks into its own config+handler (Nischelm)
+✅  Moved over Dregora-specific patches from RLMixins (FonnyMunkey
 ✅  Introduce custom hearts for Radiation Sickness (Kotlin)
-✅  Added resource crates block (randomly drops nuclearcraft items) (Eagle)
 ✅  Added custom-name support to Counters & Cabinets (Kotlin)
 ✅  Added loot-table to Counters & Cabinets (Kotlin)
-✅  Added paintings for JSON paintings to EagleMixins
-✅  Added config values for SRP biome black/whitelist & a whitelist for named parasites that should not have any item drops removed. (Eagle)
+✅  Added config values to Eaglemixins for SRP biome black/whitelist & a whitelist for named parasites that should not have any item drops removed. (Eagle)
 ✅  Added Effect PotionRadiationSickness (Eagle)
 ✅  Added Radiation overlay effect (FonnyMunkey)
 ✅  Added handling for Irradiated parasites (Nischelm)
@@ -108,9 +218,23 @@ EagleMixins Changelog:
 ✅  Biome blacklist should be a config & have the option to make it a whitelist (SRP white/blacklist)
 ✅  Toggle option for dismount on entry Parasite/Abyssal biomes & added Dismount on "Dismounter" targets player.
 ✅  Radiation biome spawn blacklist - PR made to RLMixins (PR Accepted... sort of >:|
-✅  Fix enderpearl glitch in abyssal rift
-✅  Teleporation function between sender/receiver towers
-✅  Kitchen Cabinet & Counter loottable support - Kotlin
+✅  Made Neptunium radioactive.
+✅  Updated file director config with Json paintings from Modrinth
+✅  Increased performance through FermiumMixins & Noisethreader updates
+✅  Added radiation to nuclear biomes in nuclearcraft config & added these biomes to the RLMixins player spawning blacklist
+✅  Write lore for bunkers & added section on parasite weaknesses in a special bunker.
+✅  Hotbar colorized hearts (0x9BA132) when affected by Contamination - Kotlin
+✅  Updated SRPMixins Config (Beckons dying wont revert blocks to gravel/dirt any longer)
+✅  Added Teleportation Sickness Potion that blocks all teleportation for 10 seconds
+✅  Lowered bookwyrms level from lvl 60 to level 40.
+✅  Fixed Blighted Shivaxi name formatting in EagleMixins
+
+
+
+---------------------------------
+Beta Tasks Down Here:
+---------------------------------
+
 
 [Fixed for Beta 1]:
 ✅  fixed old_rebar error
