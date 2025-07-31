@@ -22,5 +22,6 @@ assignees: NLBlackEagle
 #### Description
 ▶️What is happening? - Explain what happens and what steps should be done to reproduce the issue.
 
-#### Latest Log
+#### Latest Log / Debug
 ▶️Please include your latest.log, these provide the best source of information for tracking down the issue.
+▶️If the issue causes lag please include a spark report by issuing the following command on the server (if able): /spark profiler  start --timeout 30 --thread * and sending us the result.
