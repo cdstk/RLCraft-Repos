@@ -42,17 +42,6 @@ ReinforcedBlockRust.setToolClass("pickaxe");
 ReinforcedBlockRust.setToolLevel(3);
 ReinforcedBlockRust.register();
 
-
-// Reinforced Iron Slab Double
-val ReinforcedBlockSlab = VanillaFactory.createBlock("iron_plate_slab_reinforced", <blockmaterial:iron>);
-ReinforcedBlockSlab.blockSoundType = <soundtype:metal>;
-ReinforcedBlockSlab.blockHardness = 30.0; //default 5.0
-ReinforcedBlockSlab.blockResistance = 20.0; //default 10
-ReinforcedBlockSlab.setToolClass("pickaxe");
-ReinforcedBlockSlab.setToolLevel(3);
-ReinforcedBlockSlab.register();
-
-
 // RLCraft Bliss and Blight music disks
 VanillaFactory.createRecord("rlmusic_bliss");
 VanillaFactory.createRecord("rlmusic_blight");

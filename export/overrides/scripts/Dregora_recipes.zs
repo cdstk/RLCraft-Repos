@@ -157,7 +157,6 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
 // add reinforced block item tooltip
 <contenttweaker:iron_plate_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 <contenttweaker:iron_plate_slab_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
-<contentcreator:iron_plate_slab_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 <contentcreator:iron_plate_stairs_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 <contenttweaker:iron_plate_rust_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 
@@ -181,23 +180,24 @@ GrateHard.hardness = 10;
 var IronLadderHard as IItemStack = <quark:iron_ladder>;
 IronLadderHard.hardness = 5;
 
-var ContentCreatorSlab as IItemStack = <contentcreator:iron_plate_slab_reinforced>;
-ContentCreatorSlab.hardness = 30;
+var ContentCreatorIronSlab as IItemStack = <contentcreator:iron_plate_slab_reinforced>;
+ContentCreatorIronSlab.hardness = 30;
 
-var ContentCreatorStairs as IItemStack = <contentcreator:iron_plate_stairs_reinforced>;
-ContentCreatorStairs.hardness = 30;
+var ContentCreatorIronStairs as IItemStack = <contentcreator:iron_plate_stairs_reinforced>;
+ContentCreatorIronStairs.hardness = 30;
 
-var ContentTweakersDoubleSlab as IItemStack = <contenttweaker:iron_plate_slab_reinforced>;
-ContentTweakersDoubleSlab.hardness = 30;
+var ContentCreatorConcreteSlab as IItemStack = <contentcreator:concrete_slab_reinforced>;
+ContentCreatorConcreteSlab.hardness = 30;
+
+var ContentCreatorConcreteStairs as IItemStack = <contentcreator:concrete_stairs_reinforced>;
+ContentCreatorConcreteStairs.hardness = 30;
+
 
 var LushPolishedHard as IItemStack = <lycanitesmobs:lushstonepolished>;
 LushPolishedHard.hardness = 30;
 
 var BasaltHard as IItemStack = <quark:basalt_wall>;
 BasaltHard.hardness = 10;
-
-var DimstackHard as IItemStack = <dimstack:bedrock>;
-BasaltHard.hardness = 50;
 
 //=================================
 //DREGORARL ContentTweaker new item recipes
