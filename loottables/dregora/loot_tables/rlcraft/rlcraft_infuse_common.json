@@ -96,7 +96,7 @@
               "tag": "{Potion:\"rlmixins:curse_break\",display:{Name:\"Potion of Untainted Curse Break\",LocName:\"rldregora.brutaltowers.curse_break.name\"}}"
             }
           ],
-          "weight": 5
+          "weight": 1
         }
       ]
     }

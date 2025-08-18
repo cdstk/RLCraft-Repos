@@ -22,43 +22,6 @@ print("Dregora Recipe Script starting!");
   recipes.addShapeless("dregora66",<contenttweaker:shelter_special_item>,[<nuclearcraft:part:0>,<minecraft:dye:1>]);
   recipes.addShapeless("dregora67",<contenttweaker:radiation_item>,[<nuclearcraft:part:0>,<minecraft:dye:11>]);
 
-
-//================================
-//Ore Tooltips
-//================================
-
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//<minecraft:gold_ore>.addTooltip(game.localize("rldregora.minecraft:gold_ore.tooltip", "en_us"));
-//
-//<biomesoplenty:biome_block:0>.addTooltip(game.localize("rldregora.biomesoplenty:biome_block:0.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:0>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:0.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:1.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:2.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:3.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:4.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:5.tooltip", "en_us"));
-//<biomesoplenty:gem_ore:1>.addTooltip(game.localize("rldregora.biomesoplenty:gem_ore:7.tooltip", "en_us"));
-//
-//<iceandfire:amethyst_ore>.addTooltip(game.localize("rldregora.iceandfire:amethyst_ore.tooltip", "en_us"));
-//<iceandfire:copper_ore>.addTooltip(game.localize("rldregora.iceandfire:copper_ore.tooltip", "en_us"));
-//<iceandfire:silver_ore>.addTooltip(game.localize("rldregora.iceandfire:silver_ore.tooltip", "en_us"));
-//<iceandfire:sapphire_ore>.addTooltip(game.localize("rldregora.iceandfire:sapphire_ore.tooltip", "en_us"));
-//
-//<defiledlands:hephaestite_ore>.addTooltip(game.localize("rldregora.defiledlands:hephaestite_ore.tooltip", "en_us"));
-//<defiledlands:umbrium_ore>.addTooltip(game.localize("rldregora.defiledlands:umbrium_ore.tooltip", "en_us"));
-//<defiledlands:scarlite_ore>.addTooltip(game.localize("rldregora.defiledlands:scarlite_ore.tooltip", "en_us"));
-//
-//<quark:biotite_ore>.addTooltip(game.localize("rldregora.quark:biotite_ore.tooltip", "en_us"));
-//
-//<scalinghealth:crystalore>.addTooltip(game.localize("rldregora.scalinghealth:crystalore.tooltip", "en_us"));
-
-
-
 //================================
 //Fallout Shelter Tooltips
 //================================
@@ -90,7 +53,6 @@ recipes.addShaped("dregora58",<mod_lavacow:frozen_dagger>,
   [null,<iceandfire:witherbone>,null]]);
 
 
-
 recipes.remove(<biomesoplenty:gem_block:1>);
 // Re-add Diomesoplenty ruby
 recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
@@ -100,7 +62,6 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
 
 recipes.addShaped("saw_bookshelf",<minecraft:book>*3,
 [[<ore:toolSaw>,<ore:bookshelf>]]);
-
 
 <variedcommodities:mana>.addTooltip(game.localize("rldregora.variedcommodities:mana.tooltip", "en_us"));
 
@@ -156,7 +117,6 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
 
 // add reinforced block item tooltip
 <contenttweaker:iron_plate_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
-<contenttweaker:iron_plate_slab_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 <contentcreator:iron_plate_stairs_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 <contenttweaker:iron_plate_rust_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 
@@ -165,8 +125,15 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
 //=================================
 
 //Change blockhardness Blocks in relation to SRParasites
-var BarrierHard as IItemStack = <dimstack:bedrock>;
-BarrierHard.hardness = 30;
+var BarrierHard07 as IItemStack = <dimstack:bedrock:7>;
+var BarrierHard06 as IItemStack = <dimstack:bedrock:6>;
+var BarrierHard05 as IItemStack = <dimstack:bedrock:5>;
+var BarrierHard00 as IItemStack = <dimstack:bedrock:0>;
+
+BarrierHard07.hardness = 30;
+BarrierHard06.hardness = 30;
+BarrierHard05.hardness = 30;
+BarrierHard00.hardness = 30;
 
 var AshenStoneHard as IItemStack = <lycanitesmobs:ashenstone>;
 AshenStoneHard.hardness = 30;
@@ -191,7 +158,6 @@ ContentCreatorConcreteSlab.hardness = 30;
 
 var ContentCreatorConcreteStairs as IItemStack = <contentcreator:concrete_stairs_reinforced>;
 ContentCreatorConcreteStairs.hardness = 30;
-
 
 var LushPolishedHard as IItemStack = <lycanitesmobs:lushstonepolished>;
 LushPolishedHard.hardness = 30;
@@ -610,6 +576,13 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 //Add the Tool Used Description for Barrier Blocks:
 <dimstack:bedrock:6>.addTooltip(game.localize("rldregora.dimstack:bedrock:6.tooltip", "en_us"));
 
+//Add the Tool Used Description for Barrier Blocks:
+<dimstack:bedrock:5>.addTooltip(game.localize("rldregora.dimstack:bedrock:5.tooltip", "en_us"));
+
+//Add the Tool Used Description for Barrier Blocks:
+<dimstack:bedrock:0>.addTooltip(game.localize("rldregora.dimstack:bedrock:0.tooltip", "en_us"));
+
+
 //Give Theta Brutal Key it's name:
 //<variedcommodities:artifact>.displayName = "§4‡ §6§lBrutal Artifact - Theta§r §4‡";
 <variedcommodities:artifact>.addTooltip(game.localize("rldregora.variedcommodities:artifact.tooltip", "en_us"));
@@ -897,7 +870,6 @@ recipes.addShaped("dregora16",<biomesoplenty:eucalyptus_door>*2,
   [<biomesoplenty:planks_0:15>,<biomesoplenty:planks_0:15>,null],
   [<biomesoplenty:planks_0:15>,<biomesoplenty:planks_0:15>,null]]);
 
-// Drop Shattered Ice from ice blocks
 furnace.setFuel(<biomesoplenty:seaweed>, 400);
 <biomesoplenty:seaweed>.displayName = game.localize("rldregora.biomesoplenty:seaweed.name", "en_us");
-furnace.addRecipe(<biomesoplenty:seaweed>, <aquaculture:food:0>, 99999);
+furnace.addRecipe(<biomesoplenty:seaweed>, <aquaculture:food:0>, 0.1);

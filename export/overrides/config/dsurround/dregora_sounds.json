@@ -95,11 +95,12 @@
       "conditions":"TRUE",
       "_comment": "Underneath Ambient",
       "aurora": false,
+      "spotSoundChance": 400,
       "sounds": [
         {
           "conditions":"MATCH('(?i)(.*3.*)', dim.id)",
           "sound": "dsurround:underneath.background.one",
-          "volume": 0.8
+          "volume": 0.2
         },
         {
           "conditions":"MATCH('(?i)(.*3.*)', dim.id)",

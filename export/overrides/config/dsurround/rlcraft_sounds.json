@@ -33,6 +33,10 @@
 	],
 	"items": {
 		"LEATHER": [
+			"nuclearcraft:helm_hazmat",
+			"nuclearcraft:chest_hazmat",
+			"nuclearcraft:legs_hazmat",
+			"nuclearcraft:boots_hazmat",
 			"simpledifficulty:wool_helmet",
 			"simpledifficulty:wool_chestplate",
 			"simpledifficulty:wool_leggings",

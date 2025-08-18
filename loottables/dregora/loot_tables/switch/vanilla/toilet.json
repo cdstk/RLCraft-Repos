@@ -14,6 +14,52 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: fonnymunkey, display:{Name:\"FM2\",Lore:[\"...Skibidi.\"],LocName:\"rldregora.toilet.skibidi.name\",LocLore:[\"rldregora.toilet.skibidi.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 80,
+              "treasure": true
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick, is it?\",Lore:[\"Fossilized.. Brick! Or...? Uhmm lets not think about that...\"],LocName:\"rldregora.toilet.brick1.name\",LocLore:[\"rldregora.toilet.brick1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a big brick!\",Lore:[\"A brick from unknown origin. It appears to be fossilized. Why does it smell so funky though?\"],LocName:\"rldregora.toilet.brick2.name\",LocLore:[\"rldregora.toilet.brick2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"When you see it...\"],LocName:\"rldregora.toilet.brick3.name\",LocLore:[\"rldregora.toilet.brick3.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"Someone left a Brick here...\"],LocName:\"rldregora.toilet.brick4.name\",LocLore:[\"rldregora.toilet.brick4.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"Reeking Skull \u2620\",Lore:[\"This skull deserved better...\"],LocName:\"rldregora.toilet.skull1.name\",LocLore:[\"rldregora.toilet.skull1.lore\"]}}"
             },
             {
@@ -109,46 +155,22 @@
             {
               "function": "minecraft:set_nbt",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
-              "tag": "
-              {
-                display:{Name:\"Potion of Mystery Content\",Lore:[\"Probably not Apple Juice...\"],LocName:\"rldregora.toilet.mystery_content.name\",LocLore:[\"rldregora.toilet.mystery_content.lore\"]},
-                CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],
-                Hideflags:32,
-                CustomPotionColor:11122688
-              }"
+              "tag": "{display:{Name:\"Potion of Mystery Content\",Lore:[\"Probably not Apple Juice...\"],LocName:\"rldregora.toilet.mystery_content.name\",LocLore:[\"rldregora.toilet.mystery_content.lore\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],Hideflags:32,CustomPotionColor:11122688}"
             },
             {
               "function": "minecraft:set_nbt",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
-              "tag": "
-              {
-                display:{Name:\"Potion of Apple Juice?\",Lore:[\"Looks like apple juice right?\"],LocName:\"rldregora.toilet.potion_apple.name\",LocLore:[\"rldregora.toilet.potion_apple.lore\"]},
-                CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],
-                Hideflags:32,
-                CustomPotionColor:11122688
-              }"
+              "tag": "{display:{Name:\"Potion of Apple Juice?\",Lore:[\"Looks like apple juice right?\"],LocName:\"rldregora.toilet.potion_apple.name\",LocLore:[\"rldregora.toilet.potion_apple.lore\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
             },
             {
               "function": "minecraft:set_nbt",
               "conditions": [{"condition": "random_chance","chance": 0.2}],
-              "tag": "
-              {
-                display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\"]},
-                CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],
-                Hideflags:32,
-                CustomPotionColor:11122688
-              }"
+              "tag": "{display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
             },
             {
               "function": "minecraft:set_nbt",
               "conditions": [{"condition": "random_chance","chance": 0.1}],
-              "tag": "
-              {
-                display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\",\"This one is signed by Kekistani?\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\",\"rldregora.toilet.rebranded_apple.lore.2\"]},
-                CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],
-                Hideflags:32,
-                CustomPotionColor:11122688
-              }"
+              "tag": "{display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\",\"This one is signed by Kekistani?\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\",\"rldregora.toilet.rebranded_apple.lore.2\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
             }
           ],
           "weight": 5

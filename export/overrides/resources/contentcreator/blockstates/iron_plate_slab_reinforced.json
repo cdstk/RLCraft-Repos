@@ -4,9 +4,9 @@
 		"transform":"forge:default-block",
 		"model":"half_slab",
 		"textures":{
-			"top":"contentcreator:blocks/iron_plate_stairs_reinforced",
-			"bottom":"contentcreator:blocks/iron_plate_stairs_reinforced",
-			"side":"contentcreator:blocks/iron_plate_stairs_reinforced"
+			"top":"contentcreator:blocks/iron_plate_slab_reinforced",
+			"bottom":"contentcreator:blocks/iron_plate_slab_reinforced",
+			"side":"contentcreator:blocks/iron_plate_slab_reinforced"
 		}
 	},
 	"variants":{

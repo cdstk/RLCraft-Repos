@@ -24,6 +24,41 @@ print("Nuclearcraft Recipe Script starting!");
 //nuclearcraft:rad_shielding:2
 
 //================================
+//Nuclearcraft add xp to smelting:
+//================================
+
+furnace.remove(<nuclearcraft:ingot:2>, <nuclearcraft:ore:2>);
+furnace.remove(<nuclearcraft:ingot:3>, <nuclearcraft:ore:3>);
+furnace.remove(<nuclearcraft:ingot:4>, <nuclearcraft:ore:4>);
+furnace.remove(<nuclearcraft:ingot:5>, <nuclearcraft:ore:5>);
+furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:ore:6>);
+
+furnace.addRecipe(<nuclearcraft:ingot:2>, <contenttweaker:deepslate_lead_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:3>, <contenttweaker:deepslate_thorium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:4>, <contenttweaker:deepslate_uranium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:5>, <contenttweaker:deepslate_boron_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:6>, <contenttweaker:deepslate_lithium_ore>, 0.1);
+
+//================================
+//Nuclearcraft add melting to deepslate blocks:
+//================================
+
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:deepslate_thorium_ore>, <liquid:thorium> * 370]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:deepslate_uranium_ore>, <liquid:uranium> * 370]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:deepslate_boron_ore>, <liquid:boron> * 370]);
+mods.nuclearcraft.melter.addRecipe([<contenttweaker:deepslate_lithium_ore>, <liquid:lithium> * 370]);
+
+//================================
+//Nuclearcraft add manufactoring to deepslate blocks:
+//================================
+
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:deepslate_lead_ore>, <nuclearcraft:dust:2> * 2]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:deepslate_thorium_ore>, <nuclearcraft:dust:3> * 2]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:deepslate_uranium_ore>, <nuclearcraft:dust:4> * 2]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:deepslate_boron_ore>, <nuclearcraft:dust:5> * 2]);
+mods.nuclearcraft.manufactory.addRecipe([<contenttweaker:deepslate_lithium_ore>, <nuclearcraft:dust:6> * 2]);
+
+//================================
 //New concrete block recipes:
 //================================
 
@@ -291,8 +326,20 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:ore:5>.addTooltip(game.localize("rldregora.nuclearcraft:ore:5.tooltip", "en_us"));
 <nuclearcraft:ore:6>.addTooltip(game.localize("rldregora.nuclearcraft:ore:6.tooltip", "en_us"));
 
-//Misc
 
+furnace.addRecipe(<nuclearcraft:ingot:2>, <contenttweaker:deepslate_lead_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:3>, <contenttweaker:deepslate_thorium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:4>, <contenttweaker:deepslate_uranium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:5>, <contenttweaker:deepslate_boron_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:6>, <contenttweaker:deepslate_lithium_ore>, 0.1);
+
+<contenttweaker:deepslate_lead_ore>.addTooltip(game.localize("rldregora.deepslate_lead.tooltip", "en_us"));
+<contenttweaker:deepslate_thorium_ore>.addTooltip(game.localize("rldregora.deepslate_thorium.tooltip", "en_us"));
+<contenttweaker:deepslate_uranium_ore>.addTooltip(game.localize("rldregora.deepslate_uranium.tooltip", "en_us"));
+<contenttweaker:deepslate_boron_ore>.addTooltip(game.localize("rldregora.deepslate_boron.tooltip", "en_us"));
+<contenttweaker:deepslate_lithium_ore>.addTooltip(game.localize("rldregora.deepslate_lithium.tooltip", "en_us"));
+
+//Misc
 <nuclearcraft:geiger_counter>.addTooltip(game.localize("rldregora.nuclearcraft:geiger_counter.tooltip", "en_us"));
 <nuclearcraft:tritium_lamp>.addTooltip(game.localize("rldregora.nuclearcraft:tritium_lamp.tooltip", "en_us"));
 <nuclearcraft:upgrade:0>.addTooltip(game.localize("rldregora.nuclearcraft:upgrade.tooltip", "en_us"));

@@ -1,6 +1,24 @@
 #PARSE_ESCAPES
 ##################################################################
-# lore/underneath.json
+# lore/teleporters
+##################################################################
+rldregora.teleporter.power.page.1=Major Test Log Entry 01\nDecember 10 2113 13:00\n\nProject Arcturus power generation low input test succeeded.
+rldregora.teleporter.power.page.2=Major Test Log Entry 02\nJune 18 2114 18:30\n\nDimensional rift low output energy surplus established.
+rldregora.teleporter.power.page.3=Major Test Log Entry 02\nNovember 23 2114 18:30\n\nDimensional rift teleportation sequence milestone.
+rldregora.teleporter.power.page.4=Major Test Log Entry 03\nOctober 23 2115 18:30\n\nProject Arcturus full sequence startup preparations complete.
+
+rldregora.teleporter.hadron.page.1=Jan 08 2116 15:00\n\nProject Arcturus startup date, all checks OK and deep earth connection primary and secondary established.
+rldregora.teleporter.hadron.page.2=Jan 08 2116 15:30\n\nAll systems malfunctioning, huge earth tremor and connection with deep earth stations lost over all channels.
+rldregora.teleporter.hadron.page.3=Jan 08 2116 19:00\n\nDispatched team to investigate, no word from dispatch team since their departure 2 hours ago.
+rldregora.teleporter.hadron.page.4=Jan 08 2116 20:00\n\nGlobal phenomenon of EMP detected, only shielded equipment survived, everything else short-circuited. Origin was determined to be Project Arcturus. Press statement: Sun Flare.
+rldregora.teleporter.hadron.page.5=Jan 10 2116 08:31\n\nDisaster team arrived & send down stairwell to investigate.
+rldregora.teleporter.hadron.page.6=Jan 10 2116 10:55\n\nSOS call from disaster team, signs of accelerated mutation found in members of disaster team.
+rldregora.teleporter.hadron.page.7=Jan 13 2116 06:55\n\nAnimate remains of disaster team arrived back at elevator, extremely aggressive and malformed, research concluded no cure with limited response to radiation treatment.
+rldregora.teleporter.hadron.page.8=Jan 23 2116 06:55\n\nPlugged all access points to Deep Underneath with radioactive substances. Initiated evacuation protocol and assembly of fallout shelters.
+
+
+##################################################################
+# lore/underneath
 ##################################################################
 rldregora.underneath.blindfold.name=Strap of Oblivion
 rldregora.underneath.blindfold.lore=Wear this if you have arachnophobia!
@@ -41,11 +59,10 @@ rldregora.bunker.mid.page.2=-------------------Date 26 Feb 2118\n---------------
 rldregora.bunker.mid.page.3=Corruption of the cities, corruption referring to the take over of these monsters.\n\nHumanity is rare nowadays, most of them corrupted into these other beings and if that wasn't enough there's also
 rldregora.bunker.mid.page.4=the radiation now, the corrupted are seemingly unaffected by this or so Pete told us but it's a wasteland in the makings above our head...\n\nSo yeah make sure we take a Geiger counter with us whenever we go above ground I guess.
 rldregora.bunker.mid.page.5=-------------------Date 17 March 2118\n-------------------Our new friend Pete is acting strange in some way, seems more shy and aggressive at times. I hope it was not a mistake to bring him in.
-rldregora.bunker.mid.page.6=-------------------Date 19 March 2118\n-------------------Our new friend Pete is acting strange in some way, seems more shy and aggressive at times. I hope it was not a mistake bringing him in.
-rldregora.bunker.mid.page.7=-------------------Date 26 March 2118\n-------------------We are safe, and lucky to be alive. Pete changed, he changed into a monster and we managed to get rid of him... For now he is in the pool room until it gets quiet above once again.
-rldregora.bunker.mid.page.8=-------------------Date 18 April 2118\n-------------------The quiet moments are no more, Pete's remains are still in the pool room but it is of no worry.. This rash, and this anger is though...\n\nAm I turning too?
-rldregora.bunker.mid.page.9=-------------------Date 23 April 2118\n-------------------Kate, Elliot my family... they are gone, they turned and I had no choice... I can feel myself changing too.\n\nMy newborn anger will be the downfall of those above, the corrupted will feel
-rldregora.bunker.mid.page.10=my wrath as I will butcher them knowing it'll be the last thing I do before it's too late and I turn into one of them or succumb to the radiation.
+rldregora.bunker.mid.page.6=-------------------Date 26 March 2118\n-------------------We are safe, and lucky to be alive. Pete changed, he changed into a monster and we managed to get rid of him... For now he is in the pool room until it gets quiet above once again.
+rldregora.bunker.mid.page.7=-------------------Date 18 April 2118\n-------------------The quiet moments are no more, Pete's remains are still in the pool room but it is of no worry.. This rash, and this anger is though...\n\nAm I turning too?
+rldregora.bunker.mid.page.8=-------------------Date 23 April 2118\n-------------------Kate, Elliot my family... they are gone, they turned and I had no choice... I can feel myself changing too.\n\nMy newborn anger will be the downfall of those above, the corrupted will feel
+rldregora.bunker.mid.page.9=my wrath as I will butcher them knowing it'll be the last thing I do before it's too late and I turn into one of them or succumb to the radiation.
 rldregora.bunker.mid_nuclear.page.1=     Uranium Fuel\n     Fabrication\n-------------------\n\nInsert uranium ingot or dust into isotope separator.\n\nIf power is depleted turn on reactor.\n\nCombine tiny clumps of Uranium-235 to make
 rldregora.bunker.mid_nuclear.page.2=Uranium-235\n\nCombine 8/9 Uranium-238 with 1/9 Uranium-235 to make LEU-235 fuel\n\nLEU-235 fuel can be used to power the reactor.
 rldregora.bunker.atrium.book_01.page.1=  Parasitic Spread\n Research Results\n-------------------\n\nAfter careful observations of the effect on the now officially named Biome Purifier we conclude the experiment a success.\n\nThis device will
@@ -4132,26 +4149,26 @@ rldregora.piratejunk_loot.blunt_sword.lore=A Pirate sword, all battered up.
 rldregora.ancient.the_encounter.title=The Encounter
 rldregora.ancient.the_encounter.author=Navigational Officer
 rldregora.ancient.the_encounter.lore=An old book, signed by the Dregorian Voyager navigational officer
-rldregora.ancient.the_encounter.page.1=After spending over a thousand years in space we returned to Earth knowing that since the time of departure approximately 1100 years had passed. Expecting to be welcomed by a thousand voices, we were met with silence.\n\n 
+rldregora.ancient.the_encounter.page.1=After spending well over a hunderd years in space we returned to Earth knowing that since the time of departure approximately 150 years had passed. Expecting to be welcomed by a thousand voices, we were met with silence.\n\n
 rldregora.ancient.the_encounter.page.2=For a long time we came up with all manner of theories but none had prepared us for what we saw once in range of Earth: A desolate Mars-like planet with wide deserts and no communications whatsoever. What happened to the Earth?
 
 rldregora.ancient.logbook.title=Logbook
 rldregora.ancient.logbook.author=Ecologist
 rldregora.ancient.logbook.lore=An old book signed by a Dregorian Ecologist
 rldregora.ancient.logbook.page.1=After scanning the world, a viable spot revealed itself containing a small ocean, or perhaps a big lake. The board gathered and voted. The decision to start over on this planet was unanimous and preparations began.
-rldregora.ancient.logbook.page.2=Meanwhile, our scientists shocked us by announcing the actual date, accounting for time dilation due to relativity. It's now the year 6156 (give or take a couple months), close to 4000 years later! Much longer than we initially thought.\n\n 
-rldregora.ancient.logbook.page.3=But what happened? As an ecologist, I assure you even a hundred thousand years couldn't explain the strange creatures roaming the planet. Oddly, I note this strange new life seems diminished wherever there is water...
+rldregora.ancient.logbook.page.2=Meanwhile, our scientists shocked us by announcing the actual date, accounting for time dilation due to relativity. It's now the year 2458 (give or take a couple months), close to 350 years later! Much longer than we initially thought.\n\n
+rldregora.ancient.logbook.page.3=But what happened? As an ecologist, I assure you even a hundred thousand years couldn't explain the strange creatures roaming the planet. Notably though, this strange new life seems diminished wherever there is radiation.
 
 rldregora.ancient.soldiers_diary.title=Soldier's Diary
 rldregora.ancient.soldiers_diary.author=Soldier
 rldregora.ancient.soldiers_diary.lore=An old book signed by a Dregorian Soldier
-rldregora.ancient.soldiers_diary.page.1=Year 6236, 80 years after the arrival of the Dregorian Voyager and we have settled in a valley now known as Dregora. There are no traces of our green Earth reclaiming the Endlands beyond Dregora yet, but we keep our hopes up.
-rldregora.ancient.soldiers_diary.page.2=All things considered, we are grateful for this small pearl of life. Beyond the edge of Dregora the biggest monsters roam in large numbers while they pop up here only sparingly. If only we still had the Dregorian Voyager slaying these would have been trivial. 
+rldregora.ancient.soldiers_diary.page.1=Year 2538, 80 years after the arrival of the Dregorian Voyager and we have settled in a valley now known as Dregora. There are no traces of our green Earth reclaiming the Endlands beyond Dregora yet, but we keep our hopes up.
+rldregora.ancient.soldiers_diary.page.2=All things considered we are grateful for this small pearl of life. Beyond the edge of and below Dregora the biggest monsters roam while they pop up here only sparingly. If only the old machinery still worked we could've beaten them... Maybe.
 
 rldregora.ancient.captains_log.title=Captain's Log
 rldregora.ancient.captains_log.author=Dregorian Captain
 rldregora.ancient.captains_log.lore=An old book signed by the captain of the Dregorian Voyager
-rldregora.ancient.captains_log.page.1=It is year 2300 or 8537 according to the ancient books from the Great Library. The deck boards of my ship, the Dregorian Explorer, creak under my feet as we ready to hoist the sail.
+rldregora.ancient.captains_log.page.1=It is year 206 or 2744 according to the ancient books from the Great Library. The deck boards of my ship, the Dregorian Explorer, creak under my feet as we ready to hoist the sail.
 rldregora.ancient.captains_log.page.2=Today is Dregorian Founder's Day, which we celebrate in honor of the arrival. This time around it was up to me to carry on the ancient knowledge as part of our tradition.
 rldregora.ancient.captains_log.page.3=I never took an interest in the weird structures in the wastelands, however reading the ancient books piqued my curiosity. The books told me they were once huge villages equal or greater than the size of kingdoms with millions of people living in
 rldregora.ancient.captains_log.page.4=them with flying machines and more. It's hard to believe we once lived in such a place before the monsters arrived. It makes me question what kind of secrets and treasures still remain hidden in the lands beyond.
@@ -4200,7 +4217,7 @@ rldregora.bunker.reclaimation_day.title=Reclaimation Day
 rldregora.bunker.reclaimation_day.author=Unknown
 rldregora.bunker.reclaimation_day.lore=A copy of a copy of a old book, most pages fell out but a small note remained.
 rldregora.bunker.reclaimation_day.page.1=Reclaimation day speech.\n\nToday marks our Reclaimation day for we have cleaned the corruption out of our newfound home and shall sleep sound for the doors are strong.\n\nNow we shall fix what is broken and farm what lands we have in peace.
-rldregora.bunker.reclaimation_day.page.2=We've traveled under many days and survived many a nights full of terror and doom.\n\nNow it is our time to be happy if not for our sakes then for those who we lost on our way to this utopia amids the waste.\n\n19/11/6236 Saturday
+rldregora.bunker.reclaimation_day.page.2=We've traveled under many days and survived many a nights full of terror and doom.\n\nNow it is our time to be happy if not for our sakes then for those who we lost on our way to this utopia amids the waste.\n\n19/11/2538 Saturday
 
 ##################################################################
 # lore/dungeonone.json
@@ -4432,53 +4449,53 @@ rldregora.generic.the_blight1.page.2=moment where the world leaders came togethe
 rldregora.generic.the_blight1.page.3=than a Zero Point Module. However, the project suffered from a fatal flaw. By extracting zero point energy from its own space-time it resulted in the destabilizing of space within the vicinity of the zero point reactor. No longer obeying the
 rldregora.generic.the_blight1.page.4=normal laws of physics, exotic particles were formed. They interacted in ways impossible to predict resulting in a runaway reaction in the containment chamber...\n\n 
 rldregora.generic.the_blight1.page.5=Without a lot of information to go on, people came to the conclusion space-time had been bent and dimensions had melted together causing the effects of this catastrophe. First the electromagnetic shock wave, powerful enough to destroy the
-rldregora.generic.the_blight1.page.6=infrastructure as we knew it. Ships dead in the water, planes with complete system failures and earthquakes destroying our means of transportation on the ground. Months later, just as humanity started to find a grip, the mutations came.
+rldregora.generic.the_blight1.page.6=infrastructure as we knew it. Ships dead in the water, planes with complete system failures and earthquakes destroying our means of transportation on the ground. Months later, just as humanity started to get a grip again, the mutations came.
 rldregora.generic.the_blight1.page.7=They were called The Corrupted. It started with a few but they quickly became a common occurrence from which even the inhabitants buried deep underground in their mighty concrete bunkers were not safe. Driven back to our last standing
-rldregora.generic.the_blight1.page.8=strongholds, we foresaw the future with grim eyes. Far away, behind the horde our advanced nuclear saviors of old times stood, slowly ticking away our remaining time as there was nobody left to fix any damage.  Before long we retreated
-rldregora.generic.the_blight1.page.9=to our deepest bunkers, ironically powered by nuclear reactors, and waited for the world to heal again.\n\n 
+rldregora.generic.the_blight1.page.8=strongholds, we foresaw the future with grim eyes. Far away, behind the horde our advanced nuclear saviors of old times stood, slowly ticking away our remaining time as there was nobody left to prevent their meltdowns. Before long we retreated
+rldregora.generic.the_blight1.page.9=to our deepest bunkers, ironically powered by nuclear reactors, and waited for the world to heal again from both the corruption as the radiation.\n\n
 rldregora.generic.the_blight1.page.10=Meanwhile, a distant hope was approaching this broken, nuclear world, one that would earn the world's name and its history as if they where twins. The Dregorian Voyager, a mighty ship with but one goal, colonize distant stars. A dream
-rldregora.generic.the_blight1.page.11=shattered by a simple malfunction within the hyperdrive mainframe that required the passengers to live a thousand years in stasis until they finally arrived back at Earth.\n\n- To be continued in -\n 'lThe Dregorian's Demise'r\n    ( Chapter 2 )
+rldregora.generic.the_blight1.page.11=shattered by a simple malfunction within the hyperdrive mainframe that required the passengers to live hunderds of years in stasis until they finally arrived back at Earth.\n\n- To be continued in -\n 'lThe Dregorian's Demise'r\n    ( Chapter 2 )
 
 rldregora.generic.dregorian_demise.title=Dregorian's Demise - Chapter 2
 rldregora.generic.dregorian_demise.author=Dregorian
 rldregora.generic.dregorian_demise.lore=A Distant Hope...
 rldregora.generic.dregorian_demise.page.1=§l§4     Chapter 2  §r\n\nAs the staff crew launched into orbit on board a much smaller vessel towards the Dregorian Voyager, all of humanity applauded them. A decade would pass until they would return with what everyone hoped to be good news about one
-rldregora.generic.dregorian_demise.page.2=or more distant planets suitable to host human life. A place where they could prosper without the atmosphere being polluted beyond saving. However, among all these good hopes and wishes there was a tiny little object they did not anticipate. Far
+rldregora.generic.dregorian_demise.page.2=or more distant planets suitable to host human life. A place where they could prosper with a surplus of resources. However, among all these good hopes and wishes there was a tiny little something they did not anticipate. Far
 rldregora.generic.dregorian_demise.page.3=away, light years in fact, an asteroid was traveling for many million years headed on a collision course with a much larger asteroid. With a chaotic collision they merged, but not completely, as tiny rocks flew off in all
 rldregora.generic.dregorian_demise.page.4=directions. One of them headed towards a little moon orbiting a far, far away planet in an unknown system which was currently being visited by the Dregorian Voyager.\n  
-rldregora.generic.dregorian_demise.page.5=Nothing special happened, a tiny rock flew at near the speed of light and hit the hull, leaving a tiny hissing gap which was immediately fixed by the autonomous robots with the task to keep the ship in sublime condition. But it was not just the hull
-rldregora.generic.dregorian_demise.page.6=that got penetrated. By mere chance this tiny rock meant the death of two crew members. As it was moving so fast it could penetrate anything within the ship, as it did the navigational unit of the hyperdrive mainframe. A senior
-rldregora.generic.dregorian_demise.page.7=mechanic could have quickly fixed it, but the longer this chip was not working the more the Dregorian Voyager would drift off towards unknown space.\n 
-rldregora.generic.dregorian_demise.page.8=Many years later the Dregorian Voyager reached its destination, or so the crew thought. But after waking they quickly realized something was wrong. Two of the designated mechanics were dead, hit by a tiny rock while in stasis. A tragedy
-rldregora.generic.dregorian_demise.page.9=they thought, until they took a look outside and everything was not as it should have been. Unknown stars and planets. Nothing they could recognize from their extended training. Nothing the computer could recognize in its current state as the 
-rldregora.generic.dregorian_demise.page.10=shutdown sequence was interrupted by a malfunction in the navigational chip. To sum things up, the hyperdrive would primarily need two replacements, a navigational chip and a new Crontonium Crystal which unintentionally functioned as a fuse
-rldregora.generic.dregorian_demise.page.11=and got hit by a surge caused by skipping the shutdown sequence. The navigational chip replacement was nothing to worry about, the same goes for the Crontonium Crystal if it wasn't a one of a kind crystal. Of course there were
-rldregora.generic.dregorian_demise.page.12=replacements, but not as good as the initial one.\n\n\nA couple days passed, systems were running again and they knew exactly where they were. In sublime condition their\n\n 
-rldregora.generic.dregorian_demise.page.13=destination would have been 5 years ahead. A simple dream away in stasis. Yet the ship could only travel at a mere fraction of its former speed. If the Dregorian Voyager set course for its original destination it would take 987 years to reach while earth was close to a
-rldregora.generic.dregorian_demise.page.14=1000 years away. With both destinations nearly equally as bad they voted to return home.\n\n- To be continued in -\n '§lThe Arrival's Demise'§r\n    ( Chapter 3 )
+rldregora.generic.dregorian_demise.page.5=A tiny rock traversing at incredible speeds hit the hull, leaving a tiny hissing gap which was immediately fixed by the autonomous robots tasked with keeping the ship in sublime condition. But it was not just the hull that got penetrated.
+rldregora.generic.dregorian_demise.page.6=This tiny rock also meant the death of two valued crew members, destroyed several crontonium crystals in storage and caused the partial destruction of the navigational unit which in turn was a key component for the hyper-drive. Was this noticed a senior
+rldregora.generic.dregorian_demise.page.7=mechanic could have quickly fixed it, but alas in the dark expanse of the void they drifted further and further away towards unknown space until it was too late for any to distinguish where they where.
+rldregora.generic.dregorian_demise.page.8=Many years later the Dregorian Voyager reached its destination, or so the crew thought. But after waking they realized something was wrong. Two of the senior mechanics were dead, hit by a tiny rock while in stasis. A tragedy beyond their understanding
+rldregora.generic.dregorian_demise.page.9=until they took a look outside and everything was not as it should have been. Unknown stars and planets. Nothing they could recognize from their extended training. Nothing the computer could recognize in its current state as the
+rldregora.generic.dregorian_demise.page.10=shutdown sequence was interrupted by a malfunction in the navigational chip. To sum things up, the hyper-drive would primarily need two replacements, a navigational chip and a new Crontonium Crystal which melted under the intense heat of a short circuit
+rldregora.generic.dregorian_demise.page.11=indirectly caused by the skipping of the shutdown sequence. The navigational chip replacement was nothing to worry about, the same goes for the Crontonium Crystal if it wasn't a one of a kind crystal. Of course there were
+rldregora.generic.dregorian_demise.page.12=replacements, but not as good as the initial one.\n\n\nA couple weeks passed, systems were running again and their location was known. The destination would have been 5 years ahead with the former superior crystal, a simple dream away in stasis.
+rldregora.generic.dregorian_demise.page.13=Yet the ship could now only travel at a mere fraction of its former speed with a imperfect, damaged cystal. If the Dregorian Voyager set course for its original destination it would take over a hundred years to reach while earth was little under a
+rldregora.generic.dregorian_demise.page.14=hundred years away. With both destinations nearly equally far they voted to return home.\n\n- To be continued in -\n '§lThe Arrival's Demise'§r\n    ( Chapter 3 )
 
 rldregora.generic.the_arrival.title=The Arrival - Chapter 3
 rldregora.generic.the_arrival.author=Dregorian
 rldregora.generic.the_arrival.lore=Red, like the evening sun.
-rldregora.generic.the_arrival.page.1=§l§4     Chapter 3  §r\n\nYears passed while the crew of the Dregorian voyager slept in stasis. As the Dregorian Voyager approached the solar system the crew was awakened to make long-distance contact with Earth which seemed so blue the last time they saw it,
-rldregora.generic.the_arrival.page.2=around 800 years ago when they left their home. However, upon looking towards the Earth they saw nothing but a planet covered in red dust. Has Earth vanished, somehow replaced by a red ball of dust like Mars? Uncertain of their findings
-rldregora.generic.the_arrival.page.3=they tried all methods of contact longing for any answer. Weeks passed while hope declined. Earth as they knew it was gone. Only a small speck of vegetation remained, somehow spared by whatever happened on earth. And so, with mixed
+rldregora.generic.the_arrival.page.1=§l§4     Chapter 3  §r\n\nDecades passed while the crew of the Dregorian voyager slept in stasis. As the Dregorian Voyager approached the solar system the crew was awakened to make long-distance contact with Earth which seemed so blue the last time they saw it,
+rldregora.generic.the_arrival.page.2=around roughly a hundred years ago when they left their home. However, this time upon looking towards the Earth they saw nothing but a planet covered in red dust. Has Earth vanished, somehow replaced by a red ball of dust like Mars?
+rldregora.generic.the_arrival.page.3=Uncertain of their findings they tried all methods of contact longing for any answer. Weeks passed while hope declined. Earth as they knew seemed gone. Only a small speck of vegetation remained, somehow spared by whatever happened on earth. And so, with mixed
 rldregora.generic.the_arrival.page.4=feelings they went to their stasis pods once again to sleep for the remaining 20 years as they slowly approached Earth.\n\n   
-rldregora.generic.the_arrival.page.5=20 years passed in a second. Vomiting and feeling incredibly sick, the crew's captain stumbled out of his pod and dragged himself to the infirmary to climb back into another pod and activate it. A day passed while the pod healed him from his
+rldregora.generic.the_arrival.page.5=Vomiting and feeling incredibly sick, the crew's captain stumbled out of his pod and dragged himself to the infirmary to climb back into another pod and activate it. A day passed while the pod healed him from his
 rldregora.generic.the_arrival.page.6=extended hibernation while his other crew members woke up as well. As was second nature, once capable everyone started checking all systems and did a full ship diagnostic. Everything worked fine, including the substitute Crontonium Crystal. As\n 
-rldregora.generic.the_arrival.page.7=the crew arrived on deck they could see the captain standing in the center of the room. Behind him there was a red ball, almost like an eye as there was a green iris looking in their direction. What they saw is what remained of Earth. So it was 
+rldregora.generic.the_arrival.page.7=the crew arrived on deck they could see the captain standing in the center of the room. Behind him there was a red ball, almost like an eye with a small green iris looking in their direction. What they saw is what remained of Earth. So it was
 rldregora.generic.the_arrival.page.8=\ntrue, the world as they knew it was forever gone, buried under a thick layer of red dust.\n\n- To be continued in -\n§l    A Dead World§r\n    ( Chapter 4 )
 
 rldregora.generic.dead_world.title=A Dead World - Chapter 4
 rldregora.generic.dead_world.author=Dregorian
 rldregora.generic.dead_world.lore=The sound of nothing as the true king of what once was our Earth.
-rldregora.generic.dead_world.page.1=§l§4     Chapter 4  §r\n\nAs the corrupted burned to a crisp, the landing gears of the Dregorian Voyager touched the ground after a thousand years. This was also the moment we woke the scientist department to assess the damage and see what could be done
-rldregora.generic.dead_world.page.2=while a small team of marines will attempt to find any survivors to tell us what happened to the Earth. Not much later, the scientists came with a report urging us to visit a known mountain range due north and take some specimens.
-rldregora.generic.dead_world.page.3=What we didn't tell them is that we'd not only assemble a team to get the specimens but also visit a special bunker in those mountains. If humanity needed a refuge from an apocalyptic event, that is where they would go.\n 
-rldregora.generic.dead_world.page.4=Only one person returned from this expedition with a sample of the mountain. His last words struck the crew with fear and had they not listened I wouldn't be here to tell this story. 'Beasts, corrupted... Evil. Close the gates, NOW! You MUST' As the   
-rldregora.generic.dead_world.page.5=scientist did their test we closed up the ship. No one out, no one in. And as night fell we heard the noises against the hull. Dawn arrived as the wind blew over a desolate wasteland and a scientist found the truth. Today marks the year 6156,
-rldregora.generic.dead_world.page.6=4076 years since the departure of the Dregorian Voyager. Knowing this and the fact that finding any survivors is very slim, the leaders of the departments came together to talk about the future. Would they remain on Earth and use terraforming 
-rldregora.generic.dead_world.page.7=equipment to slowly return the Earth to its former beauty or would they embark on their journey to distant stars as was the original plan? As the vote resulted in a unanimous decision to remain on Earth, they started up the 
+rldregora.generic.dead_world.page.1=§l§4     Chapter 4  §r\n\nAs the corrupted burned to a crisp, the landing gears of the Dregorian Voyager touched the ground after hundreds of years. This was also the moment we woke the scientist from their deep sleep to assess the damage and see what
+rldregora.generic.dead_world.page.2=could be done. Not much later a small scout team was assembled tasked with the exploration of known fallout shelters with the mission to seek survivors or any useful information as to what has happened to earth.
+rldregora.generic.dead_world.page.3=Days passed as we fortified our defences and established a outer defence perimeter in the rough shape of a pentagon with large walls and a beefy support structure for this may be the last bastion of humanity we need to proceed with care.
+rldregora.generic.dead_world.page.4=As day became night on the fourth day the expedition returned or what was left of it... A sole survivor screaming 'Beasts, corrupted... Evil. Close the gates, NOW! You MUST' And thus we did, swiftly followed by loud banging noises... Attempts
+rldregora.generic.dead_world.page.5=to breach our safe haven and thus we ignited the thrusters one last time after which everything fell silent again. Dawn arrived as the wind blew over a desolate wasteland with news... It is early summer in the year 2458,
+rldregora.generic.dead_world.page.6=378 years since the departure of the Dregorian Voyager. Knowing this and the fact that finding any survivors is very slim, the leaders of the departments came together to talk about the future. Would they remain on Earth and use the terraform device to
+rldregora.generic.dead_world.page.7=slowly return the Earth to its former beauty or would they embark on their journey to distant stars as was the original plan? As the vote resulted in a unanimous decision to remain on Earth, they started up the
 rldregora.generic.dead_world.page.8=\n\nzero-point module, their primary source of energy on the Dregorian Voyager.\n\n\n- To be continued in -\n§l    A New World§r\n    ( Chapter 5 )
 
 rldregora.generic.new_world.title=A New World - Chapter 5
@@ -5203,7 +5220,7 @@ rldregora.shipfloat.from_edge.author=Unknown
 rldregora.shipfloat.from_edge.lore=A note from an explorer who saw it all.
 rldregora.shipfloat.from_edge.page.1=It's been several months since we ventured out with the goal of exploring the distant lands. We have seen the wall, the great divide, and the nuclear wastelands beyond and I survived. I, as the only remaining member of what you could call a fleet.
 rldregora.shipfloat.from_edge.page.2=I'm nothing more than a simple mercenary lucky enough to say he saw dragons, giant flesh eating worms, and even worse. Whoever thinks the corrupted within the walls are bad should be spared of what is beyond as there are no mutations there.
-rldregora.shipfloat.from_edge.page.3=There are no corrupted. It's gotten beyond that point and can only be described as pure evil. Evil with an awareness, fortresses and kingdoms. Evil dark kingdoms found far into the wastelands.\n\n 
+rldregora.shipfloat.from_edge.page.3=There are no corrupted. It's gotten beyond that point and can only be described as pure evil. Evil with an awareness, fortresses and kingdoms. Evil dark kingdoms found far into the wastelands.
 
 ##################################################################
 # lore/shipsunk.json
@@ -5317,7 +5334,7 @@ rldregora.spawnbook.realms_dregora.author=The Founder
 rldregora.spawnbook.realms_dregora.lore=Dregora, The Blight and you in your adventure through a bountiful world
 rldregora.spawnbook.realms_dregora.page.1=\n  §l§4B§l§n§4⬡⬡§l§4k §l§n§4⬡§l§4f§l§4 Dreg§l§n§4⬡§l§4ra§r\n\n§l    Welcome to a\n decade old world\n made with passion\n      and love§r\n\n ████§4████§r████\n ████§4████§r████\n ████§4████§r████\n§4 ████§r████§4████\n §4████§r████§4████§r\n§4 ████§r████§4████
 rldregora.spawnbook.realms_dregora.page.2=     §6☀§8           \n               §r\n§n§2▁§n§8▲§n§2▁§n§8◢◣§n§2▁▁§l§8╱╲§n§2▁§n§r▊§n§2▁§n§0▅§n§2▁§n§r \n\n\nPage 3-5 Prologue\nPage 6-9 Secrets\nPage 10 Realms\nPage 14 Thank you
-rldregora.spawnbook.realms_dregora.page.3=§oOur Earth, struck by a catastrophic event known as the Blight happened a few thousand years ago.\n\n§oRuined cities have been long overtaken by the sands of the wastelands, with the green of corruption feasting on the remains of the unfortunate. ➡
+rldregora.spawnbook.realms_dregora.page.3=§oOur Earth, struck by a catastrophic event known as the Blight happened 774 years ago.\n\n§oRuined cities have been long overtaken by the sands of the wastelands, with the green of corruption feasting on the remains of the unfortunate. ➡
 rldregora.spawnbook.realms_dregora.page.4=\n§oFew places are suitable for those seeking shelter from the corruption, but dreams have shown you far away lands beyond canyons of molten rock where this world, now known as Dregora, seems to be healing. ➡
 rldregora.spawnbook.realms_dregora.page.5=\n§oHowever, despite serene visions and the warmth of the rising sun, a darkness yet lurked; one which you failed to notice§r\n\n###################\n#   Information ➡    #\n###################
 rldregora.spawnbook.realms_dregora.page.6=Having read this Prologue, take note of the sentence regarding canyons and molten rock.\n\nThe keen eye may have deduced the meaning behind this as your travels through Dregora should lead to these, and more importantly... ➡
@@ -7002,6 +7019,11 @@ rldregora.toilet.rebranded_apple.lore.0=The attached note says it is
 rldregora.toilet.rebranded_apple.lore.1=Rebranded Apple Juice...
 rldregora.toilet.rebranded_apple.lore.2=This one is signed by Kekistani?
 
+rldregora.toilet.wine1.name=Old bottle of makeshift prison wine.
+rldregora.toilet.wine1.lore=Looks like ass. Smells like ass.. tastes like... Nevermind.
+rldregora.toilet.wine2.name=Old bottle of Hooch
+rldregora.toilet.wine2.lore=Bottled Botulism
+
 ##################################################################
 # switch/vanilla/toilet.json
 ##################################################################
@@ -7009,6 +7031,17 @@ rldregora.toilet.dirt1.name=Turd ☢
 rldregora.toilet.dirt1.lore=This has gone Nuclear!
 rldregora.toilet.dirt2.name=Discharge ‼✖
 rldregora.toilet.dirt2.lore=Yugh! Never heard of flushing!?
+rldregora.toilet.brick1.name=That's a Brick... Right..?
+rldregora.toilet.brick1.lore=Fossilized.. Brick! Or...? Uhmm let's not think about that...
+rldregora.toilet.brick2.name=That's a big brick!
+rldregora.toilet.brick2.lore=Fossilized.. Brick! Or...? Uhmm let's not think about that...
+rldregora.toilet.brick3.name=That's a Brick... Right..?
+rldregora.toilet.brick3.lore=When you see it...
+rldregora.toilet.brick4.name=That's a Brick... Right..?
+rldregora.toilet.brick4.lore=Someone left a Brick here...
+
+rldregora.toilet.skibidi.name=FM2
+rldregora.toilet.skibidi.lore=...Skibidi.
 
 rldregora.toilet.mushroom_stew.name=Suspicious Soup From a Ancient Toilet ☢
 rldregora.toilet.mushroom_stew.lore=Yeah...

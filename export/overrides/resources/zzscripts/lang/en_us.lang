@@ -20,6 +20,18 @@ rldregora.nuclearcraft:ore:4.tooltip=Found in Nuclear Blight and below Cities
 rldregora.nuclearcraft:ore:5.tooltip=Found deep below Mountains and lower Underneath/Lost Cities
 ## Lithium Ore
 rldregora.nuclearcraft:ore:6.tooltip=Resource found in the Underneath/Lost Cities
+## Lead Ore
+rldregora.deepslate_lead.tooltip=
+## Thorium Ore
+rldregora.deepslate_thorium.tooltip=Found in the Underneath
+## Uranium Ore
+rldregora.deepslate_uranium.tooltip=Found in the Underneath
+## Boron Ore
+rldregora.deepslate_boron.tooltip=Found in the Underneath
+## Lithium Ore
+rldregora.deepslate_lithium.tooltip=Found in the Underneath
+
+
 ## Misc items
 rldregora.nuclearcraft:tritium_lamp.tooltip=§dAncient light source, rarely found in §4§lRegistered Fallout Shelters.
 rldregora.nuclearcraft:upgrade.tooltip=§dLost technology, rarely found in §8§lIndustrial Crates
@@ -630,6 +642,8 @@ rldregora.variedcommodities:sledge_hammer.tooltip.1=§6Only sold when in pristin
 item.hammer.name=Ancient Artifact
 rldregora.dimstack:bedrock:7.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Artifact - Theta§r §4‡§r §7equipped in offhand.
 rldregora.dimstack:bedrock:6.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand.
+rldregora.dimstack:bedrock:5.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand. - WIP
+rldregora.dimstack:bedrock:0.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - §kAlpha§r §4‡§r §7equipped in offhand. - WIP
 item.artifact.name=§4‡ §6§lBrutal Artifact - Theta§r §4‡
 rldregora.variedcommodities:artifact.tooltip=§6Gain the ability to destroy Theta barrier blocks when equipped in off-hand.
 item.pendant.name=§4‡ §6§lBrutal Pendant - Eta§r §4‡

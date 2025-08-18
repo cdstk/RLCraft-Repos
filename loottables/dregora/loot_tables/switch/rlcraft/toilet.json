@@ -14,6 +14,65 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: fonnymunkey, display:{Name:\"FM2\",Lore:[\"...Skibidi.\"],LocName:\"rldregora.toilet.skibidi.name\",LocLore:[\"rldregora.toilet.skibidi.lore\"]}}"
+            },
+            {"function": "minecraft:set_data", "data": 3},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedblastprotection", "somanyenchantments:advancedknockback", "somanyenchantments:subjectbiology", "somanyenchantments:advancedpower", "somanyenchantments:advancedpunch"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]}
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rustic:fluid_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Fluid: {FluidName: \"wine\", Amount: 1000}, display:{Name:\"Old bottle of makeshift prison wine.\",Lore:[\"Looks like ass. Smells like ass.. tastes like... Nevermind.\"],LocName:\"rldregora.toilet.wine1.name\",LocLore:[\"rldregora.toilet.wine1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Fluid: {FluidName: \"wine\", Amount: 1000}, display:{Name:\"Old bottle of Hooch\",Lore:[\"Bottled Botulism\"],LocName:\"rldregora.toilet.wine2.name\",LocLore:[\"rldregora.toilet.wine2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick, is it?\",Lore:[\"Fossilized.. Brick! Or...? Uhmm lets not think about that...\"],LocName:\"rldregora.toilet.brick1.name\",LocLore:[\"rldregora.toilet.brick1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a big brick!\",Lore:[\"A brick from unknown origin. It appears to be fossilized. Why does it smell so funky though?\"],LocName:\"rldregora.toilet.brick2.name\",LocLore:[\"rldregora.toilet.brick2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"When you see it...\"],LocName:\"rldregora.toilet.brick3.name\",LocLore:[\"rldregora.toilet.brick3.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"Someone left a Brick here...\"],LocName:\"rldregora.toilet.brick4.name\",LocLore:[\"rldregora.toilet.brick4.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"Reeking Skull \u2620\",Lore:[\"This skull deserved better...\"],LocName:\"rldregora.toilet.skull1.name\",LocLore:[\"rldregora.toilet.skull1.lore\"]}}"
             },
             {

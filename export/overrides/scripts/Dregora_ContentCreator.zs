@@ -7,33 +7,40 @@ val iron = Mat.iron();
 val concrete = Mat.rock();
 
 // Reinforced Iron Stairs & Slab Block
-var IronStairs as GenericBlock = GenericBlock.createStairs("iron_plate_stairs_reinforced", <blockstate:minecraft:iron_block>);
-var IronSlab as GenericBlock = GenericBlock.createSlab(iron, "iron_plate_slab_reinforced");
+GenericBlock.createStairs("iron_plate_stairs_reinforced", <blockstate:minecraft:iron_block>).register();
+GenericBlock.createSlab(iron, "iron_plate_slab_reinforced").register();
 
 // Reinforced Concrete Stairs & Slab Block
-var ConcreteStairs as GenericBlock = GenericBlock.createStairs("concrete_stairs_reinforced", <blockstate:minecraft:cobblestone>);
-var ConcreteSlab as GenericBlock = GenericBlock.createSlab(concrete, "concrete_slab_reinforced");
+GenericBlock.createStairs("concrete_stairs_reinforced", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "concrete_slab_reinforced").register();
 
-IronStairs.setStrength(30.0, 20.0);
-IronSlab.setStrength(30.0, 20.0);
-ConcreteStairs.setStrength(30.0, 20.0);
-ConcreteSlab.setStrength(30.0, 20.0);
+// Deepslate Stairs & Slab Block
+GenericBlock.createStairs("deepslate_stairs", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "deepslate_slab").register();
 
-IronStairs.setHarvestLevel("pickaxe", 3);
-IronSlab.setHarvestLevel("pickaxe", 3);
-ConcreteStairs.setHarvestLevel("pickaxe", 3);
-ConcreteSlab.setHarvestLevel("pickaxe", 3);
+// Cobbled Deepslate Stairs & Slab Block
+GenericBlock.createStairs("cobbled_deepslate_stairs", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "cobbled_deepslate_slab").register();
 
-IronStairs.register();
-IronSlab.register();
-ConcreteStairs.register();
-ConcreteSlab.register();
+// Brick Deepslate Stairs & Slab Block
+GenericBlock.createStairs("deepslate_brick_stairs", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "deepslate_brick_slab").register();
 
+// Brick Deepslate Stairs & Slab Block
+GenericBlock.createStairs("polished_deepslate_stairs", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "polished_deepslate_slab").register();
+
+// Brick Deepslate Stairs & Slab Block
+GenericBlock.createStairs("deepslate_tile_stairs", <blockstate:minecraft:cobblestone>).register();
+GenericBlock.createSlab(concrete, "deepslate_tile_slab").register();
+
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:concrete_slab_reinforced", 30.0);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:concrete_stairs_reinforced", 30.0);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:iron_plate_slab_reinforced", 30.0);
 mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:iron_plate_slab_reinforced_double", 30.0);
 mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:concrete_slab_reinforced_double", 30.0);
-
-mods.eaglemixins.BlockHelper.setBlockResistance("contentcreator:iron_plate_slab_reinforced_double", 20.0);
-mods.eaglemixins.BlockHelper.setBlockResistance("contentcreator:concrete_slab_reinforced_double", 20.0);
-
-mods.eaglemixins.BlockHelper.setBlockHarvestLevel("contentcreator:iron_plate_slab_reinforced_double", "pickaxe", 3);
-mods.eaglemixins.BlockHelper.setBlockHarvestLevel("contentcreator:concrete_slab_reinforced_double", "pickaxe", 3);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:deepslate_slab_double", 4.5);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:cobbled_deepslate_slab_double", 4.5);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:deepslate_brick_slab_double", 4.5);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:polished_deepslate_slab_double", 4.5);
+mods.eaglemixins.BlockHelper.setBlockHardness("contentcreator:deepslate_tile_slab_double", 4.5);

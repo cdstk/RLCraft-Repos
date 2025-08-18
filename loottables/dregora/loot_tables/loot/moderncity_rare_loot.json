@@ -16,7 +16,7 @@
       "name": "rare Chest",
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "bonus_rolls": 0,
       "entries": [
@@ -104,10 +104,10 @@
     {
       "name": "common_loot",
       "rolls": {
-        "min": 8,
-        "max": 20
+        "min": 6,
+        "max": 12
       },
-"bonus_rolls": {
+      "bonus_rolls": {
         "min": 1,
         "max": 2
       },
