@@ -68,15 +68,15 @@ furnace.addRecipe(<eaglemixins:deepslate>, <contenttweaker:cobbled_deepslate>, 0
 furnace.addRecipe(<contenttweaker:cracked_deepslate_bricks>, <contenttweaker:deepslate_bricks>, 0);
 furnace.addRecipe(<contenttweaker:cracked_deepslate_tiles>, <contenttweaker:deepslate_tiles>, 0);
 
-furnace.addRecipe(<contenttweaker:deepslate_copper_ore>, <iceandfire:copper_ingot>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_silver_ore>, <iceandfire:silver_ingot>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_gold_ore>, <minecraft:gold_ingot>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_iron_ore>, <minecraft:iron_ingot>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_lead_ore>, <nuclearcraft:ingot:2>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_thorium_ore>, <nuclearcraft:ingot:3>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_uranium_ore>, <nuclearcraft:ingot:4>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_boron_ore>, <nuclearcraft:ingot:5>, 0.1);
-furnace.addRecipe(<contenttweaker:deepslate_lithium_ore>, <nuclearcraft:ingot:6>, 0.1);
+furnace.addRecipe(<iceandfire:copper_ingot>, <contenttweaker:deepslate_copper_ore>, 0.1);
+furnace.addRecipe(<iceandfire:silver_ingot>, <contenttweaker:deepslate_silver_ore>, 0.1);
+furnace.addRecipe(<minecraft:gold_ingot>, <contenttweaker:deepslate_gold_ore>, 0.1);
+furnace.addRecipe(<minecraft:iron_ingot>, <contenttweaker:deepslate_iron_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:2>, <contenttweaker:deepslate_lead_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:3>, <contenttweaker:deepslate_thorium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:4>, <contenttweaker:deepslate_uranium_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:5>, <contenttweaker:deepslate_boron_ore>, 0.1);
+furnace.addRecipe(<nuclearcraft:ingot:6>, <contenttweaker:deepslate_lithium_ore>, 0.1);
 
 var deepslate_tile_slab as IItemStack = <contentcreator:deepslate_tile_slab>;
 var deepslate_tile_stairs as IItemStack = <contentcreator:deepslate_tile_stairs>;
