@@ -520,10 +520,10 @@ rldregora.effect.firstaid.morphine.name=§rStatus Effect§a Morphine
 rldregora.effect.firstaid.morphine.lore=§f ☕§b Allowing you to run with broken legs, and punch with broken arms.
 rldregora.effect.bountifulbaubles.sinful.name=§rStatus Effect§a Sinful
 rldregora.effect.bountifulbaubles.sinful.lore=§f ☕§b Gives an armor and damage buff.
-rldregora.effect.eaglemixins.contamination.name=§rStatus Effect§a Contaminated
-rldregora.effect.eaglemixins.contamination.lore=§r Gives Mining Fatigue and Weakness, gives radiation damage for 50% health from amplifier IV and 100% from amplifier V.
-rldregora.effect.eaglemixins.teleportation_sickness.name=§rStatus Effect§a Teleportation Sickness
-rldregora.effect.eaglemixins.teleportation_sickness.lore=§r Cancels teleportation through unconventional teleportation methods.
+rldregora.effect.eaglemixins.contamination.name=§rStatus Effect§c Contaminated
+rldregora.effect.eaglemixins.contamination.lore=§f ☕§b Gives Mining Fatigue and Weakness, gives radiation damage for 50% health from amplifier IV and 100% from amplifier V.
+rldregora.effect.eaglemixins.teleportation_sickness.name=§rStatus Effect§c Warp Sickness
+rldregora.effect.eaglemixins.teleportation_sickness.lore=§f ☕§b Cancels teleportation through unconventional teleportation methods.
 ##################################################################
 # Dregora_recipes.zs
 ##################################################################
