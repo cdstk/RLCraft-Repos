@@ -26,6 +26,51 @@ print("Nuclearcraft Recipe Script starting!");
 //nuclearcraft:rad_shielding:2
 
 //================================
+//Nuclearcraft remove cooler recipes
+//================================
+
+recipes.remove(<nuclearcraft:cooler:0>);
+recipes.remove(<nuclearcraft:cooler:1>);
+recipes.remove(<nuclearcraft:cooler:3>);
+recipes.remove(<nuclearcraft:cooler:8>);
+recipes.remove(<nuclearcraft:cooler:9>);
+recipes.remove(<nuclearcraft:cooler:10>);
+recipes.remove(<nuclearcraft:cooler:14>);
+recipes.remove(<nuclearcraft:cooler:15>);
+
+//================================
+//Nuclearcraft add cooler recipes
+//================================
+
+recipes.addShaped("nuclearcraft06",<nuclearcraft:cooler:3>,
+ [[<minecraft:quartz>,<minecraft:quartz_block>,<minecraft:quartz>],
+  [<minecraft:quartz>,<nuclearcraft:cooler:0>,<minecraft:quartz>],
+  [<minecraft:quartz>,<minecraft:quartz_block>,<minecraft:quartz>]]);
+
+
+//================================
+//Nuclearcraft add fluid infuser & Extractor recipes
+//================================
+
+
+// Remove Fluid Infuser Recipes:
+mods.nuclearcraft.infuser.removeAllRecipes();
+
+// Remove Fluid Extractor Recipes:
+mods.nuclearcraft.extractor.removeAllRecipes();
+
+mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:cooler:0>, <liquid:water> * 1000, <nuclearcraft:cooler:1>]);
+mods.nuclearcraft.extractor.addRecipe([<nuclearcraft:cooler:1>, <nuclearcraft:cooler:0>, <liquid:water> * 1000]);
+
+mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:cooler:0>, <liquid:liquidhelium> * 1000, <nuclearcraft:cooler:8>]);
+mods.nuclearcraft.extractor.addRecipe([<nuclearcraft:cooler:8>, <nuclearcraft:cooler:0>, <liquid:liquidhelium> * 1000]);
+
+// Remove Supercooler Recipes:
+mods.nuclearcraft.supercooler.removeAllRecipes();
+
+mods.nuclearcraft.supercooler.addRecipe([<liquid:helium> * 1000, <liquid:liquidhelium> * 25,]);
+
+//================================
 //Remove & Add Thorium Recipe:
 //================================
 
@@ -273,7 +318,6 @@ recipes.remove(<nuclearcraft:fission_block:0>);
 recipes.remove(<nuclearcraft:fission_block:1>);
 recipes.remove(<nuclearcraft:reactor_casing_transparent>);
 recipes.remove(<nuclearcraft:cell_block>);
-recipes.remove(<nuclearcraft:cooler:*>);
 recipes.remove(<nuclearcraft:reactor_trapdoor>);
 recipes.remove(<nuclearcraft:reactor_door>);
 

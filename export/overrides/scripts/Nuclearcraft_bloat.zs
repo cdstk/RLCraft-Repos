@@ -233,18 +233,11 @@ recipes.remove(<nuclearcraft:depleted_fuel_ic2:1>);
 //Nuclearcraft completely removed machines
 //================================
 
-
 // Remove Crystallizer Recipes:
 mods.nuclearcraft.crystallizer.removeAllRecipes();
 
-// Remove Fluid Extractor Recipes:
-mods.nuclearcraft.extractor.removeAllRecipes();
-
 // Remove Centrifuge Recipes:
 mods.nuclearcraft.centrifuge.removeAllRecipes();
-
-// Remove Supercooler Recipes:
-mods.nuclearcraft.supercooler.removeAllRecipes();
 
 // Remove Electrolyzer Recipes:
 mods.nuclearcraft.electrolyser.removeAllRecipes();
@@ -383,7 +376,7 @@ furnace.remove(<nuclearcraft:plutonium:14>, <nuclearcraft:plutonium:15>);
 furnace.remove(<nuclearcraft:fuel_americium>, <nuclearcraft:fuel_americium:1>);
 furnace.remove(<nuclearcraft:fuel_americium:2>, <nuclearcraft:fuel_americium:3>);
 
-// X Remove Salt Mixer Recipes: 
+// X Remove Salt Mixer Recipes:
 mods.nuclearcraft.salt_mixer.removeAllRecipes();
 mods.nuclearcraft.salt_mixer.addRecipe([<liquid:radaway> * 250, <liquid:redstone> * 200, <liquid:radaway_slow> * 250]);
 
@@ -527,8 +520,6 @@ mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:dust_oxide:1>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:dust_oxide:2>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:dust_oxide:3>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:block_ice>]);
-mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:cooler:1>]);
-mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:cooler:8>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:cooler:10>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:water_source>]);
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:tritium_lamp>]);
@@ -634,8 +625,6 @@ mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:depleted_fuel_ca
 
 
 // Remove Extractor Recipes:
-mods.nuclearcraft.extractor.removeRecipeWithInput([<nuclearcraft:cooler:1>]);
-mods.nuclearcraft.extractor.removeRecipeWithInput([<nuclearcraft:cooler:8>]);
 mods.nuclearcraft.extractor.removeRecipeWithInput([<nuclearcraft:cooler:10>]);
 mods.nuclearcraft.extractor.removeRecipeWithInput([<nuclearcraft:ground_cocoa_nibs>]);
 
