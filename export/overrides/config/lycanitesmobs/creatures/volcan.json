@@ -11,8 +11,10 @@
   "spawning": {
     "enabled": true,
     "spawners": [
-      "lavaunderground"
+      "lavaunderground",
+      "monster"
     ],
+    "spawnEnabled": true,
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

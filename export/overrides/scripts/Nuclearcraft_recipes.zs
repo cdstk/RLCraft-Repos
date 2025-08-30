@@ -47,6 +47,15 @@ recipes.addShaped("nuclearcraft06",<nuclearcraft:cooler:3>,
   [<minecraft:quartz>,<nuclearcraft:cooler:0>,<minecraft:quartz>],
   [<minecraft:quartz>,<minecraft:quartz_block>,<minecraft:quartz>]]);
 
+//================================
+//Nuclearcraft add LEU Block recipe
+//================================
+
+recipes.addShaped("nuclearcraft07",<contenttweaker:depleted_leu-235_block>,
+ [[<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>],
+  [<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>],
+  [<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>,<nuclearcraft:depleted_fuel_uranium:4>]]);
+recipes.addShapeless("nuclearcraft08",<nuclearcraft:depleted_fuel_uranium:4> * 9,[<contenttweaker:depleted_leu-235_block>]);
 
 //================================
 //Nuclearcraft add fluid infuser & Extractor recipes
