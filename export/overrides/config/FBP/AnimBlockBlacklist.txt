@@ -1,4 +1,3 @@
-
 variedcommodities:lamp
 variedcommodities:tall_lamp
 variedcommodities:candle
@@ -88,7 +87,6 @@ inspirations:enlightened_bush
 cookingforblockheads:oven
 cookingforblockheads:fridge
 cookingforblockheads:counter
-cookingforblockheads:counter_oak
 cookingforblockheads:counter_oak
 cookingforblockheads:counter_spruce
 cookingforblockheads:counter_birch
