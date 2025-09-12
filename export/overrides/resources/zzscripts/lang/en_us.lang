@@ -521,7 +521,7 @@ rldregora.effect.firstaid.morphine.lore=§f ☕§b Allowing you to run with brok
 rldregora.effect.bountifulbaubles.sinful.name=§rStatus Effect§a Sinful
 rldregora.effect.bountifulbaubles.sinful.lore=§f ☕§b Gives an armor and damage buff.
 rldregora.effect.eaglemixins.contamination.name=§rStatus Effect§c Contaminated
-rldregora.effect.eaglemixins.contamination.lore=§f ☕§b Gives Mining Fatigue and Weakness, gives radiation damage for 50% health from amplifier IV and 100% from amplifier V.
+rldregora.effect.eaglemixins.contamination.lore=§f ☕§b Parasites: Weakened up to 50% less HP, 30% less DMG, and 10% less ARM.\nPassive Mobs: Same as Players\nOther Mobs: Amplifier I gives Speed I, II + Strength I, III + Resistance, IV + Absorption, V + Regeneration.\nPlayers: Amplifier I gives Weakness, II + Fatigue, III + Exhaustion & MaxHP 75%, IV MaxHP 50%, V = Death from radiation sickness.
 rldregora.effect.eaglemixins.teleportation_sickness.name=§rStatus Effect§c Warp Sickness
 rldregora.effect.eaglemixins.teleportation_sickness.lore=§f ☕§b Cancels teleportation through unconventional teleportation methods.
 ##################################################################
@@ -637,9 +637,9 @@ rldregora.variedcommodities:wrench.tooltip.1=§6Only sold when in pristine condi
 item.pipe_wrench.name=Ancient Artifact
 rldregora.variedcommodities:pipe_wrench.tooltip.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
 rldregora.variedcommodities:pipe_wrench.tooltip.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
+item.sledge_hammer.name=Ancient Artifact
 rldregora.variedcommodities:sledge_hammer.tooltip.0=§6Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
 rldregora.variedcommodities:sledge_hammer.tooltip.1=§6Only sold when in pristine condition, use every day iron ingots to repair.
-item.hammer.name=Ancient Artifact
 rldregora.dimstack:bedrock:7.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Artifact - Theta§r §4‡§r §7equipped in offhand.
 rldregora.dimstack:bedrock:6.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand.
 rldregora.dimstack:bedrock:5.tooltip=§7Can be destroyed with a §4‡ §6§lBrutal Pendant - Eta§r §4‡§r §7equipped in offhand. - WIP

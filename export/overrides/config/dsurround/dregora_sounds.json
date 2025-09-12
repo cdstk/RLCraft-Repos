@@ -416,52 +416,52 @@
       "_comment": "Turns off dust effects for all biomes",
       "sounds": [
         {
-          "sound": "dsurround:nuclear.background",
-          "conditions":"!player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
-          "volume": 0.06
-        },
-        {
-          "sound": "dsurround:nuclear.ambience",
-          "conditions":"!player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
-          "soundType": "periodic",
-          "volume": 0.06
-        },
-        {
-          "sound": "dsurround:desert.wind",
-          "conditions":"!player.isInside && !weather.isRaining || !weather.isThundering && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
-          "volume": 0.2
-        },
-        {
-          "sound": "dsurround:desert.wind",
-          "conditions":"!player.isInside && weather.isRaining || weather.isThundering && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
-          "volume": 0.2
-        },
-        {
-          "sound": "dsurround:thunder",
-          "conditions":"weather.isRaining || weather.isThundering && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
-          "soundType": "spot"
-        },
-        {
           "sound": "dsurround:factory.ambient.one",
-          "conditions":"!player.canSeeSky && player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
+          "conditions":"player.isUnderground && biome.isNUCLEAR",
           "soundType": "periodic",
           "volume": 0.1
         },
         {
           "sound": "dsurround:factory.ambient.two",
-          "conditions":"!player.canSeeSky && player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
+          "conditions":"player.isUnderground && biome.isNUCLEAR",
           "soundType": "periodic",
           "volume": 0.1
         },
         {
           "sound": "dsurround:factory.ambient.three",
-          "conditions":"!player.canSeeSky && player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
+          "conditions":"player.isUnderground && biome.isNUCLEAR",
           "soundType": "periodic",
           "volume": 0.1
         },
         {
+          "sound": "dsurround:nuclear.ambience",
+          "conditions":"!player.isInside && biome.isNUCLEAR",
+          "soundType": "periodic",
+          "volume": 0.06
+        },
+        {
+          "sound": "dsurround:nuclear.background",
+          "conditions":"!player.isInside && biome.isNUCLEAR",
+          "volume": 0.06
+        },
+        {
+          "sound": "dsurround:desert.wind",
+          "conditions":"!player.isInside && !weather.isRaining || !weather.isThundering && biome.isNUCLEAR",
+          "volume": 0.2
+        },
+        {
+          "sound": "dsurround:desert.wind",
+          "conditions":"!player.isInside && weather.isRaining || weather.isThundering && biome.isNUCLEAR",
+          "volume": 0.2
+        },
+        {
+          "sound": "dsurround:thunder",
+          "conditions":"weather.isRaining || weather.isThundering && biome.isNUCLEAR",
+          "soundType": "spot"
+        },
+        {
           "sound": "dsurround:factory.stinger",
-          "conditions":"!player.canSeeSky && player.isInside && MATCH('(?i)(.*nuclear_wasteland.*)', biome.id)",
+          "conditions":"!player.canSeeSky && player.isInside && biome.isNUCLEAR",
           "soundType": "spot"
         }
       ]

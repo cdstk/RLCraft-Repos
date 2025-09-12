@@ -355,8 +355,6 @@ furnace.remove(<nuclearcraft:ingot:13>, <nuclearcraft:dust:13>);
 furnace.remove(<nuclearcraft:ingot:12>, <nuclearcraft:dust:12>);
 furnace.remove(<nuclearcraft:ingot:11>, <nuclearcraft:dust:11>);
 furnace.remove(<nuclearcraft:ingot:10>, <nuclearcraft:dust:10>);
-furnace.remove(<nuclearcraft:ingot:9>, <nuclearcraft:dust:9>);
-furnace.remove(<nuclearcraft:ingot:8>, <nuclearcraft:dust:8>);
 furnace.remove(<nuclearcraft:ingot:7>, <nuclearcraft:dust:7>);
 furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:dust:6>);
 furnace.remove(<nuclearcraft:ingot:5>, <nuclearcraft:dust:5>);

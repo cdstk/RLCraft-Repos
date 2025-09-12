@@ -512,7 +512,6 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.000000001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],

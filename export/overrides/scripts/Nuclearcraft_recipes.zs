@@ -61,9 +61,7 @@ recipes.addShapeless("nuclearcraft08",<nuclearcraft:depleted_fuel_uranium:4> * 9
 //Nuclearcraft add fluid infuser & Extractor recipes
 //================================
 
-
 // Remove Fluid Infuser Recipes:
-mods.nuclearcraft.infuser.removeAllRecipes();
 
 // Remove Fluid Extractor Recipes:
 mods.nuclearcraft.extractor.removeAllRecipes();
@@ -421,7 +419,7 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:fission_port>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
 <nuclearcraft:buffer>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
 <nuclearcraft:active_cooler>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
-<nuclearcraft:fission_block:1>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
+<nuclearcraft:fission_block:0>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
 <nuclearcraft:fission_block:1>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
 <nuclearcraft:reactor_casing_transparent>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));
 <nuclearcraft:cell_block>.addTooltip(game.localize("rldregora.nuclearcraft:shelter_fission.tooltip", "en_us"));

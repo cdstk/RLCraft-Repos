@@ -29,7 +29,7 @@ rldregora.underneath.access_duct.page.3=Somehow these beings seem to be afraid o
 # dregorarl/bunkers
 ##################################################################
 rldregora.bunker.apartments.page.1=At world's end after the corruption took the city, took our dog. Took the others around us. It's been well over a year since we got here and now we have to leave. The food's gone and the ones who where supposed to bring some are as well.
-rldregora.bunker.radiation.page.1=-------------------\n Radiation Handbook\n-------------------\n\n         Pages:\n\nRad Detection: 2-3\nRad Levels: 4-5\nRad Dangers: 6-7\nRad Sources: 8\nRad Shielding: 9-11\nRad Warning: 12
+rldregora.bunker.radiation.page.1=-------------------\n Radiation Handbook\n-------------------\n\n         Pages:\n\nRad Detection: 2-3\nRad Levels: 4-5\nRad Dangers: 6-7\nRad Sources: 8\nRad Shielding: 9-11\nRad Warning: 12\nRad Effects: 13-16
 rldregora.bunker.radiation.page.2=  Radiation Detection\n-------------------\n\nRadiation detection is done through Geiger counters which can be either stationary or equip able on your person.\n\nAlternatively you can equip a radiation badge. These will
 rldregora.bunker.radiation.page.3=alert you with each 25 Radiation absorbed where a lethal dose would be 1000 Radiation.
 rldregora.bunker.radiation.page.4=   Radiation Levels\n-------------------\n\npRad/t = Safe\n\nnRad/t = Moderately Safe, take precautions.\n\nuRad/t = Alert, take measures!\n\nmRad/t = High Risk, vacate area!
@@ -41,6 +41,10 @@ rldregora.bunker.radiation.page.9=   Radiation Shielding\n-------------------\n\
 rldregora.bunker.radiation.page.10=you'll find attached to the equipment.\n\nAdditionally there are Light, Medium and Heavy radiation shields for which fabrication complex machinery is required. These can be found in most public fallout shelters recognizable by
 rldregora.bunker.radiation.page.11=the red radiation icon at the entrance.\n\nThese locations are usually found at high risk areas with elevated radiation levels.
 rldregora.bunker.radiation.page.12=   Radiation Warning\n-------------------\n\nIf you come across a stone column with a nuclear symbol depicted on it this means that the area has a high radiation risk and you should not venture further.
+rldregora.bunker.radiation.page.13=Radiation Effects\n-------------------\n\nExperimentation shows sign of enhanced abilities within first to second stage infected with a steep decline when administered to enhanced creatures commonly referred to as parasites.
+rldregora.bunker.radiation.page.14=The documented radiation effects for human beings remain the same with:\n\nRad I = Weakness I\nRad II = Fatigue\nRad III = MaxHP 75%\nRad IV = MaxHP 50%\nRad V = Lethal
+rldregora.bunker.radiation.page.15=Documentation Experimental Phase Parasite testing:\n\nNo clear transmitted exposure was documented giving the volatile nature of the fully corrupted parasitic beings but a significant amount up to 50% loss of HP,
+rldregora.bunker.radiation.page.16=30% loss of strength and a 10% degradation of armor have been observed.\n\nIt is not yet clear why exposure has a degrading effect on these entities whilst it enhances their lesser forms as named prior.
 rldregora.bunker.factory.page.1=Date 14 June 2118\n\nThis shelter, it's been a lucky find most would say but I am not sure if I can call it that as every new day feels more like a extension to my suffering because who am I kidding, I have the rash and there is no known cure, probably
 rldregora.bunker.factory.page.2=have radiation sickness too as I have been vomiting nonstop and well the book at the door made me pretty much state this as a fact than a doubt.\n\nSo yeah it is nice, this place but not much help to me any more. If only I found this a
 rldregora.bunker.factory.page.3=month earlier then it might have made a difference.\n\nWell, may the next person who bumps into this shelter find it to be more useful to them as it was to me.
