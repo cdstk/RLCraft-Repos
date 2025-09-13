@@ -13,7 +13,7 @@
     {
       "type": "world",
       "weather": "clear",
-      "biomeIDs": ["biomesoplenty:volcanic_island"]
+      "biomeIds": ["biomesoplenty:volcanic_island"]
     }
   ],
   "triggers": [
