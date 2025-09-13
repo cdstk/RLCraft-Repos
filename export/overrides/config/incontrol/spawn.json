@@ -20,6 +20,7 @@
     "block": ["minecraft:concrete","minecraft:stone_slab","contenttweaker:reinforced_concrete"],
     "minlight": 0,
     "maxlight": 12,
+    "seesky": false,
     "result": "default"
   },
   {
