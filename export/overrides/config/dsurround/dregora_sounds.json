@@ -434,6 +434,24 @@
           "volume": 0.1
         },
         {
+          "sound": "dsurround:factory.ambient.one",
+          "conditions":"player.isInside && biome.isNUCLEAR",
+          "soundType": "periodic",
+          "volume": 0.02
+        },
+        {
+          "sound": "dsurround:factory.ambient.two",
+          "conditions":"player.isInside && biome.isNUCLEAR",
+          "soundType": "periodic",
+          "volume": 0.02
+        },
+        {
+          "sound": "dsurround:factory.ambient.three",
+          "conditions":"player.isInside && biome.isNUCLEAR",
+          "soundType": "periodic",
+          "volume": 0.02
+        },
+        {
           "sound": "dsurround:nuclear.ambience",
           "conditions":"!player.isInside && biome.isNUCLEAR",
           "soundType": "periodic",
@@ -445,13 +463,19 @@
           "volume": 0.06
         },
         {
+          "sound": "dsurround:nuclear.ambience",
+          "conditions":"player.isInside && biome.isNUCLEAR",
+          "soundType": "periodic",
+          "volume": 0.02
+        },
+        {
           "sound": "dsurround:desert.wind",
-          "conditions":"!player.isInside && !weather.isRaining || !weather.isThundering && biome.isNUCLEAR",
+          "conditions":"!player.isInside && biome.isNUCLEAR && (!weather.isRaining || !weather.isThundering)",
           "volume": 0.2
         },
         {
           "sound": "dsurround:desert.wind",
-          "conditions":"!player.isInside && weather.isRaining || weather.isThundering && biome.isNUCLEAR",
+          "conditions":"!player.isInside && biome.isNUCLEAR && (weather.isRaining || weather.isThundering)",
           "volume": 0.2
         },
         {

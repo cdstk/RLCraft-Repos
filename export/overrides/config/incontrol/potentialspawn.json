@@ -1,16 +1,5 @@
 [
   {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "mod_lavacow:ithaqua",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
     "dimension": 3,
     "mobs": [
       {

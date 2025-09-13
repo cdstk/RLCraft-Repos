@@ -13,9 +13,8 @@
     "enabled": true,
     "spawners": [
       "lava",
-      "monster"
+      "lavabiome"
     ],
-    "spawnEnabled": true,
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

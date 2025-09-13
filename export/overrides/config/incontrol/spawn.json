@@ -25,7 +25,7 @@
   {
     "dimension": 0,
     "mob": ["lycanitesmobs:joust","lycanitesmobs:joustalpha"],
-    "biome": ["biomesoplenty:volcanic_island biome"],
+    "biome": ["biomesoplenty:volcanic_island"],
     "result": "deny"
   },
   {
@@ -49,29 +49,6 @@
     "biome": ["Nuclear Wasteland"],
     "mob": ["nuclearcraft:feral_ghoul","minecraft:skeleton","mod_lavacow:zombiemushroom","mod_lavacow:weta","mod_lavacow:foglet","mod_lavacow:boneworm"],
     "result": "default"
-  },
-  {
-    "dimension": 0,
-    "biometype": ["FOREST"],
-    "weather": "thunder",
-    "maxcount": 2,
-    "perplayer": true,
-    "mob": "mod_lavacow:ithaqua",
-    "result": "default"
-  },
-  {
-    "dimension": 0,
-    "biometype": ["SPOOKY"],
-    "mintime": 13000,
-    "maxcount": 2,
-    "perplayer": true,
-    "mob": "mod_lavacow:ithaqua",
-    "result": "default"
-  },
-  {
-    "dimension": 0,
-    "mob": "mod_lavacow:ithaqua",
-    "result": "deny"
   },
   {
     "biome": ["Nuclear Wasteland"],
