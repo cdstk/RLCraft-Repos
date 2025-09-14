@@ -6,7 +6,7 @@ AIReducer-1.12.2-0.3.0
 alcatrazcore-1.0.4
 Amphithere Mod-1.0.2
 antiqueatlas-1.12.2-4.6.3
-AntiqueAtlasAutoMarker-1.3.0
+AntiqueAtlasAutoMarker-1.3.2
 antiquecities-1.2.1
 anvilpatch-1.1.1
 Aquaculture-1.12.2-1.6.8
@@ -17,6 +17,7 @@ AutoRegLib-1.3-32
 base-1.12.2-3.14.0
 BattleTowers-1.12.2
 Baubles-1.12-1.5.2
+Baubley-Elytra-v1.3.3-mc1.12.2
 BedBreakBegone-1.0.2
 betterbiomeblend-1.12.2-1.1.7-forge
 bettercaves-1.12.2-2.0.4
@@ -61,7 +62,7 @@ defiledlands-1.12.2-1.4.3
 DelightfulCuisineForWoodheads_1.12.2-1.0.0
 disenchanter[1.12]1.8
 DoomlikeDungeons-1.14.12-MC1.12.2
-DregoraRL-2.9
+DregoraRL-3.0
 DynamicSurroundings-1.12.2-3.6.2.1
 DynamicSurroundingsHuds-1.12.2-3.6.0.0
 DynamicTrees-1.12.2-0.9.29
@@ -69,7 +70,7 @@ DynamicTreesBOP-1.12.2-1.5.2
 dynamictreesdefiledlands-1.12.2-1.0.0
 DynamicTreesQuark-1.12.2-1.0.6
 DynamicTreesTraverse-1.12.2-2.1
-EagleMixins-1.1.3
+EagleMixins-1.1.4
 EditableEdibles-1.3.3
 ElenaiDodge-1.12.2-2.1
 EnchantmentDescriptions-1.12.2-1.1.20
@@ -81,7 +82,7 @@ FancyBlockParticles-1.12.x-2.4.1
 fancymenu_forge_2.14.9_MC_1.12-1.12.2
 FantasticLib-1.12.2.070
 fermiumasm-5.28
-FermiumMixins-1.0.4
+FermiumMixins-1.0.7
 firstaid-1.6.22
 Fish's Undead Rising-1.4.2
 FishingMadeBetter-1.12.2-2.2.7
@@ -126,22 +127,24 @@ lycanitesmobs-1.12.2-2.0.8.10
 Mantle-1.12-1.3.3.55
 MaterialTweaker-1.1.1
 mcw-bridges-1.0.6b-mc1.12.2
+MmmMmmMmmMmm-1.12-2.0.5
 MoBends_1.12.2-1.2.1-19.12.21
 modtweaker-4.0.20.11
 MouseTweaks-2.10.1-mc1.12.2
 MTLib-3.0.7
 MultiMine-1.12.2
 Neat 1.4-17
-NoiseThreader-1.1.0
+NoiseThreader-1.1.1
 notreepunching-2.0.21
 nuclearcraft-1.12.2-2.19a
-OpenTerrainGenerator-1.12.2-v9.5-R2
+OpenTerrainGenerator-1.12.2-v9.6.1
 OptifineCITPatch-1.0.4
 OptiFine_1.12.2_HD_U_G5
 OreLib-1.12.2-3.6.0.1
 paintingselgui-PSG Revamed-1.12.2-1.1.0.1
 particleculling-1.12.2-v1.4.3
 phosphor-1.12.2-0.2.6+build50-universal
+PhosphorCrashFix-1.12.2-1.0.0
 pigstep-1.12
 Placebo-1.12.2-1.6.1
 playerbosses-1.12.2-1.1.0
@@ -163,7 +166,7 @@ RLArtifacts-1.1.2
 RLCombat-1.12.2-2.2.4
 RLCraftLuckified-1.1.1
 RLFoliage-MC1.12-2.4.2
-RLMixins-1.4.3
+RLMixins-1.4.4
 RLTweaker-1.12.2-0.7.5
 RoguelikeDungeonsFnarEdition-1.12.2-2.4.6
 roughTweaks0.2.4-1.12.2
@@ -176,21 +179,20 @@ SilentLib-1.12.2-3.0.14+168
 SimpleDifficulty-1.12.2-0.3.9
 sit-1.12.2-v1.3
 SnowRealMagic-1.12.2-0.7.4
-SoManyEnchantments-1.0.4-1.12.2
+SoManyEnchantments-1.0.5-1.12.2
 SoundFilters-0.12.1_for_1.12
 spark-unforged-1.11.140-forge
 spartandefiled-1.12.2-1.2
 spartanfire_rlcraft-1.3.3
 SpartanHUDBaubles-1.12.2-1.0.0
 SpartanShields-1.12.2-1.5.5
-SpartanWeaponry-1.12.2-1.6.0
+SpartanWeaponry-1.12.2-1.6.1
 SpawnerControl-1.6.3b
 SRParasites-1.12.2v1.9.21
-SRPMixins-2.8.6
+SRPMixins-2.9.0.2
 StandardExpansion-3.4.173
 Surge-1.12.2-2.0.79
 switchbow-1.6.8
-TestDummy2-2.0.4
 tnt_utilities-mc1.12-1.2.3
 Toast Control-1.12.2-1.8.1
 ToolBelt-1.12.2-1.9.14
@@ -199,7 +201,7 @@ Trinkets and Baubles-0.32.5
 trumpetskeleton-1.12-1.0.2.1
 tschipplib-1.12.2-1.1.7
 tumbleweed-1.12-0.4.7
-Underneath-1.8
+Underneath-1.9
 VariedCommodities_1.12.2-(31Mar23)
 VCFix-1.0.1
 VerticallyStackedDimensions-1.12.2-0.1.9
@@ -209,6 +211,4 @@ WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed
 XPFromHarvest-1.12.2-1.2.0
 xptome-1.12.2-v1.1.6
 YungsLaw-1.12.2-1.0.4
-[___MixinCompat-1.1-1.12.2___]
-_MixinBootstrap-1.1.0
-`FermiumBooter-1.3.1
+`FermiumBooter-1.3.2
